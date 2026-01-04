@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>admincockpit</id>
+	<name>Admin Cockpit</name>
+	<summary>AdminCockpit is an administration tool for Nextcloud</summary>
+	<description><![CDATA[**AdminCockpit is an administration tool for Nextcloud**
+- ✅ All important administration pages at a glance
+- ✅ No more clicking back and forth in the menus
+- ✅ Modern and compact look
+- ✅ Intuitive operation without a page-long manual]]></description>
+	<version>1.0.0</version>
+	<licence>agpl</licence>
+	<author mail="wtoedt@gmail.com" homepage="https://github.com/zomtec2311/santacloud">Wolfgang Tödt</author>
+	<namespace>AdminCockpit</namespace>
+	<category>monitoring,tools</category>
+	<bugs>https://git.24wt.de/zomtec/admincockpit/issues</bugs>
+	<website>https://git.24wt.de/zomtec/admincockpit</website>
+	<screenshot></screenshot>
+	<dependencies>
+		<nextcloud min-version="31" max-version="32"/>
+	</dependencies>
+	<navigations>
+		<navigation>
+			<id>admincockpit</id>
+			<name>Admin Cockpit</name>
+			<route>admincockpit.page.index</route>
+			<icon>app.svg</icon>
+			<type>link</type>
+		</navigation>
+	</navigations>
+</info>

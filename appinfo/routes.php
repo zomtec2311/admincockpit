@@ -1,0 +1,27 @@
+<?php
+return [
+  'routes' => [
+    ['name' => 'page#index', 'url' => '/', 'verb' => 'GET'],
+    ['name' => 'page#index', 'url' => '/', 'verb' => 'POST','postfix' => 'admincockpit'],
+    ['name' => 'page#apps', 'url' => '/apps', 'verb' => 'GET'],
+    ['name' => 'page#system', 'url' => '/system', 'verb' => 'GET'],
+    ['name' => 'page#user', 'url' => '/user', 'verb' => 'GET'],
+    ['name' => 'User#usercount', 'url' => '/usercount', 'verb' => 'GET'],
+    ['name' => 'System#storage', 'url' => '/storage', 'verb' => 'GET'],
+    ['name' => 'System#sqlinfo', 'url' => '/sqlinfo', 'verb' => 'GET'],
+    ['name' => 'System#systeminfo', 'url' => '/systeminfo', 'verb' => 'GET'],
+    ['name' => 'Apps#appsinfo', 'url' => '/appsinfo', 'verb' => 'GET'],
+    ['name' => 'Group#addgroup', 'url' => '/addgroup/{who}', 'verb' => 'GET'],
+    ['name' => 'Group#deletegroup', 'url' => '/deletegroup/{who}', 'verb' => 'GET'],
+    ['name' => 'User#deleteuser', 'url' => '/deleteuser/{who}', 'verb' => 'GET'],
+    ['name' => 'User#edituser', 'url' => '/edituser/{who}', 'verb' => 'GET'],
+    ['name' => 'User#newuser', 'url' => '/newuser', 'verb' => 'POST'],
+    ['name' => 'User#saveuser', 'url' => '/saveuser', 'verb' => 'POST'],
+    ['name' => 'Apps#enableapp', 'url' => '/enableapp/{who}', 'verb' => 'GET'],
+    ['name' => 'Apps#disableapp', 'url' => '/disableapp/{who}', 'verb' => 'GET'],
+    ['name' => 'Apps#getAppsWithUpdates', 'url' => '/appupdates', 'verb' => 'GET'],
+    ['name' => 'Apps#updateapp', 'url' => '/updateapp/{who}', 'verb' => 'GET'],
+    ['name' => 'User#userexists', 'url' => '/userexists/{who}', 'verb' => 'GET'],
+    ['name' => 'Apps#listCategories', 'url' => '/appsasc', 'verb' => 'GET'],
+  ]
+];
