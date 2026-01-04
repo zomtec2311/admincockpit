@@ -81,7 +81,7 @@ OC.L10N.register(
 "{value} total": "{value} insgesamt",
 "{value} used": "{value} verwendet",
 "{value} free": "{value} frei",
-"Storage space": "Stauraum",
+"Storage space": "Speicherplatz",
 "Loading data or no disks found ...": "Daten werden geladen oder keine Datenträger gefunden ...",
 "Loading data ...": "Daten werden geladen ...",
 "PHP": "PHP",
