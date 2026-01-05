@@ -11,11 +11,11 @@
 - ✅ Intuitive operation without a page-long manual]]></description>
 	<version>1.0.0</version>
 	<licence>agpl</licence>
-	<author mail="wtoedt@gmail.com" homepage="https://github.com/zomtec2311/santacloud">Wolfgang Tödt</author>
+	<author mail="wtoedt@gmail.com" homepage="https://github.com/zomtec2311/admincockpit">Wolfgang Tödt</author>
 	<namespace>AdminCockpit</namespace>
 	<category>monitoring,tools</category>
-	<bugs>https://git.24wt.de/zomtec/admincockpit/issues</bugs>
-	<website>https://git.24wt.de/zomtec/admincockpit</website>
+	<bugs>https://github.com/zomtec2311/admincockpit/issues</bugs>
+	<website>https://github.com/zomtec2311/admincockpit</website>
 	<screenshot></screenshot>
 	<dependencies>
 		<nextcloud min-version="31" max-version="32"/>
