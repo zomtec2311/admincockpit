@@ -118,17 +118,21 @@ class AppsController extends Controller {
                     $adminsections[$i] = $getadminsections[$value][0]->getID();
                     $adminsectionsappname[$i] = $getadminsections[$value][0]->getName();
                     $adminsectionsappicon[$i] = $getadminsections[$value][0]->getIcon();
-                    if ( $getadminsections[$value][1] != '' ) {
-                        $adminsections[$i + 1] = $getadminsections[$value][1]->getID();
-                        $adminsectionsappname[$i +1 ] = $getadminsections[$value][1]->getName();
-                        $adminsectionsappicon[$i + 1] = $getadminsections[$value][1]->getIcon();
-                        $i = $i+1;
+                    if (isset($value[1])) {
+                        if ( $getadminsections[$value][1] != '' ) {
+                            $adminsections[$i + 1] = $getadminsections[$value][1]->getID();
+                            $adminsectionsappname[$i +1 ] = $getadminsections[$value][1]->getName();
+                            $adminsectionsappicon[$i + 1] = $getadminsections[$value][1]->getIcon();
+                            $i = $i+1;
+                        }
                     }
-                    if ( $getadminsections[$value][2] != '' ) {
-                        $adminsections[$i + 1] = $getadminsections[$value][2]->getID();
-                        $adminsectionsappname[$i +1 ] = $getadminsections[$value][2]->getName();
-                        $adminsectionsappicon[$i + 1] = $getadminsections[$value][2]->getIcon();
-                        $i = $i+1;
+                    if (isset($value[2])) {
+                        if ( $getadminsections[$value][2] != '' ) {
+                            $adminsections[$i + 1] = $getadminsections[$value][2]->getID();
+                            $adminsectionsappname[$i +1 ] = $getadminsections[$value][2]->getName();
+                            $adminsectionsappicon[$i + 1] = $getadminsections[$value][2]->getIcon();
+                            $i = $i+1;
+                        }
                     }
                     $i++;
             }
@@ -145,20 +149,24 @@ class AppsController extends Controller {
                     $personalsections[$i] = $getpersonalsections[$value][0]->getID();
                     $personalsectionsappname[$i] = $getpersonalsections[$value][0]->getName();
                     $personalsectionsappicon[$i] = $getpersonalsections[$value][0]->getIcon();
-                    
-                if ( $getpersonalsections[$value][1] != '' ) {
-                    if ($getpersonalsections[$value][1]->getID() != 'calendar') {
-                        $personalsections[$i + 1] = $getpersonalsections[$value][1]->getID();
-                        $personalsectionsappname[$i +1 ] = $getpersonalsections[$value][1]->getName();
-                        $personalsectionsappicon[$i + 1] = $getpersonalsections[$value][1]->getIcon();
-                        $i = $i+1;
+                
+                 if (isset($value[1])) {   
+                    if ( $getpersonalsections[$value][1] != '' ) {
+                        if ($getpersonalsections[$value][1]->getID() != 'calendar') {
+                            $personalsections[$i + 1] = $getpersonalsections[$value][1]->getID();
+                            $personalsectionsappname[$i +1 ] = $getpersonalsections[$value][1]->getName();
+                            $personalsectionsappicon[$i + 1] = $getpersonalsections[$value][1]->getIcon();
+                            $i = $i+1;
+                        }
                     }
                 }
-                if ( $getpersonalsections[$value][2] != '' ) {
-                        $personalsections[$i + 1] = $getpersonalsections[$value][2]->getID();
-                        $personalsectionsappname[$i +1 ] = $getpersonalsections[$value][2]->getName();
-                        $personalsectionsappicon[$i + 1] = $getpersonalsections[$value][2]->getIcon();
-                        $i = $i+1;
+                if (isset($value[2])) {
+                    if ( $getpersonalsections[$value][2] != '' ) {
+                            $personalsections[$i + 1] = $getpersonalsections[$value][2]->getID();
+                            $personalsectionsappname[$i +1 ] = $getpersonalsections[$value][2]->getName();
+                            $personalsectionsappicon[$i + 1] = $getpersonalsections[$value][2]->getIcon();
+                            $i = $i+1;
+                    }
                 }
                 $i++;
             }
@@ -283,17 +291,22 @@ class AppsController extends Controller {
     public function getAppsWithUpdates(): DataResponse {
 		$appClass = new \OC_App();
 		$apps = $appClass->listAllApps();
-		foreach ($apps as $key => $app) {
+		foreach ($apps as $key => &$app) {
 			$newVersion = $this->installer->isUpdateAvailable($app['id']);
 			if ($newVersion === false) {
 				unset($apps[$key]);
 			}
+			else {
+                $app['updateVersion'] = $newVersion;
+            }
 		}
 		return new DataResponse([
             'apps' => array_values($apps),
             'appscount' => count($apps),
         ]);
 	}
+	
+	
 	
 	public function listCategories(): JSONResponse {
 		return new JSONResponse($this->getAllCategories());

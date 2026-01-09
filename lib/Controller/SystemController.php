@@ -198,7 +198,10 @@ class SystemController extends Controller {
 		$currentVersionimplode = implode('.', $currentVersion);
         $check = $this->versionCheck->check();
         $update = true;
-        if (!$check['version']) $update = false;
+        if (!isset($check['version'])) {
+            $update = false;
+            $check['version'] = '';
+        }
         if (!$this->config->getSystemValueBool('updatechecker', true)) {
 			$update = false;
 		}
