@@ -18,14 +18,24 @@ It had annoyed me for a long time that as an admin of a nextcloud instance you d
 - It is recommended to download or install this app directly from the [Nextcloud App store](https://apps.nextcloud.com/apps/admincockpit).
 - Alternatively you can download the [latest admincockpit release](https://github.com/zomtec2311/admincockpit/releases) based on this repository.
 
-## Resources
+## 💡 F.A.Q.
 
-### Documentation for developers:
+<details>
+  <summary><b>All of the text is in english?</b></summary>
+	Maybe your language files are missing.
 
-- General documentation and tutorials: https://nextcloud.com/developer
-- Technical documentation: https://docs.nextcloud.com/server/latest/developer_manual
+  You might want to help translating the app to new languages or report errors in existing translations. So feel free and send me translations.
+</details>
 
-### Help for developers:
+<details>
+  <summary><b>Very bad translation?</b></summary>
+  We used the AI-based Google translator to generate language files. Of course, there were limitations to the translation depending on the quality of the AI. If you'd like to help improve your language file, open an issue and report your suggestion for improvement. Thank you
+</details>
 
-- Official community chat: https://cloud.nextcloud.com/call/xs25tz5y
-- Official community forum: https://help.nextcloud.com/c/dev/11
+## 🤝 How you can support this project
+
+1. **🌟 Star this repository**: This is the easiest way to support AdminCockpit and it costs nothing.
+2. **⭐ Rate and/or 💬 comment** on AdminCockpit in the [ Nextcloud AppStore](https://apps.nextcloud.com/apps/admincockpit)
+3. **🪲 Report bugs**: Report any bugs you find on the issue tracker.
+4. **📖 Translate**: Help translate AdminCockpit into your language, if the AI-based Google translator generated language files are poorly translated
+5. **📝 Contribute**: Read and file or comment on an issue and ask for guidance or give advice.
