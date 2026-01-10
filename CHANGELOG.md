@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.3
+
+### Added
+- Update button for Apps if update available
+
 ## 1.0.2
 
 ### Fixed
@@ -11,4 +16,8 @@
 ## 1.0.1
 
 ### Changed
-- Critical correction of French translations  <[#1](https://github.com/zomtec2311/admincockpit/pull/1) @Jerome-Herbinet
+- **l10n:** Critical correction of French translations  ([#1](https://github.com/zomtec2311/admincockpit/pull/1)) @Jerome-Herbinet
+
+## 1.0.0
+
+### Release
