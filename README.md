@@ -12,7 +12,7 @@ It had annoyed me for a long time that as an admin of a nextcloud instance you d
 - ✅ Intuitive operation without a page-long manual
 
 ![https://raw.githubusercontent.com/zomtec2311/admincockpit/refs/heads/main/screenshots/admincockpit-system.png](https://raw.githubusercontent.com/zomtec2311/admincockpit/refs/heads/main/screenshots/admincockpit-system.png)​
-
+![https://raw.githubusercontent.com/zomtec2311/admincockpit/refs/heads/main/screenshots/admincockpit-apps.png](https://raw.githubusercontent.com/zomtec2311/admincockpit/refs/heads/main/screenshots/admincockpit-apps.png)​
 ## ⚙️ Usage
 
 - It is recommended to download or install this app directly from the [Nextcloud App store](https://apps.nextcloud.com/apps/admincockpit).
