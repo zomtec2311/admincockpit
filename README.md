@@ -2,6 +2,8 @@
 
 It had annoyed me for a long time that as an admin of a nextcloud instance you don't reach all available areas centrally summarized, but sometimes have to click right and left, switch from the admin area to the users or apps, etc. My idea was therefore to combine all important administrative areas in one app. This is how the NextCloud app Admincockpit was created. However, it is currently still in a preliminary version that is not intended for productive use and is constantly being further developed.
 
+## ✨ About
+
 ### AdminCockpit is an administration tool for Nextcloud
 
 - ✅ All important administration pages at a glance
@@ -11,15 +13,10 @@ It had annoyed me for a long time that as an admin of a nextcloud instance you d
 
 ![https://raw.githubusercontent.com/zomtec2311/admincockpit/refs/heads/main/screenshots/admincockpit-system.png](https://raw.githubusercontent.com/zomtec2311/admincockpit/refs/heads/main/screenshots/admincockpit-system.png)​
 
-## Usage
+## ⚙️ Usage
 
-- To get started easily use the [Appstore App generator](https://apps.nextcloud.com/developer/apps/generate) to
-  dynamically generate an App based on this repository with all the constants prefilled.
-- Alternatively you can use the "Use this template" button on the top of this page to create a new repository based on
-  this repository. Afterwards adjust all the necessary constants like App ID, namespace, descriptions etc.
-
-Once your app is ready follow the [instructions](https://nextcloudappstore.readthedocs.io/en/latest/developer.html) to
-upload it to the Appstore.
+- It is recommended to download or install this app directly from the [Nextcloud App store](https://apps.nextcloud.com/apps/admincockpit).
+- Alternatively you can download the [latest admincockpit release](https://github.com/zomtec2311/admincockpit/releases) based on this repository.
 
 ## Resources
 
