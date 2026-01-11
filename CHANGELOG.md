@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.4
+
+### Added
+- send notifications to users
+
 ## 1.0.3
 
 ### Added
