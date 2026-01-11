@@ -2,7 +2,6 @@
 return [
   'routes' => [
     ['name' => 'page#index', 'url' => '/', 'verb' => 'GET'],
-    ['name' => 'page#index', 'url' => '/', 'verb' => 'POST','postfix' => 'admincockpit'],
     ['name' => 'page#apps', 'url' => '/apps', 'verb' => 'GET'],
     ['name' => 'page#system', 'url' => '/system', 'verb' => 'GET'],
     ['name' => 'page#user', 'url' => '/user', 'verb' => 'GET'],
@@ -11,6 +10,7 @@ return [
     ['name' => 'System#sqlinfo', 'url' => '/sqlinfo', 'verb' => 'GET'],
     ['name' => 'System#systeminfo', 'url' => '/systeminfo', 'verb' => 'GET'],
     ['name' => 'Apps#appsinfo', 'url' => '/appsinfo', 'verb' => 'GET'],
+    ['name' => 'Apps#isnoti', 'url' => '/isnoti', 'verb' => 'GET'],
     ['name' => 'Group#addgroup', 'url' => '/addgroup/{who}', 'verb' => 'GET'],
     ['name' => 'Group#deletegroup', 'url' => '/deletegroup/{who}', 'verb' => 'GET'],
     ['name' => 'User#deleteuser', 'url' => '/deleteuser/{who}', 'verb' => 'GET'],
@@ -22,6 +22,7 @@ return [
     ['name' => 'Apps#getAppsWithUpdates', 'url' => '/appupdates', 'verb' => 'GET'],
     ['name' => 'Apps#updateapp', 'url' => '/updateapp/{who}', 'verb' => 'GET'],
     ['name' => 'User#userexists', 'url' => '/userexists/{who}', 'verb' => 'GET'],
+    ['name' => 'User#notifyuser', 'url' => '/notifyuser', 'verb' => 'POST'],
     ['name' => 'Apps#listCategories', 'url' => '/appsasc', 'verb' => 'GET'],
   ]
 ];
