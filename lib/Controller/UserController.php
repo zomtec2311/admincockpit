@@ -43,7 +43,7 @@ use OCP\IRequest;
 use Psr\Log\LoggerInterface;
 use OCP\IAppConfig;
 use OCP\App\IAppManager;
-
+use OCP\IUserSession;
 use OCP\IUserManager;
 use OCP\IGroupManager;
 
@@ -55,6 +55,7 @@ class UserController extends Controller {
     private $groupManager;
     private $l;
     private IAppManager $appManager;
+    private IUserSession $userSession;
 
     public function __construct(
             string $appName, 
@@ -65,6 +66,7 @@ class UserController extends Controller {
             IAppManager $appManager,
             IUserManager $userManager, 
             IGroupManager $groupManager, 
+            IUserSession $userSession,
             IL10N $l, 
             private IAppConfig $appConfig
         ) {
@@ -75,6 +77,7 @@ class UserController extends Controller {
         $this->appManager = $appManager;
         $this->userManager = $userManager;
         $this->groupManager = $groupManager;
+        $this->userSession = $userSession;
         $this->l = $l;
     }
 
@@ -331,6 +334,36 @@ class UserController extends Controller {
     
     public function setuser($who) {
         return;
+    }
+    
+   //#[NoCSRFRequired]
+    public function notifyuser() {
+$rawData = file_get_contents('php://input');
+
+$data = json_decode($rawData, true);
+if (json_last_error() === JSON_ERROR_NONE) {
+    $message = $data['what'] ?? '';
+    $who = $data['who'] ?? '';
+        $para = [
+            'message' => $message,
+            'von' => $this->userSession->getUser()->getUID(),
+        ];
+        $nmanager = \OCP\Server::get(\OCP\Notification\IManager::class);
+        $notification = $nmanager->createNotification();
+
+        $notification->setApp('admincockpit')
+            ->setUser($who)
+            ->setDateTime(new \DateTime())
+            ->setObject('remote', '2311') // $type and $id
+            ->setSubject('abc', $para) // $subject and $parameters
+        ;
+        $nmanager->notify($notification);
+        return 'true';
+        } else {
+    http_response_code(400);
+    echo json_encode(['status' => 'error', 'message' => 'Invalid JSON']);
+}
+        
     }
   
 }

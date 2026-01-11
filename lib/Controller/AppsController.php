@@ -321,5 +321,14 @@ class AppsController extends Controller {
 			'displayName' => $category['translations'][$currentLanguage]['name'] ?? $category['translations']['en']['name'],
 		], $categories);
 	}
+	
+	//#[NoCSRFRequired]
+	public function isnoti() {
+            if ($this->appManager->isInstalled('notifications')) {
+                return 'true';                
+            }
+            else { return 'false'; }
+        
+    }
   
 }

@@ -25,7 +25,8 @@ class Application extends App implements IBootstrap {
     }
 
     public function register(IRegistrationContext $context): void {
-    }
+		$context->registerNotifierService(\OCA\AdminCockpit\Notification\Notifier::class);
+	}
 
     public function boot(IBootContext $context): void {
 		$server = $context->getServerContainer();
