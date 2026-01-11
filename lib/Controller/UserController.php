@@ -336,7 +336,7 @@ class UserController extends Controller {
         return;
     }
     
-   //#[NoCSRFRequired]
+   #[NoCSRFRequired]
     public function notifyuser() {
 $rawData = file_get_contents('php://input');
 

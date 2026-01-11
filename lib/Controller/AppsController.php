@@ -322,7 +322,7 @@ class AppsController extends Controller {
 		], $categories);
 	}
 	
-	//#[NoCSRFRequired]
+	#[NoCSRFRequired]
 	public function isnoti() {
             if ($this->appManager->isInstalled('notifications')) {
                 return 'true';                
