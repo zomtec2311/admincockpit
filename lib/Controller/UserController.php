@@ -365,5 +365,43 @@ if (json_last_error() === JSON_ERROR_NONE) {
 }
         
     }
+    
+    #[NoCSRFRequired]
+    public function notifygroup() {
+$rawData = file_get_contents('php://input');
+
+$data = json_decode($rawData, true);
+if (json_last_error() === JSON_ERROR_NONE) {
+    $message = $data['what'] ?? '';
+    $who = $data['who'] ?? '';
+        $para = [
+            'message' => $message,
+            'von' => $this->userSession->getUser()->getUID(),
+        ];
+        $group = $this->groupManager->get($who);
+        $groupusers = $group->getUsers();
+        //return 'true';
+        $nmanager = \OCP\Server::get(\OCP\Notification\IManager::class);
+        foreach ($groupusers as $groupuser) {
+            $notification = $nmanager->createNotification();
+            $notification->setApp('admincockpit')
+            ->setUser($groupuser->getUID())
+            ->setDateTime(new \DateTime())
+            ->setObject('remote', '2311') // $type and $id
+            ->setSubject('abc', $para) // $subject and $parameters
+        ;
+        $nmanager->notify($notification);
+        $notification = $nmanager->createNotification();
+        }
+        
+
+        
+        return 'true';
+        } else {
+    http_response_code(400);
+    echo json_encode(['status' => 'error', 'message' => 'Invalid JSON']);
+}
+        
+    }
   
 }
