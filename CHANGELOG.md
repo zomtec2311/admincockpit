@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.5
+
+### Fixed
+- Some bugs fixed
+
+### Added
+- send notifications to group members
+
 ## 1.0.4
 
 ### Added

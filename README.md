@@ -10,6 +10,7 @@ It had annoyed me for a long time that as an admin of a nextcloud instance you d
 - ✅ No more clicking back and forth in the menus
 - ✅ Modern and compact look
 - ✅ Intuitive operation without a page-long manual
+- ✅ send notification to users
 
 ![https://raw.githubusercontent.com/zomtec2311/admincockpit/refs/heads/main/screenshots/admincockpit-system.png](https://raw.githubusercontent.com/zomtec2311/admincockpit/refs/heads/main/screenshots/admincockpit-system.png)​
 ![https://raw.githubusercontent.com/zomtec2311/admincockpit/refs/heads/main/screenshots/admincockpit-apps.png](https://raw.githubusercontent.com/zomtec2311/admincockpit/refs/heads/main/screenshots/admincockpit-apps.png)​
