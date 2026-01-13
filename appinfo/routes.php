@@ -23,6 +23,7 @@ return [
     ['name' => 'Apps#updateapp', 'url' => '/updateapp/{who}', 'verb' => 'GET'],
     ['name' => 'User#userexists', 'url' => '/userexists/{who}', 'verb' => 'GET'],
     ['name' => 'User#notifyuser', 'url' => '/notifyuser', 'verb' => 'POST'],
+    ['name' => 'User#notifygroup', 'url' => '/notifygroup', 'verb' => 'POST'],
     ['name' => 'Apps#listCategories', 'url' => '/appsasc', 'verb' => 'GET'],
   ]
 ];
