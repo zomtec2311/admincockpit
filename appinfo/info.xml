@@ -8,8 +8,9 @@
 - ✅ All important administration pages at a glance
 - ✅ No more clicking back and forth in the menus
 - ✅ Modern and compact look
-- ✅ Intuitive operation without a page-long manual]]></description>
-	<version>1.0.5</version>
+- ✅ Intuitive operation without a page-long manual
+- ✅ send notification to users]]></description>
+	<version>1.0.6</version>
 	<licence>agpl</licence>
 	<author mail="wtoedt@gmail.com" homepage="https://github.com/zomtec2311/admincockpit">Wolfgang Tödt</author>
 	<namespace>AdminCockpit</namespace>
@@ -20,7 +21,7 @@
 	<screenshot small-thumbnail="https://raw.githubusercontent.com/zomtec2311/admincockpit/refs/heads/main/screenshots/admincockpit-apps-small.png">https://raw.githubusercontent.com/zomtec2311/admincockpit/refs/heads/main/screenshots/admincockpit-apps.png</screenshot>
 	<website>https://github.com/zomtec2311/admincockpit</website>
 	<dependencies>
-		<nextcloud min-version="31" max-version="32"/>
+		<nextcloud min-version="31" max-version="33"/>
 	</dependencies>
 	<navigations>
 		<navigation>
