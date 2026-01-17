@@ -9,8 +9,8 @@
 - ✅ No more clicking back and forth in the menus
 - ✅ Modern and compact look
 - ✅ Intuitive operation without a page-long manual
-- ✅ send notification to users]]></description>
-	<version>1.0.6</version>
+- ✅ send notification to users and groups]]></description>
+	<version>1.0.7</version>
 	<licence>agpl</licence>
 	<author mail="wtoedt@gmail.com" homepage="https://github.com/zomtec2311/admincockpit">Wolfgang Tödt</author>
 	<namespace>AdminCockpit</namespace>
