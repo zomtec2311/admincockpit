@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.7
+
+### Changed
+- update language files
+
+### Fixed
+- some code changes
+
 ## 1.0.6
 
 ### Added

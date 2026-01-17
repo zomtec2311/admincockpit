@@ -34,14 +34,19 @@ use OCP\Notification\INotification;
 use OCP\Notification\INotifier;
 use OCP\Notification\UnknownNotificationException;
 
+use OCP\IUserSession;
+
 class Notifier implements INotifier {
 	private IFactory $factory;
 	private IURLGenerator $url;
+	private IUserSession $userSession;
 
 	public function __construct(\OCP\L10N\IFactory $factory,
-								\OCP\IURLGenerator $urlGenerator) {
+								\OCP\IURLGenerator $urlGenerator,
+								IUserSession $userSession,) {
 		$this->factory = $factory;
 		$this->url = $urlGenerator;
+		$this->userSession = $userSession;
 	}
 
 	/**
@@ -69,16 +74,16 @@ class Notifier implements INotifier {
 			// Not my app => throw
 			throw new \OCP\Notification\UnknownNotificationException();
 		}
-
-		// Read the language from the notification
-		$l = $this->factory->get('admincockpit', $languageCode);
+		
+		$lang = $this->factory->getUserLanguage($this->userSession->getUser());
+        $l = $this->factory->get('admincockpit', $lang);
         
         switch ($notification->getSubject()) {
 			case 'abc':
 				$parameters = $notification->getSubjectParameters();
 				$message = $parameters['message'];
                 $von = $parameters['von'];
-                $notification->setParsedSubject('Nachricht von ' . $von)
+				$notification->setParsedSubject($l->t('message from %1$s', [$von]))
 					->setIcon($this->url->getAbsoluteURL($this->url->imagePath('admincockpit', 'app-dark.svg')))
                     ->setParsedMessage($message);
 
