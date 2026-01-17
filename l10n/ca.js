@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "administrador del grup per",
 "manager": "gerent",
 "Could not update app.": "No s'ha pogut actualitzar l'aplicació.",
-"Threads": "Fils"
+"Threads": "Fils",
+"message from %1$s": "missatge de %1$s",
+"message sent": "missatge enviat",
+"insert message ...": "inseriu missatge...",
+"send message": "enviar missatge",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Només es pot utilitzar text normal amb un màxim de 4000 caràcters. Per tant no hi ha codi HTML ni cap altre format especial"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2);");

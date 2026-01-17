@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "gweinyddwr grŵp ar gyfer",
 "manager": "rheolwr",
 "Could not update app.": "Methu diweddaru ap.",
-"Threads": "Edau"
+"Threads": "Edau",
+"message from %1$s": "neges oddi wrth %1$s",
+"message sent": "neges wedi'i hanfon",
+"insert message ...": "mewnosod neges ...",
+"send message": "anfon neges",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Dim ond testun plaen arferol gyda hyd at 4000 o nodau y gellir ei ddefnyddio. Felly dim cod HTML na fformatio arbennig arall"
 },
 "nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));");

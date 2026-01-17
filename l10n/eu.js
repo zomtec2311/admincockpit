@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "taldearen administratzailea",
 "manager": "kudeatzailea",
 "Could not update app.": "Ezin izan da eguneratu aplikazioa.",
-"Threads": "Hariak"
+"Threads": "Hariak",
+"message from %1$s": "%1$s erabiltzailearen mezua",
+"message sent": "bidalitako mezua",
+"insert message ...": "txertatu mezua...",
+"send message": "bidali mezua",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Gehienez 4000 karaktere dituen testu arrunt arrunta soilik erabil daiteke. Beraz ez dago HTML koderik edo beste formatu berezirik"
 },
 "nplurals=2; plural=n != 1;");

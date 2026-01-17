@@ -113,6 +113,10 @@ OC.L10N.register(
 "group administrator for": "مسؤول المجموعة ل",
 "manager": "مدير",
 "Could not update app.": "لا يمكن تحديث التطبيق.",
-"Threads": "المواضيع"
+"Threads": "المواضيع",
+"message sent": "تم إرسال الرسالة",
+"insert message ...": "إدراج رسالة...",
+"send message": "أرسل رسالة",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "يمكن استخدام النص العادي العادي الذي يصل طوله إلى 4000 حرف فقط. لذلك لا يوجد كود HTML أو أي تنسيق خاص آخر"
 },
 "nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));");

@@ -111,6 +111,11 @@
 "group administrator for": "groep administrateur vir",
 "manager": "bestuurder",
 "Could not update app.": "Kon nie program opdateer nie.",
-"Threads": "Drade"
+"Threads": "Drade",
+"message from %1$s": "boodskap van %1$s",
+"message sent": "boodskap gestuur",
+"insert message ...": "voeg boodskap in ...",
+"send message": "stuur boodskap",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Slegs gewone gewone teks met tot 4000 karakters mag gebruik word. Dus geen HTML-kode of ander spesiale formatering nie"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "διαχειριστής ομάδας για",
 "manager": "διευθυντής",
 "Could not update app.": "Δεν ήταν δυνατή η ενημέρωση της εφαρμογής.",
-"Threads": "Νήματα"
+"Threads": "Νήματα",
+"message from %1$s": "μήνυμα από %1$s",
+"message sent": "εστάλη μήνυμα",
+"insert message ...": "εισαγωγή μηνύματος...",
+"send message": "στείλετε μήνυμα",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Επιτρέπεται η χρήση μόνο κανονικού απλού κειμένου με έως 4000 χαρακτήρες. Έτσι δεν υπάρχει κώδικας HTML ή άλλη ειδική μορφοποίηση"
 },
 "nplurals=2; plural=n != 1;");

@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "riarthóir grúpa le haghaidh",
 "manager": "bainisteoir",
 "Could not update app.": "Níorbh fhéidir an aip a nuashonrú.",
-"Threads": "Snáitheanna"
+"Threads": "Snáitheanna",
+"message from %1$s": "teachtaireacht ó %1$s",
+"message sent": "teachtaireacht seolta",
+"insert message ...": "cuir isteach teachtaireacht...",
+"send message": "seol teachtaireacht",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Ní féidir ach gnáth-théacs ina bhfuil suas le 4000 carachtar a úsáid. Mar sin níl cód HTML nó formáidiú speisialta eile ann"
 },
 "nplurals=5; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n >= 3 && n <= 6) ? 2 : ((n >= 7 && n <= 10) ? 3 : 4)));");

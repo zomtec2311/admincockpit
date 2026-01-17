@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "администратор на група за",
 "manager": "мениджър",
 "Could not update app.": "Приложението не можа да се актуализира.",
-"Threads": "нишки"
+"Threads": "нишки",
+"message from %1$s": "съобщение от %1$s",
+"message sent": "съобщението е изпратено",
+"insert message ...": "вмъкнете съобщение...",
+"send message": "изпрати съобщение",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Може да се използва само нормален обикновен текст с до 4000 знака. Така че няма HTML код или друго специално форматиране"
 },
 "nplurals=2; plural=n != 1;");

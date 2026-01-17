@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "üçün qrup administratoru",
 "manager": "menecer",
 "Could not update app.": "Proqramı yeniləmək mümkün olmadı.",
-"Threads": "Mövzular"
+"Threads": "Mövzular",
+"message from %1$s": "%1$s-dan mesaj",
+"message sent": "mesaj göndərildi",
+"insert message ...": "mesaj daxil edin...",
+"send message": "mesaj göndərin",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Yalnız 4000 simvola qədər olan normal düz mətndən istifadə edilə bilər. Beləliklə heç bir HTML kodu və ya digər xüsusi formatlama"
 },
 "nplurals=2; plural=n != 1;");

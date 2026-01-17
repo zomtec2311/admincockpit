@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "grupadministranto por",
 "manager": "manaĝero",
 "Could not update app.": "Ne eblis ĝisdatigi la apon.",
-"Threads": "Fadenoj"
+"Threads": "Fadenoj",
+"message from %1$s": "mesaĝo de %1$s",
+"message sent": "mesaĝo sendita",
+"insert message ...": "enigu mesaĝon...",
+"send message": "sendi mesaĝon",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Nur normala simpla teksto kun ĝis 4000 signoj povas esti uzata. Do neniu HTML-kodo aŭ alia speciala formatado"
 },
 "nplurals=2; plural=n != 1;");

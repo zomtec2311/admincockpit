@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "administrador de grupo para",
 "manager": "gerente",
 "Could not update app.": "No se pudo actualizar la aplicación.",
-"Threads": "Trapos"
+"Threads": "Trapos",
+"message from %1$s": "mensaje de %1$s",
+"message sent": "mensaje enviado",
+"insert message ...": "insertar mensaje...",
+"send message": "enviar mensaje",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Sólo se puede utilizar texto plano normal con hasta 4000 caracteres. Así que no hay código HTML ni ningún otro formato especial."
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2);");

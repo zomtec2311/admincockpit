@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "ryhmän ylläpitäjä",
 "manager": "johtaja",
 "Could not update app.": "Sovellusta ei voitu päivittää.",
-"Threads": "Kierteet"
+"Threads": "Kierteet",
+"message from %1$s": "viesti lähettäjältä %1$s",
+"message sent": "viesti lähetetty",
+"insert message ...": "laita viesti...",
+"send message": "lähetä viesti",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Vain normaalia enintään 4 000 merkin pituista pelkkää tekstiä saa käyttää. Ei siis HTML-koodia tai muuta erikoismuotoilua"
 },
 "nplurals=2; plural=n != 1;");

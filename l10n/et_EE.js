@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "grupi administraator",
 "manager": "juht",
 "Could not update app.": "Rakendust ei saanud värskendada.",
-"Threads": "Niidid"
+"Threads": "Niidid",
+"message from %1$s": "sõnum saatjalt %1$s",
+"message sent": "sõnum saadetud",
+"insert message ...": "sisesta sõnum...",
+"send message": "saata sõnum",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Kasutada võib ainult tavalist lihtteksti kuni 4000 tähemärgiga. Seega ei mingit HTML-koodi ega muud erivormingut"
 },
 "nplurals=2; plural=n != 1;");

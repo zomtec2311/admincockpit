@@ -111,6 +111,11 @@
 "group administrator for": "জন্য গ্রুপ প্রশাসক",
 "manager": "ম্যানেজার",
 "Could not update app.": "অ্যাপ আপডেট করা যায়নি।",
-"Threads": "থ্রেড"
+"Threads": "থ্রেড",
+"message from %1$s": "%1$s থেকে বার্তা",
+"message sent": "বার্তা পাঠানো হয়েছে",
+"insert message ...": "বার্তা সন্নিবেশ করান...",
+"send message": "বার্তা পাঠান",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "4000 পর্যন্ত অক্ষর সহ শুধুমাত্র সাধারণ প্লেইন টেক্সট ব্যবহার করা যেতে পারে। তাই কোন HTML কোড বা অন্যান্য বিশেষ বিন্যাস"
 },"pluralForm" :"nplurals=2; plural=n > 1;"
 }

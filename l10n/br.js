@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "merour ar strollad evit",
 "manager": "melestrer",
 "Could not update app.": "N'haller ket hizivaat an arload.",
-"Threads": "Treuzoù"
+"Threads": "Treuzoù",
+"message from %1$s": "kemennadenn eus %1$s",
+"message sent": "kemennadenn kaset",
+"insert message ...": "kemennadenn enlakaat ...",
+"send message": "kas kemennadenn",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "N'eus nemet testenn plaen normal gant betek 4000 arouezenn a c'hell bezañ implijet. Setu kod HTML pe furmaozañ ispisial all"
 },
 "nplurals=5; plural=(n % 10 == 1 && n % 100 != 11 && n % 100 != 71 && n % 100 != 91) ? 0 : ((n % 10 == 2 && n % 100 != 12 && n % 100 != 72 && n % 100 != 92) ? 1 : ((((n % 10 == 3 || n % 10 == 4) || n % 10 == 9) && (n % 100 < 10 || n % 100 > 19) && (n % 100 < 70 || n % 100 > 79) && (n % 100 < 90 || n % 100 > 99)) ? 2 : ((n != 0 && n % 1000000 == 0) ? 3 : 4)));");

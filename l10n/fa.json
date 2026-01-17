@@ -111,6 +111,10 @@
 "group administrator for": "مدیر گروه برای",
 "manager": "مدیر",
 "Could not update app.": "برنامه به روز رسانی نشد.",
-"Threads": "موضوعات"
+"Threads": "موضوعات",
+"message sent": "پیام ارسال شد",
+"insert message ...": "درج پیام ...",
+"send message": "ارسال پیام",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "فقط می توان از متن ساده معمولی با حداکثر 4000 کاراکتر استفاده کرد. بنابراین هیچ کد HTML یا قالب بندی خاص دیگری وجود ندارد"
 },"pluralForm" :"nplurals=2; plural=n > 1;"
 }
