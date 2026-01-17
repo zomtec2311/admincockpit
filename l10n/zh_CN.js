@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "群组管理员",
 "manager": "经理",
 "Could not update app.": "无法更新应用程序。",
-"Threads": "线程数"
+"Threads": "线程数",
+"message from %1$s": "来自%1$s的消息",
+"message sent": "消息已发送",
+"insert message ...": "插入消息...",
+"send message": "发送消息",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "只能使用最多 4000 个字符的普通纯文本。因此没有 HTML 代码或其他特殊格式"
 },
 "nplurals=1; plural=0;");

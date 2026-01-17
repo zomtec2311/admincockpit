@@ -111,6 +111,11 @@
 "group administrator for": "csoport rendszergazdája",
 "manager": "menedzser",
 "Could not update app.": "Nem sikerült frissíteni az alkalmazást.",
-"Threads": "Szálak"
+"Threads": "Szálak",
+"message from %1$s": "üzenet a következőtől: %1$s",
+"message sent": "üzenet elküldve",
+"insert message ...": "üzenet beszúrása...",
+"send message": "üzenetet küldeni",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Csak normál legfeljebb 4000 karakteres egyszerű szöveg használható. Tehát nincs HTML kód vagy más speciális formázás"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

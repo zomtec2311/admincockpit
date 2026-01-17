@@ -111,6 +111,11 @@
 "group administrator for": "ಗುಂಪು ನಿರ್ವಾಹಕರು",
 "manager": "ಮ್ಯಾನೇಜರ್",
 "Could not update app.": "ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ನವೀಕರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.",
-"Threads": "ಎಳೆಗಳು"
+"Threads": "ಎಳೆಗಳು",
+"message from %1$s": "%1$s ನಿಂದ ಸಂದೇಶ",
+"message sent": "ಸಂದೇಶ ಕಳುಹಿಸಲಾಗಿದೆ",
+"insert message ...": "ಸಂದೇಶವನ್ನು ಸೇರಿಸಿ...",
+"send message": "ಸಂದೇಶವನ್ನು ಕಳುಹಿಸಿ",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "4000 ಅಕ್ಷರಗಳವರೆಗಿನ ಸಾಮಾನ್ಯ ಸರಳ ಪಠ್ಯವನ್ನು ಮಾತ್ರ ಬಳಸಬಹುದು. ಆದ್ದರಿಂದ ಯಾವುದೇ HTML ಕೋಡ್ ಅಥವಾ ಇತರ ವಿಶೇಷ ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಇಲ್ಲ"
 },"pluralForm" :"nplurals=2; plural=n > 1;"
 }

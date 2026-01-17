@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "amministratore del gruppo per",
 "manager": "manager",
 "Could not update app.": "Impossibile aggiornare l'app.",
-"Threads": "Discussioni"
+"Threads": "Discussioni",
+"message from %1$s": "messaggio da %1$s",
+"message sent": "messaggio inviato",
+"insert message ...": "inserisci messaggio...",
+"send message": "inviare messaggio",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Può essere utilizzato solo testo normale con un massimo di 4000 caratteri. Quindi nessun codice HTML o altra formattazione speciale"
 },
 "nplurals=2; plural=(n != 1);");

@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "អ្នកគ្រប់គ្រងក្រុមសម្រាប់",
 "manager": "អ្នកគ្រប់គ្រង",
 "Could not update app.": "មិនអាចធ្វើបច្ចុប្បន្នភាពកម្មវិធីបានទេ។",
-"Threads": "ខ្សែស្រឡាយ"
+"Threads": "ខ្សែស្រឡាយ",
+"message from %1$s": "សារពី %1$s",
+"message sent": "សារត្រូវបានផ្ញើ",
+"insert message ...": "បញ្ចូលសារ...",
+"send message": "ផ្ញើសារ",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "មានតែអត្ថបទធម្មតាដែលមានរហូតដល់ 4000 តួអក្សរប៉ុណ្ណោះដែលអាចប្រើបាន។ ដូច្នេះគ្មានកូដ HTML ឬទម្រង់ពិសេសផ្សេងទៀតទេ។"
 },
 "nplurals=1; plural=0;");

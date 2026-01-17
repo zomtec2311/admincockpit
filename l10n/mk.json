@@ -111,6 +111,11 @@
 "group administrator for": "администратор на група за",
 "manager": "менаџер",
 "Could not update app.": "Апликацијата не може да се ажурира.",
-"Threads": "Нишки"
+"Threads": "Нишки",
+"message from %1$s": "порака од %1$s",
+"message sent": "испратена порака",
+"insert message ...": "вметнете порака...",
+"send message": "испрати порака",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Може да се користи само обичен обичен текст со најмногу 4000 знаци. Значи нема HTML код или друго специјално форматирање"
 },"pluralForm" :"nplurals=2; plural=n % 10 != 1 || n % 100 == 11;"
 }

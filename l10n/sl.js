@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "skrbnik skupine za",
 "manager": "vodja",
 "Could not update app.": "Aplikacije ni bilo mogoče posodobiti.",
-"Threads": "Niti"
+"Threads": "Niti",
+"message from %1$s": "sporočilo osebe %1$s",
+"message sent": "sporočilo poslano",
+"insert message ...": "vstavi sporočilo ...",
+"send message": "pošlji sporočilo",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Uporabite lahko le običajno golo besedilo z največ 4000 znaki. Torej brez kode HTML ali drugega posebnega oblikovanja"
 },
 "nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3));");

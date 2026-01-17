@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "администратор группы для",
 "manager": "менеджер",
 "Could not update app.": "Не удалось обновить приложение.",
-"Threads": "Темы"
+"Threads": "Темы",
+"message from %1$s": "сообщение от %1$s",
+"message sent": "сообщение отправлено",
+"insert message ...": "вставить сообщение...",
+"send message": "отправить сообщение",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Можно использовать только обычный текст длиной до 4000 символов. Поэтому никакого HTML-кода или другого специального форматирования."
 },
 "nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);");

@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "grupės administratorius",
 "manager": "vadovas",
 "Could not update app.": "Nepavyko atnaujinti programos.",
-"Threads": "Siūlai"
+"Threads": "Siūlai",
+"message from %1$s": "pranešimas iš %1$s",
+"message sent": "išsiųsta žinutė",
+"insert message ...": "įterpti žinutę...",
+"send message": "siųsti žinutę",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Galima naudoti tik įprastą paprastąjį iki 4000 simbolių tekstą. Taigi jokio HTML kodo ar kito specialaus formatavimo"
 },
 "nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);");

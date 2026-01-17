@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "quản trị viên nhóm cho",
 "manager": "giám đốc",
 "Could not update app.": "Không thể cập nhật ứng dụng.",
-"Threads": "chủ đề"
+"Threads": "chủ đề",
+"message from %1$s": "tin nhắn từ %1$s",
+"message sent": "tin nhắn đã gửi",
+"insert message ...": "chèn tin nhắn...",
+"send message": "gửi tin nhắn",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Chỉ có thể sử dụng văn bản thuần túy thông thường có tối đa 4000 ký tự. Vì vậy không có mã HTML hoặc định dạng đặc biệt nào khác"
 },
 "nplurals=1; plural=0;");

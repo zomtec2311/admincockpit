@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "Grupp Administrateur fir",
 "manager": "Manager",
 "Could not update app.": "Konnt d'App net aktualiséieren.",
-"Threads": "Threads"
+"Threads": "Threads",
+"message from %1$s": "Message vum %1$s",
+"message sent": "Message geschéckt",
+"insert message ...": "Message setzen ...",
+"send message": "Message schécken",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Nëmmen normal Einfachen Text mat bis zu 4000 Zeeche kann benotzt ginn. Also keen HTML Code oder aner speziell Formatéierung"
 },
 "nplurals=2; plural=n != 1;");

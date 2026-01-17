@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "සඳහා කණ්ඩායම් පරිපාලක",
 "manager": "කළමනාකරු",
 "Could not update app.": "යෙදුම යාවත්කාලීන කිරීමට නොහැකි විය.",
-"Threads": "නූල්"
+"Threads": "නූල්",
+"message from %1$s": "%1$s වෙතින් පණිවිඩය",
+"message sent": "පණිවිඩය යවා ඇත",
+"insert message ...": "පණිවිඩය ඇතුළු කරන්න...",
+"send message": "පණිවිඩයක් යවන්න",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "අක්ෂර 4000ක් දක්වා සාමාන්‍ය සරල පෙළ පමණක් භාවිත කළ හැක. එබැවින් HTML කේතයක් හෝ වෙනත් විශේෂ හැඩතල ගැන්වීමක් නොමැත"
 },
 "nplurals=2; plural=n > 1;");

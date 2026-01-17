@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "խմբի ադմինիստրատոր համար",
 "manager": "կառավարիչ",
 "Could not update app.": "Չհաջողվեց թարմացնել հավելվածը:",
-"Threads": "Թեմաներ"
+"Threads": "Թեմաներ",
+"message from %1$s": "հաղորդագրություն %1$s-ից",
+"message sent": "ուղարկված հաղորդագրություն",
+"insert message ...": "տեղադրել հաղորդագրություն...",
+"send message": "ուղարկել հաղորդագրություն",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Կարող է օգտագործվել միայն սովորական պարզ տեքստ մինչև 4000 նիշ: Այսպիսով ոչ մի HTML կոդ կամ այլ հատուկ ձևաչափում"
 },
 "nplurals=2; plural=n > 1;");

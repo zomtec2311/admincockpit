@@ -113,6 +113,10 @@ OC.L10N.register(
 "group administrator for": "گۇرۇپپا باشقۇرغۇچى",
 "manager": "باشقۇرغۇچى",
 "Could not update app.": "ئەپنى يېڭىلىيالمىدى.",
-"Threads": "تېما"
+"Threads": "تېما",
+"message sent": "ئۇچۇر ئەۋەتىلدى",
+"insert message ...": "ئۇچۇر قىستۇرۇش ...",
+"send message": "ئۇچۇر ئەۋەتىش",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "پەقەت 4000 ھەرپكە يېتىدىغان نورمال تېكىستنى ئىشلىتىشكە بولىدۇ. شۇڭا HTML كودى ياكى باشقا ئالاھىدە فورماتلاش يوق"
 },
 "nplurals=2; plural=n != 1;");

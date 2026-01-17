@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "ຜູ້ບໍລິຫານກຸ່ມສໍາລັບ",
 "manager": "ຜູ້ຈັດການ",
 "Could not update app.": "ບໍ່ສາມາດອັບເດດແອັບໄດ້.",
-"Threads": "ກະທູ້"
+"Threads": "ກະທູ້",
+"message from %1$s": "ຂໍ້ຄວາມຈາກ %1$s",
+"message sent": "ຂໍ້ຄວາມຖືກສົ່ງ",
+"insert message ...": "ໃສ່ຂໍ້ຄວາມ...",
+"send message": "ສົ່ງຂໍ້ຄວາມ",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "ສາມາດໃຊ້ພຽງແຕ່ຂໍ້ຄວາມທຳມະດາທີ່ມີເຖິງ 4000 ຕົວອັກສອນເທົ່ານັ້ນ. ດັ່ງນັ້ນບໍ່ມີລະຫັດ HTML ຫຼືຮູບແບບພິເສດອື່ນໆ"
 },
 "nplurals=1; plural=0;");

@@ -111,6 +111,11 @@
 "group administrator for": "그룹 관리자",
 "manager": "관리자",
 "Could not update app.": "앱을 업데이트할 수 없습니다.",
-"Threads": "스레드"
+"Threads": "스레드",
+"message from %1$s": "%1$s에서 보낸 메시지",
+"message sent": "메시지가 전송되었습니다",
+"insert message ...": "메시지 삽입 ...",
+"send message": "메시지 보내기",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "최대 4000자의 일반 일반 텍스트만 사용할 수 있습니다. 따라서 HTML 코드나 기타 특수 형식이 필요하지 않습니다."
 },"pluralForm" :"nplurals=1; plural=0;"
 }

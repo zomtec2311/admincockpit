@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "için grup yöneticisi",
 "manager": "müdür",
 "Could not update app.": "Uygulama güncellenemedi.",
-"Threads": "Konular"
+"Threads": "Konular",
+"message from %1$s": "%1$s'den mesaj",
+"message sent": "mesaj gönderildi",
+"insert message ...": "mesaj ekle...",
+"send message": "mesaj gönder",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Yalnızca 4000 karaktere kadar normal düz metin kullanılabilir. Yani hiçbir HTML kodu veya başka özel biçimlendirme yok"
 },
 "nplurals=2; plural=n != 1;");

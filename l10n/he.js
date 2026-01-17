@@ -113,6 +113,10 @@ OC.L10N.register(
 "group administrator for": "מנהל קבוצה עבור",
 "manager": "מְנַהֵל",
 "Could not update app.": "לא ניתן היה לעדכן את האפליקציה.",
-"Threads": "חוטים"
+"Threads": "חוטים",
+"message sent": "הודעה נשלחה",
+"insert message ...": "הוסף הודעה...",
+"send message": "לשלוח הודעה",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "ניתן להשתמש רק בטקסט רגיל עם עד 4000 תווים. אז אין קוד HTML או עיצוב מיוחד אחר"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2);");

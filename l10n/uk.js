@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "адміністратор групи для",
 "manager": "менеджер",
 "Could not update app.": "Не вдалося оновити програму.",
-"Threads": "Нитки"
+"Threads": "Нитки",
+"message from %1$s": "повідомлення від %1$s",
+"message sent": "повідомлення надіслано",
+"insert message ...": "вставити повідомлення...",
+"send message": "відправити повідомлення",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Можна використовувати лише звичайний простий текст довжиною до 4000 символів. Тому немає HTML-коду чи іншого спеціального форматування"
 },
 "nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);");

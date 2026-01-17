@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "бүлгийн администратор",
 "manager": "менежер",
 "Could not update app.": "Програмыг шинэчилж чадсангүй.",
-"Threads": "Threads"
+"Threads": "Threads",
+"message from %1$s": "%1$s-аас ирсэн мессеж",
+"message sent": "мессеж илгээсэн",
+"insert message ...": "зурвас оруулах ...",
+"send message": "мессеж илгээх",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Зөвхөн 4000 хүртэлх тэмдэгттэй энгийн энгийн текстийг ашиглаж болно. Тиймээс HTML код эсвэл бусад тусгай формат байхгүй"
 },
 "nplurals=2; plural=n != 1;");

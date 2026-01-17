@@ -111,6 +111,11 @@
 "group administrator for": "administrador de grupo para",
 "manager": "xestor",
 "Could not update app.": "Non se puido actualizar a aplicación.",
-"Threads": "Fíos"
+"Threads": "Fíos",
+"message from %1$s": "mensaxe de %1$s",
+"message sent": "mensaxe enviada",
+"insert message ...": "inserir mensaxe...",
+"send message": "enviar mensaxe",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Só se pode utilizar texto normal con ata 4000 caracteres. Polo tanto non hai código HTML nin outro formato especial"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

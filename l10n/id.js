@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "administrator grup untuk",
 "manager": "manajer",
 "Could not update app.": "Tidak dapat memperbarui aplikasi.",
-"Threads": "benang"
+"Threads": "benang",
+"message from %1$s": "pesan dari %1$s",
+"message sent": "pesan terkirim",
+"insert message ...": "masukkan pesan...",
+"send message": "kirim pesan",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Hanya teks biasa biasa dengan maksimal 4000 karakter yang dapat digunakan. Jadi tidak ada kode HTML atau format khusus lainnya"
 },
 "nplurals=1; plural=0;");

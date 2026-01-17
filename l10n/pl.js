@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "administrator grupy ds",
 "manager": "menedżer",
 "Could not update app.": "Nie można zaktualizować aplikacji.",
-"Threads": "Wątki"
+"Threads": "Wątki",
+"message from %1$s": "wiadomość od %1$s",
+"message sent": "wiadomość wysłana",
+"insert message ...": "wstaw wiadomość...",
+"send message": "wyślij wiadomość",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Można używać wyłącznie zwykłego tekstu o długości do 4000 znaków. Więc nie ma kodu HTML ani innego specjalnego formatowania"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);");

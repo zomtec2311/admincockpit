@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "gruppadministratör för",
 "manager": "chef",
 "Could not update app.": "Det gick inte att uppdatera appen.",
-"Threads": "Trådar"
+"Threads": "Trådar",
+"message from %1$s": "meddelande från %1$s",
+"message sent": "meddelande skickat",
+"insert message ...": "infoga meddelande...",
+"send message": "skicka meddelande",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Endast vanlig vanlig text med upp till 4000 tecken får användas. Alltså ingen HTML-kod eller annan speciell formatering"
 },
 "nplurals=2; plural=n != 1;");

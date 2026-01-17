@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "ผู้ดูแลกลุ่มสำหรับ",
 "manager": "ผู้จัดการ",
 "Could not update app.": "ไม่สามารถอัปเดตแอปได้",
-"Threads": "กระทู้"
+"Threads": "กระทู้",
+"message from %1$s": "ข้อความจาก %1$s",
+"message sent": "ส่งข้อความแล้ว",
+"insert message ...": "ใส่ข้อความ...",
+"send message": "ส่งข้อความ",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "สามารถใช้ได้เฉพาะข้อความธรรมดาปกติที่มีอักขระไม่เกิน 4000 ตัวเท่านั้น ดังนั้นจึงไม่มีโค้ด HTML หรือการจัดรูปแบบพิเศษอื่นๆ"
 },
 "nplurals=1; plural=0;");

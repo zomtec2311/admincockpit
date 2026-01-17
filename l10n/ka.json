@@ -111,6 +111,11 @@
 "group administrator for": "ჯგუფის ადმინისტრატორისთვის",
 "manager": "მენეჯერი",
 "Could not update app.": "აპის განახლება ვერ მოხერხდა.",
-"Threads": "ძაფები"
+"Threads": "ძაფები",
+"message from %1$s": "შეტყობინება %1$s-დან",
+"message sent": "გაგზავნილი შეტყობინება",
+"insert message ...": "შეტყობინების ჩასმა...",
+"send message": "შეტყობინების გაგზავნა",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "შეიძლება გამოყენებულ იქნას მხოლოდ ჩვეულებრივი უბრალო ტექსტი 4000-მდე სიმბოლოთი. ასე რომ არ არის HTML კოდი ან სხვა სპეციალური ფორმატირება"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

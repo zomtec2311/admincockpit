@@ -111,6 +111,11 @@
 "group administrator for": "hópstjórnandi fyrir",
 "manager": "framkvæmdastjóri",
 "Could not update app.": "Ekki tókst að uppfæra forritið.",
-"Threads": "Þræðir"
+"Threads": "Þræðir",
+"message from %1$s": "skilaboð frá %1$s",
+"message sent": "skilaboð send",
+"insert message ...": "setja inn skilaboð...",
+"send message": "senda skilaboð",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Aðeins má nota venjulegan texta með allt að 4000 stöfum. Svo enginn HTML kóða eða annað sérstakt snið"
 },"pluralForm" :"nplurals=2; plural=n % 10 != 1 || n % 100 == 11;"
 }

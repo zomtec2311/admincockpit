@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "администратор групе за",
 "manager": "менаџер",
 "Could not update app.": "Ажурирање апликације није успело.",
-"Threads": "Тхреадс"
+"Threads": "Тхреадс",
+"message from %1$s": "порука од %1$s",
+"message sent": "порука послата",
+"insert message ...": "убаци поруку...",
+"send message": "послати поруку",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Може се користити само нормалан обичан текст до 4000 карактера. Дакле нема ХТМЛ кода или другог специјалног обликовања"
 },
 "nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);");

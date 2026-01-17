@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "のグループ管理者",
 "manager": "マネージャー",
 "Could not update app.": "アプリを更新できませんでした。",
-"Threads": "スレッド"
+"Threads": "スレッド",
+"message from %1$s": "%1$s からのメッセージ",
+"message sent": "送信されたメッセージ",
+"insert message ...": "メッセージを挿入...",
+"send message": "メッセージを送信する",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "最大 4000 文字の通常のプレーン テキストのみを使用できます。したがって、HTML コードやその他の特別な書式設定は必要ありません"
 },
 "nplurals=1; plural=0;");

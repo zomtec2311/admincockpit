@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "správca skupiny pre",
 "manager": "manažér",
 "Could not update app.": "Aplikáciu sa nepodarilo aktualizovať.",
-"Threads": "Nite"
+"Threads": "Nite",
+"message from %1$s": "správa od používateľa %1$s",
+"message sent": "správa odoslaná",
+"insert message ...": "vložiť správu...",
+"send message": "poslať správu",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Môže sa použiť iba obyčajný obyčajný text s dĺžkou do 4 000 znakov. Takže žiadny HTML kód alebo iné špeciálne formátovanie"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);");

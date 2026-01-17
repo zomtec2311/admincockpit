@@ -111,6 +111,11 @@
 "group administrator for": "grupas administrators",
 "manager": "vadītājs",
 "Could not update app.": "Nevarēja atjaunināt lietotni.",
-"Threads": "Pavedieni"
+"Threads": "Pavedieni",
+"message from %1$s": "ziņojums no %1$s",
+"message sent": "ziņa nosūtīta",
+"insert message ...": "ievietot ziņu...",
+"send message": "nosūtīt ziņu",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Var izmantot tikai parastu vienkāršu tekstu ar līdz 4000 rakstzīmēm. Tātad bez HTML koda vai cita īpaša formatējuma"
 },"pluralForm" :"nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);"
 }

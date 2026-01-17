@@ -113,6 +113,11 @@ OC.L10N.register(
 "group administrator for": "groepsbeheerder voor",
 "manager": "manager",
 "Could not update app.": "Kan app niet updaten.",
-"Threads": "Draden"
+"Threads": "Draden",
+"message from %1$s": "bericht van %1$s",
+"message sent": "bericht verzonden",
+"insert message ...": "bericht invoegen...",
+"send message": "stuur bericht",
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Alleen normale platte tekst van maximaal 4000 tekens mag worden gebruikt. Dus geen HTML-code of andere speciale opmaak"
 },
 "nplurals=2; plural=n != 1;");
