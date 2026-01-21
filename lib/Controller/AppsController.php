@@ -99,7 +99,7 @@ class AppsController extends Controller {
         try {
             $thisapps = $this->appManager->getAllAppsInAppsFolders();
             sort($thisapps);
-            $thisappsenabled = $this->appManager->getInstalledApps();
+            $thisappsenabled = $this->appManager->getEnabledApps();
             $thisappsdisabled = array_diff($thisapps, $thisappsenabled);
             $thisappsdisabledfull = $this->appsfull($thisappsdisabled);
             $thisappsenabledfull = $this->appsfull($thisappsenabled);
@@ -289,17 +289,21 @@ class AppsController extends Controller {
     //#[NoAdminRequired]
     //#[NoCSRFRequired]
     public function getAppsWithUpdates(): DataResponse {
+        $enabledapps = $this->appManager->getEnabledApps();
 		$appClass = new \OC_App();
 		$apps = $appClass->listAllApps();
 		foreach ($apps as $key => &$app) {
 			$newVersion = $this->installer->isUpdateAvailable($app['id']);
-			if ($newVersion === false) {
+			if (($newVersion === false) || (!in_array($app['id'], $enabledapps))) {
 				unset($apps[$key]);
 			}
 			else {
                 $app['updateVersion'] = $newVersion;
             }
 		}
+		
+		
+		
 		return new DataResponse([
             'apps' => array_values($apps),
             'appscount' => count($apps),
@@ -322,9 +326,21 @@ class AppsController extends Controller {
 		], $categories);
 	}
 	
-	#[NoCSRFRequired]
+	//#[NoCSRFRequired]
 	public function isnoti() {
-            if ($this->appManager->isInstalled('notifications')) {
+            $enabledapps = $this->appManager->getEnabledApps();
+            
+            if (in_array('logcleaner', $enabledapps)) {
+                return 'true';                
+            }
+            else { return 'false'; }
+        
+    }
+    
+    public function islogcleaner() {
+            $enabledapps = $this->appManager->getEnabledApps();
+            
+            if (in_array('logcleaner', $enabledapps)) {
                 return 'true';                
             }
             else { return 'false'; }
