@@ -11,6 +11,7 @@ return [
     ['name' => 'System#systeminfo', 'url' => '/systeminfo', 'verb' => 'GET'],
     ['name' => 'Apps#appsinfo', 'url' => '/appsinfo', 'verb' => 'GET'],
     ['name' => 'Apps#isnoti', 'url' => '/isnoti', 'verb' => 'GET'],
+    ['name' => 'Apps#islogcleaner', 'url' => '/islogcleaner', 'verb' => 'GET'],
     ['name' => 'Group#addgroup', 'url' => '/addgroup/{who}', 'verb' => 'GET'],
     ['name' => 'Group#deletegroup', 'url' => '/deletegroup/{who}', 'verb' => 'GET'],
     ['name' => 'User#deleteuser', 'url' => '/deleteuser/{who}', 'verb' => 'GET'],
