@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.8
+
+### Fixed
+- deprecated method getInstalledApps() exchanged for getEnabledApps()
+- check only enabled apps for upgrades
+
+### Added
+- LogCleaner integration if installed
+
 ## 1.0.7
 
 ### Changed
