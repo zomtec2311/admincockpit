@@ -330,7 +330,7 @@ class AppsController extends Controller {
 	public function isnoti() {
             $enabledapps = $this->appManager->getEnabledApps();
             
-            if (in_array('logcleaner', $enabledapps)) {
+            if (in_array('notifications', $enabledapps)) {
                 return 'true';                
             }
             else { return 'false'; }

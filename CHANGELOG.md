@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.9
+
+### Fixed
+- Bug fixed sending notifications
+
 ## 1.0.8
 
 ### Fixed
