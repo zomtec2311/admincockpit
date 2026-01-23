@@ -56,6 +56,7 @@ use OCP\App\IAppManager;
 use OCP\Settings\IManager;
 use OCP\IUserManager;
 use OCP\IGroupManager;
+use OCP\IUserSession;
 
 class AppsController extends Controller {
     private $myService;
@@ -65,6 +66,7 @@ class AppsController extends Controller {
     private $groupManager;
     private $l;
     private IAppManager $appManager;
+    private IUserSession $userSession;
 
     public function __construct(
             string $appName, 
@@ -75,6 +77,7 @@ class AppsController extends Controller {
             IAppManager $appManager,
             IUserManager $userManager, 
             IGroupManager $groupManager, 
+            IUserSession $userSession,
             IL10N $l, 
             private Installer $installer,
             private IAppConfig $appConfig,
@@ -90,6 +93,7 @@ class AppsController extends Controller {
         $this->userManager = $userManager;
         $this->groupManager = $groupManager;
         $this->settingManager = $settingManager;
+        $this->userSession = $userSession;
         $this->l = $l;
     }
 
@@ -99,7 +103,15 @@ class AppsController extends Controller {
         try {
             $thisapps = $this->appManager->getAllAppsInAppsFolders();
             sort($thisapps);
-            $thisappsenabled = $this->appManager->getEnabledApps();
+            $ncinfo = $this->myService->getNCInfo();
+            $parts = explode(".", $ncinfo['nc_version']);
+            $version = (int)$parts[0];
+            if($version < 32) {
+                $thisappsenabled = $this->appManager->getEnabledAppsForUser($this->userSession->getUser());
+            }
+            else {
+                $thisappsenabled = $this->appManager->getEnabledApps();
+            }
             $thisappsdisabled = array_diff($thisapps, $thisappsenabled);
             $thisappsdisabledfull = $this->appsfull($thisappsdisabled);
             $thisappsenabledfull = $this->appsfull($thisappsenabled);
@@ -189,7 +201,7 @@ class AppsController extends Controller {
 
         } catch (\Throwable $e) {
             $this->logger->error(
-                'AdminCockpit: FATAL ERROR or EXCEPTION in DataController->appsinfo: ' . $e->getMessage() . "\n" . $e->getTraceAsString(),
+                'AdminCockpit193: FATAL ERROR or EXCEPTION in DataController->appsinfo: ' . $e->getMessage() . "\n" . $e->getTraceAsString(),
                 ['app' => 'admincockpit']
             );
             return new DataResponse([
@@ -231,7 +243,7 @@ class AppsController extends Controller {
             }
         } catch (\Throwable $e) {
             $this->logger->error(
-                'AdminCockpit: FATAL ERROR or EXCEPTION in DataController->disableapp: ' . $e->getMessage() . "\n" . $e->getTraceAsString(),
+                'AdminCockpit235: FATAL ERROR or EXCEPTION in DataController->disableapp: ' . $e->getMessage() . "\n" . $e->getTraceAsString(),
                 ['app' => 'admincockpit']
             );
             return 'false';
@@ -257,7 +269,7 @@ class AppsController extends Controller {
             }
         } catch (\Throwable $e) {
             $this->logger->error(
-                'AdminCockpit: FATAL ERROR or EXCEPTION in DataController->disableapp: ' . $e->getMessage() . "\n" . $e->getTraceAsString(),
+                'AdminCockpit261: FATAL ERROR or EXCEPTION in DataController->disableapp: ' . $e->getMessage() . "\n" . $e->getTraceAsString(),
                 ['app' => 'admincockpit']
             );
             return 'false';
@@ -289,7 +301,15 @@ class AppsController extends Controller {
     //#[NoAdminRequired]
     //#[NoCSRFRequired]
     public function getAppsWithUpdates(): DataResponse {
-        $enabledapps = $this->appManager->getEnabledApps();
+        $ncinfo = $this->myService->getNCInfo();
+        $parts = explode(".", $ncinfo['nc_version']);
+        $version = (int)$parts[0];
+        if($version < 32) {
+            $enabledapps = $this->appManager->getEnabledAppsForUser($this->userSession->getUser());
+        }
+        else {
+            $enabledapps = $this->appManager->getEnabledApps();
+        }
 		$appClass = new \OC_App();
 		$apps = $appClass->listAllApps();
 		foreach ($apps as $key => &$app) {
@@ -328,7 +348,15 @@ class AppsController extends Controller {
 	
 	//#[NoCSRFRequired]
 	public function isnoti() {
+        $ncinfo = $this->myService->getNCInfo();
+        $parts = explode(".", $ncinfo['nc_version']);
+        $version = (int)$parts[0];
+        if($version < 32) {
+            $enabledapps = $this->appManager->getEnabledAppsForUser($this->userSession->getUser());
+        }
+        else {
             $enabledapps = $this->appManager->getEnabledApps();
+        }
             
             if (in_array('notifications', $enabledapps)) {
                 return 'true';                
@@ -338,7 +366,15 @@ class AppsController extends Controller {
     }
     
     public function islogcleaner() {
+        $ncinfo = $this->myService->getNCInfo();
+        $parts = explode(".", $ncinfo['nc_version']);
+        $version = (int)$parts[0];
+        if($version < 32) {
+            $enabledapps = $this->appManager->getEnabledAppsForUser($this->userSession->getUser());
+        }
+        else {
             $enabledapps = $this->appManager->getEnabledApps();
+        }
             
             if (in_array('logcleaner', $enabledapps)) {
                 return 'true';                

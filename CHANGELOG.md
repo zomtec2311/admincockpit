@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.0
+
+### Fixed
+- Bug fixed for apps list in Nextcloud 31.x
+
 ## 1.0.9
 
 ### Fixed
