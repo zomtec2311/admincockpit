@@ -77,7 +77,7 @@ OC.L10N.register(
 "last 1 minute": "poslední 1 minutu",
 "last 5 minutes": "posledních 5 minut",
 "last 15 minutes": "posledních 15 minut",
-"RAM": "BERAN",
+"RAM": "Operační paměť",
 "{value} total": "celkem {value}",
 "{value} used": "{value} použito",
 "{value} free": "{value} zdarma",
