@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.1.2
+
+### Changed
+- new features for overview and system
+
+### Fixed
+- some code cleanup
+
+## 1.1.1
+
+### Changed
+- **l10n:** Critical correction of Russian translations ([#3](https://github.com/zomtec2311/admincockpit/pull/3)) and ([#4](https://github.com/zomtec2311/admincockpit/pull/4)) @drsmoll
+- **l10n:** Critical correction of Czech translations  ([#1](https://github.com/zomtec2311/admincockpit/issues/2)) @onacilam
+
 ## 1.1.0
 
 ### Fixed
