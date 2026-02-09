@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.3
+
+### Fixed
+- Bugs fixed in "overview" and "system" while deleting duplicates from logfile
+
 ## 1.1.2
 
 ### Changed
