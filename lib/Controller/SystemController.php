@@ -146,7 +146,53 @@ class SystemController extends Controller {
                 'db' => -1,
             ], 500);
         }
+    }    
+    
+public function detectEnvironment() {
+    if ($this->isRunningInDocker()) {
+        return $this->l->t('docker container');
+    } elseif ($this->isRunningInSnap()) {
+        return $this->l->t('snap package');
+    } elseif ($this->isRunningInLXC()) {
+        return $this->l->t('LXC container');
+    } elseif ($this->isRunningInVM()) {
+        return "virtual machine";
+    } else {
+        return "local installation";
     }
+}
+
+public function isRunningInDocker() {
+    return file_exists('/.dockerenv') || $this->isDockerCgroup();
+}
+
+public function isDockerCgroup() {
+    $cgroupPath = file_get_contents('/proc/self/cgroup');
+    return strpos($cgroupPath, 'docker') !== false || strpos($cgroupPath, 'kubepods') !== false;
+}
+
+public function isRunningInSnap() {
+    if ($this->isSnapDaemonRunning()) {
+        $output = shell_exec('snap list');
+        return strpos($output, 'nextcloud') !== false;
+    }
+    return false;
+}
+
+public function isSnapDaemonRunning() {
+    $output = shell_exec('systemctl is-active snapd');
+    return trim($output) === 'active';
+}
+
+public function isRunningInLXC() {
+    $cgroupPath = file_get_contents('/proc/self/cgroup');
+    return strpos($cgroupPath, 'lxc') !== false || file_exists('/var/lib/lxc');
+}
+
+public function isRunningInVM() {
+    $virtDetect = shell_exec('systemd-detect-virt');
+    return strpos($virtDetect, 'none') === false && !empty($virtDetect);
+}
  
     public function systeminfo(): DataResponse {
         try {
@@ -155,7 +201,7 @@ class SystemController extends Controller {
             $wttest = $this->myService->getDiskInfo();
             $raminfo = $this->myService->getRAMInfo();
             $ncinfo = $this->myService->getNCInfo();
-            $ncupdate = $this->getSystemStatus();
+            $ncupdate = $this->getSystemStatus();  
             
             return new DataResponse([
                 'hostname' => gethostname(),
@@ -176,6 +222,7 @@ class SystemController extends Controller {
                 'ram_available' => $raminfo['ram_available'],
                 'ram_percent' => $raminfo['ram_percent'],
                 'nc_version' => $ncinfo['nc_version'],
+                'nc_installation_type' => $this->detectEnvironment(),
                 'nc_datadirectory' => $ncinfo['datadirectory'],
                 'nc_updateAvailable' => $ncupdate['updateAvailable'],
                 'nc_currentVersion' => $ncupdate['currentVersion'],

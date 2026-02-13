@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.5
+
+### Fixed
+- added 'nowrap' to some containers within css file because of unwanted line breaks
+
+### Added
+- New function to detect the nextcloud installation method (local, docker etc.)
+
 ## 1.1.4
 
 ### Added
