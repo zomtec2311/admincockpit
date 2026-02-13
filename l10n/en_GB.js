@@ -118,6 +118,7 @@ OC.L10N.register(
 "message sent": "message sent",
 "insert message ...": "insert message ...",
 "send message": "send message",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting",
+"type of installation": "type of installation"
 },
 "nplurals=2; plural=(n != 1);");
