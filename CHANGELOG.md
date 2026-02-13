@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.4
+
+### Added
+- loading-spinner appears in navigation as long as it checks for app updates
+
+### Changed
+- **l10n:** Correction of Czech translations  ([#5](https://github.com/zomtec2311/admincockpit/issues/5)) @onacilam
+- **main.css** Changed width for boxes displaying long paths or words ([#6](https://github.com/zomtec2311/admincockpit/issues/6)) @onacilam
+
 ## 1.1.3
 
 ### Fixed
