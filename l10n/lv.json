@@ -116,6 +116,13 @@
 "message sent": "ziņa nosūtīta",
 "insert message ...": "ievietot ziņu...",
 "send message": "nosūtīt ziņu",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Var izmantot tikai parastu vienkāršu tekstu ar līdz 4000 rakstzīmēm. Tātad bez HTML koda vai cita īpaša formatējuma"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Var izmantot tikai parastu vienkāršu tekstu ar līdz 4000 rakstzīmēm. Tātad bez HTML koda vai cita īpaša formatējuma",
+"%1$s - behind reverse proxy": "%1$s - aiz reversā starpniekservera",
+"%1$s - without reverse proxy": "%1$s - bez apgrieztā starpniekservera",
+"unknown": "nezināms",
+"type of installation": "uzstādīšanas veids",
+"web server": "tīmekļa serveris",
+"virtual machine": "virtuālā mašīna",
+"local installation": "vietējā uzstādīšana"
 },"pluralForm" :"nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);"
 }

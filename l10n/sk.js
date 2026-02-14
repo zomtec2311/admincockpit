@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "správa odoslaná",
 "insert message ...": "vložiť správu...",
 "send message": "poslať správu",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Môže sa použiť iba obyčajný obyčajný text s dĺžkou do 4 000 znakov. Takže žiadny HTML kód alebo iné špeciálne formátovanie"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Môže sa použiť iba obyčajný obyčajný text s dĺžkou do 4 000 znakov. Takže žiadny HTML kód alebo iné špeciálne formátovanie",
+"%1$s - behind reverse proxy": "%1$s - za reverzným proxy",
+"%1$s - without reverse proxy": "%1$s - bez reverzného proxy",
+"unknown": "neznámy",
+"type of installation": "typ inštalácie",
+"web server": "webový server",
+"virtual machine": "virtuálny stroj",
+"local installation": "lokálna inštalácia"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);");

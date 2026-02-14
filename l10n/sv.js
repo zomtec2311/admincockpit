@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "meddelande skickat",
 "insert message ...": "infoga meddelande...",
 "send message": "skicka meddelande",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Endast vanlig vanlig text med upp till 4000 tecken får användas. Alltså ingen HTML-kod eller annan speciell formatering"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Endast vanlig vanlig text med upp till 4000 tecken får användas. Alltså ingen HTML-kod eller annan speciell formatering",
+"%1$s - behind reverse proxy": "%1$s - bakom omvänd proxy",
+"%1$s - without reverse proxy": "%1$s - utan omvänd proxy",
+"unknown": "okänd",
+"type of installation": "typ av installation",
+"web server": "webbserver",
+"virtual machine": "virtuell maskin",
+"local installation": "lokal installation"
 },
 "nplurals=2; plural=n != 1;");

@@ -116,6 +116,13 @@
 "message sent": "mesaj gönderildi",
 "insert message ...": "mesaj ekle...",
 "send message": "mesaj gönder",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Yalnızca 4000 karaktere kadar normal düz metin kullanılabilir. Yani hiçbir HTML kodu veya başka özel biçimlendirme yok"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Yalnızca 4000 karaktere kadar normal düz metin kullanılabilir. Yani hiçbir HTML kodu veya başka özel biçimlendirme yok",
+"%1$s - behind reverse proxy": "%1$s - ters proxy'nin arkasında",
+"%1$s - without reverse proxy": "%1$s - ters proxy olmadan",
+"unknown": "bilinmiyor",
+"type of installation": "kurulum türü",
+"web server": "web sunucusu",
+"virtual machine": "sanal makine",
+"local installation": "yerel kurulum"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

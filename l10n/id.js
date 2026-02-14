@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "pesan terkirim",
 "insert message ...": "masukkan pesan...",
 "send message": "kirim pesan",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Hanya teks biasa biasa dengan maksimal 4000 karakter yang dapat digunakan. Jadi tidak ada kode HTML atau format khusus lainnya"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Hanya teks biasa biasa dengan maksimal 4000 karakter yang dapat digunakan. Jadi tidak ada kode HTML atau format khusus lainnya",
+"%1$s - behind reverse proxy": "%1$s - di belakang proxy terbalik",
+"%1$s - without reverse proxy": "%1$s - tanpa proksi terbalik",
+"unknown": "tidak dikenal",
+"type of installation": "jenis instalasi",
+"web server": "server web",
+"virtual machine": "mesin virtual",
+"local installation": "instalasi lokal"
 },
 "nplurals=1; plural=0;");

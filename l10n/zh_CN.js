@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "消息已发送",
 "insert message ...": "插入消息...",
 "send message": "发送消息",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "只能使用最多 4000 个字符的普通纯文本。因此没有 HTML 代码或其他特殊格式"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "只能使用最多 4000 个字符的普通纯文本。因此没有 HTML 代码或其他特殊格式",
+"%1$s - behind reverse proxy": "%1$s-- 反向代理背后",
+"%1$s - without reverse proxy": "%1$s - 无反向代理",
+"unknown": "未知",
+"type of installation": "安装类型",
+"web server": "网络服务器",
+"virtual machine": "虚拟机",
+"local installation": "本地安装"
 },
 "nplurals=1; plural=0;");

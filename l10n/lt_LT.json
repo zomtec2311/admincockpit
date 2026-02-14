@@ -116,6 +116,13 @@
 "message sent": "išsiųsta žinutė",
 "insert message ...": "įterpti žinutę...",
 "send message": "siųsti žinutę",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Galima naudoti tik įprastą paprastąjį iki 4000 simbolių tekstą. Taigi jokio HTML kodo ar kito specialaus formatavimo"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Galima naudoti tik įprastą paprastąjį iki 4000 simbolių tekstą. Taigi jokio HTML kodo ar kito specialaus formatavimo",
+"%1$s - behind reverse proxy": "%1$s – už atvirkštinio tarpinio serverio",
+"%1$s - without reverse proxy": "%1$s – be atvirkštinio tarpinio serverio",
+"unknown": "nežinomas",
+"type of installation": "įrengimo tipas",
+"web server": "žiniatinklio serveris",
+"virtual machine": "virtuali mašina",
+"local installation": "vietinis įrengimas"
 },"pluralForm" :"nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);"
 }

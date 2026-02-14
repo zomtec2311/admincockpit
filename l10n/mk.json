@@ -116,6 +116,13 @@
 "message sent": "испратена порака",
 "insert message ...": "вметнете порака...",
 "send message": "испрати порака",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Може да се користи само обичен обичен текст со најмногу 4000 знаци. Значи нема HTML код или друго специјално форматирање"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Може да се користи само обичен обичен текст со најмногу 4000 знаци. Значи нема HTML код или друго специјално форматирање",
+"%1$s - behind reverse proxy": "%1$s - зад обратен прокси",
+"%1$s - without reverse proxy": "%1$s - без обратен прокси",
+"unknown": "непознат",
+"type of installation": "тип на инсталација",
+"web server": "веб сервер",
+"virtual machine": "виртуелна машина",
+"local installation": "локална инсталација"
 },"pluralForm" :"nplurals=2; plural=n % 10 != 1 || n % 100 == 11;"
 }

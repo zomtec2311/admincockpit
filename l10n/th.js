@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "ส่งข้อความแล้ว",
 "insert message ...": "ใส่ข้อความ...",
 "send message": "ส่งข้อความ",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "สามารถใช้ได้เฉพาะข้อความธรรมดาปกติที่มีอักขระไม่เกิน 4000 ตัวเท่านั้น ดังนั้นจึงไม่มีโค้ด HTML หรือการจัดรูปแบบพิเศษอื่นๆ"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "สามารถใช้ได้เฉพาะข้อความธรรมดาปกติที่มีอักขระไม่เกิน 4000 ตัวเท่านั้น ดังนั้นจึงไม่มีโค้ด HTML หรือการจัดรูปแบบพิเศษอื่นๆ",
+"%1$s - behind reverse proxy": "%1$s - อยู่หลังพร็อกซีย้อนกลับ",
+"%1$s - without reverse proxy": "%1$s - ไม่มีพร็อกซีย้อนกลับ",
+"unknown": "ไม่ทราบ",
+"type of installation": "ประเภทของการติดตั้ง",
+"web server": "เว็บเซิร์ฟเวอร์",
+"virtual machine": "เครื่องเสมือน",
+"local installation": "การติดตั้งในท้องถิ่น"
 },
 "nplurals=1; plural=0;");

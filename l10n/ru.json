@@ -116,6 +116,13 @@
 "message sent": "сообщение отправлено",
 "insert message ...": "вставить сообщение...",
 "send message": "отправить сообщение",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Можно использовать только обычный текст длиной до 4000 символов. Поэтому никакого HTML-кода или другого специального форматирования."
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Можно использовать только обычный текст длиной до 4000 символов. Поэтому никакого HTML-кода или другого специального форматирования.",
+"%1$s - behind reverse proxy": "%1$s — за обратным прокси",
+"%1$s - without reverse proxy": "%1$s — без обратного прокси",
+"unknown": "неизвестный",
+"type of installation": "тип установки",
+"web server": "веб-сервер",
+"virtual machine": "виртуальная машина",
+"local installation": "локальная установка"
 },"pluralForm" :"nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);"
 }

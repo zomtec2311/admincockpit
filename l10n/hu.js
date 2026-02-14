@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "üzenet elküldve",
 "insert message ...": "üzenet beszúrása...",
 "send message": "üzenetet küldeni",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Csak normál legfeljebb 4000 karakteres egyszerű szöveg használható. Tehát nincs HTML kód vagy más speciális formázás"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Csak normál legfeljebb 4000 karakteres egyszerű szöveg használható. Tehát nincs HTML kód vagy más speciális formázás",
+"%1$s - behind reverse proxy": "%1$s – fordított proxy mögött",
+"%1$s - without reverse proxy": "%1$s - fordított proxy nélkül",
+"unknown": "ismeretlen",
+"type of installation": "telepítés típusa",
+"web server": "webszerver",
+"virtual machine": "virtuális gép",
+"local installation": "helyi telepítés"
 },
 "nplurals=2; plural=n != 1;");

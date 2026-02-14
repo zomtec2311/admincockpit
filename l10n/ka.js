@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "გაგზავნილი შეტყობინება",
 "insert message ...": "შეტყობინების ჩასმა...",
 "send message": "შეტყობინების გაგზავნა",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "შეიძლება გამოყენებულ იქნას მხოლოდ ჩვეულებრივი უბრალო ტექსტი 4000-მდე სიმბოლოთი. ასე რომ არ არის HTML კოდი ან სხვა სპეციალური ფორმატირება"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "შეიძლება გამოყენებულ იქნას მხოლოდ ჩვეულებრივი უბრალო ტექსტი 4000-მდე სიმბოლოთი. ასე რომ არ არის HTML კოდი ან სხვა სპეციალური ფორმატირება",
+"%1$s - behind reverse proxy": "%1$s - საპირისპირო პროქსის უკან",
+"%1$s - without reverse proxy": "%1$s - უკუ პროქსის გარეშე",
+"unknown": "უცნობი",
+"type of installation": "ინსტალაციის ტიპი",
+"web server": "ვებ სერვერი",
+"virtual machine": "ვირტუალური მანქანა",
+"local installation": "ადგილობრივი ინსტალაცია"
 },
 "nplurals=2; plural=n != 1;");

@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "ուղարկված հաղորդագրություն",
 "insert message ...": "տեղադրել հաղորդագրություն...",
 "send message": "ուղարկել հաղորդագրություն",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Կարող է օգտագործվել միայն սովորական պարզ տեքստ մինչև 4000 նիշ: Այսպիսով ոչ մի HTML կոդ կամ այլ հատուկ ձևաչափում"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Կարող է օգտագործվել միայն սովորական պարզ տեքստ մինչև 4000 նիշ: Այսպիսով ոչ մի HTML կոդ կամ այլ հատուկ ձևաչափում",
+"%1$s - behind reverse proxy": "%1$s - հակադարձ վստահված անձի հետևում",
+"%1$s - without reverse proxy": "%1$s - առանց հակադարձ վստահված անձի",
+"unknown": "անհայտ",
+"type of installation": "տեղադրման տեսակը",
+"web server": "վեբ սերվեր",
+"virtual machine": "վիրտուալ մեքենա",
+"local installation": "տեղական տեղադրում"
 },
 "nplurals=2; plural=n > 1;");

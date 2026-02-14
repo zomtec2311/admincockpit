@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "ຂໍ້ຄວາມຖືກສົ່ງ",
 "insert message ...": "ໃສ່ຂໍ້ຄວາມ...",
 "send message": "ສົ່ງຂໍ້ຄວາມ",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "ສາມາດໃຊ້ພຽງແຕ່ຂໍ້ຄວາມທຳມະດາທີ່ມີເຖິງ 4000 ຕົວອັກສອນເທົ່ານັ້ນ. ດັ່ງນັ້ນບໍ່ມີລະຫັດ HTML ຫຼືຮູບແບບພິເສດອື່ນໆ"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "ສາມາດໃຊ້ພຽງແຕ່ຂໍ້ຄວາມທຳມະດາທີ່ມີເຖິງ 4000 ຕົວອັກສອນເທົ່ານັ້ນ. ດັ່ງນັ້ນບໍ່ມີລະຫັດ HTML ຫຼືຮູບແບບພິເສດອື່ນໆ",
+"%1$s - behind reverse proxy": "%1$s - ຢູ່ເບື້ອງຫຼັງ proxy ປີ້ນກັບກັນ",
+"%1$s - without reverse proxy": "%1$s - ໂດຍບໍ່ມີການປ່ຽນແທນຕົວແທນ",
+"unknown": "ບໍ່ຮູ້ຈັກ",
+"type of installation": "ປະເພດຂອງການຕິດຕັ້ງ",
+"web server": "ເຊີບເວີເວັບ",
+"virtual machine": "ເຄື່ອງ virtual",
+"local installation": "ການ​ຕິດ​ຕັ້ງ​ທ້ອງ​ຖິ່ນ​"
 },
 "nplurals=1; plural=0;");

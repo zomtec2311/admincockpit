@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "melding sendt",
 "insert message ...": "legg inn melding...",
 "send message": "send melding",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Kun vanlig ren tekst med inntil 4000 tegn kan brukes. Altså ingen HTML-kode eller annen spesiell formatering"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Kun vanlig ren tekst med inntil 4000 tegn kan brukes. Altså ingen HTML-kode eller annen spesiell formatering",
+"%1$s - behind reverse proxy": "%1$s - bak omvendt proxy",
+"%1$s - without reverse proxy": "%1$s - uten omvendt proxy",
+"unknown": "ukjent",
+"type of installation": "type installasjon",
+"web server": "webserver",
+"virtual machine": "virtuell maskin",
+"local installation": "lokal installasjon"
 },
 "nplurals=2; plural=n != 1;");

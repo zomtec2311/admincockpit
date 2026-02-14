@@ -116,6 +116,13 @@
 "message sent": "повідомлення надіслано",
 "insert message ...": "вставити повідомлення...",
 "send message": "відправити повідомлення",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Можна використовувати лише звичайний простий текст довжиною до 4000 символів. Тому немає HTML-коду чи іншого спеціального форматування"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Можна використовувати лише звичайний простий текст довжиною до 4000 символів. Тому немає HTML-коду чи іншого спеціального форматування",
+"%1$s - behind reverse proxy": "%1$s - за зворотним проксі",
+"%1$s - without reverse proxy": "%1$s - без зворотного проксі",
+"unknown": "невідомий",
+"type of installation": "тип установки",
+"web server": "веб-сервер",
+"virtual machine": "віртуальна машина",
+"local installation": "локальна установка"
 },"pluralForm" :"nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);"
 }

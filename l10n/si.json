@@ -116,6 +116,13 @@
 "message sent": "පණිවිඩය යවා ඇත",
 "insert message ...": "පණිවිඩය ඇතුළු කරන්න...",
 "send message": "පණිවිඩයක් යවන්න",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "අක්ෂර 4000ක් දක්වා සාමාන්‍ය සරල පෙළ පමණක් භාවිත කළ හැක. එබැවින් HTML කේතයක් හෝ වෙනත් විශේෂ හැඩතල ගැන්වීමක් නොමැත"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "අක්ෂර 4000ක් දක්වා සාමාන්‍ය සරල පෙළ පමණක් භාවිත කළ හැක. එබැවින් HTML කේතයක් හෝ වෙනත් විශේෂ හැඩතල ගැන්වීමක් නොමැත",
+"%1$s - behind reverse proxy": "%1$s - ප්‍රතිලෝම ප්‍රොක්සි පිටුපස",
+"%1$s - without reverse proxy": "%1$s - ප්‍රතිලෝම ප්‍රොක්සි නොමැතිව",
+"unknown": "නොදන්නා",
+"type of installation": "ස්ථාපන වර්ගය",
+"web server": "වෙබ් සේවාදායකය",
+"virtual machine": "අථත්ය යන්ත්රය",
+"local installation": "දේශීය ස්ථාපනය"
 },"pluralForm" :"nplurals=2; plural=n > 1;"
 }

@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "សារត្រូវបានផ្ញើ",
 "insert message ...": "បញ្ចូលសារ...",
 "send message": "ផ្ញើសារ",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "មានតែអត្ថបទធម្មតាដែលមានរហូតដល់ 4000 តួអក្សរប៉ុណ្ណោះដែលអាចប្រើបាន។ ដូច្នេះគ្មានកូដ HTML ឬទម្រង់ពិសេសផ្សេងទៀតទេ។"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "មានតែអត្ថបទធម្មតាដែលមានរហូតដល់ 4000 តួអក្សរប៉ុណ្ណោះដែលអាចប្រើបាន។ ដូច្នេះគ្មានកូដ HTML ឬទម្រង់ពិសេសផ្សេងទៀតទេ។",
+"%1$s - behind reverse proxy": "%1$s - នៅពីក្រោយប្រូកស៊ីបញ្ច្រាស",
+"%1$s - without reverse proxy": "%1$s - ដោយគ្មានប្រូកស៊ីបញ្ច្រាស",
+"unknown": "មិនស្គាល់",
+"type of installation": "ប្រភេទនៃការដំឡើង",
+"web server": "ម៉ាស៊ីនមេគេហទំព័រ",
+"virtual machine": "ម៉ាស៊ីននិម្មិត",
+"local installation": "ការដំឡើងក្នុងស្រុក"
 },
 "nplurals=1; plural=0;");

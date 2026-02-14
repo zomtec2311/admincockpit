@@ -116,6 +116,13 @@
 "message sent": "messaggio inviato",
 "insert message ...": "inserisci messaggio...",
 "send message": "inviare messaggio",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Può essere utilizzato solo testo normale con un massimo di 4000 caratteri. Quindi nessun codice HTML o altra formattazione speciale"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Può essere utilizzato solo testo normale con un massimo di 4000 caratteri. Quindi nessun codice HTML o altra formattazione speciale",
+"%1$s - behind reverse proxy": "%1$s - dietro proxy inverso",
+"%1$s - without reverse proxy": "%1$s - senza proxy inverso",
+"unknown": "sconosciuto",
+"type of installation": "tipo di installazione",
+"web server": "server web",
+"virtual machine": "macchina virtuale",
+"local installation": "installazione locale"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

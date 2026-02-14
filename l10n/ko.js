@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "메시지가 전송되었습니다",
 "insert message ...": "메시지 삽입 ...",
 "send message": "메시지 보내기",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "최대 4000자의 일반 일반 텍스트만 사용할 수 있습니다. 따라서 HTML 코드나 기타 특수 형식이 필요하지 않습니다."
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "최대 4000자의 일반 일반 텍스트만 사용할 수 있습니다. 따라서 HTML 코드나 기타 특수 형식이 필요하지 않습니다.",
+"%1$s - behind reverse proxy": "%1$s - 역방향 프록시 뒤",
+"%1$s - without reverse proxy": "%1$s - 역방향 프록시 없음",
+"unknown": "알려지지 않은",
+"type of installation": "설치 유형",
+"web server": "웹 서버",
+"virtual machine": "가상 머신",
+"local installation": "로컬 설치"
 },
 "nplurals=1; plural=0;");

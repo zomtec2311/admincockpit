@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "мессеж илгээсэн",
 "insert message ...": "зурвас оруулах ...",
 "send message": "мессеж илгээх",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Зөвхөн 4000 хүртэлх тэмдэгттэй энгийн энгийн текстийг ашиглаж болно. Тиймээс HTML код эсвэл бусад тусгай формат байхгүй"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Зөвхөн 4000 хүртэлх тэмдэгттэй энгийн энгийн текстийг ашиглаж болно. Тиймээс HTML код эсвэл бусад тусгай формат байхгүй",
+"%1$s - behind reverse proxy": "%1$s - урвуу проксины ард",
+"%1$s - without reverse proxy": "%1$s - урвуу проксигүй",
+"unknown": "үл мэдэгдэх",
+"type of installation": "суурилуулах төрөл",
+"web server": "вэб сервер",
+"virtual machine": "виртуал машин",
+"local installation": "орон нутгийн суурилуулалт"
 },
 "nplurals=2; plural=n != 1;");

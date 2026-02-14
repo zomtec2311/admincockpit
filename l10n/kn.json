@@ -116,6 +116,13 @@
 "message sent": "ಸಂದೇಶ ಕಳುಹಿಸಲಾಗಿದೆ",
 "insert message ...": "ಸಂದೇಶವನ್ನು ಸೇರಿಸಿ...",
 "send message": "ಸಂದೇಶವನ್ನು ಕಳುಹಿಸಿ",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "4000 ಅಕ್ಷರಗಳವರೆಗಿನ ಸಾಮಾನ್ಯ ಸರಳ ಪಠ್ಯವನ್ನು ಮಾತ್ರ ಬಳಸಬಹುದು. ಆದ್ದರಿಂದ ಯಾವುದೇ HTML ಕೋಡ್ ಅಥವಾ ಇತರ ವಿಶೇಷ ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಇಲ್ಲ"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "4000 ಅಕ್ಷರಗಳವರೆಗಿನ ಸಾಮಾನ್ಯ ಸರಳ ಪಠ್ಯವನ್ನು ಮಾತ್ರ ಬಳಸಬಹುದು. ಆದ್ದರಿಂದ ಯಾವುದೇ HTML ಕೋಡ್ ಅಥವಾ ಇತರ ವಿಶೇಷ ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಇಲ್ಲ",
+"%1$s - behind reverse proxy": "%1$s - ರಿವರ್ಸ್ ಪ್ರಾಕ್ಸಿ ಹಿಂದೆ",
+"%1$s - without reverse proxy": "%1$s - ರಿವರ್ಸ್ ಪ್ರಾಕ್ಸಿ ಇಲ್ಲದೆ",
+"unknown": "ಅಜ್ಞಾತ",
+"type of installation": "ಅನುಸ್ಥಾಪನೆಯ ಪ್ರಕಾರ",
+"web server": "ವೆಬ್ ಸರ್ವರ್",
+"virtual machine": "ವರ್ಚುವಲ್ ಯಂತ್ರ",
+"local installation": "ಸ್ಥಳೀಯ ಅನುಸ್ಥಾಪನೆ"
 },"pluralForm" :"nplurals=2; plural=n > 1;"
 }

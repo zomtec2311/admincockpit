@@ -115,6 +115,13 @@
 "message sent": "הודעה נשלחה",
 "insert message ...": "הוסף הודעה...",
 "send message": "לשלוח הודעה",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "ניתן להשתמש רק בטקסט רגיל עם עד 4000 תווים. אז אין קוד HTML או עיצוב מיוחד אחר"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "ניתן להשתמש רק בטקסט רגיל עם עד 4000 תווים. אז אין קוד HTML או עיצוב מיוחד אחר",
+"%1$s - behind reverse proxy": "%1$s - מאחורי פרוקסי הפוך",
+"%1$s - without reverse proxy": "%1$s - ללא פרוקסי הפוך",
+"unknown": "לֹא יְדוּעַ",
+"type of installation": "סוג ההתקנה",
+"web server": "שרת אינטרנט",
+"virtual machine": "מכונה וירטואלית",
+"local installation": "התקנה מקומית"
 },"pluralForm" :"nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2);"
 }

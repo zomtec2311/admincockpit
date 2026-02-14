@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "送信されたメッセージ",
 "insert message ...": "メッセージを挿入...",
 "send message": "メッセージを送信する",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "最大 4000 文字の通常のプレーン テキストのみを使用できます。したがって、HTML コードやその他の特別な書式設定は必要ありません"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "最大 4000 文字の通常のプレーン テキストのみを使用できます。したがって、HTML コードやその他の特別な書式設定は必要ありません",
+"%1$s - behind reverse proxy": "%1$s - リバースプロキシの背後",
+"%1$s - without reverse proxy": "%1$s - リバースプロキシなし",
+"unknown": "未知",
+"type of installation": "設置の種類",
+"web server": "ウェブサーバー",
+"virtual machine": "仮想マシン",
+"local installation": "ローカルインストール"
 },
 "nplurals=1; plural=0;");

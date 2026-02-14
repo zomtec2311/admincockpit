@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "mesaj trimis",
 "insert message ...": "introduceți mesajul...",
 "send message": "trimite mesaj",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Poate fi folosit doar text simplu normal cu până la 4000 de caractere. Deci, fără cod HTML sau alt format special"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Poate fi folosit doar text simplu normal cu până la 4000 de caractere. Deci, fără cod HTML sau alt format special",
+"%1$s - behind reverse proxy": "%1$s - în spatele proxy invers",
+"%1$s - without reverse proxy": "%1$s - fără proxy invers",
+"unknown": "necunoscut",
+"type of installation": "tip de instalare",
+"web server": "server web",
+"virtual machine": "mașină virtuală",
+"local installation": "instalare locală"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2);");

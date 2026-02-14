@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "poruka poslana",
 "insert message ...": "ubaci poruku...",
 "send message": "poslati poruku",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Može se koristiti samo normalan čisti tekst s do 4000 znakova. Dakle nema HTML koda ili drugog posebnog oblikovanja"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Može se koristiti samo normalan čisti tekst s do 4000 znakova. Dakle nema HTML koda ili drugog posebnog oblikovanja",
+"%1$s - behind reverse proxy": "%1$s - iza obrnutog proxyja",
+"%1$s - without reverse proxy": "%1$s - bez obrnutog proxyja",
+"unknown": "nepoznato",
+"type of installation": "vrsta instalacije",
+"web server": "web poslužitelj",
+"virtual machine": "virtualni stroj",
+"local installation": "lokalna instalacija"
 },
 "nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);");
