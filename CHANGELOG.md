@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.1.6
+
+### Added
+- New function to detect the type of web server and a possible proxy server
+
+### Changed
+- update language files
+
+### Fixed
+- some css cleanups
+
 ## 1.1.5
 
 ### Fixed

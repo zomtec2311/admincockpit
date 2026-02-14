@@ -156,9 +156,9 @@ public function detectEnvironment() {
     } elseif ($this->isRunningInLXC()) {
         return $this->l->t('LXC container');
     } elseif ($this->isRunningInVM()) {
-        return "virtual machine";
+        return $this->l->t('virtual machine');
     } else {
-        return "local installation";
+        return $this->l->t('local installation');
     }
 }
 
@@ -193,6 +193,22 @@ public function isRunningInVM() {
     $virtDetect = shell_exec('systemd-detect-virt');
     return strpos($virtDetect, 'none') === false && !empty($virtDetect);
 }
+
+public function isBehindProxy() {
+    if (isset($_SERVER['HTTP_X_FORWARDED_FOR']) || 
+        isset($_SERVER['HTTP_CLIENT_IP']) || 
+        isset($_SERVER['HTTP_X_REAL_IP'])) {
+        return true;
+    }
+    return false;
+}
+
+public function getServerType() {
+    if (isset($_SERVER['SERVER_SOFTWARE'])) {
+        return $_SERVER['SERVER_SOFTWARE'];
+    }
+    return 'unknown';
+}
  
     public function systeminfo(): DataResponse {
         try {
@@ -201,7 +217,10 @@ public function isRunningInVM() {
             $wttest = $this->myService->getDiskInfo();
             $raminfo = $this->myService->getRAMInfo();
             $ncinfo = $this->myService->getNCInfo();
-            $ncupdate = $this->getSystemStatus();  
+            $ncupdate = $this->getSystemStatus();
+            /*
+             p($l->t('Select file from %1$slocal filesystem%2$s or %3$scloud%4$s', ['<a href="#" id="browselink">', '</a>', '<a href="#" id="cloudlink">', '</a>']));
+             */
             
             return new DataResponse([
                 'hostname' => gethostname(),
@@ -221,6 +240,7 @@ public function isRunningInVM() {
                 'ram_used' => $raminfo['ram_used'],
                 'ram_available' => $raminfo['ram_available'],
                 'ram_percent' => $raminfo['ram_percent'],
+                'webserver' => ($this->isBehindProxy()) ? $this->l->t('%1$s - behind reverse proxy', [$this->getServerType()]) : $this->l->t('%1$s - without reverse proxy', [$this->getServerType()]),
                 'nc_version' => $ncinfo['nc_version'],
                 'nc_installation_type' => $this->detectEnvironment(),
                 'nc_datadirectory' => $ncinfo['datadirectory'],
