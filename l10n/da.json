@@ -116,6 +116,13 @@
 "message sent": "besked sendt",
 "insert message ...": "indsæt besked...",
 "send message": "sende besked",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Der må kun bruges almindelig almindelig tekst med op til 4000 tegn. Altså ingen HTML-kode eller anden speciel formatering"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Der må kun bruges almindelig almindelig tekst med op til 4000 tegn. Altså ingen HTML-kode eller anden speciel formatering",
+"%1$s - behind reverse proxy": "%1$s - bag omvendt proxy",
+"%1$s - without reverse proxy": "%1$s - uden omvendt proxy",
+"unknown": "ukendt",
+"type of installation": "type installation",
+"web server": "webserver",
+"virtual machine": "virtuel maskine",
+"local installation": "lokal installation"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

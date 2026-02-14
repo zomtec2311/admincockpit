@@ -117,6 +117,13 @@ OC.L10N.register(
 "message sent": "پیام ارسال شد",
 "insert message ...": "درج پیام ...",
 "send message": "ارسال پیام",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "فقط می توان از متن ساده معمولی با حداکثر 4000 کاراکتر استفاده کرد. بنابراین هیچ کد HTML یا قالب بندی خاص دیگری وجود ندارد"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "فقط می توان از متن ساده معمولی با حداکثر 4000 کاراکتر استفاده کرد. بنابراین هیچ کد HTML یا قالب بندی خاص دیگری وجود ندارد",
+"%1$s - behind reverse proxy": "%1$s - پشت پراکسی معکوس",
+"%1$s - without reverse proxy": "%1$s - بدون پروکسی معکوس",
+"unknown": "ناشناخته",
+"type of installation": "نوع نصب",
+"web server": "وب سرور",
+"virtual machine": "ماشین مجازی",
+"local installation": "نصب محلی"
 },
 "nplurals=2; plural=n > 1;");

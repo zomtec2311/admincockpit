@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "teachtaireacht seolta",
 "insert message ...": "cuir isteach teachtaireacht...",
 "send message": "seol teachtaireacht",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Ní féidir ach gnáth-théacs ina bhfuil suas le 4000 carachtar a úsáid. Mar sin níl cód HTML nó formáidiú speisialta eile ann"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Ní féidir ach gnáth-théacs ina bhfuil suas le 4000 carachtar a úsáid. Mar sin níl cód HTML nó formáidiú speisialta eile ann",
+"%1$s - behind reverse proxy": "%1$s - taobh thiar seachfhreastalaí droim ar ais",
+"%1$s - without reverse proxy": "%1$s - gan seachfhreastalaí droim ar ais",
+"unknown": "anaithnid",
+"type of installation": "cineál suiteála",
+"web server": "freastalaí gréasáin",
+"virtual machine": "meaisín fíorúil",
+"local installation": "suiteáil áitiúil"
 },
 "nplurals=5; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n >= 3 && n <= 6) ? 2 : ((n >= 7 && n <= 10) ? 3 : 4)));");

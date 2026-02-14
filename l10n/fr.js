@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "message envoyé",
 "insert message ...": "insérer un message...",
 "send message": "envoyer un message",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Seul du texte brut normal comportant jusqu'à 4 000 caractères peut être utilisé. Donc pas de code HTML ou autre formatage particulier"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Seul du texte brut normal comportant jusqu'à 4 000 caractères peut être utilisé. Donc pas de code HTML ou autre formatage particulier",
+"%1$s - behind reverse proxy": "%1$s - derrière le proxy inverse",
+"%1$s - without reverse proxy": "%1$s - sans proxy inverse",
+"unknown": "inconnu",
+"type of installation": "type d'installation",
+"web server": "serveur Web",
+"virtual machine": "machine virtuelle",
+"local installation": "installation locale"
 },
 "nplurals=2; plural=(n != 1);");

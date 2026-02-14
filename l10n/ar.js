@@ -117,6 +117,13 @@ OC.L10N.register(
 "message sent": "تم إرسال الرسالة",
 "insert message ...": "إدراج رسالة...",
 "send message": "أرسل رسالة",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "يمكن استخدام النص العادي العادي الذي يصل طوله إلى 4000 حرف فقط. لذلك لا يوجد كود HTML أو أي تنسيق خاص آخر"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "يمكن استخدام النص العادي العادي الذي يصل طوله إلى 4000 حرف فقط. لذلك لا يوجد كود HTML أو أي تنسيق خاص آخر",
+"%1$s - behind reverse proxy": "%1$s - خلف الوكيل العكسي",
+"%1$s - without reverse proxy": "%1$s - بدون وكيل عكسي",
+"unknown": "مجهول",
+"type of installation": "نوع التثبيت",
+"web server": "خادم الويب",
+"virtual machine": "الآلة الافتراضية",
+"local installation": "التثبيت المحلي"
 },
 "nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));");

@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "বার্তা পাঠানো হয়েছে",
 "insert message ...": "বার্তা সন্নিবেশ করান...",
 "send message": "বার্তা পাঠান",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "4000 পর্যন্ত অক্ষর সহ শুধুমাত্র সাধারণ প্লেইন টেক্সট ব্যবহার করা যেতে পারে। তাই কোন HTML কোড বা অন্যান্য বিশেষ বিন্যাস"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "4000 পর্যন্ত অক্ষর সহ শুধুমাত্র সাধারণ প্লেইন টেক্সট ব্যবহার করা যেতে পারে। তাই কোন HTML কোড বা অন্যান্য বিশেষ বিন্যাস",
+"%1$s - behind reverse proxy": "%1$s - বিপরীত প্রক্সির পিছনে",
+"%1$s - without reverse proxy": "%1$s - বিপরীত প্রক্সি ছাড়া",
+"unknown": "অজানা",
+"type of installation": "ইনস্টলেশনের ধরন",
+"web server": "ওয়েব সার্ভার",
+"virtual machine": "ভার্চুয়াল মেশিন",
+"local installation": "স্থানীয় ইনস্টলেশন"
 },
 "nplurals=2; plural=n > 1;");

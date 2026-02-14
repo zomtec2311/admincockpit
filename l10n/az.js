@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "mesaj göndərildi",
 "insert message ...": "mesaj daxil edin...",
 "send message": "mesaj göndərin",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Yalnız 4000 simvola qədər olan normal düz mətndən istifadə edilə bilər. Beləliklə heç bir HTML kodu və ya digər xüsusi formatlama"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Yalnız 4000 simvola qədər olan normal düz mətndən istifadə edilə bilər. Beləliklə heç bir HTML kodu və ya digər xüsusi formatlama",
+"%1$s - behind reverse proxy": "%1$s - əks proxy arxasında",
+"%1$s - without reverse proxy": "%1$s - əks proxy olmadan",
+"unknown": "naməlum",
+"type of installation": "quraşdırma növü",
+"web server": "veb server",
+"virtual machine": "virtual maşın",
+"local installation": "yerli quraşdırma"
 },
 "nplurals=2; plural=n != 1;");

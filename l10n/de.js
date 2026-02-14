@@ -119,6 +119,12 @@ OC.L10N.register(
 "insert message ...": "Nachricht einfügen ...",
 "send message": "Nachricht senden",
 "Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Es darf nur normaler Klartext mit bis zu 4000 Zeichen verwendet werden. Also kein HTML-Code oder andere spezielle Formatierungen",
-"type of installation": "Installationsart"
+"%1$s - behind reverse proxy": "%1$s – hinter Reverse-Proxy",
+"%1$s - without reverse proxy": "%1$s – ohne Reverse-Proxy",
+"unknown": "unbekannt",
+"type of installation": "Installationsart",
+"web server": "Webserver",
+"virtual machine": "virtuelle Maschine",
+"local installation": "lokale Installation"
 },
 "nplurals=2; plural=(n != 1);");

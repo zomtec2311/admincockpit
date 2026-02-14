@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "neges wedi'i hanfon",
 "insert message ...": "mewnosod neges ...",
 "send message": "anfon neges",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Dim ond testun plaen arferol gyda hyd at 4000 o nodau y gellir ei ddefnyddio. Felly dim cod HTML na fformatio arbennig arall"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Dim ond testun plaen arferol gyda hyd at 4000 o nodau y gellir ei ddefnyddio. Felly dim cod HTML na fformatio arbennig arall",
+"%1$s - behind reverse proxy": "%1$s - y tu ôl i ddirprwy",
+"%1$s - without reverse proxy": "%1$s - heb ddirprwy gwrthdro",
+"unknown": "anhysbys",
+"type of installation": "math o osodiad",
+"web server": "gweinydd gwe",
+"virtual machine": "peiriant rhithwir",
+"local installation": "gosodiad lleol"
 },
 "nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));");

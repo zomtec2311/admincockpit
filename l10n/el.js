@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "εστάλη μήνυμα",
 "insert message ...": "εισαγωγή μηνύματος...",
 "send message": "στείλετε μήνυμα",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Επιτρέπεται η χρήση μόνο κανονικού απλού κειμένου με έως 4000 χαρακτήρες. Έτσι δεν υπάρχει κώδικας HTML ή άλλη ειδική μορφοποίηση"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Επιτρέπεται η χρήση μόνο κανονικού απλού κειμένου με έως 4000 χαρακτήρες. Έτσι δεν υπάρχει κώδικας HTML ή άλλη ειδική μορφοποίηση",
+"%1$s - behind reverse proxy": "%1$s - πίσω από τον αντίστροφο διακομιστή μεσολάβησης",
+"%1$s - without reverse proxy": "%1$s - χωρίς αντίστροφο διακομιστή μεσολάβησης",
+"unknown": "άγνωστος",
+"type of installation": "τύπος εγκατάστασης",
+"web server": "διακομιστή ιστού",
+"virtual machine": "εικονική μηχανή",
+"local installation": "τοπική εγκατάσταση"
 },
 "nplurals=2; plural=n != 1;");

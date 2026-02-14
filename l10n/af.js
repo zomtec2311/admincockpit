@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "boodskap gestuur",
 "insert message ...": "voeg boodskap in ...",
 "send message": "stuur boodskap",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Slegs gewone gewone teks met tot 4000 karakters mag gebruik word. Dus geen HTML-kode of ander spesiale formatering nie"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Slegs gewone gewone teks met tot 4000 karakters mag gebruik word. Dus geen HTML-kode of ander spesiale formatering nie",
+"%1$s - behind reverse proxy": "%1$s - agter omgekeerde proxy",
+"%1$s - without reverse proxy": "%1$s - sonder omgekeerde proxy",
+"unknown": "onbekend",
+"type of installation": "tipe installasie",
+"web server": "webbediener",
+"virtual machine": "virtuele masjien",
+"local installation": "plaaslike installasie"
 },
 "nplurals=2; plural=n != 1;");

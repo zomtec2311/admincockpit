@@ -116,6 +116,13 @@
 "message sent": "bidalitako mezua",
 "insert message ...": "txertatu mezua...",
 "send message": "bidali mezua",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Gehienez 4000 karaktere dituen testu arrunt arrunta soilik erabil daiteke. Beraz ez dago HTML koderik edo beste formatu berezirik"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Gehienez 4000 karaktere dituen testu arrunt arrunta soilik erabil daiteke. Beraz ez dago HTML koderik edo beste formatu berezirik",
+"%1$s - behind reverse proxy": "%1$s - alderantzizko proxy atzean",
+"%1$s - without reverse proxy": "%1$s - alderantzizko proxyrik gabe",
+"unknown": "ezezaguna",
+"type of installation": "instalazio mota",
+"web server": "web zerbitzaria",
+"virtual machine": "makina birtuala",
+"local installation": "tokiko instalazioa"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

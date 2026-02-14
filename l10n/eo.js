@@ -118,6 +118,13 @@ OC.L10N.register(
 "message sent": "mesaĝo sendita",
 "insert message ...": "enigu mesaĝon...",
 "send message": "sendi mesaĝon",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Nur normala simpla teksto kun ĝis 4000 signoj povas esti uzata. Do neniu HTML-kodo aŭ alia speciala formatado"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Nur normala simpla teksto kun ĝis 4000 signoj povas esti uzata. Do neniu HTML-kodo aŭ alia speciala formatado",
+"%1$s - behind reverse proxy": "%1$s - malantaŭ inversa prokurilo",
+"%1$s - without reverse proxy": "%1$s - sen inversa prokurilo",
+"unknown": "nekonata",
+"type of installation": "speco de instalado",
+"web server": "retservilo",
+"virtual machine": "virtuala maŝino",
+"local installation": "loka instalado"
 },
 "nplurals=2; plural=n != 1;");

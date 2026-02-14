@@ -116,6 +116,13 @@
 "message sent": "viesti lähetetty",
 "insert message ...": "laita viesti...",
 "send message": "lähetä viesti",
-"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Vain normaalia enintään 4 000 merkin pituista pelkkää tekstiä saa käyttää. Ei siis HTML-koodia tai muuta erikoismuotoilua"
+"Only normal plain text with up to 4000 characters may be used. So no HTML code or other special formatting": "Vain normaalia enintään 4 000 merkin pituista pelkkää tekstiä saa käyttää. Ei siis HTML-koodia tai muuta erikoismuotoilua",
+"%1$s - behind reverse proxy": "%1$s - käänteisen välityspalvelimen takana",
+"%1$s - without reverse proxy": "%1$s - ilman käänteistä välityspalvelinta",
+"unknown": "tuntematon",
+"type of installation": "asennustyyppi",
+"web server": "web-palvelin",
+"virtual machine": "virtuaalikone",
+"local installation": "paikallinen asennus"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }
