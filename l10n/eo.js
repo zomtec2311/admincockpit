@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "speco de instalado",
 "web server": "retservilo",
 "virtual machine": "virtuala maŝino",
-"local installation": "loka instalado"
+"local installation": "loka instalado",
+"logfile": "logdosiero"
 },
 "nplurals=2; plural=n != 1;");

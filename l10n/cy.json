@@ -123,6 +123,7 @@
 "type of installation": "math o osodiad",
 "web server": "gweinydd gwe",
 "virtual machine": "peiriant rhithwir",
-"local installation": "gosodiad lleol"
+"local installation": "gosodiad lleol",
+"logfile": "ffeil log"
 },"pluralForm" :"nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));"
 }

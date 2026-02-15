@@ -123,6 +123,7 @@
 "type of installation": "asennustyyppi",
 "web server": "web-palvelin",
 "virtual machine": "virtuaalikone",
-"local installation": "paikallinen asennus"
+"local installation": "paikallinen asennus",
+"logfile": "lokitiedosto"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

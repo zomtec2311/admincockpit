@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "instalazio mota",
 "web server": "web zerbitzaria",
 "virtual machine": "makina birtuala",
-"local installation": "tokiko instalazioa"
+"local installation": "tokiko instalazioa",
+"logfile": "log-fitxategia"
 },
 "nplurals=2; plural=n != 1;");

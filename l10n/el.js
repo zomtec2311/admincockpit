@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "τύπος εγκατάστασης",
 "web server": "διακομιστή ιστού",
 "virtual machine": "εικονική μηχανή",
-"local installation": "τοπική εγκατάσταση"
+"local installation": "τοπική εγκατάσταση",
+"logfile": "αρχείο καταγραφής"
 },
 "nplurals=2; plural=n != 1;");

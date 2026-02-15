@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "asennustyyppi",
 "web server": "web-palvelin",
 "virtual machine": "virtuaalikone",
-"local installation": "paikallinen asennus"
+"local installation": "paikallinen asennus",
+"logfile": "lokitiedosto"
 },
 "nplurals=2; plural=n != 1;");

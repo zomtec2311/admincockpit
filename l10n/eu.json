@@ -123,6 +123,7 @@
 "type of installation": "instalazio mota",
 "web server": "web zerbitzaria",
 "virtual machine": "makina birtuala",
-"local installation": "tokiko instalazioa"
+"local installation": "tokiko instalazioa",
+"logfile": "log-fitxategia"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

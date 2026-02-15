@@ -124,6 +124,7 @@ OC.L10N.register(
 "type of installation": "نوع نصب",
 "web server": "وب سرور",
 "virtual machine": "ماشین مجازی",
-"local installation": "نصب محلی"
+"local installation": "نصب محلی",
+"logfile": "فایل لاگ"
 },
 "nplurals=2; plural=n > 1;");

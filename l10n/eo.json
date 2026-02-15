@@ -123,6 +123,7 @@
 "type of installation": "speco de instalado",
 "web server": "retservilo",
 "virtual machine": "virtuala maŝino",
-"local installation": "loka instalado"
+"local installation": "loka instalado",
+"logfile": "logdosiero"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "ইনস্টলেশনের ধরন",
 "web server": "ওয়েব সার্ভার",
 "virtual machine": "ভার্চুয়াল মেশিন",
-"local installation": "স্থানীয় ইনস্টলেশন"
+"local installation": "স্থানীয় ইনস্টলেশন",
+"logfile": "লগফাইল"
 },
 "nplurals=2; plural=n > 1;");

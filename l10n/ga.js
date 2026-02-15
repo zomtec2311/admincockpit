@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "cineál suiteála",
 "web server": "freastalaí gréasáin",
 "virtual machine": "meaisín fíorúil",
-"local installation": "suiteáil áitiúil"
+"local installation": "suiteáil áitiúil",
+"logfile": "logchomhad"
 },
 "nplurals=5; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n >= 3 && n <= 6) ? 2 : ((n >= 7 && n <= 10) ? 3 : 4)));");

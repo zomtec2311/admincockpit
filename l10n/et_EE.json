@@ -123,6 +123,7 @@
 "type of installation": "paigalduse tüüp",
 "web server": "veebiserver",
 "virtual machine": "virtuaalne masin",
-"local installation": "kohalik paigaldus"
+"local installation": "kohalik paigaldus",
+"logfile": "logifail"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

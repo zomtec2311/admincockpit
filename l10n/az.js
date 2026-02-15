@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "quraşdırma növü",
 "web server": "veb server",
 "virtual machine": "virtual maşın",
-"local installation": "yerli quraşdırma"
+"local installation": "yerli quraşdırma",
+"logfile": "logfayl"
 },
 "nplurals=2; plural=n != 1;");

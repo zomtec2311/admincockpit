@@ -123,6 +123,7 @@
 "type of installation": "tipe installasie",
 "web server": "webbediener",
 "virtual machine": "virtuele masjien",
-"local installation": "plaaslike installasie"
+"local installation": "plaaslike installasie",
+"logfile": "loglêer"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }
