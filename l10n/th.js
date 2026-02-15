@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "ประเภทของการติดตั้ง",
 "web server": "เว็บเซิร์ฟเวอร์",
 "virtual machine": "เครื่องเสมือน",
-"local installation": "การติดตั้งในท้องถิ่น"
+"local installation": "การติดตั้งในท้องถิ่น",
+"logfile": "ไฟล์บันทึก"
 },
 "nplurals=1; plural=0;");

@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "telepítés típusa",
 "web server": "webszerver",
 "virtual machine": "virtuális gép",
-"local installation": "helyi telepítés"
+"local installation": "helyi telepítés",
+"logfile": "naplófájl"
 },
 "nplurals=2; plural=n != 1;");

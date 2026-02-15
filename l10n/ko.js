@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "설치 유형",
 "web server": "웹 서버",
 "virtual machine": "가상 머신",
-"local installation": "로컬 설치"
+"local installation": "로컬 설치",
+"logfile": "로그 파일"
 },
 "nplurals=1; plural=0;");

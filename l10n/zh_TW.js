@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "安裝類型",
 "web server": "網路伺服器",
 "virtual machine": "虛擬機",
-"local installation": "本地安裝"
+"local installation": "本地安裝",
+"logfile": "記錄檔"
 },
 "nplurals=1; plural=0;");

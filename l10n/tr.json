@@ -123,6 +123,7 @@
 "type of installation": "kurulum türü",
 "web server": "web sunucusu",
 "virtual machine": "sanal makine",
-"local installation": "yerel kurulum"
+"local installation": "yerel kurulum",
+"logfile": "günlük dosyası"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

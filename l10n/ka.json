@@ -123,6 +123,7 @@
 "type of installation": "ინსტალაციის ტიპი",
 "web server": "ვებ სერვერი",
 "virtual machine": "ვირტუალური მანქანა",
-"local installation": "ადგილობრივი ინსტალაცია"
+"local installation": "ადგილობრივი ინსტალაცია",
+"logfile": "logfile"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

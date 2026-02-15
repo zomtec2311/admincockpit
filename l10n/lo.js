@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "ປະເພດຂອງການຕິດຕັ້ງ",
 "web server": "ເຊີບເວີເວັບ",
 "virtual machine": "ເຄື່ອງ virtual",
-"local installation": "ການ​ຕິດ​ຕັ້ງ​ທ້ອງ​ຖິ່ນ​"
+"local installation": "ການ​ຕິດ​ຕັ້ງ​ທ້ອງ​ຖິ່ນ​",
+"logfile": "logfile"
 },
 "nplurals=1; plural=0;");

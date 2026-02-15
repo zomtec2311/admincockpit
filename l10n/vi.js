@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "kiểu cài đặt",
 "web server": "máy chủ web",
 "virtual machine": "máy ảo",
-"local installation": "cài đặt cục bộ"
+"local installation": "cài đặt cục bộ",
+"logfile": "tập tin nhật ký"
 },
 "nplurals=1; plural=0;");

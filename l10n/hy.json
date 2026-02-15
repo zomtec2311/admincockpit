@@ -123,6 +123,7 @@
 "type of installation": "տեղադրման տեսակը",
 "web server": "վեբ սերվեր",
 "virtual machine": "վիրտուալ մեքենա",
-"local installation": "տեղական տեղադրում"
+"local installation": "տեղական տեղադրում",
+"logfile": "logfile"
 },"pluralForm" :"nplurals=2; plural=n > 1;"
 }

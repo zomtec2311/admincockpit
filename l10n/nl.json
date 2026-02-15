@@ -123,6 +123,7 @@
 "type of installation": "soort installatie",
 "web server": "webserver",
 "virtual machine": "virtuele machine",
-"local installation": "lokale installatie"
+"local installation": "lokale installatie",
+"logfile": "logbestand"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

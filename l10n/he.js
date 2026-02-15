@@ -124,6 +124,7 @@ OC.L10N.register(
 "type of installation": "סוג ההתקנה",
 "web server": "שרת אינטרנט",
 "virtual machine": "מכונה וירטואלית",
-"local installation": "התקנה מקומית"
+"local installation": "התקנה מקומית",
+"logfile": "קובץ יומן"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2);");

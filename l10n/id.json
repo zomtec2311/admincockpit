@@ -123,6 +123,7 @@
 "type of installation": "jenis instalasi",
 "web server": "server web",
 "virtual machine": "mesin virtual",
-"local installation": "instalasi lokal"
+"local installation": "instalasi lokal",
+"logfile": "file log"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

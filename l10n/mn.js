@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "суурилуулах төрөл",
 "web server": "вэб сервер",
 "virtual machine": "виртуал машин",
-"local installation": "орон нутгийн суурилуулалт"
+"local installation": "орон нутгийн суурилуулалт",
+"logfile": "бүртгэлийн файл"
 },
 "nplurals=2; plural=n != 1;");

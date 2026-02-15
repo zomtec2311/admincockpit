@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "gerð uppsetningar",
 "web server": "vefþjónn",
 "virtual machine": "sýndarvél",
-"local installation": "staðbundin uppsetning"
+"local installation": "staðbundin uppsetning",
+"logfile": "logskrá"
 },
 "nplurals=2; plural=n % 10 != 1 || n % 100 == 11;");

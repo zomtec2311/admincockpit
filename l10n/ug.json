@@ -122,6 +122,7 @@
 "type of installation": "قاچىلاش تىپى",
 "web server": "تور مۇلازىمېتىرى",
 "virtual machine": "مەۋھۇم ماشىنا",
-"local installation": "يەرلىك قاچىلاش"
+"local installation": "يەرلىك قاچىلاش",
+"logfile": "logfile"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

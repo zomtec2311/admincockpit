@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "ინსტალაციის ტიპი",
 "web server": "ვებ სერვერი",
 "virtual machine": "ვირტუალური მანქანა",
-"local installation": "ადგილობრივი ინსტალაცია"
+"local installation": "ადგილობრივი ინსტალაცია",
+"logfile": "logfile"
 },
 "nplurals=2; plural=n != 1;");

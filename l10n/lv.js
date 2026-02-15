@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "uzstādīšanas veids",
 "web server": "tīmekļa serveris",
 "virtual machine": "virtuālā mašīna",
-"local installation": "vietējā uzstādīšana"
+"local installation": "vietējā uzstādīšana",
+"logfile": "žurnālfails"
 },
 "nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);");

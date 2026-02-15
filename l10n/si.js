@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "ස්ථාපන වර්ගය",
 "web server": "වෙබ් සේවාදායකය",
 "virtual machine": "අථත්ය යන්ත්රය",
-"local installation": "දේශීය ස්ථාපනය"
+"local installation": "දේශීය ස්ථාපනය",
+"logfile": "logfile"
 },
 "nplurals=2; plural=n > 1;");

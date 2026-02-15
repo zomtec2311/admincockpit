@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "тип на инсталација",
 "web server": "веб сервер",
 "virtual machine": "виртуелна машина",
-"local installation": "локална инсталација"
+"local installation": "локална инсталација",
+"logfile": "лог датотека"
 },
 "nplurals=2; plural=n % 10 != 1 || n % 100 == 11;");

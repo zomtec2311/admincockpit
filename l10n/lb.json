@@ -123,6 +123,7 @@
 "type of installation": "Typ vun Installatioun",
 "web server": "Webserver",
 "virtual machine": "virtuell Maschinn",
-"local installation": "lokal Installatioun"
+"local installation": "lokal Installatioun",
+"logfile": "logfile"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

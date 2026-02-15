@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "typ inštalácie",
 "web server": "webový server",
 "virtual machine": "virtuálny stroj",
-"local installation": "lokálna inštalácia"
+"local installation": "lokálna inštalácia",
+"logfile": "logfile"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);");

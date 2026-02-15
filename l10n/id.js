@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "jenis instalasi",
 "web server": "server web",
 "virtual machine": "mesin virtual",
-"local installation": "instalasi lokal"
+"local installation": "instalasi lokal",
+"logfile": "file log"
 },
 "nplurals=1; plural=0;");

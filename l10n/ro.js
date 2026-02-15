@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "tip de instalare",
 "web server": "server web",
 "virtual machine": "mașină virtuală",
-"local installation": "instalare locală"
+"local installation": "instalare locală",
+"logfile": "fișier jurnal"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2);");

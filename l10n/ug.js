@@ -124,6 +124,7 @@ OC.L10N.register(
 "type of installation": "قاچىلاش تىپى",
 "web server": "تور مۇلازىمېتىرى",
 "virtual machine": "مەۋھۇم ماشىنا",
-"local installation": "يەرلىك قاچىلاش"
+"local installation": "يەرلىك قاچىلاش",
+"logfile": "logfile"
 },
 "nplurals=2; plural=n != 1;");

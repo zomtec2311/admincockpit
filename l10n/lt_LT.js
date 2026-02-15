@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "įrengimo tipas",
 "web server": "žiniatinklio serveris",
 "virtual machine": "virtuali mašina",
-"local installation": "vietinis įrengimas"
+"local installation": "vietinis įrengimas",
+"logfile": "žurnalo failą"
 },
 "nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);");

@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "ប្រភេទនៃការដំឡើង",
 "web server": "ម៉ាស៊ីនមេគេហទំព័រ",
 "virtual machine": "ម៉ាស៊ីននិម្មិត",
-"local installation": "ការដំឡើងក្នុងស្រុក"
+"local installation": "ការដំឡើងក្នុងស្រុក",
+"logfile": "ឯកសារកំណត់ហេតុ"
 },
 "nplurals=1; plural=0;");

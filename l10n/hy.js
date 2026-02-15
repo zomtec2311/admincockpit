@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "տեղադրման տեսակը",
 "web server": "վեբ սերվեր",
 "virtual machine": "վիրտուալ մեքենա",
-"local installation": "տեղական տեղադրում"
+"local installation": "տեղական տեղադրում",
+"logfile": "logfile"
 },
 "nplurals=2; plural=n > 1;");

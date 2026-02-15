@@ -123,6 +123,7 @@
 "type of installation": "kiểu cài đặt",
 "web server": "máy chủ web",
 "virtual machine": "máy ảo",
-"local installation": "cài đặt cục bộ"
+"local installation": "cài đặt cục bộ",
+"logfile": "tập tin nhật ký"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

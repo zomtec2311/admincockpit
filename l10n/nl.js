@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "soort installatie",
 "web server": "webserver",
 "virtual machine": "virtuele machine",
-"local installation": "lokale installatie"
+"local installation": "lokale installatie",
+"logfile": "logbestand"
 },
 "nplurals=2; plural=n != 1;");

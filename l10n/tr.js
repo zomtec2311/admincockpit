@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "kurulum türü",
 "web server": "web sunucusu",
 "virtual machine": "sanal makine",
-"local installation": "yerel kurulum"
+"local installation": "yerel kurulum",
+"logfile": "günlük dosyası"
 },
 "nplurals=2; plural=n != 1;");

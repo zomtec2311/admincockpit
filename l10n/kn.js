@@ -125,6 +125,7 @@ OC.L10N.register(
 "type of installation": "ಅನುಸ್ಥಾಪನೆಯ ಪ್ರಕಾರ",
 "web server": "ವೆಬ್ ಸರ್ವರ್",
 "virtual machine": "ವರ್ಚುವಲ್ ಯಂತ್ರ",
-"local installation": "ಸ್ಥಳೀಯ ಅನುಸ್ಥಾಪನೆ"
+"local installation": "ಸ್ಥಳೀಯ ಅನುಸ್ಥಾಪನೆ",
+"logfile": "ಲಾಗ್‌ಫೈಲ್"
 },
 "nplurals=2; plural=n > 1;");
