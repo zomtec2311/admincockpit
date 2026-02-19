@@ -218,6 +218,7 @@ public function getServerType() {
             $raminfo = $this->myService->getRAMInfo();
             $ncinfo = $this->myService->getNCInfo();
             $ncupdate = $this->getSystemStatus();
+            $logfile = $this->getlogfile();
             /*
              p($l->t('Select file from %1$slocal filesystem%2$s or %3$scloud%4$s', ['<a href="#" id="browselink">', '</a>', '<a href="#" id="cloudlink">', '</a>']));
              */
@@ -248,6 +249,8 @@ public function getServerType() {
                 'nc_currentVersion' => $ncupdate['currentVersion'],
                 'nc_updateVersion' => $ncupdate['updateVersion'],
                 'nc_currentVersionimplode' => $ncupdate['currentVersionimplode'],
+                'nc_logfile' => $logfile['file'],
+                'nc_logfile_size' => $logfile['filesize'],
             ]);
         } catch (\Throwable $e) {
             $this->logger->error(
@@ -289,6 +292,39 @@ public function getServerType() {
         ];
     return $data;
 }
+
+ public function getlogfile(): array {
+     
+        $wtlogfile = $this->config->getSystemValue('logfile');
+		if (!file_exists($wtlogfile)) {
+			$wtlogfile = $this->config->getSystemValue('datadirectory') . '/nextcloud.log';
+		}
+		if (file_exists($wtlogfile)) {
+			$data = [
+            'file' => $wtlogfile,
+            'filesize' => $this->show_filesize($wtlogfile, 2),
+            ];
+            return $data;
+            }
+		else {
+            $data = [
+            'file' => $this->l->t('not available'),
+            'filesize' => $this->l->t('not available'),
+            ];
+            return $data;
+            }
+			
+		}
+		
+		public function show_filesize($filename, $decimalplaces = 0) {
+            $size = filesize($filename);
+            $sizes = array('B', 'kB', 'MB', 'GB', 'TB');
+            for ($i=0; $size > 1024 && $i < count($sizes) - 1; $i++) {
+                $size /= 1024;
+            }
+            return round($size, $decimalplaces).' '.$sizes[$i];
+        }
+
 
 protected function checkCoreUpdate(): void {
 		if (!$this->config->getSystemValueBool('updatechecker', true)) {

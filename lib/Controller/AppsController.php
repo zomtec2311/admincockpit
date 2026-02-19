@@ -117,70 +117,33 @@ class AppsController extends Controller {
             $thisappsenabledfull = $this->appsfull($thisappsenabled);
             $getadminsections = $this->settingManager->getAdminSections();
             $getpersonalsections = $this->settingManager->getPersonalSections();
-            $dummy = [];
-            $i = 0;
-            foreach($getadminsections as $key => $value){
-                $dummy[$i] = $key;
-                $i++;
-            }
             $adminsections = [];
             $adminsectionsappname = [];
+            $adminsectionsappicon = [];
             $i = 0;
-            foreach($dummy as $key => $value){
-                    $adminsections[$i] = $getadminsections[$value][0]->getID();
-                    $adminsectionsappname[$i] = $getadminsections[$value][0]->getName();
-                    $adminsectionsappicon[$i] = $getadminsections[$value][0]->getIcon();
-                    if (isset($value[1])) {
-                        if ( $getadminsections[$value][1] != '' ) {
-                            $adminsections[$i + 1] = $getadminsections[$value][1]->getID();
-                            $adminsectionsappname[$i +1 ] = $getadminsections[$value][1]->getName();
-                            $adminsectionsappicon[$i + 1] = $getadminsections[$value][1]->getIcon();
-                            $i = $i+1;
-                        }
-                    }
-                    if (isset($value[2])) {
-                        if ( $getadminsections[$value][2] != '' ) {
-                            $adminsections[$i + 1] = $getadminsections[$value][2]->getID();
-                            $adminsectionsappname[$i +1 ] = $getadminsections[$value][2]->getName();
-                            $adminsectionsappicon[$i + 1] = $getadminsections[$value][2]->getIcon();
-                            $i = $i+1;
-                        }
-                    }
+            foreach ($getadminsections as $dummy) {
+                foreach ($dummy as $adminsection) {
+                    if ($adminsection->getID() != 'additional') {				
+                        $adminsections[$i] = $adminsection->getID();
+                        $adminsectionsappname[$i] = $adminsection->getName() ?: $adminsection->getID();
+                        $adminsectionsappicon[$i] = $adminsection->getIcon();
+                }
                     $i++;
-            }
-            $dummy = [];
-            $i = 0;
-            foreach($getpersonalsections as $key => $value){
-                $dummy[$i] = $key;
-                $i++;
+                }
             }
             $personalsections = [];
             $personalsectionsappname = [];
+            $personalsectionsappicon = [];
             $i = 0;
-            foreach($dummy as $key => $value){
-                    $personalsections[$i] = $getpersonalsections[$value][0]->getID();
-                    $personalsectionsappname[$i] = $getpersonalsections[$value][0]->getName();
-                    $personalsectionsappicon[$i] = $getpersonalsections[$value][0]->getIcon();
-                
-                 if (isset($value[1])) {   
-                    if ( $getpersonalsections[$value][1] != '' ) {
-                        if ($getpersonalsections[$value][1]->getID() != 'calendar') {
-                            $personalsections[$i + 1] = $getpersonalsections[$value][1]->getID();
-                            $personalsectionsappname[$i +1 ] = $getpersonalsections[$value][1]->getName();
-                            $personalsectionsappicon[$i + 1] = $getpersonalsections[$value][1]->getIcon();
-                            $i = $i+1;
-                        }
+            foreach ($getpersonalsections as $dummy) {
+                foreach ($dummy as $personalsection) {
+                    if ($personalsection->getID() != 'calendar') {
+                        $personalsections[$i] = $personalsection->getID();
+                        $personalsectionsappname[$i] = $personalsection->getName() ?: $personalsection->getID();
+                        $personalsectionsappicon[$i] = $personalsection->getIcon();
                     }
+                    $i++;
                 }
-                if (isset($value[2])) {
-                    if ( $getpersonalsections[$value][2] != '' ) {
-                            $personalsections[$i + 1] = $getpersonalsections[$value][2]->getID();
-                            $personalsectionsappname[$i +1 ] = $getpersonalsections[$value][2]->getName();
-                            $personalsectionsappicon[$i + 1] = $getpersonalsections[$value][2]->getIcon();
-                            $i = $i+1;
-                    }
-                }
-                $i++;
             }
 
             return new DataResponse([

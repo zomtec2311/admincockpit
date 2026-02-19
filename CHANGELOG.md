@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.1.7
+
+### Added
+- informations about logfile
+
+### Changed
+- update language files
+
+### Fixed
+- Additional settings error ([#7](https://github.com/zomtec2311/admincockpit/issues/7)) @onacilam
+
 ## 1.1.6
 
 ### Added
