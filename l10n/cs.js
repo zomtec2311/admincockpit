@@ -113,7 +113,7 @@ OC.L10N.register(
 "group administrator for": "správce skupiny pro",
 "manager": "manažer",
 "Could not update app.": "Aplikaci nelze aktualizovat.",
-"Threads": "Vlákna",
+"Threads": "vláken",
 "message from %1$s": "zpráva od %1$s",
 "message sent": "zpráva odeslána",
 "insert message ...": "vložit zprávu...",
