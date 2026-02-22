@@ -258,14 +258,11 @@ public function getDBSystemInfo(): array {
                     $key = trim($key);
                     $value = trim($value);
                     if ($key === 'model name') $cpuInfo['model'] = $value;
-                    if ($key === 'cpu cores') $cpuInfo['cores'] = $value;
                     if ($key === 'Model') $cpuInfo['model1'] = $value;
                 }
             }
         }
-        if (empty($cpuInfo['cores'])) {
-            $cpuInfo['cores'] = shell_exec('nproc') ?: 'unknown';
-        }
+        $cpuInfo['cores'] = $this->getCpuCoreCount();
         if (empty($cpuInfo['model'])) {
             $cpuInfo['model'] = $cpuInfo['model1'] ?: 'unknown';
         }
@@ -273,6 +270,16 @@ public function getDBSystemInfo(): array {
         $cpuInfo['load'] = $load;
 
         return $cpuInfo;
+    }
+    
+    public function getCpuCoreCount() {
+        if (PHP_OS_FAMILY == 'Windows') {
+            $cores = shell_exec('echo %NUMBER_OF_PROCESSORS%');
+        }
+        else {
+            $cores = shell_exec('nproc');
+        }
+        return (int)$cores;
     }
     
     public function getRamInfo(): array {
@@ -310,11 +317,10 @@ public function getDBSystemInfo(): array {
     public function getPhpEnvironmentInfo() {
         $mlimit = ini_get('memory_limit');
 
-  $int_var = preg_replace('/[^0-9]/', '', $mlimit); 
-  if ($int_var > 1000) { $mlimit = $this->humanReadableSize($int_var / 1024); }
+        $int_var = preg_replace('/[^0-9]/', '', $mlimit); 
+        if ($int_var > 1000) { $mlimit = $this->humanReadableSize($int_var / 1024); }
   
         return [
-            // 1. PHP Version
             'php_version' => PHP_VERSION,
             'memory_limit' => $mlimit,
             'max_execution_time' => ini_get('max_execution_time'),
