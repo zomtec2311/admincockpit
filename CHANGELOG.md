@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.1.8
+
+### Fixed
+- displayed number of cpu threads was wrong ([#8](https://github.com/zomtec2311/admincockpit/issues/8)) @onacilam
+
+### Added
+- new function displaying network informations
+
+### Changed
+- update language files
+
 ## 1.1.7
 
 ### Added
