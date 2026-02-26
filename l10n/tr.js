@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "web sunucusu",
 "virtual machine": "sanal makine",
 "local installation": "yerel kurulum",
-"logfile": "günlük dosyası"
+"logfile": "günlük dosyası",
+"network interfaces": "ağ arayüzleri",
+"speed:": "hız:",
+"status:": "durum:"
 },
 "nplurals=2; plural=n != 1;");

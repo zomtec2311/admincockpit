@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "máy chủ web",
 "virtual machine": "máy ảo",
 "local installation": "cài đặt cục bộ",
-"logfile": "tập tin nhật ký"
+"logfile": "tập tin nhật ký",
+"network interfaces": "giao diện mạng",
+"speed:": "tốc độ:",
+"status:": "trạng thái:"
 },
 "nplurals=1; plural=0;");

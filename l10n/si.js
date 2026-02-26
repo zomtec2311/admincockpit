@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "වෙබ් සේවාදායකය",
 "virtual machine": "අථත්ය යන්ත්රය",
 "local installation": "දේශීය ස්ථාපනය",
-"logfile": "logfile"
+"logfile": "logfile",
+"network interfaces": "ජාල අතුරුමුහුණත්",
+"speed:": "වේගය:",
+"status:": "තත්ත්වය:"
 },
 "nplurals=2; plural=n > 1;");

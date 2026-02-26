@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "webszerver",
 "virtual machine": "virtuális gép",
 "local installation": "helyi telepítés",
-"logfile": "naplófájl"
+"logfile": "naplófájl",
+"network interfaces": "hálózati interfészek",
+"speed:": "sebesség:",
+"status:": "állapot:"
 },
 "nplurals=2; plural=n != 1;");

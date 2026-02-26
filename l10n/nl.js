@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "webserver",
 "virtual machine": "virtuele machine",
 "local installation": "lokale installatie",
-"logfile": "logbestand"
+"logfile": "logbestand",
+"network interfaces": "netwerkinterfaces",
+"speed:": "snelheid:",
+"status:": "status:"
 },
 "nplurals=2; plural=n != 1;");

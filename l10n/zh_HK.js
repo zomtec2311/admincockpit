@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "網路伺服器",
 "virtual machine": "虛擬機",
 "local installation": "本地安裝",
-"logfile": "記錄檔"
+"logfile": "記錄檔",
+"network interfaces": "網路介面",
+"speed:": "速度：",
+"status:": "地位："
 },
 "nplurals=1; plural=0;");

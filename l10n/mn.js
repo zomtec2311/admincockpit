@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "вэб сервер",
 "virtual machine": "виртуал машин",
 "local installation": "орон нутгийн суурилуулалт",
-"logfile": "бүртгэлийн файл"
+"logfile": "бүртгэлийн файл",
+"network interfaces": "сүлжээний интерфейсүүд",
+"speed:": "хурд:",
+"status:": "статус:"
 },
 "nplurals=2; plural=n != 1;");

@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "ເຊີບເວີເວັບ",
 "virtual machine": "ເຄື່ອງ virtual",
 "local installation": "ການ​ຕິດ​ຕັ້ງ​ທ້ອງ​ຖິ່ນ​",
-"logfile": "logfile"
+"logfile": "logfile",
+"network interfaces": "ການໂຕ້ຕອບເຄືອຂ່າຍ",
+"speed:": "ຄວາມໄວ:",
+"status:": "ສະຖານະ:"
 },
 "nplurals=1; plural=0;");

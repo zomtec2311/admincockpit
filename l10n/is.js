@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "vefþjónn",
 "virtual machine": "sýndarvél",
 "local installation": "staðbundin uppsetning",
-"logfile": "logskrá"
+"logfile": "logskrá",
+"network interfaces": "netviðmót",
+"speed:": "hraði:",
+"status:": "staða:"
 },
 "nplurals=2; plural=n % 10 != 1 || n % 100 == 11;");

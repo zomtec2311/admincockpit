@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "ვებ სერვერი",
 "virtual machine": "ვირტუალური მანქანა",
 "local installation": "ადგილობრივი ინსტალაცია",
-"logfile": "logfile"
+"logfile": "logfile",
+"network interfaces": "ქსელის ინტერფეისები",
+"speed:": "სიჩქარე:",
+"status:": "სტატუსი:"
 },
 "nplurals=2; plural=n != 1;");

@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "ម៉ាស៊ីនមេគេហទំព័រ",
 "virtual machine": "ម៉ាស៊ីននិម្មិត",
 "local installation": "ការដំឡើងក្នុងស្រុក",
-"logfile": "ឯកសារកំណត់ហេតុ"
+"logfile": "ឯកសារកំណត់ហេតុ",
+"network interfaces": "ចំណុចប្រទាក់បណ្តាញ",
+"speed:": "ល្បឿន៖",
+"status:": "ស្ថានភាព៖"
 },
 "nplurals=1; plural=0;");

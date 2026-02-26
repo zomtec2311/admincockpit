@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "ವೆಬ್ ಸರ್ವರ್",
 "virtual machine": "ವರ್ಚುವಲ್ ಯಂತ್ರ",
 "local installation": "ಸ್ಥಳೀಯ ಅನುಸ್ಥಾಪನೆ",
-"logfile": "ಲಾಗ್‌ಫೈಲ್"
+"logfile": "ಲಾಗ್‌ಫೈಲ್",
+"network interfaces": "ನೆಟ್ವರ್ಕ್ ಇಂಟರ್ಫೇಸ್ಗಳು",
+"speed:": "ವೇಗ:",
+"status:": "ಸ್ಥಿತಿ:"
 },
 "nplurals=2; plural=n > 1;");

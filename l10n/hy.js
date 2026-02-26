@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "վեբ սերվեր",
 "virtual machine": "վիրտուալ մեքենա",
 "local installation": "տեղական տեղադրում",
-"logfile": "logfile"
+"logfile": "logfile",
+"network interfaces": "ցանցային ինտերֆեյսներ",
+"speed:": "արագություն:",
+"status:": "կարգավիճակը:"
 },
 "nplurals=2; plural=n > 1;");

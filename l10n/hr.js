@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "web poslužitelj",
 "virtual machine": "virtualni stroj",
 "local installation": "lokalna instalacija",
-"logfile": "zapisnička datoteka"
+"logfile": "zapisnička datoteka",
+"network interfaces": "mrežna sučelja",
+"speed:": "ubrzati:",
+"status:": "status:"
 },
 "nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);");

@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "tīmekļa serveris",
 "virtual machine": "virtuālā mašīna",
 "local installation": "vietējā uzstādīšana",
-"logfile": "žurnālfails"
+"logfile": "žurnālfails",
+"network interfaces": "tīkla saskarnes",
+"speed:": "ātrums:",
+"status:": "statuss:"
 },
 "nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);");

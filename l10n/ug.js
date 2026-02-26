@@ -125,6 +125,9 @@ OC.L10N.register(
 "web server": "تور مۇلازىمېتىرى",
 "virtual machine": "مەۋھۇم ماشىنا",
 "local installation": "يەرلىك قاچىلاش",
-"logfile": "logfile"
+"logfile": "logfile",
+"network interfaces": "تور ئارايۈزى",
+"speed:": "سۈرئەت:",
+"status:": "ھالىتى:"
 },
 "nplurals=2; plural=n != 1;");
