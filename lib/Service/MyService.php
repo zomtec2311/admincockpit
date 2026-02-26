@@ -340,9 +340,7 @@ public function getDBSystemInfo(): array {
 
     try {
         $disks = $this->executeCommand('df -TPk');
-    } catch (RuntimeException $e) {'ipv4' => !empty($ipv4Collector) ? implode(',<br>', array_unique($ipv4Collector)) : 'N/A',
-        'ipv6' => !empty($ipv6Collector) ? implode(',<br>', array_unique($ipv6Collector)) : 'N/A'
-    ];
+    } catch (RuntimeException $e) {
         return $data;
     }
 
