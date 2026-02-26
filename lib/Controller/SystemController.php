@@ -217,11 +217,9 @@ public function getServerType() {
             $wttest = $this->myService->getDiskInfo();
             $raminfo = $this->myService->getRAMInfo();
             $ncinfo = $this->myService->getNCInfo();
+            $mynetwork = $this->myService->getNetworkInterfaces();
             $ncupdate = $this->getSystemStatus();
             $logfile = $this->getlogfile();
-            /*
-             p($l->t('Select file from %1$slocal filesystem%2$s or %3$scloud%4$s', ['<a href="#" id="browselink">', '</a>', '<a href="#" id="cloudlink">', '</a>']));
-             */
             
             return new DataResponse([
                 'hostname' => gethostname(),
@@ -251,6 +249,7 @@ public function getServerType() {
                 'nc_currentVersionimplode' => $ncupdate['currentVersionimplode'],
                 'nc_logfile' => $logfile['file'],
                 'nc_logfile_size' => $logfile['filesize'],
+                'network' => $mynetwork,
             ]);
         } catch (\Throwable $e) {
             $this->logger->error(

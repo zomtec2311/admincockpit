@@ -262,6 +262,7 @@ public function getDBSystemInfo(): array {
                 }
             }
         }
+        
         $cpuInfo['cores'] = $this->getCpuCoreCount();
         if (empty($cpuInfo['model'])) {
             $cpuInfo['model'] = $cpuInfo['model1'] ?: 'unknown';
@@ -317,8 +318,8 @@ public function getDBSystemInfo(): array {
     public function getPhpEnvironmentInfo() {
         $mlimit = ini_get('memory_limit');
 
-        $int_var = preg_replace('/[^0-9]/', '', $mlimit); 
-        if ($int_var > 1000) { $mlimit = $this->humanReadableSize($int_var / 1024); }
+  $int_var = preg_replace('/[^0-9]/', '', $mlimit); 
+  if ($int_var > 1000) { $mlimit = $this->humanReadableSize($int_var / 1024); }
   
         return [
             'php_version' => PHP_VERSION,
@@ -339,7 +340,9 @@ public function getDBSystemInfo(): array {
 
     try {
         $disks = $this->executeCommand('df -TPk');
-    } catch (RuntimeException $e) {
+    } catch (RuntimeException $e) {'ipv4' => !empty($ipv4Collector) ? implode(',<br>', array_unique($ipv4Collector)) : 'N/A',
+        'ipv6' => !empty($ipv6Collector) ? implode(',<br>', array_unique($ipv6Collector)) : 'N/A'
+    ];
         return $data;
     }
 
@@ -401,4 +404,113 @@ public function getDBSystemInfo(): array {
 
 		return $output;
 	}
+
+    public function getNetworkInterfaces(): array {
+        if (stristr(PHP_OS, 'WIN') !== false) {
+            return $this->getWindowsNetworkInterfaces();
+        }
+        return $this->getLinuxNetworkInterfaces();
+    }
+
+    private function getLinuxNetworkInterfaces(): array {
+        $networkInfo = [];
+        $interfacePathBase = '/sys/class/net';
+
+        if (!is_dir($interfacePathBase)) {
+            return [['interface' => 'Error', 'status' => 'No /sys/class/net found', 'speed' => '', 'MAC' => '', 'IPv4' => 'N/A', 'IPv6' => 'N/A']];
+        }
+
+        $interfaces = array_diff(scandir($interfacePathBase), ['.', '..']);
+
+        foreach ($interfaces as $name) {
+            $path = $interfacePathBase . '/' . $name;
+
+            $status = $this->readContent("$path/operstate") ?: 'unknown';
+            if ($name === 'lo' && $status === 'unknown') {
+                $status = 'up';
+            }
+            $mac      = $this->readContent("$path/address") ?: 'N/A';
+            $speedRaw = (int)$this->readContent("$path/speed");
+            $duplex   = $this->readContent("$path/duplex") ?: 'unknown';
+
+            $speed = "unknown";
+            if ($speedRaw > 0) {
+                $speed = ($speedRaw >= 1000) ? ($speedRaw / 1000) . " Gbps" : $speedRaw . " Mbps";
+            }
+
+            $ips = $this->getIPsForInterface($name);
+
+            $networkInfo[] = [
+                'interface' => $name,
+                'status'    => $status,
+                'speed'     => "$speed (Duplex: $duplex)",
+                'MAC'       => $mac,
+                'IPv4'      => $ips['ipv4'],
+                'IPv6'      => $ips['ipv6']
+            ];
+        }
+
+        return $networkInfo;
+    }
+
+    private function getIPsForInterface(string $interfaceName): array {
+        $ipv4Collector = [];
+        $ipv6Collector = [];
+
+        if (function_exists('net_get_interfaces')) {
+            $allInterfaces = @net_get_interfaces();
+            if (isset($allInterfaces[$interfaceName])) {
+                foreach ($allInterfaces[$interfaceName]['unicast'] as $details) {
+                    if (isset($details['family'])) {
+                        if ($details['family'] === 2) {
+                            $ipv4Collector[] = $details['address'];
+                        } elseif ($details['family'] === 10) {
+                            $ipv6Collector[] = $details['address'];
+                        }
+                    }
+                }
+            }
+        }
+
+        if (empty($ipv4Collector)) {
+            $ipBinary = null;
+            foreach (['/sbin/ip', '/usr/bin/ip', '/bin/ip'] as $path) {
+                if (@is_executable($path)) { $ipBinary = $path; break; }
+            }
+
+            if ($ipBinary || shell_exec('command -v ip')) {
+                $bin = $ipBinary ?: 'ip';
+                $output = shell_exec("$bin -j addr show $interfaceName 2>/dev/null");
+                $data = json_decode($output, true);
+                
+                if (is_array($data) && !empty($data[0]['addr_info'])) {
+                    foreach ($data[0]['addr_info'] as $addr) {
+                        if ($addr['family'] === 'inet') {
+                            $ipv4Collector[] = $addr['local'];
+                        } elseif ($addr['family'] === 'inet6') {
+                            $ipv6Collector[] = $addr['local'];
+                        }
+                    }
+                }
+            }
+        }
+
+        return [
+            'ipv4' => !empty($ipv4Collector) ? implode(',<br>', array_unique($ipv4Collector)) : 'N/A',
+            'ipv6' => !empty($ipv6Collector) ? implode(',<br>', array_unique($ipv6Collector)) : 'N/A'
+        ];
+    }
+
+    private function readContent(string $path): string {
+        if (!file_exists($path) || !is_readable($path)) {
+            return '';
+        }
+        $content = @file_get_contents($path);
+        return $content !== false ? trim($content) : '';
+        }
+
+    private function getWindowsNetworkInterfaces(): array {
+        $networkInfo = [];
+        return $networkInfo;
+    }    
 }
