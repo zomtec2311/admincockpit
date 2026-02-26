@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "διακομιστή ιστού",
 "virtual machine": "εικονική μηχανή",
 "local installation": "τοπική εγκατάσταση",
-"logfile": "αρχείο καταγραφής"
+"logfile": "αρχείο καταγραφής",
+"network interfaces": "διεπαφές δικτύου",
+"speed:": "ταχύτητα:",
+"status:": "κατάσταση:"
 },
 "nplurals=2; plural=n != 1;");

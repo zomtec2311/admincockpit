@@ -125,6 +125,9 @@ OC.L10N.register(
 "web server": "وب سرور",
 "virtual machine": "ماشین مجازی",
 "local installation": "نصب محلی",
-"logfile": "فایل لاگ"
+"logfile": "فایل لاگ",
+"network interfaces": "رابط های شبکه",
+"speed:": "سرعت:",
+"status:": "وضعیت:"
 },
 "nplurals=2; plural=n > 1;");

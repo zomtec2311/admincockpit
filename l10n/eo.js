@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "retservilo",
 "virtual machine": "virtuala maŝino",
 "local installation": "loka instalado",
-"logfile": "logdosiero"
+"logfile": "logdosiero",
+"network interfaces": "retaj interfacoj",
+"speed:": "rapido:",
+"status:": "stato:"
 },
 "nplurals=2; plural=n != 1;");

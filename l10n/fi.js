@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "web-palvelin",
 "virtual machine": "virtuaalikone",
 "local installation": "paikallinen asennus",
-"logfile": "lokitiedosto"
+"logfile": "lokitiedosto",
+"network interfaces": "verkkoliitännät",
+"speed:": "nopeus:",
+"status:": "status:"
 },
 "nplurals=2; plural=n != 1;");

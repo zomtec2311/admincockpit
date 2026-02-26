@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "gweinydd gwe",
 "virtual machine": "peiriant rhithwir",
 "local installation": "gosodiad lleol",
-"logfile": "ffeil log"
+"logfile": "ffeil log",
+"network interfaces": "rhyngwynebau rhwydwaith",
+"speed:": "cyflymder:",
+"status:": "statws:"
 },
 "nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));");

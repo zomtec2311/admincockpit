@@ -124,6 +124,9 @@
 "web server": "διακομιστή ιστού",
 "virtual machine": "εικονική μηχανή",
 "local installation": "τοπική εγκατάσταση",
-"logfile": "αρχείο καταγραφής"
+"logfile": "αρχείο καταγραφής",
+"network interfaces": "διεπαφές δικτύου",
+"speed:": "ταχύτητα:",
+"status:": "κατάσταση:"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

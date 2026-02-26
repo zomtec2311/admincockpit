@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "уеб сървър",
 "virtual machine": "виртуална машина",
 "local installation": "локална инсталация",
-"logfile": "лог файл"
+"logfile": "лог файл",
+"network interfaces": "мрежови интерфейси",
+"speed:": "скорост:",
+"status:": "състояние:"
 },
 "nplurals=2; plural=n != 1;");

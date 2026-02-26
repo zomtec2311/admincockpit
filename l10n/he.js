@@ -125,6 +125,9 @@ OC.L10N.register(
 "web server": "שרת אינטרנט",
 "virtual machine": "מכונה וירטואלית",
 "local installation": "התקנה מקומית",
-"logfile": "קובץ יומן"
+"logfile": "קובץ יומן",
+"network interfaces": "ממשקי רשת",
+"speed:": "מְהִירוּת:",
+"status:": "סטָטוּס:"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2);");

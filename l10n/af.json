@@ -124,6 +124,9 @@
 "web server": "webbediener",
 "virtual machine": "virtuele masjien",
 "local installation": "plaaslike installasie",
-"logfile": "loglêer"
+"logfile": "loglêer",
+"network interfaces": "netwerk koppelvlakke",
+"speed:": "spoed:",
+"status:": "status:"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

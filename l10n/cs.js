@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "webový server",
 "virtual machine": "virtuální počítač",
 "local installation": "místní instalace",
-"logfile": "logfile"
+"logfile": "logfile",
+"network interfaces": "síťová rozhraní",
+"speed:": "rychlost:",
+"status:": "postavení:"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);");

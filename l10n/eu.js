@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "web zerbitzaria",
 "virtual machine": "makina birtuala",
 "local installation": "tokiko instalazioa",
-"logfile": "log-fitxategia"
+"logfile": "log-fitxategia",
+"network interfaces": "sareko interfazeak",
+"speed:": "abiadura:",
+"status:": "egoera:"
 },
 "nplurals=2; plural=n != 1;");

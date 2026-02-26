@@ -123,6 +123,9 @@
 "web server": "وب سرور",
 "virtual machine": "ماشین مجازی",
 "local installation": "نصب محلی",
-"logfile": "فایل لاگ"
+"logfile": "فایل لاگ",
+"network interfaces": "رابط های شبکه",
+"speed:": "سرعت:",
+"status:": "وضعیت:"
 },"pluralForm" :"nplurals=2; plural=n > 1;"
 }

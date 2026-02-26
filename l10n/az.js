@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "veb server",
 "virtual machine": "virtual maşın",
 "local installation": "yerli quraşdırma",
-"logfile": "logfayl"
+"logfile": "logfayl",
+"network interfaces": "şəbəkə interfeysləri",
+"speed:": "sürət:",
+"status:": "status:"
 },
 "nplurals=2; plural=n != 1;");

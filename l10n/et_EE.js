@@ -127,6 +127,9 @@ OC.L10N.register(
 "web server": "veebiserver",
 "virtual machine": "virtuaalne masin",
 "local installation": "kohalik paigaldus",
-"logfile": "logifail"
+"logfile": "logifail",
+"network interfaces": "network interfaces",
+"speed:": "kiirus:",
+"status:": "olek:"
 },
 "nplurals=2; plural=n != 1;");

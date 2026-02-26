@@ -124,6 +124,9 @@
 "web server": "web server",
 "virtual machine": "virtual machine",
 "local installation": "local installation",
-"logfile": "logfile"
+"logfile": "logfile",
+"network interfaces": "network interfaces",
+"speed:": "speed:",
+"status:": "status:"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

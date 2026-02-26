@@ -124,6 +124,9 @@
 "web server": "web zerbitzaria",
 "virtual machine": "makina birtuala",
 "local installation": "tokiko instalazioa",
-"logfile": "log-fitxategia"
+"logfile": "log-fitxategia",
+"network interfaces": "sareko interfazeak",
+"speed:": "abiadura:",
+"status:": "egoera:"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

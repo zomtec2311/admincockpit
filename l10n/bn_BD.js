@@ -126,6 +126,9 @@ OC.L10N.register(
 "web server": "ওয়েব সার্ভার",
 "virtual machine": "ভার্চুয়াল মেশিন",
 "local installation": "স্থানীয় ইনস্টলেশন",
-"logfile": "লগফাইল"
+"logfile": "লগফাইল",
+"network interfaces": "নেটওয়ার্ক ইন্টারফেস",
+"speed:": "গতি:",
+"status:": "অবস্থা:"
 },
 "nplurals=2; plural=n > 1;");
