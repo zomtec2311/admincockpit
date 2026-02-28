@@ -130,6 +130,7 @@ OC.L10N.register(
 "logfile": "logifail",
 "network interfaces": "network interfaces",
 "speed:": "kiirus:",
-"status:": "olek:"
+"status:": "olek:",
+"<strong>update channel:</strong> {name}": "<strong>värskenda kanalit:</strong> {name}"
 },
 "nplurals=2; plural=n != 1;");

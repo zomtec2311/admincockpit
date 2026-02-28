@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "logfil",
 "network interfaces": "netværksgrænseflader",
 "speed:": "hastighed:",
-"status:": "status:"
+"status:": "status:",
+"<strong>update channel:</strong> {name}": "<strong>opdater kanal:</strong> {name}"
 },
 "nplurals=2; plural=n != 1;");

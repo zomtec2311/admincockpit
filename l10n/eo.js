@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "logdosiero",
 "network interfaces": "retaj interfacoj",
 "speed:": "rapido:",
-"status:": "stato:"
+"status:": "stato:",
+"<strong>update channel:</strong> {name}": "<strong>ĝisdatigkanalo:</strong> {name}"
 },
 "nplurals=2; plural=n != 1;");

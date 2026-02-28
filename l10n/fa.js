@@ -128,6 +128,7 @@ OC.L10N.register(
 "logfile": "فایل لاگ",
 "network interfaces": "رابط های شبکه",
 "speed:": "سرعت:",
-"status:": "وضعیت:"
+"status:": "وضعیت:",
+"<strong>update channel:</strong> {name}": "<strong>به‌روزرسانی کانال:</strong> \\u200f{name}\\u200f"
 },
 "nplurals=2; plural=n > 1;");

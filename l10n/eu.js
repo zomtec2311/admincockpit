@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "log-fitxategia",
 "network interfaces": "sareko interfazeak",
 "speed:": "abiadura:",
-"status:": "egoera:"
+"status:": "egoera:",
+"<strong>update channel:</strong> {name}": "<strong>update channel:</strong> {name}"
 },
 "nplurals=2; plural=n != 1;");

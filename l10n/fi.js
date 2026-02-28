@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "lokitiedosto",
 "network interfaces": "verkkoliitännät",
 "speed:": "nopeus:",
-"status:": "status:"
+"status:": "status:",
+"<strong>update channel:</strong> {name}": "<strong>päivitä kanava:</strong> {name}"
 },
 "nplurals=2; plural=n != 1;");

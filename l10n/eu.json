@@ -127,6 +127,7 @@
 "logfile": "log-fitxategia",
 "network interfaces": "sareko interfazeak",
 "speed:": "abiadura:",
-"status:": "egoera:"
+"status:": "egoera:",
+"<strong>update channel:</strong> {name}": "<strong>update channel:</strong> {name}"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

@@ -127,6 +127,7 @@
 "logfile": "logfayl",
 "network interfaces": "şəbəkə interfeysləri",
 "speed:": "sürət:",
-"status:": "status:"
+"status:": "status:",
+"<strong>update channel:</strong> {name}": "<strong>kanalı yeniləyin:</strong> {name}"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

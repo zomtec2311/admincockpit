@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "fichier journal",
 "network interfaces": "interfaces réseau",
 "speed:": "vitesse:",
-"status:": "statut:"
+"status:": "statut:",
+"<strong>update channel:</strong> {name}": "<strong>mettre à jour la chaîne :</strong> {name}"
 },
 "nplurals=2; plural=(n != 1);");

@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "লগফাইল",
 "network interfaces": "নেটওয়ার্ক ইন্টারফেস",
 "speed:": "গতি:",
-"status:": "অবস্থা:"
+"status:": "অবস্থা:",
+"<strong>update channel:</strong> {name}": "<strong>চ্যানেল আপডেট করুন:</strong> {name}"
 },
 "nplurals=2; plural=n > 1;");

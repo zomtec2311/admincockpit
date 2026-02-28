@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "fitxer de registre",
 "network interfaces": "interfícies de xarxa",
 "speed:": "velocitat:",
-"status:": "estat:"
+"status:": "estat:",
+"<strong>update channel:</strong> {name}": "<strong>canal d'actualització:</strong> {name}"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2);");

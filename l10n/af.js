@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "loglêer",
 "network interfaces": "netwerk koppelvlakke",
 "speed:": "spoed:",
-"status:": "status:"
+"status:": "status:",
+"<strong>update channel:</strong> {name}": "<strong>dateer kanaal op:</strong> {name}"
 },
 "nplurals=2; plural=n != 1;");

@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "logfayl",
 "network interfaces": "şəbəkə interfeysləri",
 "speed:": "sürət:",
-"status:": "status:"
+"status:": "status:",
+"<strong>update channel:</strong> {name}": "<strong>kanalı yeniləyin:</strong> {name}"
 },
 "nplurals=2; plural=n != 1;");

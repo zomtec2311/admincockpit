@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "αρχείο καταγραφής",
 "network interfaces": "διεπαφές δικτύου",
 "speed:": "ταχύτητα:",
-"status:": "κατάσταση:"
+"status:": "κατάσταση:",
+"<strong>update channel:</strong> {name}": "<strong>ενημέρωση καναλιού:</strong> {name}"
 },
 "nplurals=2; plural=n != 1;");

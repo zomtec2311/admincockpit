@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "ffeil log",
 "network interfaces": "rhyngwynebau rhwydwaith",
 "speed:": "cyflymder:",
-"status:": "statws:"
+"status:": "statws:",
+"<strong>update channel:</strong> {name}": "<strong>diweddaru sianel:</strong> {name}"
 },
 "nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));");

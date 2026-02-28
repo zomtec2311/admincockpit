@@ -127,6 +127,7 @@
 "logfile": "logfile",
 "network interfaces": "síťová rozhraní",
 "speed:": "rychlost:",
-"status:": "stav:"
+"status:": "stav:",
+"<strong>update channel:</strong> {name}": "<strong>aktualizovat kanál:</strong> {name}"
 },"pluralForm" :"nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);"
 }

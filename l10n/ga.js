@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "logchomhad",
 "network interfaces": "comhéadain líonra",
 "speed:": "luas:",
-"status:": "stádas:"
+"status:": "stádas:",
+"<strong>update channel:</strong> {name}": "<strong> nuashonraigh an cainéal:</strong> {name}"
 },
 "nplurals=5; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n >= 3 && n <= 6) ? 2 : ((n >= 7 && n <= 10) ? 3 : 4)));");
