@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "logfile",
 "network interfaces": "ජාල අතුරුමුහුණත්",
 "speed:": "වේගය:",
-"status:": "තත්ත්වය:"
+"status:": "තත්ත්වය:",
+"<strong>update channel:</strong> {name}": "<strong>නාලිකාව යාවත්කාලීන කරන්න:</strong> {name}"
 },
 "nplurals=2; plural=n > 1;");

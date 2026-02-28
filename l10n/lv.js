@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "žurnālfails",
 "network interfaces": "tīkla saskarnes",
 "speed:": "ātrums:",
-"status:": "statuss:"
+"status:": "statuss:",
+"<strong>update channel:</strong> {name}": "<strong>atjaunināt kanālu:</strong> {name}"
 },
 "nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);");

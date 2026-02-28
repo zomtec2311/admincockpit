@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "logfile",
 "network interfaces": "ցանցային ինտերֆեյսներ",
 "speed:": "արագություն:",
-"status:": "կարգավիճակը:"
+"status:": "կարգավիճակը:",
+"<strong>update channel:</strong> {name}": "<strong>թարմացնել ալիքը՝</strong> {name}"
 },
 "nplurals=2; plural=n > 1;");

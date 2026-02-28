@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "logfile",
 "network interfaces": "ການໂຕ້ຕອບເຄືອຂ່າຍ",
 "speed:": "ຄວາມໄວ:",
-"status:": "ສະຖານະ:"
+"status:": "ສະຖານະ:",
+"<strong>update channel:</strong> {name}": "<strong>ອັບເດດຊ່ອງ:</strong> {name}"
 },
 "nplurals=1; plural=0;");

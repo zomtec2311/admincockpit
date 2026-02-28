@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "logfile",
 "network interfaces": "sieťové rozhrania",
 "speed:": "rýchlosť:",
-"status:": "stav:"
+"status:": "stav:",
+"<strong>update channel:</strong> {name}": "<strong>aktualizovať kanál:</strong> {name}"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);");

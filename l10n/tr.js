@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "günlük dosyası",
 "network interfaces": "ağ arayüzleri",
 "speed:": "hız:",
-"status:": "durum:"
+"status:": "durum:",
+"<strong>update channel:</strong> {name}": "<strong>güncelleme kanalı:</strong> {name}"
 },
 "nplurals=2; plural=n != 1;");

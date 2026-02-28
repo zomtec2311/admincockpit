@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "logfile",
 "network interfaces": "ქსელის ინტერფეისები",
 "speed:": "სიჩქარე:",
-"status:": "სტატუსი:"
+"status:": "სტატუსი:",
+"<strong>update channel:</strong> {name}": "<strong>არხის განახლება:</strong> {name}"
 },
 "nplurals=2; plural=n != 1;");

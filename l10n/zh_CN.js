@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "日志档案",
 "network interfaces": "网络接口",
 "speed:": "速度：",
-"status:": "地位："
+"status:": "地位：",
+"<strong>update channel:</strong> {name}": "<strong>更新频道：</strong> {name}"
 },
 "nplurals=1; plural=0;");

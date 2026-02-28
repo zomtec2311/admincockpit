@@ -127,6 +127,7 @@
 "logfile": "logfile",
 "network interfaces": "Reseau Schnëttplazen",
 "speed:": "Geschwindegkeet:",
-"status:": "Status:"
+"status:": "Status:",
+"<strong>update channel:</strong> {name}": "<strong>aktualiséieren Kanal:</strong> {name}"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

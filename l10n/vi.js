@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "tập tin nhật ký",
 "network interfaces": "giao diện mạng",
 "speed:": "tốc độ:",
-"status:": "trạng thái:"
+"status:": "trạng thái:",
+"<strong>update channel:</strong> {name}": "<strong>kênh cập nhật:</strong> {name}"
 },
 "nplurals=1; plural=0;");

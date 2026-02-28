@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "žurnalo failą",
 "network interfaces": "tinklo sąsajos",
 "speed:": "greitis:",
-"status:": "būsena:"
+"status:": "būsena:",
+"<strong>update channel:</strong> {name}": "<strong>atnaujinti kanalą:</strong> {name}"
 },
 "nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);");

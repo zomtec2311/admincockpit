@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "naplófájl",
 "network interfaces": "hálózati interfészek",
 "speed:": "sebesség:",
-"status:": "állapot:"
+"status:": "állapot:",
+"<strong>update channel:</strong> {name}": "<strong>csatorna frissítése:</strong> {name}"
 },
 "nplurals=2; plural=n != 1;");

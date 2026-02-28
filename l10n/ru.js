@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "файл журнала",
 "network interfaces": "сетевые интерфейсы",
 "speed:": "скорость:",
-"status:": "статус:"
+"status:": "статус:",
+"<strong>update channel:</strong> {name}": "<strong>канал обновления:</strong> {name}"
 },
 "nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);");

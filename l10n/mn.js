@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "бүртгэлийн файл",
 "network interfaces": "сүлжээний интерфейсүүд",
 "speed:": "хурд:",
-"status:": "статус:"
+"status:": "статус:",
+"<strong>update channel:</strong> {name}": "<strong>суваг шинэчлэх:</strong> {name}"
 },
 "nplurals=2; plural=n != 1;");

@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "ឯកសារកំណត់ហេតុ",
 "network interfaces": "ចំណុចប្រទាក់បណ្តាញ",
 "speed:": "ល្បឿន៖",
-"status:": "ស្ថានភាព៖"
+"status:": "ស្ថានភាព៖",
+"<strong>update channel:</strong> {name}": "<strong>អាប់ដេតឆានែល៖</strong> {name}"
 },
 "nplurals=1; plural=0;");

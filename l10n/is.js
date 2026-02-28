@@ -129,6 +129,7 @@ OC.L10N.register(
 "logfile": "logskrá",
 "network interfaces": "netviðmót",
 "speed:": "hraði:",
-"status:": "staða:"
+"status:": "staða:",
+"<strong>update channel:</strong> {name}": "<strong>uppfæra rás:</strong> {name}"
 },
 "nplurals=2; plural=n % 10 != 1 || n % 100 == 11;");

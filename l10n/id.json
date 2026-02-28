@@ -127,6 +127,7 @@
 "logfile": "file log",
 "network interfaces": "antarmuka jaringan",
 "speed:": "kecepatan:",
-"status:": "status:"
+"status:": "status:",
+"<strong>update channel:</strong> {name}": "<strong>perbarui saluran:</strong> {name}"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

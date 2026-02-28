@@ -128,6 +128,7 @@ OC.L10N.register(
 "logfile": "logfile",
 "network interfaces": "تور ئارايۈزى",
 "speed:": "سۈرئەت:",
-"status:": "ھالىتى:"
+"status:": "ھالىتى:",
+"<strong>update channel:</strong> {name}": "<strong> يېڭىلاش قانىلى: </strong> {name}"
 },
 "nplurals=2; plural=n != 1;");

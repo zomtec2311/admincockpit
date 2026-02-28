@@ -128,6 +128,7 @@ OC.L10N.register(
 "logfile": "קובץ יומן",
 "network interfaces": "ממשקי רשת",
 "speed:": "מְהִירוּת:",
-"status:": "סטָטוּס:"
+"status:": "סטָטוּס:",
+"<strong>update channel:</strong> {name}": "<strong>עדכן ערוץ:</strong> \\u200f{name}\\u200f"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2);");

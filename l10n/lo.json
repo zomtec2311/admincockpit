@@ -127,6 +127,7 @@
 "logfile": "logfile",
 "network interfaces": "ການໂຕ້ຕອບເຄືອຂ່າຍ",
 "speed:": "ຄວາມໄວ:",
-"status:": "ສະຖານະ:"
+"status:": "ສະຖານະ:",
+"<strong>update channel:</strong> {name}": "<strong>ອັບເດດຊ່ອງ:</strong> {name}"
 },"pluralForm" :"nplurals=1; plural=0;"
 }
