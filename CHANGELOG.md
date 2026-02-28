@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.2.0
+
+### Fixed
+- **l10n:** Correction of Czech translations  ([#9](https://github.com/zomtec2311/admincockpit/issues/9)) @onacilam
+
+### Added
+- Information about type of Nextcloud update channel
+
+### Changed
+- some css cleanups
+- update language files
+
 ## 1.1.8
 
 ### Fixed

@@ -148,67 +148,67 @@ class SystemController extends Controller {
         }
     }    
     
-public function detectEnvironment() {
-    if ($this->isRunningInDocker()) {
-        return $this->l->t('docker container');
-    } elseif ($this->isRunningInSnap()) {
-        return $this->l->t('snap package');
-    } elseif ($this->isRunningInLXC()) {
-        return $this->l->t('LXC container');
-    } elseif ($this->isRunningInVM()) {
-        return $this->l->t('virtual machine');
-    } else {
-        return $this->l->t('local installation');
+    public function detectEnvironment() {
+        if ($this->isRunningInDocker()) {
+            return $this->l->t('docker container');
+        } elseif ($this->isRunningInSnap()) {
+            return $this->l->t('snap package');
+        } elseif ($this->isRunningInLXC()) {
+            return $this->l->t('LXC container');
+        } elseif ($this->isRunningInVM()) {
+            return $this->l->t('virtual machine');
+        } else {
+            return $this->l->t('local installation');
+        }
     }
-}
 
-public function isRunningInDocker() {
-    return file_exists('/.dockerenv') || $this->isDockerCgroup();
-}
-
-public function isDockerCgroup() {
-    $cgroupPath = file_get_contents('/proc/self/cgroup');
-    return strpos($cgroupPath, 'docker') !== false || strpos($cgroupPath, 'kubepods') !== false;
-}
-
-public function isRunningInSnap() {
-    if ($this->isSnapDaemonRunning()) {
-        $output = shell_exec('snap list');
-        return strpos($output, 'nextcloud') !== false;
+    public function isRunningInDocker() {
+        return file_exists('/.dockerenv') || $this->isDockerCgroup();
     }
-    return false;
-}
 
-public function isSnapDaemonRunning() {
-    $output = shell_exec('systemctl is-active snapd');
-    return trim($output) === 'active';
-}
-
-public function isRunningInLXC() {
-    $cgroupPath = file_get_contents('/proc/self/cgroup');
-    return strpos($cgroupPath, 'lxc') !== false || file_exists('/var/lib/lxc');
-}
-
-public function isRunningInVM() {
-    $virtDetect = shell_exec('systemd-detect-virt');
-    return strpos($virtDetect, 'none') === false && !empty($virtDetect);
-}
-
-public function isBehindProxy() {
-    if (isset($_SERVER['HTTP_X_FORWARDED_FOR']) || 
-        isset($_SERVER['HTTP_CLIENT_IP']) || 
-        isset($_SERVER['HTTP_X_REAL_IP'])) {
-        return true;
+    public function isDockerCgroup() {
+        $cgroupPath = file_get_contents('/proc/self/cgroup');
+        return strpos($cgroupPath, 'docker') !== false || strpos($cgroupPath, 'kubepods') !== false;
     }
-    return false;
-}
 
-public function getServerType() {
-    if (isset($_SERVER['SERVER_SOFTWARE'])) {
-        return $_SERVER['SERVER_SOFTWARE'];
+    public function isRunningInSnap() {
+        if ($this->isSnapDaemonRunning()) {
+            $output = shell_exec('snap list');
+            return strpos($output, 'nextcloud') !== false;
+        }
+        return false;
     }
-    return 'unknown';
-}
+
+    public function isSnapDaemonRunning() {
+        $output = shell_exec('systemctl is-active snapd');
+        return trim($output) === 'active';
+    }
+
+    public function isRunningInLXC() {
+        $cgroupPath = file_get_contents('/proc/self/cgroup');
+        return strpos($cgroupPath, 'lxc') !== false || file_exists('/var/lib/lxc');
+    }
+
+    public function isRunningInVM() {
+        $virtDetect = shell_exec('systemd-detect-virt');
+        return strpos($virtDetect, 'none') === false && !empty($virtDetect);
+    }
+
+    public function isBehindProxy() {
+        if (isset($_SERVER['HTTP_X_FORWARDED_FOR']) || 
+            isset($_SERVER['HTTP_CLIENT_IP']) || 
+            isset($_SERVER['HTTP_X_REAL_IP'])) {
+            return true;
+        }
+        return false;
+    }
+
+    public function getServerType() {
+        if (isset($_SERVER['SERVER_SOFTWARE'])) {
+            return $_SERVER['SERVER_SOFTWARE'];
+        }
+        return 'unknown';
+    }
  
     public function systeminfo(): DataResponse {
         try {
@@ -220,6 +220,7 @@ public function getServerType() {
             $mynetwork = $this->myService->getNetworkInterfaces();
             $ncupdate = $this->getSystemStatus();
             $logfile = $this->getlogfile();
+            $updatechannel = $this->config->getSystemValue('updater.release.channel');
             
             return new DataResponse([
                 'hostname' => gethostname(),
@@ -249,6 +250,7 @@ public function getServerType() {
                 'nc_currentVersionimplode' => $ncupdate['currentVersionimplode'],
                 'nc_logfile' => $logfile['file'],
                 'nc_logfile_size' => $logfile['filesize'],
+                'nc_updatechannel' => $updatechannel,
                 'network' => $mynetwork,
             ]);
         } catch (\Throwable $e) {
@@ -279,20 +281,20 @@ public function getServerType() {
 			$update = false;
 		}
 
-    $newVersion = '';
-    if ($update) {
-        $newVersion = $this->config->getAppValue('core', 'lastupdatedat', '');
+        $newVersion = '';
+        if ($update) {
+            $newVersion = $this->config->getAppValue('core', 'lastupdatedat', '');
+        }
+        $data = [
+                'updateAvailable' => (bool)$update,
+                'updateVersion' => $check['version'],
+                'currentVersion' => $currentVersion,
+                'currentVersionimplode' => $currentVersionimplode,
+            ];
+        return $data;
     }
-    $data = [
-            'updateAvailable' => (bool)$update,
-            'updateVersion' => $check['version'],
-            'currentVersion' => $currentVersion,
-            'currentVersionimplode' => $currentVersionimplode,
-        ];
-    return $data;
-}
 
- public function getlogfile(): array {
+    public function getlogfile(): array {
      
         $wtlogfile = $this->config->getSystemValue('logfile');
 		if (!file_exists($wtlogfile)) {
@@ -322,10 +324,10 @@ public function getServerType() {
                 $size /= 1024;
             }
             return round($size, $decimalplaces).' '.$sizes[$i];
-        }
+    }
 
 
-protected function checkCoreUpdate(): void {
+    protected function checkCoreUpdate(): void {
 		if (!$this->config->getSystemValueBool('updatechecker', true)) {
 			return;
 		}
