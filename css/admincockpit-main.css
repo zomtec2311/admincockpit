@@ -379,6 +379,11 @@ margin-right: auto;
   color: #777;
   margin-top: 4px;
 }
+
+a:focus {
+  outline: 0 !important;
+}
+
 @keyframes indeterminate {
     0% { left: -50%; }
     100% { left: 100%; }

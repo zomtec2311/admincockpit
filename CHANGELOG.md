@@ -1,6 +1,15 @@
 # Changelog
 
+## 1.2.1
+
+### Added
+- Information about additional functions
+
+
 ## 1.2.0
+
+### Added
+- Information about additional functions
 
 ### Fixed
 - **l10n:** Correction of Czech translations  ([#9](https://github.com/zomtec2311/admincockpit/issues/9)) @onacilam
