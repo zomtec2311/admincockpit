@@ -128,6 +128,10 @@
 "network interfaces": "verkkoliitännät",
 "speed:": "nopeus:",
 "status:": "status:",
-"<strong>update channel:</strong> {name}": "<strong>päivitä kanava:</strong> {name}"
+"<strong>update channel:</strong> {name}": "<strong>päivitä kanava:</strong> {name}",
+"More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "Lisätietoja lokitiedostosta on saatavilla heti, kun ylimääräinen Nextcloud-sovellus LogCleaner on asennettu, jota voidaan käyttää lokitiedoston puhdistamiseen.",
+"Here is an example of what it would look like:": "Tässä on esimerkki siitä, miltä se näyttäisi:",
+"LogCleaner on GitHub": "LogCleaner GitHubissa",
+"LogCleaner at the Nextcloud App store": "LogCleaner Nextcloud-sovelluskaupassa"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

@@ -128,6 +128,10 @@
 "network interfaces": "síťová rozhraní",
 "speed:": "rychlost:",
 "status:": "stav:",
-"<strong>update channel:</strong> {name}": "<strong>aktualizovat kanál:</strong> {name}"
+"<strong>update channel:</strong> {name}": "<strong>aktualizovat kanál:</strong> {name}",
+"More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "Další informace týkající se souboru protokolu budou k dispozici, jakmile bude nainstalována naše další aplikace Nextcloud LogCleaner, kterou lze použít k vyčištění souboru protokolu.",
+"Here is an example of what it would look like:": "Zde je příklad, jak by to vypadalo:",
+"LogCleaner on GitHub": "LogCleaner na GitHubu",
+"LogCleaner at the Nextcloud App store": "LogCleaner v obchodě Nextcloud App Store"
 },"pluralForm" :"nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);"
 }

@@ -130,6 +130,10 @@ OC.L10N.register(
 "network interfaces": "etrefasoù rouedad |",
 "speed:": "tizh:",
 "status:": "statud:",
-"<strong>update channel:</strong> {name}": "<strong>canal de atualização:</strong> {name}"
+"<strong>update channel:</strong> {name}": "<strong>canal de atualização:</strong> {name}",
+"More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "Muioc'h a ditouroù diwar-benn ar restr marilh a vo kavet kerkent ha ma vo staliet hor meziant Nextcloud ouzhpenn LogCleaner, a c'haller implijout evit naetaat ar restr marilh.",
+"Here is an example of what it would look like:": "Setu ur skouer eus ar pezh a seblantfe bezañ :",
+"LogCleaner on GitHub": "LogCleaner war GitHub",
+"LogCleaner at the Nextcloud App store": "LogCleaner e stal an arloadoù Nextcloud"
 },
 "nplurals=5; plural=(n % 10 == 1 && n % 100 != 11 && n % 100 != 71 && n % 100 != 91) ? 0 : ((n % 10 == 2 && n % 100 != 12 && n % 100 != 72 && n % 100 != 92) ? 1 : ((((n % 10 == 3 || n % 10 == 4) || n % 10 == 9) && (n % 100 < 10 || n % 100 > 19) && (n % 100 < 70 || n % 100 > 79) && (n % 100 < 90 || n % 100 > 99)) ? 2 : ((n != 0 && n % 1000000 == 0) ? 3 : 4)));");

@@ -128,6 +128,10 @@
 "network interfaces": "interfícies de xarxa",
 "speed:": "velocitat:",
 "status:": "estat:",
-"<strong>update channel:</strong> {name}": "<strong>canal d'actualització:</strong> {name}"
+"<strong>update channel:</strong> {name}": "<strong>canal d'actualització:</strong> {name}",
+"More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "Més informació sobre el fitxer de registre estarà disponible tan bon punt s'instal·li la nostra aplicació addicional de Nextcloud LogCleaner, que es pot utilitzar per netejar el fitxer de registre.",
+"Here is an example of what it would look like:": "Aquí teniu un exemple de com seria:",
+"LogCleaner on GitHub": "LogCleaner a GitHub",
+"LogCleaner at the Nextcloud App store": "LogCleaner a la botiga d'aplicacions Nextcloud"
 },"pluralForm" :"nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2);"
 }

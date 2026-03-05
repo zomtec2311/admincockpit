@@ -128,6 +128,10 @@
 "network interfaces": "retaj interfacoj",
 "speed:": "rapido:",
 "status:": "stato:",
-"<strong>update channel:</strong> {name}": "<strong>ĝisdatigkanalo:</strong> {name}"
+"<strong>update channel:</strong> {name}": "<strong>ĝisdatigkanalo:</strong> {name}",
+"More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "Pliaj informoj pri la protokolo-dosiero estos disponeblaj tuj kiam nia plia Nextcloud-apliko LogCleaner estos instalita, kiu povas esti uzata por purigi la protokoldosieron.",
+"Here is an example of what it would look like:": "Jen ekzemplo de kiel ĝi aspektus:",
+"LogCleaner on GitHub": "LogCleaner en GitHub",
+"LogCleaner at the Nextcloud App store": "LogCleaner ĉe la vendejo de Nextcloud App"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }
