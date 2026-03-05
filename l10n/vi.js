@@ -130,6 +130,10 @@ OC.L10N.register(
 "network interfaces": "giao diện mạng",
 "speed:": "tốc độ:",
 "status:": "trạng thái:",
-"<strong>update channel:</strong> {name}": "<strong>kênh cập nhật:</strong> {name}"
+"<strong>update channel:</strong> {name}": "<strong>kênh cập nhật:</strong> {name}",
+"More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "Thông tin thêm về tệp nhật ký sẽ có ngay khi ứng dụng Nextcloud bổ sung LogCleaner của chúng tôi được cài đặt, ứng dụng này có thể được sử dụng để dọn sạch tệp nhật ký.",
+"Here is an example of what it would look like:": "Đây là một ví dụ về những gì nó sẽ trông như thế nào:",
+"LogCleaner on GitHub": "LogCleaner trên GitHub",
+"LogCleaner at the Nextcloud App store": "LogCleaner tại cửa hàng ứng dụng Nextcloud"
 },
 "nplurals=1; plural=0;");

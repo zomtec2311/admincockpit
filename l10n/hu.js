@@ -130,6 +130,10 @@ OC.L10N.register(
 "network interfaces": "hálózati interfészek",
 "speed:": "sebesség:",
 "status:": "állapot:",
-"<strong>update channel:</strong> {name}": "<strong>csatorna frissítése:</strong> {name}"
+"<strong>update channel:</strong> {name}": "<strong>csatorna frissítése:</strong> {name}",
+"More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "A naplófájllal kapcsolatos további információk azonnal elérhetők lesznek, amint a LogCleaner további Nextcloud alkalmazásunk telepítve lesz, amellyel a naplófájl megtisztítható.",
+"Here is an example of what it would look like:": "Íme egy példa, hogyan nézne ki:",
+"LogCleaner on GitHub": "LogCleaner a GitHubon",
+"LogCleaner at the Nextcloud App store": "LogCleaner a Nextcloud App Store-ban"
 },
 "nplurals=2; plural=n != 1;");

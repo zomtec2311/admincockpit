@@ -130,6 +130,10 @@ OC.L10N.register(
 "network interfaces": "interfaces de rede",
 "speed:": "velocidade:",
 "status:": "status:",
-"<strong>update channel:</strong> {name}": "<strong>canal de atualização:</strong> {name}"
+"<strong>update channel:</strong> {name}": "<strong>canal de atualização:</strong> {name}",
+"More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "Mais informações sobre o arquivo de log estarão disponíveis assim que nosso aplicativo Nextcloud LogCleaner adicional for instalado, que pode ser usado para limpar o arquivo de log.",
+"Here is an example of what it would look like:": "Aqui está um exemplo de como seria:",
+"LogCleaner on GitHub": "LogCleaner no GitHub",
+"LogCleaner at the Nextcloud App store": "LogCleaner na App Store Nextcloud"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2);");

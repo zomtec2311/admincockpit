@@ -130,6 +130,10 @@ OC.L10N.register(
 "network interfaces": "网络接口",
 "speed:": "速度：",
 "status:": "地位：",
-"<strong>update channel:</strong> {name}": "<strong>更新频道：</strong> {name}"
+"<strong>update channel:</strong> {name}": "<strong>更新频道：</strong> {name}",
+"More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "安装我们的附加 Nextcloud 应用程序 LogCleaner 后，将立即提供有关日志文件的更多信息，该应用程序可用于清理日志文件。",
+"Here is an example of what it would look like:": "下面是它的外观示例：",
+"LogCleaner on GitHub": "GitHub 上的 LogCleaner",
+"LogCleaner at the Nextcloud App store": "Nextcloud 应用商店中的 LogCleaner"
 },
 "nplurals=1; plural=0;");

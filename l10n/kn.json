@@ -128,6 +128,10 @@
 "network interfaces": "ನೆಟ್ವರ್ಕ್ ಇಂಟರ್ಫೇಸ್ಗಳು",
 "speed:": "ವೇಗ:",
 "status:": "ಸ್ಥಿತಿ:",
-"<strong>update channel:</strong> {name}": "<strong>ಅಪ್‌ಡೇಟ್ ಚಾನಲ್:</strong> {name}"
+"<strong>update channel:</strong> {name}": "<strong>ಅಪ್‌ಡೇಟ್ ಚಾನಲ್:</strong> {name}",
+"More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "ಲಾಗ್ ಫೈಲ್‌ಗೆ ಸಂಬಂಧಿಸಿದ ಹೆಚ್ಚಿನ ಮಾಹಿತಿಯು ನಮ್ಮ ಹೆಚ್ಚುವರಿ Nextcloud ಅಪ್ಲಿಕೇಶನ್ LogCleaner ಅನ್ನು ಸ್ಥಾಪಿಸಿದ ತಕ್ಷಣ ಲಭ್ಯವಿರುತ್ತದೆ, ಇದನ್ನು ಲಾಗ್ ಫೈಲ್ ಅನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಲು ಬಳಸಬಹುದು.",
+"Here is an example of what it would look like:": "ಅದು ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದರ ಉದಾಹರಣೆ ಇಲ್ಲಿದೆ:",
+"LogCleaner on GitHub": "GitHub ನಲ್ಲಿ LogCleaner",
+"LogCleaner at the Nextcloud App store": "Nextcloud ಆಪ್ ಸ್ಟೋರ್‌ನಲ್ಲಿ LogCleaner"
 },"pluralForm" :"nplurals=2; plural=n > 1;"
 }

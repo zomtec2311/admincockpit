@@ -128,6 +128,10 @@
 "network interfaces": "ចំណុចប្រទាក់បណ្តាញ",
 "speed:": "ល្បឿន៖",
 "status:": "ស្ថានភាព៖",
-"<strong>update channel:</strong> {name}": "<strong>អាប់ដេតឆានែល៖</strong> {name}"
+"<strong>update channel:</strong> {name}": "<strong>អាប់ដេតឆានែល៖</strong> {name}",
+"More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "ព័ត៌មានបន្ថែមទាក់ទងនឹងឯកសារកំណត់ហេតុនឹងអាចរកបានភ្លាមៗនៅពេលដែលកម្មវិធី Nextcloud បន្ថែមរបស់យើង LogCleaner ត្រូវបានដំឡើង ដែលអាចត្រូវបានប្រើដើម្បីសម្អាតឯកសារកំណត់ហេតុ។",
+"Here is an example of what it would look like:": "នេះគឺជាឧទាហរណ៍នៃអ្វីដែលវានឹងមើលទៅ៖",
+"LogCleaner on GitHub": "LogCleaner នៅលើ GitHub",
+"LogCleaner at the Nextcloud App store": "LogCleaner នៅហាងកម្មវិធី Nextcloud"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

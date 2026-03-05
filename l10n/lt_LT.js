@@ -130,6 +130,10 @@ OC.L10N.register(
 "network interfaces": "tinklo sąsajos",
 "speed:": "greitis:",
 "status:": "būsena:",
-"<strong>update channel:</strong> {name}": "<strong>atnaujinti kanalą:</strong> {name}"
+"<strong>update channel:</strong> {name}": "<strong>atnaujinti kanalą:</strong> {name}",
+"More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "Daugiau informacijos apie žurnalo failą bus galima gauti iškart, kai bus įdiegta papildoma „Nextcloud“ programa „LogCleaner“, kurią bus galima naudoti žurnalo failui išvalyti.",
+"Here is an example of what it would look like:": "Štai pavyzdys, kaip tai atrodytų:",
+"LogCleaner on GitHub": "„LogCleaner“ „GitHub“.",
+"LogCleaner at the Nextcloud App store": "„LogCleaner“ „Nextcloud“ programų parduotuvėje"
 },
 "nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);");

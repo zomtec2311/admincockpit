@@ -130,6 +130,10 @@ OC.L10N.register(
 "network interfaces": "Reseau Schnëttplazen",
 "speed:": "Geschwindegkeet:",
 "status:": "Status:",
-"<strong>update channel:</strong> {name}": "<strong>aktualiséieren Kanal:</strong> {name}"
+"<strong>update channel:</strong> {name}": "<strong>aktualiséieren Kanal:</strong> {name}",
+"More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "Méi Informatioun iwwer d'Logdatei wäert verfügbar sinn soubal eis zousätzlech Nextcloud App LogCleaner installéiert ass, déi benotzt ka ginn fir d'Logdatei ze botzen.",
+"Here is an example of what it would look like:": "Hei ass e Beispill vu wéi et ausgesäit:",
+"LogCleaner on GitHub": "LogCleaner op GitHub",
+"LogCleaner at the Nextcloud App store": "LogCleaner am Nextcloud App Store"
 },
 "nplurals=2; plural=n != 1;");

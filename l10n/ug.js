@@ -129,6 +129,10 @@ OC.L10N.register(
 "network interfaces": "تور ئارايۈزى",
 "speed:": "سۈرئەت:",
 "status:": "ھالىتى:",
-"<strong>update channel:</strong> {name}": "<strong> يېڭىلاش قانىلى: </strong> {name}"
+"<strong>update channel:</strong> {name}": "<strong> يېڭىلاش قانىلى: </strong> {name}",
+"More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "خاتىرە ھۆججىتىگە مۇناسىۋەتلىك تېخىمۇ كۆپ ئۇچۇرلار بىزنىڭ Nextcloud دېتالىمىز LogCleaner قاچىلانغان ھامان تىزىملىككە كىرەلەيدۇ ، بۇ ھۆججەتلەرنى تازىلاشقا ئىشلىتىلىدۇ.",
+"Here is an example of what it would look like:": "ئۇنىڭ قانداق بولىدىغانلىقىنىڭ بىر مىسالى:",
+"LogCleaner on GitHub": "GitHub دىكى LogCleaner",
+"LogCleaner at the Nextcloud App store": "Nextcloud ئەپ دۇكىنىدىكى LogCleaner"
 },
 "nplurals=2; plural=n != 1;");

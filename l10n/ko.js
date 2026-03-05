@@ -130,6 +130,10 @@ OC.L10N.register(
 "network interfaces": "네트워크 인터페이스",
 "speed:": "속도:",
 "status:": "상태:",
-"<strong>update channel:</strong> {name}": "<strong>채널 업데이트:</strong> {name}"
+"<strong>update channel:</strong> {name}": "<strong>채널 업데이트:</strong> {name}",
+"More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "로그 파일에 대한 자세한 내용은 로그 파일을 정리하는 데 사용할 수 있는 추가 Nextcloud 앱 LogCleaner가 설치되는 즉시 제공될 예정입니다.",
+"Here is an example of what it would look like:": "다음은 그 모양의 예입니다.",
+"LogCleaner on GitHub": "GitHub의 LogCleaner",
+"LogCleaner at the Nextcloud App store": "Nextcloud 앱 스토어의 LogCleaner"
 },
 "nplurals=1; plural=0;");

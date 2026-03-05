@@ -130,6 +130,10 @@ OC.L10N.register(
 "network interfaces": "сүлжээний интерфейсүүд",
 "speed:": "хурд:",
 "status:": "статус:",
-"<strong>update channel:</strong> {name}": "<strong>суваг шинэчлэх:</strong> {name}"
+"<strong>update channel:</strong> {name}": "<strong>суваг шинэчлэх:</strong> {name}",
+"More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "Бүртгэлийн файлын талаарх дэлгэрэнгүй мэдээллийг манай нэмэлт Nextcloud программ LogCleaner суулгасан даруйд авах боломжтой бөгөөд лог файлыг цэвэрлэхэд ашиглаж болно.",
+"Here is an example of what it would look like:": "Энэ нь ямар харагдах жишээг энд харуулав.",
+"LogCleaner on GitHub": "GitHub дээрх LogCleaner",
+"LogCleaner at the Nextcloud App store": "Nextcloud App Store дээрх LogCleaner"
 },
 "nplurals=2; plural=n != 1;");
