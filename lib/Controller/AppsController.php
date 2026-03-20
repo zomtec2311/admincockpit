@@ -310,7 +310,7 @@ class AppsController extends Controller {
 	}
 	
 	//#[NoCSRFRequired]
-	public function isnoti() {
+	public function isnoti(): DataResponse {
         $ncinfo = $this->myService->getNCInfo();
         $parts = explode(".", $ncinfo['nc_version']);
         $version = (int)$parts[0];
@@ -322,13 +322,17 @@ class AppsController extends Controller {
         }
             
             if (in_array('notifications', $enabledapps)) {
-                return 'true';                
+                $isnoti = 'true';                
             }
-            else { return 'false'; }
+            else { $isnoti = 'false'; }
+            
+            return new DataResponse([
+            'isnoti' => $isnoti,
+        ]);
         
     }
     
-    public function islogcleaner() {
+    public function islogcleaner(): DataResponse {
         $ncinfo = $this->myService->getNCInfo();
         $parts = explode(".", $ncinfo['nc_version']);
         $version = (int)$parts[0];
@@ -340,9 +344,13 @@ class AppsController extends Controller {
         }
             
             if (in_array('logcleaner', $enabledapps)) {
-                return 'true';                
+                $islogcleaner = 'true';                
             }
-            else { return 'false'; }
+            else { $islogcleaner = 'false'; }
+            
+            return new DataResponse([
+            'islogcleaner' => $islogcleaner,
+        ]);
         
     }
   

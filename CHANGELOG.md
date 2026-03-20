@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.2
+
+### Added
+-new functions for some information boxes
+
+### Fixed
+- some code cleanup
+
 ## 1.2.1
 
 ### Added

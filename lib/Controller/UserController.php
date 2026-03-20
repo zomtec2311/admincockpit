@@ -81,12 +81,6 @@ class UserController extends Controller {
         $this->l = $l;
     }
 
-    /**
-     * @PublicPage
-     * @NoAdminRequired
-     * @NoCSRFRequired
-     * @Route("/usercount",
-     */
     public function usercount(): DataResponse {
         try {
             $users = $this->userManager->search('');
