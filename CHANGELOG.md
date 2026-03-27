@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.3
+
+### Fixed
+- some code cleanup due to deprecated methods
+
 ## 1.2.2
 
 ### Added
