@@ -13,6 +13,7 @@ class MyService {
     private $db;
     private $userManager;
     private $logger;
+    private $config;
 
     public function __construct(MyRepository $repository, IDBConnection $db, IUserManager $userManager, IConfig $config, LoggerInterface $logger) {
         $this->repository = $repository;

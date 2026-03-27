@@ -38,7 +38,6 @@ class Application extends App implements IBootstrap {
     
     private function registerAppsManagementNavigation(IConfig $config, IAppManager $appManager): void {
 		$container = $this->getContainer();
-        $this->config = $config;
 		$appManager->enableAppForGroups(self::APP_ID, array('admin'), false);
 		$wtpara_menue = 2;
 		if ($wtpara_menue == 1) {
