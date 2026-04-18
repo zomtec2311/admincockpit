@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.2.6
+
+### Fixed
+- Dashbord Widget bug fixed
+
+## 1.2.5
+
+### Changed
+- LogCleaner box due to LogCleaner changes
+
+### Added
+- Dashboard widget displaying available nextcloud and app updates
+
 ## 1.2.3
 
 ### Fixed
