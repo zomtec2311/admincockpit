@@ -217,6 +217,26 @@ padding-top: 10px;
 .filter-green{
        filter: invert(58%) sepia(0%) saturate(1276%) hue-rotate(76deg) brightness(110%) contrast(109%);
     }
+
+.app-row {
+  display: flex;
+  align-items: center; /* zentriert SVG und Text vertikal */
+  gap: 0.5rem;         /* optional: Abstand */
+}
+
+.app-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-flex;     /* wichtig: inline-flex statt block für korrekte Ausrichtung */
+  align-items: center;      /* zentriert Inhalt innerhalb des SVG-Containers */
+  justify-content: center;
+  vertical-align: middle;
+  filter: invert(58%) sepia(0%) saturate(1276%) hue-rotate(76deg) brightness(110%) contrast(109%);
+}
+
+.app-name, .app-version {
+  line-height: 20px;      /* sorgt für konsistente Texthöhe */
+}
     
 .centered-div {
 max-width: fit-content;
