@@ -9,6 +9,7 @@ return [
     ['name' => 'System#storage', 'url' => '/storage', 'verb' => 'GET'],
     ['name' => 'System#sqlinfo', 'url' => '/sqlinfo', 'verb' => 'GET'],
     ['name' => 'System#systeminfo', 'url' => '/systeminfo', 'verb' => 'GET'],
+    ['name' => 'System#widgetinfo', 'url' => '/widgetinfo', 'verb' => 'GET'],
     ['name' => 'Apps#appsinfo', 'url' => '/appsinfo', 'verb' => 'GET'],
     ['name' => 'Apps#isnoti', 'url' => '/isnoti', 'verb' => 'GET'],
     ['name' => 'Apps#islogcleaner', 'url' => '/islogcleaner', 'verb' => 'GET'],
