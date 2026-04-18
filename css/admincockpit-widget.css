@@ -1,0 +1,211 @@
+:root{
+  --bg:#ffffff;
+  --mybadge:#0068A0;
+  --surface:#f7f8fa;
+  --muted:#6b7280;
+  --accent:#0b7cff;
+  --success:#059669;
+  --danger:#ef4444;
+  --radius:10px;
+  --shadow:0 6px 18px rgba(15,23,42,0.08);
+  --gap:12px;
+  --font-system: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.panel--content{
+  height:max-content !important;
+}
+
+.update-box{
+  width:100%;
+  max-width:520px;
+  background:var(--bg);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  padding:16px;
+  font-family:var(--font-system);
+  color:#111827;
+  border:1px solid #e6e8eb;
+}
+
+.update-box__header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:var(--gap);
+  margin-bottom:8px;
+}
+
+.update-box__title{
+  font-size:16px;
+  margin:0;
+}
+
+.update-box__badge{
+	background:var(--mybadge);
+	color:#fff;
+	font-weight:600;
+	padding:4px 8px;
+	border-radius:999px;
+	font-size:13px;
+}
+
+.update-box__system{
+  display:flex;
+  gap:12px;
+  align-items:flex-start;
+  background:linear-gradient(180deg, rgba(11,124,255,0.04), transparent);
+  padding:10px;
+  border-radius:8px;
+}
+
+.update-box__icon{
+  font-size:22px;
+  line-height:1;
+  margin-top:4px;
+}
+
+.update-box__content{flex:1}
+
+.update-box__row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+  margin-bottom:6px;
+}
+
+.update-box__time{
+  color:var(--muted);
+  font-size:13px;
+}
+
+.update-box__desc{
+  margin:0 0 10px 0;
+  color:var(--muted);
+  font-size:14px;
+}
+
+.update-box__actions{display:flex; gap:8px}
+
+.btn{
+  background:transparent;
+  border:1px solid #d1d5db;
+  padding:6px 10px;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:14px;
+  color:#111827;
+}
+.btn[disabled]{opacity:0.6;cursor:not-allowed}
+.btn:hover{filter:brightness(0.98)}
+.btn:active{transform:translateY(1px)}
+
+.btn--primary{
+  background:var(--accent);
+  border-color:transparent;
+}
+.btn--secondary{
+  background:transparent;
+  border:1px dashed #cbd5e1;
+  color:var(--accent);
+}
+
+.update-box__divider{
+  margin:12px 0;
+  border:none;
+  height:1px;
+  background:#eef2f7;
+}
+
+.update-box__apps-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:8px;
+  color:var(--muted);
+  font-size:14px;
+}
+
+.update-box__app-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px}
+
+.app-item{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:8px;
+  border-radius:8px;
+  background:var(--surface);
+}
+
+.app-item__meta{display:flex;gap:10px;align-items:center}
+.app-item__icon{width:36px;height:36px;border-radius:8px;object-fit:cover}
+.app-item__name{font-weight:600}
+.app-item__ver{color:var(--muted);font-size:13px}
+
+.app-item__actions .btn{padding:6px 10px;font-size:13px}
+
+.update-box__apps-actions{display:flex;gap:8px;margin-top:10px;justify-content:flex-end}
+
+.progress-bar{
+  width:100%;
+  height:10px;
+  background:#e6eefc;
+  border-radius:999px;
+  overflow:hidden;
+}
+.progress-bar__fill{
+  height:100%;
+  background:linear-gradient(90deg,var(--accent),#3aa0ff);
+  width:0%;
+  transition:width 180ms linear;
+}
+
+.tiny-progress{
+  width:80px;
+  height:8px;
+  background:#eef2f7;
+  border-radius:999px;
+  overflow:hidden;
+}
+.tiny-progress__fill{
+  height:100%;
+  background:linear-gradient(90deg,#10b981,#34d399);
+  width:0%;
+  transition:width 180ms linear;
+}
+
+.is-updating { box-shadow: 0 0 0 3px rgba(11,124,255,0.06) }
+
+.app-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.app-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  filter: invert(58%) sepia(0%) saturate(1276%) hue-rotate(76deg) brightness(110%) contrast(109%);
+}
+
+.app-name, .app-version {
+  line-height: 20px;
+}
+
+.icon-loading-small {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+/* Responsive */
+@media (max-width:420px){
+  .update-box{padding:12px}
+  .update-box__header{flex-direction:row;gap:8px}
+  .app-item__name{font-size:14px}
+}
