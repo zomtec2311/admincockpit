@@ -263,6 +263,33 @@ class SystemController extends Controller {
             ], 500);
         }
     }
+
+    public function widgetinfo(): DataResponse {
+        try {
+            $ncinfo = $this->myService->getNCInfo();
+            $ncupdate = $this->getSystemStatus();
+            $updatechannel = $this->config->getSystemValue('updater.release.channel');
+
+            return new DataResponse([
+                'nc_version' => $ncinfo['nc_version'],
+                'nc_installation_type' => $this->detectEnvironment(),
+                'nc_datadirectory' => $ncinfo['datadirectory'],
+                'nc_updateAvailable' => $ncupdate['updateAvailable'],
+                'nc_currentVersion' => $ncupdate['currentVersion'],
+                'nc_updateVersion' => $ncupdate['updateVersion'],
+                'nc_currentVersionimplode' => $ncupdate['currentVersionimplode'],
+                'nc_updatechannel' => $updatechannel,
+            ]);
+        } catch (\Throwable $e) {
+            $this->logger->error(
+                'AdminCockpit: FATAL ERROR or EXCEPTION in DataController->systeminfo: ' . $e->getMessage() . "\n" . $e->getTraceAsString(),
+                ['app' => 'admincockpit']
+            );
+            return new DataResponse([
+                'db' => -1,
+            ], 500);
+        }
+    }
     
     public function getSystemStatus(): array {
         $currentVersion = \OCP\Util::getVersion();
