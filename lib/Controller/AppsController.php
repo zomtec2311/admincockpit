@@ -281,6 +281,9 @@ class AppsController extends Controller {
 				unset($apps[$key]);
 			}
 			else {
+                $icon = $this->appManager->getAppIcon($app['id'], false);
+                $app["icon"] = $icon ? $icon : $this->appManager->getAppWebPath('admincockpit') . "/img/dummy.svg";
+                $app['updateState'] = 'idle';
                 $app['updateVersion'] = $newVersion;
             }
 		}
