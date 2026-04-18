@@ -16,6 +16,7 @@ use OCP\INavigationManager;
 use OCP\IServerContainer;
 use OCP\IConfig;
 use OCP\IURLGenerator;
+use OCA\AdminCockpit\Dashboard\AdminCockpitWidget;
 
 class Application extends App implements IBootstrap {
     public const APP_ID = 'admincockpit';
@@ -26,6 +27,7 @@ class Application extends App implements IBootstrap {
 
     public function register(IRegistrationContext $context): void {
 		$context->registerNotifierService(\OCA\AdminCockpit\Notification\Notifier::class);
+		$context->registerDashboardWidget(\OCA\AdminCockpit\Dashboard\AdminCockpitWidget::class);
 	}
 
     public function boot(IBootContext $context): void {
