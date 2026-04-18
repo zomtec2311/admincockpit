@@ -132,6 +132,15 @@
 "More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "Več informacij o dnevniški datoteki bo na voljo takoj, ko bo nameščena naša dodatna aplikacija Nextcloud LogCleaner, ki jo lahko uporabite za čiščenje dnevniške datoteke.",
 "Here is an example of what it would look like:": "Tukaj je primer, kako bi to izgledalo:",
 "LogCleaner on GitHub": "LogCleaner na GitHubu",
-"LogCleaner at the Nextcloud App store": "LogCleaner v trgovini Nextcloud App store"
+"LogCleaner at the Nextcloud App store": "LogCleaner v trgovini Nextcloud App store",
+"Update available": "Na voljo je posodobitev",
+"Updates available": "Na voljo so posodobitve",
+"no Updates available": "ni na voljo posodobitev",
+"Nextcloud Update": "Posodobitev Nextcloud",
+"no Nextcloud Update available": "posodobitev Nextcloud ni na voljo",
+"App Updates": "Posodobitve aplikacij",
+"no App Updates available": "ni na voljo posodobitev aplikacij",
+"Update": "posodobitev",
+"Update now": "Posodobite zdaj"
 },"pluralForm" :"nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3));"
 }

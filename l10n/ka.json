@@ -132,6 +132,16 @@
 "More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "დამატებითი ინფორმაცია ჟურნალის ფაილთან დაკავშირებით ხელმისაწვდომი იქნება, როგორც კი დაინსტალირდება ჩვენი დამატებითი Nextcloud აპი LogCleaner, რომელიც შეიძლება გამოყენებულ იქნას ჟურნალის ფაილის გასასუფთავებლად.",
 "Here is an example of what it would look like:": "აქ არის მაგალითი იმისა, თუ როგორ გამოიყურება:",
 "LogCleaner on GitHub": "LogCleaner GitHub-ზე",
-"LogCleaner at the Nextcloud App store": "LogCleaner Nextcloud App Store-ში"
+"LogCleaner at the Nextcloud App store": "LogCleaner Nextcloud App Store-ში",
+"Update available": "განახლება ხელმისაწვდომია",
+"Updates available": "განახლებები ხელმისაწვდომია",
+"no Updates available": "არ არის ხელმისაწვდომი განახლებები",
+"Nextcloud Update": "Nextcloud განახლება",
+"no Nextcloud Update available": "Nextcloud განახლება არ არის ხელმისაწვდომი",
+"App Updates": "აპლიკაციის განახლებები",
+"no App Updates available": "არ არის ხელმისაწვდომი აპის განახლებები",
+"Update": "განახლება",
+"Update now": "განაახლეთ ახლავე",
+"_%n App_::_%n Apps_": ["%n აპლიკაცია","%n აპი"]
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

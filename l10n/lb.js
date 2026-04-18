@@ -134,6 +134,16 @@ OC.L10N.register(
 "More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "Méi Informatioun iwwer d'Logdatei wäert verfügbar sinn soubal eis zousätzlech Nextcloud App LogCleaner installéiert ass, déi benotzt ka ginn fir d'Logdatei ze botzen.",
 "Here is an example of what it would look like:": "Hei ass e Beispill vu wéi et ausgesäit:",
 "LogCleaner on GitHub": "LogCleaner op GitHub",
-"LogCleaner at the Nextcloud App store": "LogCleaner am Nextcloud App Store"
+"LogCleaner at the Nextcloud App store": "LogCleaner am Nextcloud App Store",
+"Update available": "Update verfügbar",
+"Updates available": "Updates verfügbar",
+"no Updates available": "keng Updates verfügbar",
+"Nextcloud Update": "Nextcloud Update",
+"no Nextcloud Update available": "kee Nextcloud Update verfügbar",
+"App Updates": "App Updates",
+"no App Updates available": "keng App Updates verfügbar",
+"Update": "Update",
+"Update now": "Update elo",
+"_%n App_::_%n Apps_": ["%n App","%n Apps"]
 },
 "nplurals=2; plural=n != 1;");

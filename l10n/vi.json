@@ -132,6 +132,15 @@
 "More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "Thông tin thêm về tệp nhật ký sẽ có ngay khi ứng dụng Nextcloud bổ sung LogCleaner của chúng tôi được cài đặt, ứng dụng này có thể được sử dụng để dọn sạch tệp nhật ký.",
 "Here is an example of what it would look like:": "Đây là một ví dụ về những gì nó sẽ trông như thế nào:",
 "LogCleaner on GitHub": "LogCleaner trên GitHub",
-"LogCleaner at the Nextcloud App store": "LogCleaner tại cửa hàng ứng dụng Nextcloud"
+"LogCleaner at the Nextcloud App store": "LogCleaner tại cửa hàng ứng dụng Nextcloud",
+"Update available": "Đã có bản cập nhật",
+"Updates available": "Cập nhật có sẵn",
+"no Updates available": "không có bản cập nhật nào",
+"Nextcloud Update": "Cập nhật Nextcloud",
+"no Nextcloud Update available": "không có bản cập nhật Nextcloud nào",
+"App Updates": "Cập nhật ứng dụng",
+"no App Updates available": "không có bản cập nhật ứng dụng nào",
+"Update": "Cập nhật",
+"Update now": "Cập nhật ngay bây giờ"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

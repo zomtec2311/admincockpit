@@ -131,6 +131,15 @@
 "More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "מידע נוסף לגבי קובץ היומן יהיה זמין ברגע שתתקין אפליקציית Nextcloud הנוספת שלנו LogCleaner, שבה ניתן להשתמש כדי לנקות את קובץ היומן.",
 "Here is an example of what it would look like:": "הנה דוגמה איך זה ייראה:",
 "LogCleaner on GitHub": "LogCleaner ב- GitHub",
-"LogCleaner at the Nextcloud App store": "LogCleaner בחנות האפליקציות Nextcloud"
+"LogCleaner at the Nextcloud App store": "LogCleaner בחנות האפליקציות Nextcloud",
+"Update available": "עדכון זמין",
+"Updates available": "עדכונים זמינים",
+"no Updates available": "אין עדכונים זמינים",
+"Nextcloud Update": "עדכון Nextcloud",
+"no Nextcloud Update available": "אין עדכון Nextcloud זמין",
+"App Updates": "עדכוני אפליקציה",
+"no App Updates available": "אין עדכוני אפליקציה זמינים",
+"Update": "לְעַדְכֵּן",
+"Update now": "עדכן עכשיו"
 },"pluralForm" :"nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2);"
 }

@@ -132,6 +132,16 @@
 "More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "Més informació sobre el fitxer de registre estarà disponible tan bon punt s'instal·li la nostra aplicació addicional de Nextcloud LogCleaner, que es pot utilitzar per netejar el fitxer de registre.",
 "Here is an example of what it would look like:": "Aquí teniu un exemple de com seria:",
 "LogCleaner on GitHub": "LogCleaner a GitHub",
-"LogCleaner at the Nextcloud App store": "LogCleaner a la botiga d'aplicacions Nextcloud"
+"LogCleaner at the Nextcloud App store": "LogCleaner a la botiga d'aplicacions Nextcloud",
+"Update available": "Actualització disponible",
+"Updates available": "Actualitzacions disponibles",
+"no Updates available": "no hi ha actualitzacions disponibles",
+"Nextcloud Update": "Actualització de Nextcloud",
+"no Nextcloud Update available": "no hi ha cap actualització de Nextcloud disponible",
+"App Updates": "Actualitzacions d'aplicacions",
+"no App Updates available": "no hi ha actualitzacions d'aplicacions disponibles",
+"Update": "Actualització",
+"Update now": "Actualitza ara",
+"_%n App_::_%n Apps_": ["%n Aplicació","%n Aplicacions","%n Aplicacions"]
 },"pluralForm" :"nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2);"
 }

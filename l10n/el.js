@@ -134,6 +134,16 @@ OC.L10N.register(
 "More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "Περισσότερες πληροφορίες σχετικά με το αρχείο καταγραφής θα είναι διαθέσιμες μόλις εγκατασταθεί η πρόσθετη εφαρμογή Nextcloud LogCleaner, η οποία μπορεί να χρησιμοποιηθεί για την εκκαθάριση του αρχείου καταγραφής.",
 "Here is an example of what it would look like:": "Ακολουθεί ένα παράδειγμα για το πώς θα μοιάζει:",
 "LogCleaner on GitHub": "LogCleaner στο GitHub",
-"LogCleaner at the Nextcloud App store": "LogCleaner στο κατάστημα εφαρμογών Nextcloud"
+"LogCleaner at the Nextcloud App store": "LogCleaner στο κατάστημα εφαρμογών Nextcloud",
+"Update available": "Διαθέσιμη ενημέρωση",
+"Updates available": "Διαθέσιμες ενημερώσεις",
+"no Updates available": "δεν υπάρχουν διαθέσιμες ενημερώσεις",
+"Nextcloud Update": "Nextcloud Ενημέρωση",
+"no Nextcloud Update available": "δεν υπάρχει διαθέσιμη ενημέρωση Nextcloud",
+"App Updates": "Ενημερώσεις εφαρμογών",
+"no App Updates available": "δεν υπάρχουν διαθέσιμες ενημερώσεις εφαρμογής",
+"Update": "Εκσυγχρονίζω",
+"Update now": "Ενημέρωση τώρα",
+"_%n App_::_%n Apps_": ["%n Εφαρμογή","%n Εφαρμογές"]
 },
 "nplurals=2; plural=n != 1;");

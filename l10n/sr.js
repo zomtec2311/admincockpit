@@ -134,6 +134,15 @@ OC.L10N.register(
 "More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "Више информација у вези са датотеком евиденције биће доступно чим се наша додатна Нектцлоуд апликација ЛогЦлеанер инсталира, која се може користити за чишћење датотеке евиденције.",
 "Here is an example of what it would look like:": "Ево примера како би то изгледало:",
 "LogCleaner on GitHub": "ЛогЦлеанер на ГитХуб-у",
-"LogCleaner at the Nextcloud App store": "ЛогЦлеанер у продавници апликација Нектцлоуд"
+"LogCleaner at the Nextcloud App store": "ЛогЦлеанер у продавници апликација Нектцлоуд",
+"Update available": "Доступно је ажурирање",
+"Updates available": "Доступна су ажурирања",
+"no Updates available": "нема доступних ажурирања",
+"Nextcloud Update": "Нектцлоуд Упдате",
+"no Nextcloud Update available": "није доступно Нектцлоуд ажурирање",
+"App Updates": "Ажурирања апликација",
+"no App Updates available": "нема доступних ажурирања апликација",
+"Update": "Ажурирај",
+"Update now": "Ажурирајте одмах"
 },
 "nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);");

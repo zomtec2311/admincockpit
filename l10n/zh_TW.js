@@ -134,6 +134,15 @@ OC.L10N.register(
 "More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "安裝我們的附加 Nextcloud 應用程式 LogCleaner 後，將立即提供有關日誌檔案的更多信息，該應用程式可用於清理日誌檔案。",
 "Here is an example of what it would look like:": "下面是它的外觀範例：",
 "LogCleaner on GitHub": "GitHub 上的 LogCleaner",
-"LogCleaner at the Nextcloud App store": "Nextcloud 應用程式商店中的 LogCleaner"
+"LogCleaner at the Nextcloud App store": "Nextcloud 應用程式商店中的 LogCleaner",
+"Update available": "可用更新",
+"Updates available": "可用更新",
+"no Updates available": "沒有可用的更新",
+"Nextcloud Update": "下一個雲端更新",
+"no Nextcloud Update available": "沒有可用的 Nextcloud 更新",
+"App Updates": "應用程式更新",
+"no App Updates available": "沒有可用的應用程式更新",
+"Update": "更新",
+"Update now": "立即更新"
 },
 "nplurals=1; plural=0;");

@@ -134,6 +134,16 @@ OC.L10N.register(
 "More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "Lisätietoja lokitiedostosta on saatavilla heti, kun ylimääräinen Nextcloud-sovellus LogCleaner on asennettu, jota voidaan käyttää lokitiedoston puhdistamiseen.",
 "Here is an example of what it would look like:": "Tässä on esimerkki siitä, miltä se näyttäisi:",
 "LogCleaner on GitHub": "LogCleaner GitHubissa",
-"LogCleaner at the Nextcloud App store": "LogCleaner Nextcloud-sovelluskaupassa"
+"LogCleaner at the Nextcloud App store": "LogCleaner Nextcloud-sovelluskaupassa",
+"Update available": "Päivitys saatavilla",
+"Updates available": "Päivityksiä saatavilla",
+"no Updates available": "ei päivityksiä saatavilla",
+"Nextcloud Update": "Nextcloud-päivitys",
+"no Nextcloud Update available": "Nextcloud-päivitystä ei ole saatavilla",
+"App Updates": "Sovelluspäivitykset",
+"no App Updates available": "Sovelluspäivityksiä ei ole saatavilla",
+"Update": "Päivittää",
+"Update now": "Päivitä nyt",
+"_%n App_::_%n Apps_": ["%n sovellusta","%n sovellusta"]
 },
 "nplurals=2; plural=n != 1;");

@@ -134,6 +134,15 @@ OC.L10N.register(
 "More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "ログ ファイルに関する詳細情報は、追加の Nextcloud アプリ LogCleaner がインストールされるとすぐに利用可能になり、ログ ファイルのクリーンアップに使用できます。",
 "Here is an example of what it would look like:": "以下にその例を示します。",
 "LogCleaner on GitHub": "GitHub の LogCleaner",
-"LogCleaner at the Nextcloud App store": "Nextcloud アプリストアの LogCleaner"
+"LogCleaner at the Nextcloud App store": "Nextcloud アプリストアの LogCleaner",
+"Update available": "利用可能なアップデート",
+"Updates available": "利用可能なアップデート",
+"no Updates available": "利用可能なアップデートはありません",
+"Nextcloud Update": "Nextcloud アップデート",
+"no Nextcloud Update available": "Nextcloud アップデートは利用できません",
+"App Updates": "アプリのアップデート",
+"no App Updates available": "利用可能なアプリのアップデートはありません",
+"Update": "アップデート",
+"Update now": "今すぐアップデートしてください"
 },
 "nplurals=1; plural=0;");

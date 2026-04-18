@@ -134,6 +134,15 @@ OC.L10N.register(
 "More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "Mai multe informații despre fișierul jurnal vor fi disponibile de îndată ce este instalată aplicația noastră suplimentară Nextcloud LogCleaner, care poate fi folosită pentru a curăța fișierul jurnal.",
 "Here is an example of what it would look like:": "Iată un exemplu despre cum ar arăta:",
 "LogCleaner on GitHub": "LogCleaner pe GitHub",
-"LogCleaner at the Nextcloud App store": "LogCleaner la magazinul de aplicații Nextcloud"
+"LogCleaner at the Nextcloud App store": "LogCleaner la magazinul de aplicații Nextcloud",
+"Update available": "Actualizare disponibilă",
+"Updates available": "Actualizări disponibile",
+"no Updates available": "nu există actualizări disponibile",
+"Nextcloud Update": "Actualizare Nextcloud",
+"no Nextcloud Update available": "nu este disponibilă nicio actualizare Nextcloud",
+"App Updates": "Actualizări ale aplicației",
+"no App Updates available": "nu sunt disponibile actualizări ale aplicației",
+"Update": "Actualizare",
+"Update now": "Actualizați acum"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2);");

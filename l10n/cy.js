@@ -134,6 +134,15 @@ OC.L10N.register(
 "More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "Bydd mwy o wybodaeth am y ffeil log ar gael cyn gynted ag y bydd ein app Nextcloud ychwanegol LogCleaner wedi'i osod, y gellir ei ddefnyddio i lanhau'r ffeil log.",
 "Here is an example of what it would look like:": "Dyma enghraifft o sut olwg fyddai arno:",
 "LogCleaner on GitHub": "LogCleaner ar GitHub",
-"LogCleaner at the Nextcloud App store": "LogCleaner yn siop App Nextcloud"
+"LogCleaner at the Nextcloud App store": "LogCleaner yn siop App Nextcloud",
+"Update available": "Diweddariad ar gael",
+"Updates available": "Diweddariadau ar gael",
+"no Updates available": "dim Diweddariadau ar gael",
+"Nextcloud Update": "Diweddariad Nextcloud",
+"no Nextcloud Update available": "dim Diweddariad Nextcloud ar gael",
+"App Updates": "Diweddariadau Ap",
+"no App Updates available": "dim Diweddariadau Ap ar gael",
+"Update": "Diweddariad",
+"Update now": "Diweddaru nawr"
 },
 "nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));");

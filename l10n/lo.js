@@ -134,6 +134,15 @@ OC.L10N.register(
 "More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "ຂໍ້​ມູນ​ເພີ່ມ​ເຕີມ​ກ່ຽວ​ກັບ​ໄຟລ​໌​ບັນ​ທຶກ​ຈະ​ມີ​ໃນ​ທັນ​ທີ​ທີ່​ມີ​ການ​ຕິດ​ຕັ້ງ Nextcloud app LogCleaner​, ທີ່​ສາ​ມາດ​ຖືກ​ນໍາ​ໃຊ້​ເພື່ອ​ທໍາ​ຄວາມ​ສະ​ອາດ​ໄຟລ​໌​ບັນ​ທຶກ​ໄດ້​.",
 "Here is an example of what it would look like:": "ນີ້ແມ່ນຕົວຢ່າງຂອງສິ່ງທີ່ມັນຈະເບິ່ງຄືວ່າ:",
 "LogCleaner on GitHub": "LogCleaner ໃນ GitHub",
-"LogCleaner at the Nextcloud App store": "LogCleaner ຢູ່ຮ້ານ Nextcloud App"
+"LogCleaner at the Nextcloud App store": "LogCleaner ຢູ່ຮ້ານ Nextcloud App",
+"Update available": "ມີອັບເດດແລ້ວ",
+"Updates available": "ມີການອັບເດດ",
+"no Updates available": "ບໍ່ມີການອັບເດດ",
+"Nextcloud Update": "ອັບເດດ Nextcloud",
+"no Nextcloud Update available": "ບໍ່ມີ Nextcloud Update ມີໃຫ້",
+"App Updates": "ອັບເດດແອັບ",
+"no App Updates available": "ບໍ່ມີການອັບເດດແອັບ",
+"Update": "ອັບເດດ",
+"Update now": "ອັບເດດດຽວນີ້"
 },
 "nplurals=1; plural=0;");

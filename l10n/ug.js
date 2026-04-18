@@ -133,6 +133,15 @@ OC.L10N.register(
 "More information regarding the log file will be available as soon as our additional Nextcloud app LogCleaner is installed, which can be used to clean up the log file.": "خاتىرە ھۆججىتىگە مۇناسىۋەتلىك تېخىمۇ كۆپ ئۇچۇرلار بىزنىڭ Nextcloud دېتالىمىز LogCleaner قاچىلانغان ھامان تىزىملىككە كىرەلەيدۇ ، بۇ ھۆججەتلەرنى تازىلاشقا ئىشلىتىلىدۇ.",
 "Here is an example of what it would look like:": "ئۇنىڭ قانداق بولىدىغانلىقىنىڭ بىر مىسالى:",
 "LogCleaner on GitHub": "GitHub دىكى LogCleaner",
-"LogCleaner at the Nextcloud App store": "Nextcloud ئەپ دۇكىنىدىكى LogCleaner"
+"LogCleaner at the Nextcloud App store": "Nextcloud ئەپ دۇكىنىدىكى LogCleaner",
+"Update available": "يېڭىلاشنى ئىشلەتكىلى بولىدۇ",
+"Updates available": "يېڭىلانمىلار بار",
+"no Updates available": "يېڭىلاش يوق",
+"Nextcloud Update": "Nextcloud يېڭىلاش",
+"no Nextcloud Update available": "Nextcloud يېڭىلاش يوق",
+"App Updates": "ئەپ يېڭىلانمىلىرى",
+"no App Updates available": "ئەپ يېڭىلانمىلىرى يوق",
+"Update": "يېڭىلاش",
+"Update now": "ھازىر يېڭىلاڭ"
 },
 "nplurals=2; plural=n != 1;");
