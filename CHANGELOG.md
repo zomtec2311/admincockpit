@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.2.7
+
+### Changed
+- view of dashboard widget
+- update language files
+
+### Fixed
+- getAppInfo returns null  ([#11](https://github.com/zomtec2311/admincockpit/issues/11)) @manymane
+
 ## 1.2.6
 
 ### Fixed
