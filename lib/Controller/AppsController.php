@@ -176,13 +176,21 @@ class AppsController extends Controller {
     public function appsfull($apps) {
         $i = 0;
         $wtarr = [];
-        $obja = new \stdClass();
+
         foreach($apps as $appid){
+
             $icon = $this->appManager->getAppIcon($appid, false);
-            $obja->appid = $appid;
-            $obja->id = $i;
+
             $wtarr[$i]["appid"] = $appid;
-            $wtarr[$i]["name"] = $this->appManager->getAppInfo($appid, false, "en_GB");
+            $appinfo = $this->appManager->getAppInfo($appid, false, "en_GB");
+            if ($appinfo === null) {
+                $obja = new \stdClass();
+                $obja->appid = $appid;
+                $obja->id = $i;
+                $obja->name = $appid;
+                $appinfo = $obja;
+            }
+            $wtarr[$i]["name"] = $appinfo;
             $wtarr[$i]["id"] = $i;
             $wtarr[$i]["icon"] = $icon ? $icon : $this->appManager->getAppWebPath('admincockpit') . "/img/dummy.svg";
             
