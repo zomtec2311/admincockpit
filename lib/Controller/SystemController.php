@@ -214,13 +214,11 @@ class SystemController extends Controller {
         try {
             $cpu = $this->myService->getCpuInfo();
             $phpinfo = $this->myService->getPhpEnvironmentInfo();
-            $wttest = $this->myService->getDiskInfo();
+            $diskinfo = $this->myService->getDiskInfo();
             $raminfo = $this->myService->getRAMInfo();
             $ncinfo = $this->myService->getNCInfo();
-            $mynetwork = $this->myService->getNetworkInterfaces();
             $ncupdate = $this->getSystemStatus();
             $logfile = $this->getlogfile();
-            $updatechannel = $this->config->getSystemValue('updater.release.channel');
             
             return new DataResponse([
                 'hostname' => gethostname(),
@@ -235,7 +233,7 @@ class SystemController extends Controller {
                 'extensions' => $phpinfo['extensions'],
                 'max_execution_time' => $phpinfo['max_execution_time'],
                 'opcache_freq' => $phpinfo['opcache_freq'],
-                'diskinfo' => $wttest,
+                'diskinfo' => $diskinfo,
                 'ram_total' => $raminfo['ram_total'],
                 'ram_used' => $raminfo['ram_used'],
                 'ram_available' => $raminfo['ram_available'],
@@ -250,8 +248,8 @@ class SystemController extends Controller {
                 'nc_currentVersionimplode' => $ncupdate['currentVersionimplode'],
                 'nc_logfile' => $logfile['file'],
                 'nc_logfile_size' => $logfile['filesize'],
-                'nc_updatechannel' => $updatechannel,
-                'network' => $mynetwork,
+                'nc_updatechannel' => $this->config->getSystemValue('updater.release.channel'),
+                'network' => $this->myService->getNetworkInterfaces(),
             ]);
         } catch (\Throwable $e) {
             $this->logger->error(
