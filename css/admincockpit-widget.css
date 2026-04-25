@@ -19,6 +19,28 @@
 .update-box{
   width:100%;
   max-width:520px;
+}
+
+.update-box-title{
+    width:100%;
+    display: block;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    padding: 0px;
+    height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: grab;
+}
+
+.update-box-content{
+  width:100%;
+  max-width:520px;
   background:var(--bg);
   border-radius:var(--radius);
   box-shadow:var(--shadow);
@@ -38,6 +60,7 @@
 
 .update-box__title{
   font-size:16px;
+  color:var(--muted);
   margin:0;
 }
 
@@ -201,6 +224,54 @@
   display: inline-block;
   width: 16px;
   height: 16px;
+}
+
+.icon-admincockpit {
+	background-image: url(./../img/app-dark.svg);
+	filter: var(--background-invert-if-dark);
+}
+
+.spinner2-container {
+  margin-left: 120px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+  width: 100%;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+}
+
+.spinner2 {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #3498db;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+  -webkit-animation: spin 1s linear infinite;
+
+}
+
+@keyframes indeterminate {
+    0% { left: -50%; }
+    100% { left: 100%; }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes spin {
+  0% { -moz-transform: rotate(0deg); }
+  100% { -moz-transform: rotate(360deg); }
 }
 
 /* Responsive */
