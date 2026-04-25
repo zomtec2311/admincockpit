@@ -432,9 +432,13 @@ if ($totalSpace !== false) {
             $mac      = $this->readContent("$path/address") ?: 'N/A';
             if ($name === 'lo' && $mac === '00:00:00:00:00:00') {
                 $mac = '';
+                $speedRaw = 0;
+                $duplex = 'unknown';
             }
-            $speedRaw = (int)$this->readContent("$path/speed");
-            $duplex   = $this->readContent("$path/duplex") ?: 'unknown';
+            else {
+                $speedRaw = (int)$this->readContent("$path/speed");
+                $duplex   = $this->readContent("$path/duplex") ?: 'unknown';
+            }
 
             $speed = "unknown";
             if ($speedRaw > 0) {
