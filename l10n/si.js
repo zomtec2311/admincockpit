@@ -144,6 +144,7 @@ OC.L10N.register(
 "no App Updates available": "යෙදුම් යාවත්කාලීන නොමැත",
 "Update": "යාවත්කාලීන කරන්න",
 "Update now": "දැන් යාවත්කාලීන කරන්න",
-"_%n App_::_%n Apps_": ["%n යෙදුම්","%n යෙදුම්"]
+"_%n App_::_%n Apps_": ["%n යෙදුම්","%n යෙදුම්"],
+"Update Checker": "යාවත්කාලීන පරීක්ෂක"
 },
 "nplurals=2; plural=n > 1;");

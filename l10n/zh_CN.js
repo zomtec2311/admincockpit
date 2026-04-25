@@ -143,6 +143,7 @@ OC.L10N.register(
 "App Updates": "应用程序更新",
 "no App Updates available": "没有可用的应用程序更新",
 "Update": "更新",
-"Update now": "立即更新"
+"Update now": "立即更新",
+"Update Checker": "更新检查器"
 },
 "nplurals=1; plural=0;");

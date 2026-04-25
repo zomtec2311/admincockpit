@@ -141,6 +141,7 @@
 "App Updates": "Diweddariadau Ap",
 "no App Updates available": "dim Diweddariadau Ap ar gael",
 "Update": "Diweddariad",
-"Update now": "Diweddaru nawr"
+"Update now": "Diweddaru nawr",
+"Update Checker": "Gwiriwr Diweddaru"
 },"pluralForm" :"nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));"
 }

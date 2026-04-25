@@ -144,6 +144,7 @@ OC.L10N.register(
 "no App Updates available": "Sovelluspäivityksiä ei ole saatavilla",
 "Update": "Päivittää",
 "Update now": "Päivitä nyt",
-"_%n App_::_%n Apps_": ["%n sovellusta","%n sovellusta"]
+"_%n App_::_%n Apps_": ["%n sovellusta","%n sovellusta"],
+"Update Checker": "Päivitä Checker"
 },
 "nplurals=2; plural=n != 1;");

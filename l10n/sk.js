@@ -143,6 +143,7 @@ OC.L10N.register(
 "App Updates": "Aktualizácie aplikácií",
 "no App Updates available": "nie sú k dispozícii žiadne aktualizácie aplikácií",
 "Update": "Aktualizovať",
-"Update now": "Aktualizujte teraz"
+"Update now": "Aktualizujte teraz",
+"Update Checker": "Kontrola aktualizácií"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);");

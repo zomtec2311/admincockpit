@@ -143,6 +143,7 @@ OC.L10N.register(
 "App Updates": "การอัปเดตแอป",
 "no App Updates available": "ไม่มีการอัปเดตแอป",
 "Update": "อัปเดต",
-"Update now": "อัปเดตตอนนี้"
+"Update now": "อัปเดตตอนนี้",
+"Update Checker": "อัปเดตตัวตรวจสอบ"
 },
 "nplurals=1; plural=0;");

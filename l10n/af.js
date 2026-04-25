@@ -144,6 +144,7 @@ OC.L10N.register(
 "no App Updates available": "geen toepassingopdaterings beskikbaar nie",
 "Update": "Dateer op",
 "Update now": "Dateer nou op",
-"_%n App_::_%n Apps_": ["%n Toepassing","%n Toepassings"]
+"_%n App_::_%n Apps_": ["%n Toepassing","%n Toepassings"],
+"Update Checker": "Dateer Checker op"
 },
 "nplurals=2; plural=n != 1;");

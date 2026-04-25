@@ -143,6 +143,7 @@ OC.L10N.register(
 "App Updates": "Pembaruan Aplikasi",
 "no App Updates available": "tidak ada Pembaruan Aplikasi yang tersedia",
 "Update": "Memperbarui",
-"Update now": "Perbarui sekarang"
+"Update now": "Perbarui sekarang",
+"Update Checker": "Pemeriksa Pembaruan"
 },
 "nplurals=1; plural=0;");

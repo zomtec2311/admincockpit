@@ -143,6 +143,7 @@ OC.L10N.register(
 "App Updates": "앱 업데이트",
 "no App Updates available": "사용 가능한 앱 업데이트가 없습니다.",
 "Update": "업데이트",
-"Update now": "지금 업데이트"
+"Update now": "지금 업데이트",
+"Update Checker": "업데이트 검사기"
 },
 "nplurals=1; plural=0;");

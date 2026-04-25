@@ -142,6 +142,7 @@ OC.L10N.register(
 "App Updates": "ئەپ يېڭىلانمىلىرى",
 "no App Updates available": "ئەپ يېڭىلانمىلىرى يوق",
 "Update": "يېڭىلاش",
-"Update now": "ھازىر يېڭىلاڭ"
+"Update now": "ھازىر يېڭىلاڭ",
+"Update Checker": "تەكشۈرگۈچنى يېڭىلاش"
 },
 "nplurals=2; plural=n != 1;");

@@ -144,6 +144,7 @@ OC.L10N.register(
 "no App Updates available": "Uygulama Güncellemesi yok",
 "Update": "Güncelleme",
 "Update now": "Şimdi güncelle",
-"_%n App_::_%n Apps_": ["%n Uygulama","%n Uygulama"]
+"_%n App_::_%n Apps_": ["%n Uygulama","%n Uygulama"],
+"Update Checker": "Denetleyiciyi Güncelle"
 },
 "nplurals=2; plural=n != 1;");

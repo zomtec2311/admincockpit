@@ -144,6 +144,7 @@ OC.L10N.register(
 "no App Updates available": "ಯಾವುದೇ ಅಪ್ಲಿಕೇಶನ್ ನವೀಕರಣಗಳು ಲಭ್ಯವಿಲ್ಲ",
 "Update": "ನವೀಕರಿಸಿ",
 "Update now": "ಈಗ ನವೀಕರಿಸಿ",
-"_%n App_::_%n Apps_": ["%n ಅಪ್ಲಿಕೇಶನ್","%n ಅಪ್ಲಿಕೇಶನ್‌ಗಳು"]
+"_%n App_::_%n Apps_": ["%n ಅಪ್ಲಿಕೇಶನ್","%n ಅಪ್ಲಿಕೇಶನ್‌ಗಳು"],
+"Update Checker": "ಪರಿಶೀಲಕವನ್ನು ನವೀಕರಿಸಿ"
 },
 "nplurals=2; plural=n > 1;");

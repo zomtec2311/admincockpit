@@ -144,6 +144,7 @@ OC.L10N.register(
 "no App Updates available": "Հավելվածի թարմացումները հասանելի չեն",
 "Update": "Թարմացնել",
 "Update now": "Թարմացրեք հիմա",
-"_%n App_::_%n Apps_": ["%n Հավելված","%n Հավելված"]
+"_%n App_::_%n Apps_": ["%n Հավելված","%n Հավելված"],
+"Update Checker": "Թարմացնել ստուգիչը"
 },
 "nplurals=2; plural=n > 1;");

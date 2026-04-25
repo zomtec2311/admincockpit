@@ -144,6 +144,7 @@ OC.L10N.register(
 "no App Updates available": "কোনো অ্যাপ আপডেট উপলব্ধ নেই",
 "Update": "আপডেট",
 "Update now": "এখনই আপডেট করুন",
-"_%n App_::_%n Apps_": ["%n অ্যাপ","%n অ্যাপস"]
+"_%n App_::_%n Apps_": ["%n অ্যাপ","%n অ্যাপস"],
+"Update Checker": "আপডেট চেকার"
 },
 "nplurals=2; plural=n > 1;");

@@ -143,6 +143,7 @@ OC.L10N.register(
 "App Updates": "Оновлення програми",
 "no App Updates available": "немає оновлень програми",
 "Update": "оновлення",
-"Update now": "Оновіть зараз"
+"Update now": "Оновіть зараз",
+"Update Checker": "Перевірка оновлень"
 },
 "nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);");

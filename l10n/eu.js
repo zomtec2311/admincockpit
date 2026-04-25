@@ -144,6 +144,7 @@ OC.L10N.register(
 "no App Updates available": "ez dago aplikazioen eguneratzerik eskuragarri",
 "Update": "Eguneratu",
 "Update now": "Eguneratu orain",
-"_%n App_::_%n Apps_": ["%n aplikazioa","%n aplikazioak"]
+"_%n App_::_%n Apps_": ["%n aplikazioa","%n aplikazioak"],
+"Update Checker": "Eguneratu egiaztatzailea"
 },
 "nplurals=2; plural=n != 1;");

@@ -143,6 +143,7 @@ OC.L10N.register(
 "App Updates": "អាប់ដេតកម្មវិធី",
 "no App Updates available": "មិនមានការអាប់ដេតកម្មវិធីទេ។",
 "Update": "ធ្វើបច្ចុប្បន្នភាព",
-"Update now": "ធ្វើបច្ចុប្បន្នភាពឥឡូវនេះ"
+"Update now": "ធ្វើបច្ចុប្បន្នភាពឥឡូវនេះ",
+"Update Checker": "កម្មវិធីពិនិត្យបច្ចុប្បន្នភាព"
 },
 "nplurals=1; plural=0;");

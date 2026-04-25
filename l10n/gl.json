@@ -142,6 +142,7 @@
 "no App Updates available": "non hai actualizacións da aplicación dispoñibles",
 "Update": "Actualizar",
 "Update now": "Actualiza agora",
-"_%n App_::_%n Apps_": ["%n Aplicación","%n Aplicacións"]
+"_%n App_::_%n Apps_": ["%n Aplicación","%n Aplicacións"],
+"Update Checker": "Actualizar Checker"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

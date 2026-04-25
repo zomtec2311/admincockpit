@@ -142,6 +142,6 @@ OC.L10N.register(
 "App Updates": "به روز رسانی برنامه",
 "no App Updates available": "هیچ به‌روزرسانی برنامه موجود نیست",
 "Update": "به روز رسانی",
-"Update now": "
+"Update Checker": "به روز رسانی جستجوگر"
 },
 "nplurals=2; plural=n > 1;");

@@ -144,6 +144,7 @@ OC.L10N.register(
 "no App Updates available": "nincs elérhető alkalmazásfrissítés",
 "Update": "Frissítés",
 "Update now": "Frissítse most",
-"_%n App_::_%n Apps_": ["%n alkalmazás","%n alkalmazás"]
+"_%n App_::_%n Apps_": ["%n alkalmazás","%n alkalmazás"],
+"Update Checker": "Update Checker"
 },
 "nplurals=2; plural=n != 1;");

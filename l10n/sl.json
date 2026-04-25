@@ -141,6 +141,7 @@
 "App Updates": "Posodobitve aplikacij",
 "no App Updates available": "ni na voljo posodobitev aplikacij",
 "Update": "posodobitev",
-"Update now": "Posodobite zdaj"
+"Update now": "Posodobite zdaj",
+"Update Checker": "Preverjevalnik posodobitev"
 },"pluralForm" :"nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3));"
 }

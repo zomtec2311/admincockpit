@@ -144,6 +144,7 @@ OC.L10N.register(
 "no App Updates available": "Tətbiq Yeniləmələri mövcud deyil",
 "Update": "Yeniləyin",
 "Update now": "İndi yeniləyin",
-"_%n App_::_%n Apps_": ["%n Proqram","%n Proqramlar"]
+"_%n App_::_%n Apps_": ["%n Proqram","%n Proqramlar"],
+"Update Checker": "Yoxlayıcıyı yeniləyin"
 },
 "nplurals=2; plural=n != 1;");

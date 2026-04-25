@@ -145,6 +145,7 @@ OC.L10N.register(
 "no App Updates available": "Rakenduse värskendusi pole saadaval",
 "Update": "Värskenda",
 "Update now": "Värskendage kohe",
-"_%n App_::_%n Apps_": ["%n rakendust","%n rakendust"]
+"_%n App_::_%n Apps_": ["%n rakendust","%n rakendust"],
+"Update Checker": "Uuenda kontrollijat"
 },
 "nplurals=2; plural=n != 1;");

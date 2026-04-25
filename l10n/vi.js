@@ -143,6 +143,7 @@ OC.L10N.register(
 "App Updates": "Cập nhật ứng dụng",
 "no App Updates available": "không có bản cập nhật ứng dụng nào",
 "Update": "Cập nhật",
-"Update now": "Cập nhật ngay bây giờ"
+"Update now": "Cập nhật ngay bây giờ",
+"Update Checker": "Trình kiểm tra cập nhật"
 },
 "nplurals=1; plural=0;");

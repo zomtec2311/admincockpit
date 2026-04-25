@@ -143,6 +143,7 @@ OC.L10N.register(
 "App Updates": "Aktualizacje aplikacji",
 "no App Updates available": "brak dostępnych aktualizacji aplikacji",
 "Update": "Aktualizacja",
-"Update now": "Zaktualizuj teraz"
+"Update now": "Zaktualizuj teraz",
+"Update Checker": "Aktualizuj moduł sprawdzający"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);");

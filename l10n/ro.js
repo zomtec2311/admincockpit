@@ -143,6 +143,7 @@ OC.L10N.register(
 "App Updates": "Actualizări ale aplicației",
 "no App Updates available": "nu sunt disponibile actualizări ale aplicației",
 "Update": "Actualizare",
-"Update now": "Actualizați acum"
+"Update now": "Actualizați acum",
+"Update Checker": "Update Checker"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2);");

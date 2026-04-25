@@ -144,6 +144,7 @@ OC.L10N.register(
 "no App Updates available": "engar forritauppfærslur í boði",
 "Update": "Uppfærsla",
 "Update now": "Uppfærðu núna",
-"_%n App_::_%n Apps_": ["%n Forrit","%n Forrit"]
+"_%n App_::_%n Apps_": ["%n Forrit","%n Forrit"],
+"Update Checker": "Uppfæra Checker"
 },
 "nplurals=2; plural=n % 10 != 1 || n % 100 == 11;");

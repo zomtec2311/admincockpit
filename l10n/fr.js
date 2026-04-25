@@ -144,6 +144,7 @@ OC.L10N.register(
 "no App Updates available": "aucune mise à jour d'application disponible",
 "Update": "Mise à jour",
 "Update now": "Mettre à jour maintenant",
-"_%n App_::_%n Apps_": ["%n Application","%n Applications"]
+"_%n App_::_%n Apps_": ["%n Application","%n Applications"],
+"Update Checker": "Vérificateur de mise à jour"
 },
 "nplurals=2; plural=(n != 1);");

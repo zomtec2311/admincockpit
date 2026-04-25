@@ -144,6 +144,7 @@ OC.L10N.register(
 "no App Updates available": "ямар ч програмын шинэчлэл байхгүй",
 "Update": "Шинэчлэх",
 "Update now": "Одоо шинэчилнэ үү",
-"_%n App_::_%n Apps_": ["%n App","%n Apps"]
+"_%n App_::_%n Apps_": ["%n App","%n Apps"],
+"Update Checker": "Шалгагчийг шинэчлэх"
 },
 "nplurals=2; plural=n != 1;");

@@ -144,6 +144,7 @@ OC.L10N.register(
 "no App Updates available": "neniuj App Ĝisdatigoj haveblaj",
 "Update": "Ĝisdatigo",
 "Update now": "Ĝisdatigu nun",
-"_%n App_::_%n Apps_": ["%n Aplikaĵoj","%n Aplikaĵoj"]
+"_%n App_::_%n Apps_": ["%n Aplikaĵoj","%n Aplikaĵoj"],
+"Update Checker": "Ĝisdatigu Kontrolilon"
 },
 "nplurals=2; plural=n != 1;");

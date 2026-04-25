@@ -144,6 +144,7 @@ OC.L10N.register(
 "no App Updates available": "nessun aggiornamento dell'app disponibile",
 "Update": "Aggiornamento",
 "Update now": "Aggiorna ora",
-"_%n App_::_%n Apps_": ["%n App","%n App"]
+"_%n App_::_%n Apps_": ["%n App","%n App"],
+"Update Checker": "Controllo aggiornamenti"
 },
 "nplurals=2; plural=(n != 1);");

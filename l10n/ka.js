@@ -144,6 +144,7 @@ OC.L10N.register(
 "no App Updates available": "არ არის ხელმისაწვდომი აპის განახლებები",
 "Update": "განახლება",
 "Update now": "განაახლეთ ახლავე",
-"_%n App_::_%n Apps_": ["%n აპლიკაცია","%n აპი"]
+"_%n App_::_%n Apps_": ["%n აპლიკაცია","%n აპი"],
+"Update Checker": "განაახლეთ Checker"
 },
 "nplurals=2; plural=n != 1;");

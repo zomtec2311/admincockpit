@@ -142,6 +142,7 @@ OC.L10N.register(
 "App Updates": "עדכוני אפליקציה",
 "no App Updates available": "אין עדכוני אפליקציה זמינים",
 "Update": "לְעַדְכֵּן",
-"Update now": "עדכן עכשיו"
+"Update now": "עדכן עכשיו",
+"Update Checker": "עדכן בודק"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2);");

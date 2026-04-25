@@ -143,6 +143,7 @@ OC.L10N.register(
 "App Updates": "Nuashonruithe App",
 "no App Updates available": "níl Nuashonruithe Aipe ar fáil",
 "Update": "Nuashonrú",
-"Update now": "Nuashonraigh anois"
+"Update now": "Nuashonraigh anois",
+"Update Checker": "Nuashonrú Checker"
 },
 "nplurals=5; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n >= 3 && n <= 6) ? 2 : ((n >= 7 && n <= 10) ? 3 : 4)));");

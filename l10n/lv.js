@@ -143,6 +143,7 @@ OC.L10N.register(
 "App Updates": "Lietotņu atjauninājumi",
 "no App Updates available": "nav pieejami lietotņu atjauninājumi",
 "Update": "Atjaunināt",
-"Update now": "Atjauniniet tūlīt"
+"Update now": "Atjauniniet tūlīt",
+"Update Checker": "Atjaunināšanas pārbaudītājs"
 },
 "nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);");

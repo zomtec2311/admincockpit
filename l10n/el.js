@@ -144,6 +144,7 @@ OC.L10N.register(
 "no App Updates available": "δεν υπάρχουν διαθέσιμες ενημερώσεις εφαρμογής",
 "Update": "Εκσυγχρονίζω",
 "Update now": "Ενημέρωση τώρα",
-"_%n App_::_%n Apps_": ["%n Εφαρμογή","%n Εφαρμογές"]
+"_%n App_::_%n Apps_": ["%n Εφαρμογή","%n Εφαρμογές"],
+"Update Checker": "Ενημέρωση Checker"
 },
 "nplurals=2; plural=n != 1;");
