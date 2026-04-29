@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.8
+
+### Added
+- checks if direct Nextcloud update is allowed and webupdater is enabled
+- direct update possible if allowed
+
 ## 1.2.7
 
 ### Changed
