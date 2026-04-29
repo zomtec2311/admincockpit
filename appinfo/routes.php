@@ -5,6 +5,8 @@ return [
     ['name' => 'page#apps', 'url' => '/apps', 'verb' => 'GET'],
     ['name' => 'page#system', 'url' => '/system', 'verb' => 'GET'],
     ['name' => 'page#user', 'url' => '/user', 'verb' => 'GET'],
+    ['name' => 'page#userlist', 'url' => '/userlist', 'verb' => 'POST'],
+    ['name' => 'page#userlistget', 'url' => '/userlist', 'verb' => 'GET'],
     ['name' => 'Apps#listCategories', 'url' => '/appsasc', 'verb' => 'GET'],
     ['name' => 'Apps#appsinfo', 'url' => '/appsinfo', 'verb' => 'GET'],
     ['name' => 'Apps#isnoti', 'url' => '/isnoti', 'verb' => 'GET'],
