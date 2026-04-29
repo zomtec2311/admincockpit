@@ -170,34 +170,6 @@
 
 .update-box__apps-actions{display:flex;gap:8px;margin-top:10px;justify-content:flex-end}
 
-.progress-bar{
-  width:100%;
-  height:10px;
-  background:#e6eefc;
-  border-radius:999px;
-  overflow:hidden;
-}
-.progress-bar__fill{
-  height:100%;
-  background:linear-gradient(90deg,var(--accent),#3aa0ff);
-  width:0%;
-  transition:width 180ms linear;
-}
-
-.tiny-progress{
-  width:80px;
-  height:8px;
-  background:#eef2f7;
-  border-radius:999px;
-  overflow:hidden;
-}
-.tiny-progress__fill{
-  height:100%;
-  background:linear-gradient(90deg,#10b981,#34d399);
-  width:0%;
-  transition:width 180ms linear;
-}
-
 .is-updating { box-shadow: 0 0 0 3px rgba(11,124,255,0.06) }
 
 .app-row {
