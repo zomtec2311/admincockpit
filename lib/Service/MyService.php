@@ -4,6 +4,7 @@ namespace OCA\AdminCockpit\Service;
 
 use OCP\IDBConnection;
 use OCA\AdminCockpit\Db\MyRepository;
+use OC\Updater\VersionCheck;
 use OCP\IUserManager;
 use OCP\IConfig;
 use Psr\Log\LoggerInterface;
@@ -15,7 +16,7 @@ class MyService {
     private $logger;
     private $config;
 
-    public function __construct(MyRepository $repository, IDBConnection $db, IUserManager $userManager, IConfig $config, LoggerInterface $logger) {
+    public function __construct(private VersionCheck $updater, MyRepository $repository, IDBConnection $db, IUserManager $userManager, IConfig $config, LoggerInterface $logger) {
         $this->repository = $repository;
         $this->db = $db;
         $this->userManager = $userManager;
@@ -519,5 +520,15 @@ if ($totalSpace !== false) {
     private function getWindowsNetworkInterfaces(): array {
         $networkInfo = [];
         return $networkInfo;
-    }    
+    }
+
+    public function isupdaterenabled(): array {
+        $data = $this->updater->check();
+        $updaterEnabled = empty($data['autoupdater']) ? false : $data['autoupdater'] === '1';
+
+            return [
+            'webUpdaterEnabled' => !$this->config->getSystemValue('upgrade.disable-web', false),
+            'updaterEnabled' => $updaterEnabled,
+        ];
+    }
 }
