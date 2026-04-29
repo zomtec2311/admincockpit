@@ -265,6 +265,7 @@ class SystemController extends Controller {
     public function widgetinfo(): DataResponse {
         try {
             $ncinfo = $this->myService->getNCInfo();
+            $updateerenabled = $this->myService->isupdaterenabled();
             $ncupdate = $this->getSystemStatus();
             $updatechannel = $this->config->getSystemValue('updater.release.channel');
 
@@ -277,6 +278,8 @@ class SystemController extends Controller {
                 'nc_updateVersion' => $ncupdate['updateVersion'],
                 'nc_currentVersionimplode' => $ncupdate['currentVersionimplode'],
                 'nc_updatechannel' => $updatechannel,
+                'webUpdaterEnabled' => $updateerenabled['webUpdaterEnabled'],
+                'updaterEnabled' => $updateerenabled['updaterEnabled'],
             ]);
         } catch (\Throwable $e) {
             $this->logger->error(
