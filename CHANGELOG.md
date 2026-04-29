@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.9
+
+### Fixed
+- too long GET request for large number of user accounts ([#12](https://github.com/zomtec2311/admincockpit/issues/12)) @ArmelClo
+
 ## 1.2.8
 
 ### Added
