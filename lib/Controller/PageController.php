@@ -25,6 +25,7 @@ class PageController extends Controller {
 	private $userManager;
     private $myService;
 	private $userController;
+	private $l;
 	
 	public function __construct(string $appName, IRequest $request, IUserManager $userManager, MyService $myService, UserController $userController, IL10N $l,) {
         parent::__construct($appName, $request);
