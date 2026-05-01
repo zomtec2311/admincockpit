@@ -171,7 +171,10 @@ class UserController extends Controller {
         try {
             if ($this->userManager->userExists($who)) { 
                  $user = $this->userManager->get($who);
-                 if ($user->delete()) { return 'true'; }
+                 if ($user->delete()) {
+                     $this->logger->info("AdminCockpit: User $who successful deleted");
+                     return 'true';
+                }
                  else { return 'false'; }               
             }
             else { 
@@ -310,6 +313,8 @@ class UserController extends Controller {
                     'managerids' => '',
                     'isadmin' => '',
                 ];
+
+                $this->logger->info("AdminCockpit: User $uid successful created");
             
             return new DataResponse([
                 'user' => $userList,
