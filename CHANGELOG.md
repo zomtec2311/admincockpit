@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.0
+
+### Added
+- Nextcloud 34 compatibility
+- display current version at dashboard widget
+
 ## 1.2.9
 
 ### Fixed
