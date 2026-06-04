@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.3.1
+
+### Changed
+- swedish language files new translated by @Leffe64
+
+### Fixed
+- bug in editing users for Nextcloud > 32
+
 ## 1.3.0
 
 ### Added
