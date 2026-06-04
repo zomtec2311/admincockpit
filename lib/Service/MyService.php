@@ -35,7 +35,9 @@ class MyService {
             $this->logger->warning('AdminCockpit: Failed to get SQL string from QueryBuilder: ' . $e->getMessage(), ['app' => 'admincockpit']);
             return -99; }
         try {
-            $result = $qb->execute();
+            //$result = $qb->execute();
+            $result = $qb->executeStatement();
+
             if ($result === false) {
                 $this->logger->warning('AdminCockpit: Query execution failed (returned boolean false).', ['app' => 'admincockpit', 'sql' => $sql]);
                 return -1;
@@ -142,7 +144,7 @@ if ($totalSpace !== false) {
         $qb = $this->db->getQueryBuilder();
         $qb->delete('groups')
             ->where($qb->expr()->eq('gid', $qb->expr()->literal($id)))
-            ->execute();
+            ->executeStatement();
         return 1;
     }
     
@@ -151,7 +153,7 @@ if ($totalSpace !== false) {
         $qb->delete('group_admin')
             ->where($qb->expr()->eq('uid', $qb->expr()->literal($uid)))
             ->andWhere($qb->expr()->eq('gid', $qb->expr()->literal($x)))            
-            ->execute();
+            ->executeStatement();
         return 1;
     }
     
@@ -162,7 +164,7 @@ if ($totalSpace !== false) {
                'gid' => $qb->expr()->literal($x),
                'uid' => $qb->expr()->literal($uid),
            ])
-           ->execute();
+           ->executeStatement();
         return 1;
     }
 
@@ -175,7 +177,7 @@ if ($totalSpace !== false) {
                     ->select('gid') 
                     ->from('group_admin')
                     ->where($queryBuilder->expr()->eq('uid', $queryBuilder->createNamedParameter($uid)));
-                $result = $queryBuilder->execute();
+                $result = $queryBuilder->executeStatement();
                 while ($row = $result->fetch()) {
                     $gids[] = $row['gid'];
                 }
