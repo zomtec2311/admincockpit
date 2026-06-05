@@ -56,7 +56,7 @@ OC.L10N.register(
 "User": "Användare",
 "data storage": "datalagring",
 "{value}% free": "{value}% ledigt",
-"{value}% used": "{value}% använd",
+"{value}% used": "{value}% använt",
 "database": "databas",
 "typ": "typ",
 "version": "version",
