@@ -15,5 +15,5 @@ jobs:
 
       - name: Push to Forgejo Server
         run: |
-          # Baut die URL mit integrierten Secrets, um die Passworteingabe zu umgehen
-          git push --prune --force "https://${{ secrets.FORGEJO_USER }}:${{ secrets.FORGEJO_PASSWORD }}@git.24wt.de/${{ github.repository }}.git" "+refs/heads/*:refs/heads/*" "+refs/tags/*:refs/tags/*"
+          # Erzwingt, dass dein aktueller main-Branch zu Forgejos master-Branch gepusht wird
+          git push --force "https://${{ secrets.FORGEJO_USER }}:${{ secrets.FORGEJO_PASSWORD }}@git.24wt.de/${{ github.repository }}.git" "refs/heads/main:refs/heads/master" "refs/tags/*:refs/tags/*"
