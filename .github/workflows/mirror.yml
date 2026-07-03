@@ -1,0 +1,23 @@
+ 
+name: Mirror to Forgejo
+
+on: [push, delete, create]
+
+concurrency:
+  group: git-mirror
+
+jobs:
+  to_forgejo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Mirror to Forgejo Server
+        uses: pixta-dev/repository-mirroring-action@v1
+        with:
+          target_repo_url: "https://git.24wt.de/${{ github.repository }}.git"
+          ssh_private_key: ""
+        env:
+          INPUT_TARGET_USERNAME: ${{ secrets.FORGEJO_USER }}
+          INPUT_TARGET_PASSWORD: ${{ secrets.FORGEJO_PASSWORD }}
