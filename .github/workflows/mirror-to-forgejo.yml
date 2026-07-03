@@ -54,15 +54,5 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-
-          # Das exakte Test-Tag-Format generieren (z.B. v1.5.6-test.5)
-          TAG_NAME="v${{ env.VERSION }}-test.${{ github.run_number }}"
-
-          # Tag lokal setzen
-          git tag $TAG_NAME
-
-          # Remote hinzufügen
-          git remote add forgejo https://${{ secrets.FORGEJO_TOKEN }}@git.24wt.de/zomtec2311/${{ github.event.repository.name }}.git
-
-          # HEAD:main UND das Tag gleichzeitig pushen (das erzwingt das Tag-Push-Event!)
-          git push -f forgejo HEAD:main $TAG_NAME
+          # Hier werden die Zugangsdaten direkt in die URL übergeben:
+          git push --force "https://${{ secrets.FORGEJO_USER }}:${{ secrets.FORGEJO_PASSWORD }}@git.24wt.de/${{ github.repository }}.git" "refs/heads/*:refs/heads/*" "refs/tags/*:refs/tags/*"
