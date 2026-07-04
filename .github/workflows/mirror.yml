@@ -11,9 +11,31 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Holt die gesamte Git-Historie (wichtig für Mirrors)
+          fetch-depth: 0 # Wichtig für die Historie und Versionsvergleiche
 
+      # --- SCHRITT A: Prüfen, ob sich die Version in der info.xml erhöht hat ---
+      - name: Check Version in info.xml
+        id: version_check
+        run: |
+          # Aktuelle Version holen
+          VERSION=$(grep -oP '(?<=<version>).*?(?=</version>)' appinfo/info.xml || echo "0.0.0")
+          VERSION=$(echo "$VERSION" | tr -d '[:space:]')
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+          # Alte Version aus dem vorherigen Commit holen (falls vorhanden)
+          OLD_VERSION=$(git show HEAD~1:appinfo/info.xml 2>/dev/null | grep -oP '(?<=<version>).*?(?=</version>)' || echo "")
+          OLD_VERSION=$(echo "$OLD_VERSION" | tr -d '[:space:]')
+
+          if [ "$OLD_VERSION" != "$VERSION" ] && [ -n "$VERSION" ]; then
+            echo "Version von $OLD_VERSION auf $VERSION erhöht!"
+            # Tag lokal generieren (wie bei logcleaner mit Run-Nummer als Suffix)
+            git config --global user.name "GitHub Action"
+            git config --global user.email "actions@github.com"
+            git tag "v${VERSION}-test.${{ github.run_number }}"
+          fi
+
+      # --- SCHRITT B: Normaler Push zu Forgejo (inklusive des eventuell neuen Tags) ---
       - name: Push to Forgejo Server
         run: |
-          # Erzwingt, dass dein aktueller main-Branch zu Forgejos master-Branch gepusht wird
+          # Erzwingt, dass dein aktueller main-Branch zu Forgejos master-Branch gepusht wird (und alle Tags)
           git push --force "https://${{ secrets.FORGEJO_USER }}:${{ secrets.FORGEJO_PASSWORD }}@git.24wt.de/${{ github.repository }}.git" "refs/heads/main:refs/heads/master" "refs/tags/*:refs/tags/*"
