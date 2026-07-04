@@ -250,7 +250,8 @@ if ($totalSpace !== false) {
         return $data;
     }
     
-    public function getCpuInfo() {
+    /*
+     public function getCpuInfo() {
         $load = sys_getloadavg();
         $cpuInfo = [];
         if (is_readable('/proc/cpuinfo')) {
@@ -277,6 +278,52 @@ if ($totalSpace !== false) {
 
         return $cpuInfo;
     }
+    */
+
+    public function getCpuInfo() {
+    $load = sys_getloadavg();
+    $cpuInfo = [
+        'cores' => 0,
+        'model' => 'unknown',
+        'load' => $load,
+    ];
+
+    if (is_readable('/proc/cpuinfo')) {
+        $data = @file_get_contents('/proc/cpuinfo');
+        if ($data !== false) {
+            $lines = preg_split("/\r?\n/", $data);
+
+            foreach ($lines as $line) {
+                if (strpos($line, ':') === false) {
+                    continue;
+                }
+
+                [$key, $value] = explode(':', $line, 2);
+                $key = trim($key);
+                $value = trim($value);
+
+                if ($key === 'model name' && $cpuInfo['model'] === 'unknown') {
+                    $cpuInfo['model'] = $value;
+                }
+
+                if ($key === 'Model' && isset($cpuInfo['model1']) === false && $value !== '') {
+                    $cpuInfo['model1'] = $value;
+                }
+            }
+        }
+    }
+
+    $cpuInfo['cores'] = $this->getCpuCoreCount();
+
+    if (empty($cpuInfo['model']) || $cpuInfo['model'] === 'unknown') {
+        $cpuInfo['model'] = !empty($cpuInfo['model1'] ?? null) ? $cpuInfo['model1'] : 'unknown';
+    }
+
+    $cpuInfo['load'] = $load;
+
+    return $cpuInfo;
+}
+
     
     public function getCpuCoreCount() {
         if (PHP_OS_FAMILY == 'Windows') {
