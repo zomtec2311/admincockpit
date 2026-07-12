@@ -47,6 +47,7 @@ use OC\Updater\VersionCheck;
 use OCP\IUserManager;
 use OCP\IGroupManager;
 use OCP\ServerVersion;
+use OCP\Server;
 
 class SystemController extends Controller {
     private $myService;
@@ -219,6 +220,10 @@ class SystemController extends Controller {
             $ncinfo = $this->myService->getNCInfo();
             $ncupdate = $this->getSystemStatus();
             $logfile = $this->getlogfile();
+            $updatechannel = $this->config->getSystemValue('updater.release.channel');
+            if (($updatechannel === null) || $updatechannel === '') {
+                $updatechannel = Server::get(ServerVersion::class)->getChannel();
+            }
             
             return new DataResponse([
                 'hostname' => gethostname(),
@@ -248,7 +253,7 @@ class SystemController extends Controller {
                 'nc_currentVersionimplode' => $ncupdate['currentVersionimplode'],
                 'nc_logfile' => $logfile['file'],
                 'nc_logfile_size' => $logfile['filesize'],
-                'nc_updatechannel' => $this->config->getSystemValue('updater.release.channel'),
+                'nc_updatechannel' => $updatechannel,
                 'network' => $this->myService->getNetworkInterfaces(),
             ]);
         } catch (\Throwable $e) {
@@ -268,6 +273,9 @@ class SystemController extends Controller {
             $updateerenabled = $this->myService->isupdaterenabled();
             $ncupdate = $this->getSystemStatus();
             $updatechannel = $this->config->getSystemValue('updater.release.channel');
+            if (($updatechannel === null) || $updatechannel === '') {
+                $updatechannel = Server::get(ServerVersion::class)->getChannel();
+            }
 
             return new DataResponse([
                 'nc_version' => $ncinfo['nc_version'],
