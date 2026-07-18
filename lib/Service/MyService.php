@@ -249,36 +249,6 @@ if ($totalSpace !== false) {
         
         return $data;
     }
-    
-    /*
-     public function getCpuInfo() {
-        $load = sys_getloadavg();
-        $cpuInfo = [];
-        if (is_readable('/proc/cpuinfo')) {
-            $data = file_get_contents('/proc/cpuinfo');
-            $lines = explode("\n", $data);
-
-            foreach ($lines as $line) {
-                if (strpos($line, ':') !== false) {
-                    list($key, $value) = explode(':', $line);
-                    $key = trim($key);
-                    $value = trim($value);
-                    if ($key === 'model name') $cpuInfo['model'] = $value;
-                    if ($key === 'Model') $cpuInfo['model1'] = $value;
-                }
-            }
-        }
-        
-        $cpuInfo['cores'] = $this->getCpuCoreCount();
-        if (empty($cpuInfo['model'])) {
-            $cpuInfo['model'] = $cpuInfo['model1'] ?: 'unknown';
-        }
-        
-        $cpuInfo['load'] = $load;
-
-        return $cpuInfo;
-    }
-    */
 
     public function getCpuInfo() {
     $load = sys_getloadavg();
