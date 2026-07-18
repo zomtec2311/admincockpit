@@ -37,5 +37,5 @@ jobs:
       # --- SCHRITT B: Normaler Push zu Forgejo (inklusive des eventuell neuen Tags) ---
       - name: Push to Forgejo Server
         run: |
-          # Erzwingt, dass dein aktueller main-Branch zu Forgejos master-Branch gepusht wird (und alle Tags)
-          git push --force "https://${{ secrets.FORGEJO_USER }}:${{ secrets.FORGEJO_PASSWORD }}@git.24wt.de/${{ github.repository }}.git" "refs/heads/main:refs/heads/master" "refs/tags/*:refs/tags/*"
+          # HEAD schiebt den aktuellen Stand flexibel rüber zu Forgejos master, refs/tags/* nimmt die Tags mit
+          git push --force "https://${{ secrets.FORGEJO_USER }}:${{ secrets.FORGEJO_PASSWORD }}@git.24wt.de/${{ github.repository }}.git" "HEAD:refs/heads/master" "refs/tags/*:refs/tags/*"
