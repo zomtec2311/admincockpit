@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.2
+
+### Fixed
+- Undefined array key 'model1' for some systems ([#16](https://github.com/zomtec2311/admincockpit/issues/16)) @ggwashburn
+
 ## 1.3.1
 
 ### Changed
