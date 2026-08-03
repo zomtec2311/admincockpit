@@ -58,16 +58,16 @@ class UserController extends Controller {
     private IUserSession $userSession;
 
     public function __construct(
-            string $appName, 
-            IRequest $request, 
-            MyService $myService, 
-            LoggerInterface $logger, 
+            string $appName,
+            IRequest $request,
+            MyService $myService,
+            LoggerInterface $logger,
             IConfig $config,
             IAppManager $appManager,
-            IUserManager $userManager, 
-            IGroupManager $groupManager, 
+            IUserManager $userManager,
+            IGroupManager $groupManager,
             IUserSession $userSession,
-            IL10N $l, 
+            IL10N $l,
             private IAppConfig $appConfig
         ) {
         parent::__construct($appName, $request);
@@ -108,13 +108,13 @@ class UserController extends Controller {
                     'status' => $status,
                 ];
             }
-            
+
             $groups = $this->groupManager->search('');
             $groupList = [];
-            $grlist = []; 
+            $grlist = [];
             foreach ($groups as $group) {
                 $gusers = $group->getUsers();
-                $guserList = [];                               
+                $guserList = [];
                 $grlist[] = $group->getGID();
             foreach ($gusers as $guser) {
                 if($guser->getLastLogin()) $status = false;
@@ -165,19 +165,19 @@ class UserController extends Controller {
                 'groupCount' => -1,
             ], 500);
         }
-    }   
-    
+    }
+
     public function deleteuser($who) {
         try {
-            if ($this->userManager->userExists($who)) { 
+            if ($this->userManager->userExists($who)) {
                  $user = $this->userManager->get($who);
                  if ($user->delete()) {
                      $this->logger->info("AdminCockpit: User $who successful deleted");
                      return 'true';
                 }
-                 else { return 'false'; }               
+                 else { return 'false'; }
             }
-            else { 
+            else {
                 return 'false';
             }
         } catch (\Throwable $e) {
@@ -188,7 +188,7 @@ class UserController extends Controller {
             return 'false';
         }
     }
-    
+
     public function edituser($who): DataResponse {
         try {
             $user =$this->userManager->get($who);
@@ -210,7 +210,7 @@ class UserController extends Controller {
                     'used' => $this->myService->folderSize($user->getHome()),
                     'status' => true,
                 ];
-            
+
             return new DataResponse([
                 'user' => $userList,
             ]);
@@ -225,7 +225,7 @@ class UserController extends Controller {
             ], 500);
         }
     }
-    
+
     public function saveuser($uid, $displayname, $password, $email, $groups, $admingroups, $quota, $managerids): JSONResponse {
         if($quota === $this->l->t('default quota')) $uquota = $this->appConfig->getValueString('files', 'default_quota', '1 GB', false);
         elseif($quota === $this->l->t('unlimited')) $uquota = "none";
@@ -233,10 +233,10 @@ class UserController extends Controller {
         $user =$this->userManager->get($uid);
         $oldgroups = $this->groupManager->getUserGroupIds($user);
         $oldadmingroups = $this->myService->admingroup($uid);
-        
+
         if ($user->getDisplayName() <> $displayname) $user->setDisplayName($displayname);
         if ($password) {
-            if($user->setPassword($password, null)) $this->logger->error('AdminCockpit: Success in DataController->setPassword: ');
+            if($user->setPassword($password, null)) $this->logger->info('AdminCockpit: Success in DataController->setPassword: ');
             else $this->logger->error('AdminCockpit: Fail in DataController->setPassword: ');
         }
         if ($user->getEMailAddress() <> $email) $user->setEMailAddress($email);
@@ -248,7 +248,7 @@ class UserController extends Controller {
                 }
                 foreach ($missingElements as $x) {
                         $this->groupManager->get($x)->removeUser($user);
-                }            
+                }
         }
         if ($oldadmingroups <> $admingroups) {
                 $missingElements = array_diff($oldadmingroups, $admingroups);
@@ -258,7 +258,7 @@ class UserController extends Controller {
                 }
                 foreach ($missingElements as $x) {
                         $this->myService->deleteadmingroup($uid, $x);
-                }                
+                }
         }
         if ($user->getQuota() <> $quota) {
             $user->setQuota($uquota);
@@ -279,10 +279,10 @@ class UserController extends Controller {
         'managerids' => $managerids,
         'status' => true,
 		   ]);
-        
+
         try {
             if ($this->groupManager->groupExists($who)) { return 'false'; }
-            else { 
+            else {
                 $this->groupManager->createGroup($who);
                 return 'true';
             }
@@ -294,16 +294,18 @@ class UserController extends Controller {
             return 'false';
         }
     }
-    
+
     public function userexists($who) {
             if($this->userManager->get($who)) return true;
             else return false;
     }
-    
+
     public function newuser($uid, $displayname, $password, $email, $groups, $admingroups, $quota, $managerids): DataResponse {
+
         try {
             $this->userManager->createUser($uid, $password);
             $this->saveuser($uid, $displayname, $password, $email, $groups, $admingroups, $quota, $managerids);
+
             $userList = [];
                 $userList[] = [
                     'uid' => $uid,
@@ -315,26 +317,26 @@ class UserController extends Controller {
                 ];
 
                 $this->logger->info("AdminCockpit: User $uid successful created");
-            
+
             return new DataResponse([
                 'user' => $userList,
+                'success' => true,
             ]);
 
         } catch (\Throwable $e) {
-            $this->logger->error(
-                'AdminCockpit: FATAL ERROR or EXCEPTION in DataController->newuser: ' . $e->getMessage() . "\n" . $e->getTraceAsString(),
-                ['app' => 'admincockpit']
-            );
+            $this->logger->error('AdminCockpit: ' . $e->getMessage());
             return new DataResponse([
                 'user' => -1,
-            ], 500);
+                'success' => false,
+                'msg' => $e->getMessage(),
+            ]);
         }
     }
-    
+
     public function setuser($who) {
         return;
     }
-    
+
    #[NoCSRFRequired]
     public function notifyuser() {
 $rawData = file_get_contents('php://input');
@@ -362,9 +364,9 @@ if (json_last_error() === JSON_ERROR_NONE) {
     http_response_code(400);
     echo json_encode(['status' => 'error', 'message' => 'Invalid JSON']);
 }
-        
+
     }
-    
+
     #[NoCSRFRequired]
     public function notifygroup() {
 $rawData = file_get_contents('php://input');
@@ -392,15 +394,15 @@ if (json_last_error() === JSON_ERROR_NONE) {
         $nmanager->notify($notification);
         $notification = $nmanager->createNotification();
         }
-        
 
-        
+
+
         return 'true';
         } else {
     http_response_code(400);
     echo json_encode(['status' => 'error', 'message' => 'Invalid JSON']);
 }
-        
+
     }
-  
+
 }
