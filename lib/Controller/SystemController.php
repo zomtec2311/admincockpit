@@ -168,7 +168,14 @@ class SystemController extends Controller {
     }
 
     public function isDockerCgroup() {
-        $cgroupPath = file_get_contents('/proc/self/cgroup');
+        $filename = '/proc/self/cgroup';
+        if (!is_file($filename) || !is_readable($filename)) {
+            return false;
+        }
+        $cgroupPath = file_get_contents($filename);
+        if ($cgroupPath === false) {
+            return false;
+        }
         return strpos($cgroupPath, 'docker') !== false || strpos($cgroupPath, 'kubepods') !== false;
     }
 
