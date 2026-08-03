@@ -295,6 +295,8 @@ class SystemController extends Controller {
                 'nc_updatechannel' => $updatechannel,
                 'webUpdaterEnabled' => $updateerenabled['webUpdaterEnabled'],
                 'updaterEnabled' => $updateerenabled['updaterEnabled'],
+                "nc_appstore_enabled" => $this->config->getSystemValue('appstoreenabled', false),
+                "nc_appstore" => $this->config->getSystemValue('appstoreurl', 'Nextcloud App Store'),
             ]);
         } catch (\Throwable $e) {
             $this->logger->error(
