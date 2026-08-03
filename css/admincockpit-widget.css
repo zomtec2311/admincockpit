@@ -152,7 +152,7 @@
 
 .update-box__app-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px}
 
-.app-item{
+.admincockpit-app-item{
   display:flex;
   justify-content:space-between;
   align-items:center;
@@ -161,12 +161,12 @@
   background:var(--surface);
 }
 
-.app-item__meta{display:flex;gap:10px;align-items:center}
-.app-item__icon{width:36px;height:36px;border-radius:8px;object-fit:cover}
-.app-item__name{font-weight:600}
-.app-item__ver{color:var(--muted);font-size:13px}
+.admincockpit-app-item__meta{display:flex;gap:10px;align-items:center}
+.admincockpit-app-item__icon{width:36px;height:36px;border-radius:8px;object-fit:cover}
+.admincockpit-app-item__name{font-weight:600}
+.admincockpit-app-item__ver{color:var(--muted);font-size:13px}
 
-.app-item__actions .btn{padding:6px 10px;font-size:13px}
+.admincockpit-app-item__actions .btn{padding:6px 10px;font-size:13px}
 
 .update-box__apps-actions{display:flex;gap:8px;margin-top:10px;justify-content:flex-end}
 
@@ -250,5 +250,5 @@
 @media (max-width:420px){
   .update-box{padding:12px}
   .update-box__header{flex-direction:row;gap:8px}
-  .app-item__name{font-size:14px}
+  .admincockpit-app-item__name{font-size:14px}
 }
