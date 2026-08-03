@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.3.4
+
+### Fixed
+- Personal and Administration settings icon css issue in dark mode ([#21](https://github.com/zomtec2311/admincockpit/issues/21)) @i11info
+
+### Added
+- display current app store at dashboard widget
+
 ## 1.3.3
 
 ### Fixed
