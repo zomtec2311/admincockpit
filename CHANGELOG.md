@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.3.3
+
+### Fixed
+- Error docker check on shared webhosting ([#19](https://github.com/zomtec2311/admincockpit/issues/19)) @MarcAMicha
+- Nextcloud Hub 26 Spring menu css issue ([#20](https://github.com/zomtec2311/admincockpit/issues/20)) @i11info
+- Creating a new user with compromised password give no notification ([#18](https://github.com/zomtec2311/admincockpit/issues/18)) @MarcAMicha
+
 ## 1.3.2
 
 ### Fixed
