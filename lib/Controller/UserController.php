@@ -46,6 +46,8 @@ use OCP\App\IAppManager;
 use OCP\IUserSession;
 use OCP\IUserManager;
 use OCP\IGroupManager;
+use Psr\Container\ContainerInterface;
+
 
 class UserController extends Controller {
     private $myService;
@@ -68,7 +70,8 @@ class UserController extends Controller {
             IGroupManager $groupManager,
             IUserSession $userSession,
             IL10N $l,
-            private IAppConfig $appConfig
+            private IAppConfig $appConfig,
+            private ContainerInterface $container,
         ) {
         parent::__construct($appName, $request);
         $this->myService = $myService;
@@ -229,6 +232,7 @@ class UserController extends Controller {
     public function saveuser($uid, $displayname, $password, $email, $groups, $admingroups, $quota, $managerids): JSONResponse {
         if($quota === $this->l->t('default quota')) $uquota = $this->appConfig->getValueString('files', 'default_quota', '1 GB', false);
         elseif($quota === $this->l->t('unlimited')) $uquota = "none";
+        elseif($quota === '') $uquota = $this->appConfig->getValueString('files', 'default_quota', '1 GB', false);
         else $uquota = $quota;
         $user =$this->userManager->get($uid);
         $oldgroups = $this->groupManager->getUserGroupIds($user);
@@ -301,6 +305,32 @@ class UserController extends Controller {
     }
 
     public function newuser($uid, $displayname, $password, $email, $groups, $admingroups, $quota, $managerids): DataResponse {
+        $ncinfo = $this->myService->getNCInfo();
+        $parts = explode(".", $ncinfo['nc_version']);
+        $version = (int)$parts[0];
+        if($version < 32) {
+            $enabledapps = $this->appManager->getEnabledAppsForUser($this->userSession->getUser());
+        }
+        else {
+            $enabledapps = $this->appManager->getEnabledApps();
+        }
+            if (in_array('password_policy', $enabledapps)) {
+                $class = 'OCA\\Password_Policy\\Controller\\APIController';
+                if (class_exists($class)) {
+                    $apiController = $this->container->query($class);
+                    $response = $apiController->validate($password, 'account');
+                    $data = $response->getData();
+                    $passed = $data['passed'];
+                    $reason = $data['reason'] ?? null;
+                    if (!$passed) {
+                        return new DataResponse([
+                            'user' => -1,
+                            'success' => $passed,
+                            'msg' => $reason,
+                        ]);
+                    }
+                }
+            }
 
         try {
             $this->userManager->createUser($uid, $password);
