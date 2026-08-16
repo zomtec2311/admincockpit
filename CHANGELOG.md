@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.5
+
+### Added
+- Nextcloud 35 compatibility
+
 ## 1.3.4
 
 ### Fixed
