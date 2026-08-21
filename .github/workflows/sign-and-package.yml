@@ -184,10 +184,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload signed app to Official Nextcloud App Store
-        if: >
-          github.event_name == 'release' &&
-          steps.certificates.outputs.signing_available == 'true' &&
-          !startsWith(steps.package.outputs.package_name, 'unsigned_')
+        if: false # Temporär deaktiviert für den Test mit dem eigenen App Store
+          #   github.event_name == 'release' &&
+            #   steps.certificates.outputs.signing_available == 'true' &&
+            #   !startsWith(steps.package.outputs.package_name, 'unsigned_')
         uses: R0Wi/nextcloud-appstore-push-action@v1
         with:
           app_name: ${{ env.APP_ID }}
