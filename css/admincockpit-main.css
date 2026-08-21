@@ -224,7 +224,7 @@ padding-top: 10px;
   gap: 0.5rem;         /* optional: Abstand */
 }
 
-.app-icon {
+.admincockpit-app-icon {
   width: 20px;
   height: 20px;
   display: inline-flex;     /* wichtig: inline-flex statt block für korrekte Ausrichtung */
