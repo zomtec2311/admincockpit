@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.6
+
+### Fixed
+- css conflict in Nextcloud 35
+
 ## 1.3.5
 
 ### Added
