@@ -220,15 +220,18 @@ jobs:
           openssl dgst -sha512 -sign "${GITHUB_WORKSPACE}/app.key" "${PACKAGE_NAME}" | base64 -w 0 > signature.txt
           SIGNATURE=$(cat signature.txt)
 
+          # Sauber lesbaren JSON-Payload in eine temporäre Datei schreiben
+          jq -n \
+            --arg download "${DOWNLOAD_URL}" \
+            --arg signature "${SIGNATURE}" \
+            --argjson nightly "${NIGHTLY}" \
+            '{download: $download, signature: $signature, nightly: $nightly}' > payload.json
+
           # Payload an das eigene Django App Store Backend senden
           curl -f -X POST "https://git.24wt.de/nc_appstore/api/v1/apps/releases/" \
             -H "Authorization: Token ${APPSTORE_TOKEN}" \
             -H "Content-Type: application/json" \
-            -d json_req_data=$(jq -n \
-                  --arg download "${DOWNLOAD_URL}" \
-                  --arg signature "${SIGNATURE}" \
-                  --argjson nightly "${NIGHTLY}" \
-                  '{download: $download, signature: $signature, nightly: $nightly}')
+            -d @payload.json
 
       - name: Upload archive as workflow artifact
         if: github.event_name == 'workflow_dispatch'
