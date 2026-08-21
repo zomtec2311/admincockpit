@@ -123,7 +123,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          php "nextcloud/nextcloud-${NEXTCLOUD_VERSION}/occ" \
+          php "nextcloud/nextcloud/occ" \
             integrity:sign-app \
             --privateKey="${GITHUB_WORKSPACE}/app.key" \
             --certificate="${GITHUB_WORKSPACE}/app.crt" \
