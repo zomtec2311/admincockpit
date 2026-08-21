@@ -184,10 +184,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload signed app to Official Nextcloud App Store
-        if: false # Temporär deaktiviert für den Test mit dem eigenen App Store
-          #   github.event_name == 'release' &&
-            #   steps.certificates.outputs.signing_available == 'true' &&
-            #   !startsWith(steps.package.outputs.package_name, 'unsigned_')
+        if: >
+          github.event_name == 'release' &&
+          steps.certificates.outputs.signing_available == 'true' &&
+          !startsWith(steps.package.outputs.package_name, 'unsigned_')
         uses: R0Wi/nextcloud-appstore-push-action@v1
         with:
           app_name: ${{ env.APP_ID }}
@@ -228,20 +228,10 @@ jobs:
             '{download: $download, signature: $signature, nightly: $nightly}' > payload.json
 
           # Payload an das eigene Django App Store Backend senden
-          # Payload an das eigene Django App Store Backend senden und Server-Antwort ausgeben
-          RESPONSE=$(curl -s -w "\nHTTP_STATUS:%{http_code}" -X POST "https://git.24wt.de/nc_appstore/api/v1/apps/releases/" \
+          curl -f -X POST "https://git.24wt.de/nc_appstore/api/v1/apps/releases/" \
             -H "Authorization: Token ${APPSTORE_TOKEN}" \
             -H "Content-Type: application/json" \
-            -d @payload.json)
-
-          echo "Server Response:"
-          echo "${RESPONSE}"
-
-          # Bei Fehler (kein 20x Status) abbrechen
-          if ! echo "${RESPONSE}" | grep -q "HTTP_STATUS:2"; then
-            echo "::error::App Store API meldet Fehler!"
-            exit 1
-          fi
+            -d @payload.json
 
       - name: Upload archive as workflow artifact
         if: github.event_name == 'workflow_dispatch'
