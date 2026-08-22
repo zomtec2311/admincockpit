@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * LogCleaner APP (Nextcloud)
+ * AdminCockpit APP (Nextcloud)
  *
  * @author Wolfgang Tödt <wtoedt@gmail.com>
  *
