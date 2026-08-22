@@ -97,18 +97,7 @@ jobs:
 
           # Nicht benötigte Bild-Assets entfernen
           rm -f \
-            "${APP_ID}/compact_calendar_widget-hover.png" \
-            "${APP_ID}/compact_calendar_widget-month.png" \
-            "${APP_ID}/compact_calendar_widget-week.png" \
-            "${APP_ID}/compact_calendar_widget-year.png" \
-            "${APP_ID}/hover-appointments.png" \
-            "${APP_ID}/monthly-standard-without.png" \
-            "${APP_ID}/settings.png" \
-            "${APP_ID}/weekly-standard-without.png" \
-            "${APP_ID}/yearly-colorful-with.png" \
-            "${APP_ID}/yearly-standard-with.png" \
-            "${APP_ID}/CODE_OF_CONDUCT.md" \
-            "${APP_ID}/yearly-standard-without.png"
+            "${APP_ID}/CODE_OF_CONDUCT.md"
 
           # Dev-Dateien entfernen
           rm -rf \
