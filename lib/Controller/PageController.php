@@ -50,15 +50,16 @@ class PageController extends Controller {
     private $myService;
 	private $userController;
 	private $l;
-	
-	public function __construct(string $appName, IRequest $request, IUserManager $userManager, MyService $myService, UserController $userController, IL10N $l,) {
+
+	public function __construct(string $appName, IRequest $request, IUserManager $userManager, MyService $myService, UserController $userController, IL10N $l, LoggerInterface $logger) {
         parent::__construct($appName, $request);
         $this->userManager = $userManager;
         $this->myService = $myService;
 		$this->userController = $userController;
+		$this->logger = $logger;
 		$this->l = $l;
     }
-    
+
 	#[NoCSRFRequired]
 	#[NoAdminRequired]
 	#[OpenAPI(OpenAPI::SCOPE_IGNORE)]
@@ -69,33 +70,27 @@ class PageController extends Controller {
 			'index',
 		);
 	}
-	
+
 	#[NoCSRFRequired]
 	#[NoAdminRequired]
-	#[OpenAPI(OpenAPI::SCOPE_IGNORE)]
-	#[FrontpageRoute(verb: 'GET', url: '/')]
 	public function apps(): TemplateResponse {
 		return new TemplateResponse(
 			Application::APP_ID,
 			'apps',
 		);
 	}
-	
+
 	#[NoCSRFRequired]
 	#[NoAdminRequired]
-	#[OpenAPI(OpenAPI::SCOPE_IGNORE)]
-	#[FrontpageRoute(verb: 'GET', url: '/')]
 	public function system(): TemplateResponse {
 		return new TemplateResponse(
 			Application::APP_ID,
 			'system',
 		);
 	}
-	
+
 	#[NoCSRFRequired]
 	#[NoAdminRequired]
-	#[OpenAPI(OpenAPI::SCOPE_IGNORE)]
-	#[FrontpageRoute(verb: 'GET', url: '/')]
 	public function user(): TemplateResponse {
 		return new TemplateResponse(
 			Application::APP_ID,
@@ -105,7 +100,6 @@ class PageController extends Controller {
 
 	#[NoCSRFRequired]
 	#[NoAdminRequired]
-	#[FrontpageRoute(verb: 'GET', url: '/')]
 	public function userlistget(string $who = '', string $guser = '', string $gid = ''): TemplateResponse {
 		if (empty($guser)) {
         $response = $this->userController->usercount();
@@ -117,10 +111,7 @@ class PageController extends Controller {
 
 	#[NoCSRFRequired]
 	#[NoAdminRequired]
-	#[OpenAPI(OpenAPI::SCOPE_IGNORE)]
-	#[FrontpageRoute(verb: 'POST', url: '/')]
 	public function userlist(string $who = '', string $guser = '', string $gid = ''): TemplateResponse {
-
 		return new TemplateResponse(
 			Application::APP_ID,
 			'userlist',
@@ -132,3 +123,4 @@ class PageController extends Controller {
 		);
 	}
 }
+
