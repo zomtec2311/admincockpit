@@ -60,42 +60,8 @@ class Application extends App implements IBootstrap {
 	}
 
 	public function boot(IBootContext $context): void {
-		$igroupManager = $context->getServerContainer()->get(IGroupManager::class);
-		$iuserSession = $context->getServerContainer()->get(IUserSession::class);
-
-		$navigationManager = $context->getServerContainer()->get(INavigationManager::class);
-        $urlGenerator = $context->getServerContainer()->get(IURLGenerator::class);
 		$appManager = $context->getServerContainer()->get(IAppManager::class);
-
 		$appManager->enableAppForGroups(self::APP_ID, array('admin'), false);
-
-		$myuid = $iuserSession->getUser();
-
-		if ($myuid === null) {
-			return;
-		}
-
-		if (!in_array("admin", $igroupManager->getUserGroupIds($myuid))) {
-			return;
-		}
-
-		try {
-			$navigationManager->add(function () use ($urlGenerator) {
-
-				$myapptop = [
-					'id' => self::APP_ID,
-					'order' => 1000,
-					'href' => $urlGenerator->linkToRoute(self::APP_ID.'.page.index'),
-					'icon' => $urlGenerator->imagePath(self::APP_ID, 'app.svg'),
-					'name' => 'Admin Cockpit',
-					'type' => 'link',
-					//'classes' => 'highlighted-nav-item js-admin-tab',
-					'app' => self::APP_ID
-				];
-
-				return $myapptop;
-			});
-		} catch (NotFoundExceptionInterface|ContainerExceptionInterface|Throwable) {
-		}
+		return;
 	}
 }
