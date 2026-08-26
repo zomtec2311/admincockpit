@@ -18,7 +18,7 @@
 - ✅ Intuitive Bedienung ohne seitenlanges Handbuch
 - ✅ Benachrichtigungen an Benutzer und Gruppen senden
 ]]></description>
-	<version>1.3.8</version>
+	<version>1.3.9</version>
 	<licence>agpl</licence>
 	<author mail="wtoedt@gmail.com" homepage="https://github.com/zomtec2311/admincockpit">Wolfgang Tödt</author>
 	<namespace>AdminCockpit</namespace>
@@ -31,4 +31,13 @@
 	<dependencies>
 		<nextcloud min-version="32" max-version="35"/>
 	</dependencies>
+	<navigations>
+		<navigation>
+			<id>admincockpit</id>
+			<name>Admin Cockpit</name>
+			<route>admincockpit.page.index</route>
+			<icon>app.svg</icon>
+			<type>link</type>
+		</navigation>
+	</navigations>
 </info>

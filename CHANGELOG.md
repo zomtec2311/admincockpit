@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.9
+
+### Changed
+- Replaced NavigationManager registration with XML navigation due routing problems
+
 ## 1.3.8
 
 ### Changed
