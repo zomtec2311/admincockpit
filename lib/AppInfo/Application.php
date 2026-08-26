@@ -29,14 +29,23 @@ declare(strict_types=1);
 namespace OCA\AdminCockpit\AppInfo;
 
 use OCP\AppFramework\App;
+use OCP\Server;
 use OCP\App\IAppManager;
 use OCP\AppFramework\Bootstrap\IBootstrap;
 use OCP\AppFramework\Bootstrap\IRegistrationContext;
 use OCP\AppFramework\Bootstrap\IBootContext;
+use OCP\Util;
+use Psr\Log\LoggerInterface;
+use OCA\AdminCockpit\Controller\DataController;
 use OCP\INavigationManager;
+use OCP\IServerContainer;
+use OCP\IConfig;
 use OCP\IGroupManager;
+use OCP\IUserSession;
+use OCP\IUser;
 use OCP\IURLGenerator;
 use OCA\AdminCockpit\Dashboard\AdminCockpitWidget;
+
 
 class Application extends App implements IBootstrap {
     public const APP_ID = 'admincockpit';
@@ -50,27 +59,43 @@ class Application extends App implements IBootstrap {
 		$context->registerDashboardWidget(\OCA\AdminCockpit\Dashboard\AdminCockpitWidget::class);
 	}
 
-    public function boot(IBootContext $context): void {
-		$igroupmanager = $context->getServerContainer()->get(IGroupManager::class);
-		if (!in_array("admin", $igroupmanager->getUserGroups())) return;
+	public function boot(IBootContext $context): void {
+		$igroupManager = $context->getServerContainer()->get(IGroupManager::class);
+		$iuserSession = $context->getServerContainer()->get(IUserSession::class);
+
+		$navigationManager = $context->getServerContainer()->get(INavigationManager::class);
+        $urlGenerator = $context->getServerContainer()->get(IURLGenerator::class);
+		$appManager = $context->getServerContainer()->get(IAppManager::class);
+
+		$appManager->enableAppForGroups(self::APP_ID, array('admin'), false);
+
+		$myuid = $iuserSession->getUser();
+
+		if ($myuid === null) {
+			return;
+		}
+
+		if (!in_array("admin", $igroupManager->getUserGroupIds($myuid))) {
+			return;
+		}
+
 		try {
-			$context->injectFn($this->registerAppsManagementNavigation(...));
+			$navigationManager->add(function () use ($urlGenerator) {
+
+				$myapptop = [
+					'id' => self::APP_ID,
+					'order' => 1000,
+					'href' => $urlGenerator->linkToRoute(self::APP_ID.'.page.index'),
+					'icon' => $urlGenerator->imagePath(self::APP_ID, 'app.svg'),
+					'name' => 'Admin Cockpit',
+					'type' => 'link',
+					//'classes' => 'highlighted-nav-item js-admin-tab',
+					'app' => self::APP_ID
+				];
+
+				return $myapptop;
+			});
 		} catch (NotFoundExceptionInterface|ContainerExceptionInterface|Throwable) {
 		}
-	}
-    
-    private function registerAppsManagementNavigation(IAppManager $appManager): void {
-		$container = $this->getContainer();
-		$appManager->enableAppForGroups(self::APP_ID, array('admin'), false);
-		$container->get(INavigationManager::class)->add(function () use ($container) {
-			$urlGenerator = $container->get(IURLGenerator::class);
-			return [
-			'id' => self::APP_ID,
-			'order' => 1000,
-			'href' => $urlGenerator->linkToRoute(self::APP_ID.'.page.index'),
-			'icon' => $urlGenerator->imagePath(self::APP_ID, 'app.svg'),
-			'name' => 'Admin Cockpit',
-			];
-		});
 	}
 }
