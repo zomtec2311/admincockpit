@@ -1,6 +1,14 @@
 # Changelog
 
+## 1.3.8
+
+### Changed
+- Replaced XML navigation with NavigationManager registration
+
 ## 1.3.7
+
+### Fixed
+- NC >= 34: AdminCockpit was displayed in the top menu for non-administrators
 
 ## 1.3.6
 

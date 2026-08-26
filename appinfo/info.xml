@@ -10,7 +10,15 @@
 - ✅ Modern and compact look
 - ✅ Intuitive operation without a page-long manual
 - ✅ send notification to users and groups]]></description>
-	<version>1.3.7</version>
+<description lang="de"><![CDATA[**AdminCockpit ist ein Administrationswerkzeug für Nextcloud**
+
+- ✅ Alle wichtigen Administrationsseiten auf einen Blick
+- ✅ Kein mühsames Hin- und Herklicken mehr in den Menüs
+- ✅ Modernes und kompaktes Erscheinungsbild
+- ✅ Intuitive Bedienung ohne seitenlanges Handbuch
+- ✅ Benachrichtigungen an Benutzer und Gruppen senden
+]]></description>
+	<version>1.3.8</version>
 	<licence>agpl</licence>
 	<author mail="wtoedt@gmail.com" homepage="https://github.com/zomtec2311/admincockpit">Wolfgang Tödt</author>
 	<namespace>AdminCockpit</namespace>
@@ -21,15 +29,6 @@
 	<screenshot small-thumbnail="https://raw.githubusercontent.com/zomtec2311/admincockpit/refs/heads/main/screenshots/admincockpit-apps-small.png">https://raw.githubusercontent.com/zomtec2311/admincockpit/refs/heads/main/screenshots/admincockpit-apps.png</screenshot>
 	<website>https://github.com/zomtec2311/admincockpit</website>
 	<dependencies>
-		<nextcloud min-version="31" max-version="35"/>
+		<nextcloud min-version="32" max-version="35"/>
 	</dependencies>
-	<navigations>
-		<navigation>
-			<id>admincockpit</id>
-			<name>Admin Cockpit</name>
-			<route>admincockpit.page.index</route>
-			<icon>app.svg</icon>
-			<type>link</type>
-		</navigation>
-	</navigations>
 </info>
