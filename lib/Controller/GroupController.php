@@ -81,61 +81,41 @@ class GroupController extends Controller {
 
     
     
-    public function addgroup($who) {
+    public function addgroup($who): DataResponse {
         try {
-            if ($this->groupManager->groupExists($who)) { return 'false'; }
+            if ($this->groupManager->groupExists($who)) { return new DataResponse('false'); }
             else { 
                 $this->groupManager->createGroup($who);
-                return 'true';
+                return new DataResponse('true');
             }
         } catch (\Throwable $e) {
             $this->logger->error(
                 'AdminCockpit: FATAL ERROR or EXCEPTION in DataController->addgroup: ' . $e->getMessage() . "\n" . $e->getTraceAsString(),
                 ['app' => 'admincockpit']
             );
-            return 'false';
+            return new DataResponse('false');
         }
     }
     
-    public function deletegroup($who) {
+    public function deletegroup($who): DataResponse {
         try {
             if ($this->groupManager->groupExists($who)) { 
                 $this->myService->deletegroup($who);
-                return 'true';                
+                return new DataResponse('true');
             }
             else { 
-                return 'false';
+                return new DataResponse('false');
             }
         } catch (\Throwable $e) {
             $this->logger->error(
                 'AdminCockpit: FATAL ERROR or EXCEPTION in DataController->deletegroup: ' . $e->getMessage() . "\n" . $e->getTraceAsString(),
                 ['app' => 'admincockpit']
             );
-            return 'false';
+            return new DataResponse('false');
         }
     }
 
     #[NoCSRFRequired]
-    public function rrrrenamegroup() {
-        $rawData = file_get_contents('php://input');
-
-        $data = json_decode($rawData, true);
-        if (json_last_error() === JSON_ERROR_NONE) {
-            $message = $data['what'] ?? '';
-            $who = $data['who'] ?? '';
-                $para = [
-                    'message' => $message,
-                ];
-                $group = $this->groupManager->get($who);
-                if ($group->setDisplayName($message)) return 'true';
-                else return false;
-        } else {
-            http_response_code(400);
-            echo json_encode(['status' => 'error', 'message' => 'Invalid JSON']);
-        }
-
-    }
-
     public function renameGroup(): JSONResponse
     {
         $data = json_decode(file_get_contents('php://input'), true);
@@ -158,18 +138,9 @@ class GroupController extends Controller {
             ], 400);
         }
 
-        // Hier deine eigentliche Umbenennung durchführen
-        // Beispiel:
-        // $this->groupManager->get($oldGroupName)->rename($newGroupName);
         $group = $this->groupManager->get($Groupid);
-                if ($group->setDisplayName($newGroupName)) return new JSONResponse(['success' => true, 'message' => $this->l->t('Group renamed successfully')]);
-                else return new JSONResponse(['success' => false, 'message' => $this->l->t('Group rename failed')]);;
-
-
-
-
-
-        //return new JSONResponse(['success' => true, 'message' => $this->l->t('Group renamed successfully')]);
+        if ($group->setDisplayName($newGroupName)) return new JSONResponse(['success' => true, 'message' => $this->l->t('Group renamed successfully')]);
+        else return new JSONResponse(['success' => false, 'message' => $this->l->t('Group rename failed')]);
     }
   
   
