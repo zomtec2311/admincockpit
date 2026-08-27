@@ -51,12 +51,11 @@ class PageController extends Controller {
 	private $userController;
 	private $l;
 
-	public function __construct(string $appName, IRequest $request, IUserManager $userManager, MyService $myService, UserController $userController, IL10N $l, LoggerInterface $logger) {
+	public function __construct(string $appName, IRequest $request, IUserManager $userManager, MyService $myService, UserController $userController, IL10N $l) {
         parent::__construct($appName, $request);
         $this->userManager = $userManager;
         $this->myService = $myService;
 		$this->userController = $userController;
-		$this->logger = $logger;
 		$this->l = $l;
     }
 
