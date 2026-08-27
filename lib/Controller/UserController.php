@@ -175,25 +175,25 @@ class UserController extends Controller {
         }
     }
 
-    public function deleteuser($who) {
+    public function deleteuser($who): DataResponse {
         try {
             if ($this->userManager->userExists($who)) {
                  $user = $this->userManager->get($who);
                  if ($user->delete()) {
                      $this->logger->info("AdminCockpit: User $who successful deleted");
-                     return 'true';
+                     return new DataResponse('true');
                 }
-                 else { return 'false'; }
+                 else { return new DataResponse('false'); }
             }
             else {
-                return 'false';
+                return new DataResponse('false');
             }
         } catch (\Throwable $e) {
             $this->logger->error(
                 'AdminCockpit: FATAL ERROR or EXCEPTION in DataController->deletegroup: ' . $e->getMessage() . "\n" . $e->getTraceAsString(),
                 ['app' => 'admincockpit']
             );
-            return 'false';
+            return new DataResponse('false');
         }
     }
 
@@ -304,9 +304,9 @@ class UserController extends Controller {
         }
     }
 
-    public function userexists($who) {
-            if($this->userManager->get($who)) return true;
-            else return false;
+    public function userexists($who): DataResponse {
+            if($this->userManager->get($who)) return new DataResponse(true);
+            else return new DataResponse(false);
     }
 
     public function newuser($uid, $displayname, $password, $email, $groups, $admingroups, $quota, $managerids): DataResponse {
@@ -373,7 +373,7 @@ class UserController extends Controller {
     }
 
    #[NoCSRFRequired]
-    public function notifyuser() {
+    public function notifyuser(): DataResponse {
 $rawData = file_get_contents('php://input');
 
 $data = json_decode($rawData, true);
@@ -390,11 +390,11 @@ if (json_last_error() === JSON_ERROR_NONE) {
         $notification->setApp('admincockpit')
             ->setUser($who)
             ->setDateTime(new \DateTime())
-            ->setObject('remote', '2311') // $type and $id
-            ->setSubject('abc', $para) // $subject and $parameters
+            ->setObject('remote', '2311')
+            ->setSubject('abc', $para)
         ;
         $nmanager->notify($notification);
-        return 'true';
+        return new DataResponse('true');
         } else {
     http_response_code(400);
     echo json_encode(['status' => 'error', 'message' => 'Invalid JSON']);
@@ -403,7 +403,7 @@ if (json_last_error() === JSON_ERROR_NONE) {
     }
 
     #[NoCSRFRequired]
-    public function notifygroup() {
+    public function notifygroup(): DataResponse {
 $rawData = file_get_contents('php://input');
 
 $data = json_decode($rawData, true);
@@ -416,23 +416,19 @@ if (json_last_error() === JSON_ERROR_NONE) {
         ];
         $group = $this->groupManager->get($who);
         $groupusers = $group->getUsers();
-        //return 'true';
         $nmanager = \OCP\Server::get(\OCP\Notification\IManager::class);
         foreach ($groupusers as $groupuser) {
             $notification = $nmanager->createNotification();
             $notification->setApp('admincockpit')
             ->setUser($groupuser->getUID())
             ->setDateTime(new \DateTime())
-            ->setObject('remote', '2311') // $type and $id
-            ->setSubject('abc', $para) // $subject and $parameters
+            ->setObject('remote', '2311')
+            ->setSubject('abc', $para)
         ;
         $nmanager->notify($notification);
         $notification = $nmanager->createNotification();
         }
-
-
-
-        return 'true';
+        return new DataResponse('true');
         } else {
     http_response_code(400);
     echo json_encode(['status' => 'error', 'message' => 'Invalid JSON']);
