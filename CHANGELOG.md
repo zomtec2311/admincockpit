@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.4.0
+
+### Changed
+- displaying display names for groups instead of group ids ([#24](https://github.com/zomtec2311/admincockpit/issues/24)) @XandXor81
+
+### Added
+- new feature: renaming groups possible
+
 ## 1.3.9
 
 ### Changed
