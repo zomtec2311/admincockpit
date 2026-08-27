@@ -41,6 +41,7 @@ return [
     ['name' => 'Apps#getAppsWithUpdates', 'url' => '/appupdates', 'verb' => 'GET'],
     ['name' => 'Apps#updateapp', 'url' => '/updateapp/{who}', 'verb' => 'GET'],
     ['name' => 'Group#addgroup', 'url' => '/addgroup/{who}', 'verb' => 'GET'],
+    ['name' => 'Group#renamegroup', 'url' => '/renamegroup', 'verb' => 'POST'],
     ['name' => 'Group#deletegroup', 'url' => '/deletegroup/{who}', 'verb' => 'GET'],
     ['name' => 'System#storage', 'url' => '/storage', 'verb' => 'GET'],
     ['name' => 'System#sqlinfo', 'url' => '/sqlinfo', 'verb' => 'GET'],

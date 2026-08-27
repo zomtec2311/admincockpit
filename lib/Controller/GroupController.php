@@ -114,6 +114,63 @@ class GroupController extends Controller {
             return 'false';
         }
     }
+
+    #[NoCSRFRequired]
+    public function rrrrenamegroup() {
+        $rawData = file_get_contents('php://input');
+
+        $data = json_decode($rawData, true);
+        if (json_last_error() === JSON_ERROR_NONE) {
+            $message = $data['what'] ?? '';
+            $who = $data['who'] ?? '';
+                $para = [
+                    'message' => $message,
+                ];
+                $group = $this->groupManager->get($who);
+                if ($group->setDisplayName($message)) return 'true';
+                else return false;
+        } else {
+            http_response_code(400);
+            echo json_encode(['status' => 'error', 'message' => 'Invalid JSON']);
+        }
+
+    }
+
+    public function renameGroup(): JSONResponse
+    {
+        $data = json_decode(file_get_contents('php://input'), true);
+
+        $oldGroupName = trim($data['oldGroupName'] ?? '');
+        $newGroupName = trim($data['newGroupName'] ?? '');
+        $Groupid = trim($data['Groupid'] ?? '');
+
+        if ($oldGroupName === '' || $newGroupName === '') {
+            return new JSONResponse([
+                'success' => false,
+                'message' => $this->l->t('Missing group name'),
+            ], 400);
+        }
+
+        if (mb_strlen($newGroupName) > 100) {
+            return new JSONResponse([
+                'success' => false,
+                'message' => $this->l->t('The group name is too long'),
+            ], 400);
+        }
+
+        // Hier deine eigentliche Umbenennung durchführen
+        // Beispiel:
+        // $this->groupManager->get($oldGroupName)->rename($newGroupName);
+        $group = $this->groupManager->get($Groupid);
+                if ($group->setDisplayName($newGroupName)) return new JSONResponse(['success' => true, 'message' => $this->l->t('Group renamed successfully')]);
+                else return new JSONResponse(['success' => false, 'message' => $this->l->t('Group rename failed')]);;
+
+
+
+
+
+        //return new JSONResponse(['success' => true, 'message' => $this->l->t('Group renamed successfully')]);
+    }
   
   
 }

@@ -116,10 +116,12 @@ class UserController extends Controller {
             $groups = $this->groupManager->search('');
             $groupList = [];
             $grlist = [];
+            $grdisplaynamelist = [];
             foreach ($groups as $group) {
                 $gusers = $group->getUsers();
                 $guserList = [];
                 $grlist[] = $group->getGID();
+                $grdisplaynamelist[] = $group->getDisplayName();
             foreach ($gusers as $guser) {
                 if($guser->getLastLogin()) $status = false;
                 else $status = true;
@@ -141,6 +143,7 @@ class UserController extends Controller {
             }
                 $groupList[] = [
                     'gid' => $group->getGID(),
+                    'gdisplayname' => $group->getDisplayName(),
                     'gusers' => $gusers,
                     'guserscount' => count($gusers),
                     'guser' => $guserList,
@@ -156,6 +159,7 @@ class UserController extends Controller {
                 'admins' => $adminGroup,
                 'allusers' => $users,
                 'grlist' => $grlist,
+                'grdisplaynamelist' => $grdisplaynamelist,
                 'usrlist' => $usrlist,
             ]);
 
