@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.4.1
+
+### Changed
+- displaying display names for users instead of user ids
+- displaying display names for groups instead of group ids within NcSelect
+
+### Fixed
+- Bug fixed select field for manager-ids
+- in the selection of manager, the own account no longer appears and a mutual link is no longer possible
+- selection of administrated groups fixed
+
+### Added
+- l10n: language files supplemented with new phrases
+
 ## 1.4.0
 
 ### Changed

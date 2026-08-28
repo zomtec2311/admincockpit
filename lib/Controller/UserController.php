@@ -90,12 +90,17 @@ class UserController extends Controller {
             $users = $this->userManager->search('');
             $userList = [];
             $usrlist = [];
+            $usrdisplayandid = [];
             foreach ($users as $user) {
                 if($user->getLastLogin()) $status = false;
                 else $status = true;
                 $mids = $user->getManagerUids();
                 if (!$mids) $mids []= null;
                 $usrlist[] = $user->getUID();
+                $usrdisplayandid[] = [
+                    'id'            => $user->getUID(),
+                    'usrdisplayname'   => $user->getDisplayName(),
+                ];
                 $userList[] = [
                     'uid' => $user->getUID(),
                     'displayname' => $user->getDisplayName(),
@@ -117,11 +122,21 @@ class UserController extends Controller {
             $groupList = [];
             $grlist = [];
             $grdisplaynamelist = [];
+            $grpdisplayandid = [];
             foreach ($groups as $group) {
                 $gusers = $group->getUsers();
                 $guserList = [];
                 $grlist[] = $group->getGID();
                 $grdisplaynamelist[] = $group->getDisplayName();
+
+                $grpdisplayandid[] = [
+                    'id'            => $group->getGID(),
+                    'displayname'   => $group->getDisplayName(),
+                ];
+
+
+
+
             foreach ($gusers as $guser) {
                 if($guser->getLastLogin()) $status = false;
                 else $status = true;
@@ -160,6 +175,8 @@ class UserController extends Controller {
                 'allusers' => $users,
                 'grlist' => $grlist,
                 'grdisplaynamelist' => $grdisplaynamelist,
+                'usrdisplayandid' => $usrdisplayandid,
+                'displayandid' => $grpdisplayandid,
                 'usrlist' => $usrlist,
             ]);
 
@@ -201,6 +218,16 @@ class UserController extends Controller {
         try {
             $user =$this->userManager->get($who);
             $mids = $user->getManagerUids();
+            $usergrps = $this->groupManager->getUserGroups($user);
+            $admingrps = $this->myService->admingroup($who);
+            $groupdisplaynames = [];
+            foreach ($usergrps as $usergrp) {
+                $groupdisplaynames[] = [
+                    'uid' => $usergrp->getGID(),
+                    'displayname' => $usergrp->getDisplayName(),
+                    ];
+            }
+
             if($mids) $mids = $mids[0];
             else $mids = "";
             $userList = [];
@@ -212,7 +239,8 @@ class UserController extends Controller {
                     'managerids' => $mids,
                     'isadmin' => $this->groupManager->isAdmin($user->getUID()),
                     'groups' => $this->groupManager->getUserGroupIds($user),
-                    'admingroups' => $this->myService->admingroup($who),
+                    'groupdisplaynamesandids' => $groupdisplaynames,
+                    'admingroups' => $admingrps,
                     'lastlogin' => $user->getLastLogin(),
                     'firstlogin' => $user->getFirstLogin(),
                     'used' => $this->myService->folderSize($user->getHome()),

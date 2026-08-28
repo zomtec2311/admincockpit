@@ -27,6 +27,7 @@
 namespace OCA\AdminCockpit\Service;
 
 use OCP\IDBConnection;
+use OCP\DB\QueryBuilder\IQueryBuilder;
 use OCA\AdminCockpit\Db\MyRepository;
 use OC\Updater\VersionCheck;
 use OCP\IUserManager;
@@ -181,7 +182,7 @@ if ($totalSpace !== false) {
         return 1;
     }
     
-    public function addadmingroup(string $uid, string $x): int {        
+    public function addadmingroup(string $uid, string $x): int {
         $qb = $this->db->getQueryBuilder();
         $qb->insert('group_admin')
            ->values([
@@ -192,28 +193,24 @@ if ($totalSpace !== false) {
         return 1;
     }
 
-    function admingroup(string $uid): array {
-        $gids = [];
 
-            try {
-                $queryBuilder = $this->db->getQueryBuilder();
-                $queryBuilder
-                    ->select('gid') 
-                    ->from('group_admin')
-                    ->where($queryBuilder->expr()->eq('uid', $queryBuilder->createNamedParameter($uid)));
-                $result = $queryBuilder->executeStatement();
-                while ($row = $result->fetch()) {
-                    $gids[] = $row['gid'];
-                }
-                $result->closeCursor();
-            } catch (\OCP\DB\Exception $e) {
-                error_log("Nextcloud Query Builder Error: " . $e->getMessage());
-            } catch (\Exception $e) {
-                error_log("Nextcloud Unexpected Error in Query Builder: " . $e->getMessage());
-            }
 
-            return $gids;
+function admingroup(string $uid): array {
+    $gids = [];
+    try {
+        // Raw SQL Test um QB-Abstraktion zu umgehen
+        $sql = "SELECT gid FROM *PREFIX*group_admin WHERE uid = ?";
+        $stmt = $this->db->prepare($sql);
+        $result = $stmt->execute([$uid]);
+
+        while ($row = $result->fetch()) {
+            $gids[] = $row['gid'];
+        }
+    } catch (\Throwable $e) {
+        error_log("Error: " . $e->getMessage());
     }
+    return $gids;
+}
 
     public function getDBSystemInfo(): array {
         $type = $this->db->getDatabaseProvider();
