@@ -150,7 +150,19 @@
         "Group rename failed": "تغییر نام گروه شکست خورد",
         "An error occurred while renaming the group": "خطایی در هنگام تغییر نام گروه رخ داد",
         "Please enter a new group name": "لطفا نام گروه جدید را وارد کنید",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "تنها متن ساده طبیعی با حداکثر 100 کاراکتر ممکن است مورد استفاده قرار گیرد. بنابراین هیچ کد HTML یا سایر قالب بندی های خاص"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "تنها متن ساده طبیعی با حداکثر 100 کاراکتر ممکن است مورد استفاده قرار گیرد. بنابراین هیچ کد HTML یا سایر قالب بندی های خاص",
+        "User search (name, ID, email)...": "جستجوی کاربر (نام، ID، ایمیل).",
+        "active": "فعال",
+        "inactive": "غیر فعال",
+        "page": "صفحه",
+        "previous": "قبلی",
+        "next": "بعدی",
+        "deactivate user": "غیرفعال کردن کاربر",
+        "activate user": "فعال کردن کاربر",
+        "User activated": "کاربر فعال فعال",
+        "User deactivated": "کاربران غیرفعال شده",
+        "Could not change user status": "نمی تواند وضعیت کاربر را تغییر دهد",
+        "Could not load user data": "نمی تواند داده های کاربر را بارگیری کند"
     },
     "pluralForm": "nplurals=2; plural=n > 1;"
 }

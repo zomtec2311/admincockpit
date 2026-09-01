@@ -153,6 +153,18 @@ OC.L10N.register(
     "Group rename failed": "Methodd ailenwi'r grŵp",
     "An error occurred while renaming the group": "Bu gwall wrth ailenwi'r grŵp",
     "Please enter a new group name": "Rhowch enw grŵp newydd",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Dim ond testun plaen arferol gyda hyd at 100 nod y gellir ei ddefnyddio. Felly dim cod HTML na fformatio arbennig arall"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Dim ond testun plaen arferol gyda hyd at 100 nod y gellir ei ddefnyddio. Felly dim cod HTML na fformatio arbennig arall",
+    "User search (name, ID, email)...": "Chwiliad defnyddiwr (enw, ID, e-bost)...",
+    "active": "gweithgar",
+    "inactive": "anactif",
+    "page": "tudalen",
+    "previous": "blaenorol",
+    "next": "nesaf",
+    "deactivate user": "dadactifadu defnyddiwr",
+    "activate user": "actifadu defnyddiwr",
+    "User activated": "Defnyddiwr wedi'i actifadu",
+    "User deactivated": "Defnyddiwr wedi'i ddadactifadu",
+    "Could not change user status": "Methu newid statws defnyddiwr",
+    "Could not load user data": "Methu llwytho data defnyddiwr"
 },
 "nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));");

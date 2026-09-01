@@ -156,7 +156,19 @@
         "Group rename failed": "Gruppe- omdøb mislykkedes",
         "An error occurred while renaming the group": "En fejl opstod under omdøbning af gruppen",
         "Please enter a new group name": "Indtast et nyt gruppenavn",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Der må kun anvendes normal almindelig tekst med op til 100 tegn. Så ingen HTML-kode eller anden speciel formatering"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Der må kun anvendes normal almindelig tekst med op til 100 tegn. Så ingen HTML-kode eller anden speciel formatering",
+        "User search (name, ID, email)...": "Brugersøgning (navn, id, e-mail)...",
+        "active": "aktiv",
+        "inactive": "inaktiv",
+        "page": "side",
+        "previous": "tidligere",
+        "next": "næste",
+        "deactivate user": "deaktivér bruger",
+        "activate user": "aktivér bruger",
+        "User activated": "Bruger aktiveret",
+        "User deactivated": "Brugerdeaktiveret",
+        "Could not change user status": "Kunne ikke ændre brugerstatus",
+        "Could not load user data": "Kunne ikke indlæse brugerdata"
     },
     "pluralForm": "nplurals=2; plural=n != 1;"
 }

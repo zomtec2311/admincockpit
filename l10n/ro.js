@@ -153,6 +153,18 @@ OC.L10N.register(
     "Group rename failed": "Redenumește grupul eșuat",
     "An error occurred while renaming the group": "S-a produs o eroare la redenumirea grupului",
     "Please enter a new group name": "Introduceți un nume de grup nou",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Se poate folosi numai textul simplu normal cu până la 100 de caractere. Deci niciun cod HTML sau alt format special"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Se poate folosi numai textul simplu normal cu până la 100 de caractere. Deci niciun cod HTML sau alt format special",
+    "User search (name, ID, email)...": "Căutare utilizator (nume, ID, email)...",
+    "active": "activă",
+    "inactive": "inactiv",
+    "page": "pagină",
+    "previous": "anterior",
+    "next": "înainte",
+    "deactivate user": "dezactivează utilizatorul",
+    "activate user": "activează utilizatorul",
+    "User activated": "Utilizator activat",
+    "User deactivated": "Utilizator dezactivat",
+    "Could not change user status": "Nu s- a putut modifica starea utilizatorului",
+    "Could not load user data": "Nu am putut încărca datele utilizatorului"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2);");

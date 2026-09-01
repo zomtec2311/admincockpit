@@ -153,6 +153,18 @@ OC.L10N.register(
     "Group rename failed": "Neizdevās pārdēvēt grupu",
     "An error occurred while renaming the group": "Gadījās kļūda pārdēvējot grupu",
     "Please enter a new group name": "Lūdzu ievadiet jaunu grupas nosaukumu",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Var izmantot tikai parastu vienkāršu tekstu ar līdz 100 rakstzīmēm. Tātad nav HTML koda vai cita speciāla formatējuma"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Var izmantot tikai parastu vienkāršu tekstu ar līdz 100 rakstzīmēm. Tātad nav HTML koda vai cita speciāla formatējuma",
+    "User search (name, ID, email)...": "Lietotāja meklēšana (vārds, uzvārds, ID, e-pasts)...",
+    "active": "aktīvs",
+    "inactive": "neaktīvs",
+    "page": "lappuse",
+    "previous": "iepriekšējais",
+    "next": "nākamais",
+    "deactivate user": "deaktivizēt lietotāju",
+    "activate user": "aktivizēt lietotāju",
+    "User activated": "Lietotājs aktivizēts",
+    "User deactivated": "Lietotāja atslēgts",
+    "Could not change user status": "Neizdevās mainīt lietotāja statusu",
+    "Could not load user data": "Neizdevās ielādēt lietotāja datus"
 },
 "nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);");

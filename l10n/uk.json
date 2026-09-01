@@ -152,7 +152,19 @@
         "Group rename failed": "Не вдалося перейменувати групу",
         "An error occurred while renaming the group": "Похибка сталася при перенаправленні групи",
         "Please enter a new group name": "Будь ласка введіть назву групи",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "До 100 символів можна використовувати лише звичайний звичайний текст. Так немає HTML коду або іншого спеціального форматування"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "До 100 символів можна використовувати лише звичайний звичайний текст. Так немає HTML коду або іншого спеціального форматування",
+        "User search (name, ID, email)...": "Пошук користувачів (ім'я, ID, електронна пошта)...",
+        "active": "активний",
+        "inactive": "неактивний",
+        "page": "головна",
+        "previous": "попередній",
+        "next": "увійти",
+        "deactivate user": "деактивувати користувача",
+        "activate user": "активувати користувача",
+        "User activated": "Користувач активований",
+        "User deactivated": "Користувач деактивований",
+        "Could not change user status": "Не можна змінити статус користувача",
+        "Could not load user data": "Не завантажувати дані користувачів"
     },
     "pluralForm": "nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);"
 }

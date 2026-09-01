@@ -157,6 +157,18 @@ OC.L10N.register(
     "Group rename failed": "Αποτυχία μετονομασίας ομάδας",
     "An error occurred while renaming the group": "Συνέβη ένα σφάλμα κατά τη μετονομασία της ομάδας",
     "Please enter a new group name": "Παρακαλώ εισάγετε ένα νέο όνομα ομάδας",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Επιτρέπεται να χρησιμοποιείται μόνο κανονικό απλό κείμενο με έως 100 χαρακτήρες. Έτσι δεν κώδικα HTML ή άλλη ειδική μορφοποίηση"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Επιτρέπεται να χρησιμοποιείται μόνο κανονικό απλό κείμενο με έως 100 χαρακτήρες. Έτσι δεν κώδικα HTML ή άλλη ειδική μορφοποίηση",
+    "User search (name, ID, email)...": "Αναζήτηση χρήστη (όνομα, ταυτότητα, email)...",
+    "active": "ενεργό",
+    "inactive": "ανενεργό",
+    "page": "σελίδα",
+    "previous": "προηγούμενη",
+    "next": "επόμενη",
+    "deactivate user": "απενεργοποιήστε το χρήστη",
+    "activate user": "ενεργοποίηση χρήστη",
+    "User activated": "Ενεργοποιήθηκε ο χρήστης",
+    "User deactivated": "Απενεργοποίηση χρήστη",
+    "Could not change user status": "Αδυναμία αλλαγής κατάστασης χρήστη",
+    "Could not load user data": "Αδυναμία φόρτωσης δεδομένων χρήστη"
 },
 "nplurals=2; plural=n != 1;");

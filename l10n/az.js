@@ -157,6 +157,18 @@ OC.L10N.register(
     "Group rename failed": "Qadın adı qeyd",
     "An error occurred while renaming the group": "Qrupu renaming zamanı bir səhv meydana gəldi",
     "Please enter a new group name": "Yeni qrup adı daxil edin",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "100 simvolla yalnız normal düz məhsul istifadə edilə bilər. Heç bir HTML kodu və ya digər xüsusi format"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "100 simvolla yalnız normal düz məhsul istifadə edilə bilər. Heç bir HTML kodu və ya digər xüsusi format",
+    "User search (name, ID, email)...": "Yadda saxla.",
+    "active": "axtarış",
+    "inactive": "inaktiv",
+    "page": "page",
+    "previous": "əvvəlki",
+    "next": "ünvan",
+    "deactivate user": "deactivate",
+    "activate user": "istifadəçi",
+    "User activated": "İstifadəçi",
+    "User deactivated": "Daxil ol",
+    "Could not change user status": "Istifadəçi statusu",
+    "Could not load user data": "İstifadəçi məlumatları yükləyir"
 },
 "nplurals=2; plural=n != 1;");

@@ -29,6 +29,7 @@ declare(strict_types=1);
 namespace OCA\AdminCockpit\Controller;
 
 use OCA\AdminCockpit\AppInfo\Application;
+use OCP\IInitialStateService;
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\Attribute\FrontpageRoute;
 use OCP\AppFramework\Http\Attribute\NoAdminRequired;
@@ -37,6 +38,7 @@ use OCP\AppFramework\Http\Attribute\OpenAPI;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\IL10N;
 use OCP\IRequest;
+use OCP\Util;
 use OCP\IUserManager;
 use OCA\AdminCockpit\Service\MyService;
 use OCA\AdminCockpit\Controller\UserController;
@@ -50,13 +52,15 @@ class PageController extends Controller {
     private $myService;
 	private $userController;
 	private $l;
+	private IInitialStateService $initialStateService;
 
-	public function __construct(string $appName, IRequest $request, IUserManager $userManager, MyService $myService, UserController $userController, IL10N $l) {
+	public function __construct(string $appName, IRequest $request, IUserManager $userManager, MyService $myService, UserController $userController, IL10N $l, IInitialStateService $initialStateService) {
         parent::__construct($appName, $request);
         $this->userManager = $userManager;
         $this->myService = $myService;
 		$this->userController = $userController;
 		$this->l = $l;
+		$this->initialStateService = $initialStateService;
     }
 
 	#[NoCSRFRequired]
@@ -121,5 +125,59 @@ class PageController extends Controller {
 			]
 		);
 	}
+
+	#[NoCSRFRequired]
+    #[NoAdminRequired]
+    public function allusers(): TemplateResponse {
+        Util::addScript(Application::APP_ID, 'admincockpit-allusers');
+        Util::addStyle(Application::APP_ID, 'admincockpit-main');
+
+        $who = $this->request->getParam('who', 'all users');
+        $gid = $this->request->getParam('gid', 'all users');
+
+        $this->initialStateService->provideInitialState(
+            Application::APP_ID,
+            'who',
+            $who
+        );
+        $this->initialStateService->provideInitialState(
+            Application::APP_ID,
+            'gid',
+            $gid
+        );
+
+        return new TemplateResponse(
+            Application::APP_ID,
+            'allusers',
+            []
+        );
+    }
+
+
+	#[NoCSRFRequired]
+    #[NoAdminRequired]
+    public function listuser(): TemplateResponse {
+        Util::addScript(Application::APP_ID, 'admincockpit-allusers');
+        Util::addStyle(Application::APP_ID, 'admincockpit-main');
+
+        $who = $this->request->getParam('who', $this->l->t('all users'));
+        $gid = $this->request->getParam('gid', 'all users');
+        $this->initialStateService->provideInitialState(
+            Application::APP_ID,
+            'who',
+            $who
+        );
+        $this->initialStateService->provideInitialState(
+            Application::APP_ID,
+            'gid',
+            $gid
+        );
+
+        return new TemplateResponse(
+            Application::APP_ID,
+            'allusers',
+            []
+        );
+    }
 }
 

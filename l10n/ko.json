@@ -152,7 +152,19 @@
         "Group rename failed": "그룹 이름 실패",
         "An error occurred while renaming the group": "오류가 발생했습니다",
         "Please enter a new group name": "새 그룹 이름을 입력하십시오",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "최대 100개의 문자를 가진 일반 텍스트만 사용할 수 있습니다. 그래서 HTML 코드 또는 다른 특별한 포맷"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "최대 100개의 문자를 가진 일반 텍스트만 사용할 수 있습니다. 그래서 HTML 코드 또는 다른 특별한 포맷",
+        "User search (name, ID, email)...": "사용자 검색 (이름, ID, 이메일) ...",
+        "active": "이름 *",
+        "inactive": "관련 제품",
+        "page": "(주)",
+        "previous": "이전 다음",
+        "next": "이름 *",
+        "deactivate user": "사용자 정의",
+        "activate user": "사용자 정의",
+        "User activated": "사용자 활성화",
+        "User deactivated": "사용자 비활성화",
+        "Could not change user status": "사용자 상태를 변경할 수 없습니다",
+        "Could not load user data": "사용자 데이터를로드 할 수 없습니다"
     },
     "pluralForm": "nplurals=1; plural=0;"
 }

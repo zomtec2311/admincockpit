@@ -152,7 +152,19 @@
         "Group rename failed": "Grupės pervadinti nepavyko",
         "An error occurred while renaming the group": "@ info: status",
         "Please enter a new group name": "Prašome įvesti naują grupės pavadinimą",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Galite naudoti tik įprastą paprastą tekstą su ne daugiau kaip 100 simbolių. NAME OF TRANSLATORS"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Galite naudoti tik įprastą paprastą tekstą su ne daugiau kaip 100 simbolių. NAME OF TRANSLATORS",
+        "User search (name, ID, email)...": "Vartotojo paieška (vardas, pavardė, adresas, el. paštas)...",
+        "active": "aktyvus",
+        "inactive": "neaktyvus",
+        "page": "puslapis",
+        "previous": "ankstesnis",
+        "next": "kitą",
+        "deactivate user": "išjungtas naudotojas",
+        "activate user": "aktyvuoti naudotoją",
+        "User activated": "Naudotojas aktyvuotas",
+        "User deactivated": "Naudotojas išjungtas",
+        "Could not change user status": "Nepavyko pakeisti naudotojo būsenos",
+        "Could not load user data": "Nepavyko įkelti naudotojo duomenų"
     },
     "pluralForm": "nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);"
 }

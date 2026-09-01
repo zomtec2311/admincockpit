@@ -153,6 +153,18 @@ OC.L10N.register(
     "Group rename failed": "ការប្តូរឈ្មោះក្រុមបានបរាជ័យ",
     "An error occurred while renaming the group": "កំហុសបានកើតឡើងខណៈពេលប្តូរឈ្មោះក្រុម",
     "Please enter a new group name": "សូមបញ្ចូលឈ្មោះក្រុមថ្មី។",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "មានតែអត្ថបទធម្មតាដែលមានរហូតដល់ 100 តួអក្សរប៉ុណ្ណោះដែលអាចប្រើបាន។ ដូច្នេះគ្មានកូដ HTML ឬទម្រង់ពិសេសផ្សេងទៀតទេ។"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "មានតែអត្ថបទធម្មតាដែលមានរហូតដល់ 100 តួអក្សរប៉ុណ្ណោះដែលអាចប្រើបាន។ ដូច្នេះគ្មានកូដ HTML ឬទម្រង់ពិសេសផ្សេងទៀតទេ។",
+    "User search (name, ID, email)...": "ស្វែងរកអ្នកប្រើប្រាស់ (ឈ្មោះ លេខសម្គាល់ អ៊ីមែល)...",
+    "active": "សកម្ម",
+    "inactive": "អសកម្ម",
+    "page": "ទំព័រ",
+    "previous": "មុន",
+    "next": "បន្ទាប់",
+    "deactivate user": "អសកម្មអ្នកប្រើប្រាស់",
+    "activate user": "ធ្វើឱ្យអ្នកប្រើប្រាស់សកម្ម",
+    "User activated": "អ្នកប្រើប្រាស់បានធ្វើឱ្យសកម្ម",
+    "User deactivated": "អ្នកប្រើប្រាស់ត្រូវបានបិទ",
+    "Could not change user status": "Could not change user status",
+    "Could not load user data": "Could not load user data"
 },
 "nplurals=1; plural=0;");

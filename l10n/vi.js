@@ -153,6 +153,18 @@ OC.L10N.register(
     "Group rename failed": "Lỗi thay đổi tên nhóm",
     "An error occurred while renaming the group": "Name",
     "Please enter a new group name": "Hãy nhập vào một tên nhóm mới",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Có thể dùng chỉ chữ thường có trên 100 ký tự. Vì vậy không có mã HTML hoặc các định dạng đặc biệt"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Có thể dùng chỉ chữ thường có trên 100 ký tự. Vì vậy không có mã HTML hoặc các định dạng đặc biệt",
+    "User search (name, ID, email)...": "Tìm kiếm (tên, ID, email)...",
+    "active": "cửa sổ không chọn",
+    "inactive": "cửa sổ không chọn",
+    "page": "trang",
+    "previous": "trước",
+    "next": "kế",
+    "deactivate user": "không dùng",
+    "activate user": "kích hoạt người dùng",
+    "User activated": "Người dùng đã kích hoạt",
+    "User deactivated": "Người dùng đã tắt",
+    "Could not change user status": "Không thể thay đổi trạng thái người dùng",
+    "Could not load user data": "Không thể nạp dữ liệu người dùng"
 },
 "nplurals=1; plural=0;");

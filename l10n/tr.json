@@ -156,7 +156,19 @@
         "Group rename failed": "Grup adı başarısız oldu",
         "An error occurred while renaming the group": "Bir hata, grubu yeniden başlatırken meydana geldi",
         "Please enter a new group name": "Lütfen yeni bir grup adı girin",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Sadece 100 karaktere kadar normal düz metin kullanılabilir. Yani HTML kodu veya diğer özel formatlama"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Sadece 100 karaktere kadar normal düz metin kullanılabilir. Yani HTML kodu veya diğer özel formatlama",
+        "User search (name, ID, email)...": "Kullanıcı arama (isim, ID, e-posta)...",
+        "active": "aktif",
+        "inactive": "inaktif",
+        "page": "sayfa sayfası",
+        "previous": "önceki",
+        "next": "bir",
+        "deactivate user": "deactivate user",
+        "activate user": "aktif kullanıcı etkinleştirerek kullanıcı etkinleştir",
+        "User activated": "Kullanıcı aktif",
+        "User deactivated": "Kullanıcı devre dışı bırakıldı",
+        "Could not change user status": "Kullanıcı statüsünü değiştirmeyebilir",
+        "Could not load user data": "Kullanıcı verilerini yükleyemez"
     },
     "pluralForm": "nplurals=2; plural=n != 1;"
 }

@@ -157,6 +157,18 @@ OC.L10N.register(
     "Group rename failed": "ჯგუფის გადარქმევა ვერ მოხერხდა",
     "An error occurred while renaming the group": "ჯგუფის სახელის გადარქმევისას მოხდა შეცდომა",
     "Please enter a new group name": "გთხოვთ შეიყვანოთ ჯგუფის ახალი სახელი",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "შეიძლება გამოყენებულ იქნას მხოლოდ ჩვეულებრივი უბრალო ტექსტი 100-მდე სიმბოლოთი. ასე რომ არ არის HTML კოდი ან სხვა სპეციალური ფორმატირება"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "შეიძლება გამოყენებულ იქნას მხოლოდ ჩვეულებრივი უბრალო ტექსტი 100-მდე სიმბოლოთი. ასე რომ არ არის HTML კოდი ან სხვა სპეციალური ფორმატირება",
+    "User search (name, ID, email)...": "მომხმარებლის ძიება (სახელი, პირადობის მოწმობა, ელფოსტა)...",
+    "active": "აქტიური",
+    "inactive": "უმოქმედო",
+    "page": "გვერდი",
+    "previous": "წინა",
+    "next": "შემდეგი",
+    "deactivate user": "მომხმარებლის დეაქტივაცია",
+    "activate user": "მომხმარებლის გააქტიურება",
+    "User activated": "მომხმარებელი გააქტიურებულია",
+    "User deactivated": "მომხმარებელი გამორთულია",
+    "Could not change user status": "მომხმარებლის სტატუსის შეცვლა ვერ მოხერხდა",
+    "Could not load user data": "მომხმარებლის მონაცემების ჩატვირთვა ვერ მოხერხდა"
 },
 "nplurals=2; plural=n != 1;");

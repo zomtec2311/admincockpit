@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.4.2
+
+### Changed
+- Replaced icons for actions with NcActions
+- Method for page viewing of individual user groups has changed
+- User Account Editing: A field has been replaced by NcSelect with NcSelectUsers
+- Faster access to changed user and account data
+
+### Added
+- New feature to search for users
+- filter by activated/deactivated user
+- activate / deactivate user
+- pagination
+- l10n: language files supplemented with new phrases
+
 ## 1.4.1
 
 ### Changed

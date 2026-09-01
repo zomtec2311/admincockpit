@@ -153,6 +153,18 @@ OC.L10N.register(
     "Group rename failed": "ການປ່ຽນຊື່ກຸ່ມລົ້ມເຫລວ",
     "An error occurred while renaming the group": "ເກີດຄວາມຜິດພາດຂຶ້ນໃນຂະນະທີ່ປ່ຽນຊື່ກຸ່ມ",
     "Please enter a new group name": "ກະລຸນາໃສ່ຊື່ກຸ່ມໃໝ່",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "ສາມາດໃຊ້ພຽງແຕ່ຂໍ້ຄວາມທຳມະດາທີ່ມີເຖິງ 100 ຕົວອັກສອນເທົ່ານັ້ນ. ດັ່ງນັ້ນບໍ່ມີລະຫັດ HTML ຫຼືຮູບແບບພິເສດອື່ນໆ"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "ສາມາດໃຊ້ພຽງແຕ່ຂໍ້ຄວາມທຳມະດາທີ່ມີເຖິງ 100 ຕົວອັກສອນເທົ່ານັ້ນ. ດັ່ງນັ້ນບໍ່ມີລະຫັດ HTML ຫຼືຮູບແບບພິເສດອື່ນໆ",
+    "User search (name, ID, email)...": "ຄົ້ນຫາຜູ້ໃຊ້ (ຊື່, ID, ອີເມວ) ...",
+    "active": "ເຄື່ອນໄຫວ",
+    "inactive": "inactive",
+    "page": "ໜ້າ",
+    "previous": "ທີ່ຜ່ານມາ",
+    "next": "ຕໍ່ໄປ",
+    "deactivate user": "ປິດໃຊ້ງານຜູ້ໃຊ້",
+    "activate user": "activate user",
+    "User activated": "ເປີດໃຊ້ຜູ້ໃຊ້ແລ້ວ",
+    "User deactivated": "ປິດການນຳໃຊ້ຜູ້ໃຊ້ແລ້ວ",
+    "Could not change user status": "ບໍ່ສາມາດປ່ຽນສະຖານະຜູ້ໃຊ້ໄດ້",
+    "Could not load user data": "ບໍ່ສາມາດໂຫຼດຂໍ້ມູນຜູ້ໃຊ້ໄດ້"
 },
 "nplurals=1; plural=0;");

@@ -152,7 +152,19 @@
         "Group rename failed": "การเปลี่ยนชื่อกลุ่มล้มเหลว",
         "An error occurred while renaming the group": "เกิดข้อผิดพลาดขึ้นระหว่างทําการเปลี่ยนชื่อกลุ่ม",
         "Please enter a new group name": "โปรดป้อนชื่อกลุ่มใหม่",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "จะใช้เฉพาะข้อความธรรมดาที่มีตัวอักษรมากกว่า 100 ตัวอักษรเท่านั้น ไม่มีรหัส HTML หรือรูปแบบพิเศษอื่น ๆ"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "จะใช้เฉพาะข้อความธรรมดาที่มีตัวอักษรมากกว่า 100 ตัวอักษรเท่านั้น ไม่มีรหัส HTML หรือรูปแบบพิเศษอื่น ๆ",
+        "User search (name, ID, email)...": "การค้นหาของผู้ใช้ (ชื่อ, ID, อีเมล)...",
+        "active": "ทํางาน",
+        "inactive": "ไม่ทํางาน",
+        "page": "หน้า",
+        "previous": "ก่อนหน้านี้",
+        "next": "ต่อไป",
+        "deactivate user": "ปิดการใช้งานผู้ใช้",
+        "activate user": "เปิดใช้งานผู้ใช้",
+        "User activated": "เปิดใช้งานผู้ใช้",
+        "User deactivated": "ปิดการใช้งานผู้ใช้แล้ว",
+        "Could not change user status": "ไม่สามารถเปลี่ยนสถานะผู้ใช้ได้",
+        "Could not load user data": "ไม่สามารถโหลดข้อมูลผู้ใช้ได้"
     },
     "pluralForm": "nplurals=1; plural=0;"
 }

@@ -157,6 +157,18 @@ OC.L10N.register(
     "Group rename failed": "Nome gruppo fallito",
     "An error occurred while renaming the group": "Si è verificato un errore durante la rinominazione del gruppo",
     "Please enter a new group name": "Inserisci un nuovo nome di gruppo",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Solo il testo normale con fino a 100 caratteri può essere utilizzato. Quindi nessun codice HTML o altro formato speciale"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Solo il testo normale con fino a 100 caratteri può essere utilizzato. Quindi nessun codice HTML o altro formato speciale",
+    "User search (name, ID, email)...": "Ricerca utente (nome, ID, email)...",
+    "active": "attivo",
+    "inactive": "inattivo",
+    "page": "pagina",
+    "previous": "precedente",
+    "next": "prossimo",
+    "deactivate user": "disattivare l'utente",
+    "activate user": "attivare l'utente",
+    "User activated": "Attivazione dell'utente",
+    "User deactivated": "Disattivato dall'utente",
+    "Could not change user status": "Non è possibile modificare lo stato dell'utente",
+    "Could not load user data": "Non è possibile caricare i dati degli utenti"
 },
 "nplurals=2; plural=(n != 1);");

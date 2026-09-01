@@ -156,7 +156,19 @@
         "Group rename failed": "দলের নাম পরিবর্তন করতে ব্যর্থ",
         "An error occurred while renaming the group": "সংকলন নির্বাচনের সময় সমস্যা দেখা দিয়েছে",
         "Please enter a new group name": "নতুন দলের নাম লিখুন",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "শুধুমাত্র PLAIN হিসাবে প্রদর্শন করা হবে সুতরাং কোনো এইচ- টি- এম- এল কোড বা অন্যান্য বিশেষ তথ্য নেই"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "শুধুমাত্র PLAIN হিসাবে প্রদর্শন করা হবে সুতরাং কোনো এইচ- টি- এম- এল কোড বা অন্যান্য বিশেষ তথ্য নেই",
+        "User search (name, ID, email)...": "ব্যবহারকারীর নাম (name, ID, ই-মেইল...).",
+        "active": "সক্রিয়",
+        "inactive": "নিষ্ক্রিয়",
+        "page": "পৃষ্ঠা",
+        "previous": "পূর্ববর্তী",
+        "next": "পরবর্তী",
+        "deactivate user": "ব্যবহারকারী নিষ্ক্রিয় করা হবে",
+        "activate user": "ব্যবহারকারী সক্রিয় করুন",
+        "User activated": "ব্যবহারকারী দ্বারা সক্রিয়",
+        "User deactivated": "ব্যবহারকারী দ্বারা নিষ্ক্রিয়",
+        "Could not change user status": "ব্যবহারকারীর অবস্থা পরিবর্তন করা যায়নি",
+        "Could not load user data": "ব্যবহারকারীর তথ্য লোড করা যায়নি"
     },
     "pluralForm": "nplurals=2; plural=n > 1;"
 }

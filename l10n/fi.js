@@ -157,6 +157,18 @@ OC.L10N.register(
     "Group rename failed": "Ryhmän uudelleennimitys epäonnistui",
     "An error occurred while renaming the group": "Tapahtui virhe nimetessä ryhmää uudelleen",
     "Please enter a new group name": "Anna uusi ryhmän nimi",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Saa käyttää ainoastaan tavallista 100 merkkiä sisältävää tekstiä. Joten ei HTML-koodia tai muuta erityistä muotoilua"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Saa käyttää ainoastaan tavallista 100 merkkiä sisältävää tekstiä. Joten ei HTML-koodia tai muuta erityistä muotoilua",
+    "User search (name, ID, email)...": "Käyttäjähaku (nimi, ID, sähköposti)...",
+    "active": "aktiivinen",
+    "inactive": "ei aktiivinen",
+    "page": "sivu",
+    "previous": "edellinen",
+    "next": "seuraava",
+    "deactivate user": "deaktivoi käyttäjä",
+    "activate user": "aktivoi käyttäjä",
+    "User activated": "Käyttäjä aktivoitu",
+    "User deactivated": "Käyttäjä pois käytöstä",
+    "Could not change user status": "Käyttäjän tilaa ei voitu muuttaa",
+    "Could not load user data": "Käyttäjätietoja ei voitu ladata"
 },
 "nplurals=2; plural=n != 1;");

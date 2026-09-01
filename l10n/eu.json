@@ -156,7 +156,19 @@
         "Group rename failed": "Taldearen izenak huts egin du",
         "An error occurred while renaming the group": "Errorea gertatu da taldea izenez aldatzean",
         "Please enter a new group name": "Sartu talde-izen berria",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "100 karaktere arteko testu arrunt bakarra erabil daiteke. Beraz ez dago HTML koderik edo bestelako formatu berezirik"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "100 karaktere arteko testu arrunt bakarra erabil daiteke. Beraz ez dago HTML koderik edo bestelako formatu berezirik",
+        "User search (name, ID, email)...": "Erabiltzaile-bilaketa (izena, IDa, posta elektronikoa)...",
+        "active": "aktiboa",
+        "inactive": "inaktibo",
+        "page": "orria",
+        "previous": "aurrekoa",
+        "next": "hurrengoa",
+        "deactivate user": "desaktibatu erabiltzailea",
+        "activate user": "aktibatu erabiltzailea",
+        "User activated": "Erabiltzailea aktibatuta",
+        "User deactivated": "Erabiltzailea desaktibatuta",
+        "Could not change user status": "Ezin izan da erabiltzailearen egoera aldatu",
+        "Could not load user data": "Ezin izan dira erabiltzailearen datuak kargatu"
     },
     "pluralForm": "nplurals=2; plural=n != 1;"
 }

@@ -157,6 +157,18 @@ OC.L10N.register(
     "Group rename failed": "Grupp ëmbenennen gescheitert",
     "An error occurred while renaming the group": "E Feeler ass geschitt beim Ëmbenennung vun der Grupp",
     "Please enter a new group name": "Gitt w.e.g. en neie Gruppnumm un",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Nëmmen normal Einfachen Text mat bis zu 100 Zeeche kann benotzt ginn. Also keen HTML Code oder aner speziell Formatéierung"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Nëmmen normal Einfachen Text mat bis zu 100 Zeeche kann benotzt ginn. Also keen HTML Code oder aner speziell Formatéierung",
+    "User search (name, ID, email)...": "Benotzer Sich (Numm, ID, E-Mail) ...",
+    "active": "aktiv",
+    "inactive": "inaktiv",
+    "page": "Säit",
+    "previous": "virdrun",
+    "next": "nächste",
+    "deactivate user": "Benotzer deaktivéieren",
+    "activate user": "aktivéieren Benotzer",
+    "User activated": "Benotzer aktivéiert",
+    "User deactivated": "Benotzer deaktivéiert",
+    "Could not change user status": "Konnt de Benotzerstatus net änneren",
+    "Could not load user data": "Konnt d'Benotzerdaten net lueden"
 },
 "nplurals=2; plural=n != 1;");

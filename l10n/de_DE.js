@@ -157,6 +157,18 @@ OC.L10N.register(
     "Group rename failed": "Umbenennung der Gruppe gescheitert",
     "An error occurred while renaming the group": "Fehler beim Umbenennen der Gruppe",
     "Please enter a new group name": "Bitte neuen Gruppennamen eingeben",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Es darf nur normaler Klartext mit bis zu 100 Zeichen verwendet werden. Also kein HTML-Code oder andere spezielle Formatierung"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Es darf nur normaler Klartext mit bis zu 100 Zeichen verwendet werden. Also kein HTML-Code oder andere spezielle Formatierung",
+    "User search (name, ID, email)...": "Benutzersuche (Name, ID, E-Mail) ...",
+    "active": "aktiv",
+    "inactive": "inaktiv",
+    "page": "Seite",
+    "previous": "vorherige",
+    "next": "nächste",
+    "deactivate user": "Benutzer deaktivieren",
+    "activate user": "Benutzer aktivieren",
+    "User activated": "Benutzer aktiviert",
+    "User deactivated": "Benutzer deaktiviert",
+    "Could not change user status": "Der Benutzerstatus konnte nicht geändert werden",
+    "Could not load user data": "Benutzerdaten konnten nicht geladen werden"
 },
 "nplurals=2; plural=(n != 1);");

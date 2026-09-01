@@ -156,7 +156,19 @@
         "Group rename failed": "Gruppnamn misslyckades",
         "An error occurred while renaming the group": "Ett fel inträffade när du döpte gruppen",
         "Please enter a new group name": "Ange ett nytt gruppnamn",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Endast vanlig vanlig vanlig text med upp till 100 tecken kan användas. Så ingen HTML-kod eller annan särskild formatering"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Endast vanlig vanlig vanlig text med upp till 100 tecken kan användas. Så ingen HTML-kod eller annan särskild formatering",
+        "User search (name, ID, email)...": "Användarsökning (namn, ID, e-post)...",
+        "active": "aktiv",
+        "inactive": "inaktiv",
+        "page": "sida",
+        "previous": "tidigare",
+        "next": "nästa",
+        "deactivate user": "deaktivera användaren",
+        "activate user": "aktivera användaren",
+        "User activated": "Användaraktiverad",
+        "User deactivated": "Användardeaktiverad",
+        "Could not change user status": "Kunde inte ändra användarstatus",
+        "Could not load user data": "Kunde inte ladda användardata"
     },
     "pluralForm": "nplurals=2; plural=n != 1;"
 }

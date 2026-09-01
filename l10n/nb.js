@@ -157,6 +157,18 @@ OC.L10N.register(
     "Group rename failed": "Gruppebyte mislyktes",
     "An error occurred while renaming the group": "En feil oppstod under endring av navn på gruppen",
     "Please enter a new group name": "Vennligst skriv inn et nytt gruppenavn",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Kun normal vanlig tekst med opp til 100 tegn kan brukes. Så ingen HTML-kode eller annen spesiell formatering"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Kun normal vanlig tekst med opp til 100 tegn kan brukes. Så ingen HTML-kode eller annen spesiell formatering",
+    "User search (name, ID, email)...": "Brukersøk (navn, ID, e-post)...",
+    "active": "aktiv",
+    "inactive": "inaktiv",
+    "page": "siden",
+    "previous": "tidligere",
+    "next": "neste",
+    "deactivate user": "deaktiver bruker",
+    "activate user": "aktiver bruker",
+    "User activated": "Brukeraktivert",
+    "User deactivated": "Bruker deaktivert",
+    "Could not change user status": "Kunne ikke endre brukerstatus",
+    "Could not load user data": "Kunne ikke laste brukerdata"
 },
 "nplurals=2; plural=n != 1;");

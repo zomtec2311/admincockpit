@@ -156,7 +156,19 @@
         "Group rename failed": "Grupi ümbernimetamine nurjus",
         "An error occurred while renaming the group": "Grupi ümbernimetamisel tekkis viga",
         "Please enter a new group name": "Palun sisesta uus grupi nimi",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Kasutada võib ainult tavalist lihtteksti kuni 100 tähemärgiga. HTML-koodi või muud erivormingut pole"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Kasutada võib ainult tavalist lihtteksti kuni 100 tähemärgiga. HTML-koodi või muud erivormingut pole",
+        "User search (name, ID, email)...": "Kasutaja otsing (nimi, ID, e-post)...",
+        "active": "aktiivne",
+        "inactive": "mitteaktiivne",
+        "page": "lehel",
+        "previous": "eelmise",
+        "next": "järgmine",
+        "deactivate user": "deaktiveeri kasutaja",
+        "activate user": "aktiveeri kasutaja",
+        "User activated": "Kasutaja aktiveeritud",
+        "User deactivated": "Kasutaja deaktiveeritud",
+        "Could not change user status": "Kasutaja oleku muutmine nurjus",
+        "Could not load user data": "Kasutaja andmete laadimine nurjus"
     },
     "pluralForm": "nplurals=2; plural=n != 1;"
 }

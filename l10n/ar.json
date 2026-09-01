@@ -151,7 +151,19 @@
         "Group rename failed": "فرق إعادة الاسم فشلت",
         "An error occurred while renaming the group": "وقع خطأ أثناء إعادة تسمية المجموعة",
         "Please enter a new group name": "رجاءً إدخلْ اسم مجموعةِ جديدةِ",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "ولا يمكن استخدام سوى النص العادي الذي يصل إلى 100 شخص. لذا لا رمز HTML أو أشكال خاصة أخرى"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "ولا يمكن استخدام سوى النص العادي الذي يصل إلى 100 شخص. لذا لا رمز HTML أو أشكال خاصة أخرى",
+        "User search (name, ID, email)...": "البحث عن المستعمل (الاسم، الهوية، البريد الإلكتروني).",
+        "active": "نشطة",
+        "inactive": "الخاملة",
+        "page": "page",
+        "previous": "السابقة",
+        "next": "التالي",
+        "deactivate user": "إبطال مفعول المستعمل",
+        "activate user": "المستعمل",
+        "User activated": "المستعمل المنشط",
+        "User deactivated": "المستعمل المعطّل",
+        "Could not change user status": "لا يمكن تغيير وضع المستخدم",
+        "Could not load user data": "لا يمكن تحميل بيانات المستخدمين"
     },
     "pluralForm": "nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));"
 }

@@ -153,6 +153,18 @@ OC.L10N.register(
     "Group rename failed": "Ganti nama grup gagal",
     "An error occurred while renaming the group": "Terjadi galat ketika mengubah nama grup",
     "Please enter a new group name": "Silakan masukkan suatu nama grup baru",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Hanya teks biasa dengan hingga 100 karakter dapat digunakan. Jadi tidak ada kode HTML atau format khusus lainnya"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Hanya teks biasa dengan hingga 100 karakter dapat digunakan. Jadi tidak ada kode HTML atau format khusus lainnya",
+    "User search (name, ID, email)...": "Pencarian pengguna (nama, ID, email)...",
+    "active": "aktif",
+    "inactive": "tidak aktif",
+    "page": "halaman",
+    "previous": "sebelumnya",
+    "next": "selanjutnya",
+    "deactivate user": "menonaktifkan pengguna",
+    "activate user": "aktifkan pengguna",
+    "User activated": "Pengguna diaktifkan",
+    "User deactivated": "Pengguna dinonaktifkan",
+    "Could not change user status": "Tak bisa mengubah status pengguna",
+    "Could not load user data": "Tak bisa memuat data pengguna"
 },
 "nplurals=1; plural=0;");

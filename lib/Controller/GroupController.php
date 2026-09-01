@@ -142,6 +142,135 @@ class GroupController extends Controller {
         if ($group->setDisplayName($newGroupName)) return new JSONResponse(['success' => true, 'message' => $this->l->t('Group renamed successfully')]);
         else return new JSONResponse(['success' => false, 'message' => $this->l->t('Group rename failed')]);
     }
+
+    public function groupdata(): DataResponse {
+        try {
+            $allusers = $this->userManager->search('');
+            /*
+            $userList = [];
+            $usrlist = [];
+            $usrdisplayandid = [];
+            $userOptions = [];
+           // $preloa = [];
+            foreach ($users as $user) {
+                if($user->getLastLogin()) $status = false;
+                else $status = true;
+                $mids = $user->getManagerUids();
+                if (!$mids) $mids []= null;
+                $usrlist[] = $user->getUID();
+                $usrdisplayandid[] = [
+                    'id'            => $user->getUID(),
+                    'usrdisplayname'   => $user->getDisplayName(),
+                ];
+                $userList[] = [
+                    'uid' => $user->getUID(),
+                    'displayname' => $user->getDisplayName(),
+                    'lastlogin' => $user->getLastLogin(),
+                    'firstlogin' => $user->getFirstLogin(),
+                    'email' => $user->getEMailAddress(),
+                    'cloudid' => $user->getCloudId(),
+                    'quota' => $user->getQuota(),
+                    'managerids' => $mids,
+                    'last' => $this->l->l('datetime', $user->getLastLogin()),
+                    'first' => $this->l->l('datetime', $user->getFirstLogin()),
+                    'used' => $this->myService->folderSize($user->getHome()),
+                    'isadmin' => $this->groupManager->isAdmin($user->getUID()),
+                    'status' => $status,
+                ];
+                foreach ($this->myService->queryStatusForUsers([$user->getUID()]) as $key => $value) {
+                    $userstatus = $value->getStatus();
+                }
+
+                    $userOptions[] = [
+                        'id' => $user->getUID(),
+                        'displayName' => $user->getDisplayName(),
+                        'isNoUser' => false,
+                        'user' => $user->getUID(),
+                        'subname' => $user->getEMailAddress(),
+                        'preloadedUserStatus' => [ 'status' => $userstatus, 'message' => $userstatus],
+                    ];
+                }*/
+            $groups = $this->groupManager->search('');
+            $groupList = [];
+            $grlist = [];
+            $grdisplaynamelist = [];
+            $grpdisplayandid = [];
+            foreach ($groups as $group) {
+                $gusers = $group->getUsers();
+               // $guserList = [];
+                //$grlist[] = $group->getGID();
+                //$grdisplaynamelist[] = $group->getDisplayName();
+
+                //$grpdisplayandid[] = [
+                //    'id'            => $group->getGID(),
+                //    'displayname'   => $group->getDisplayName(),
+               // ];
+
+
+
+/*
+            foreach ($gusers as $guser) {
+                if($guser->getLastLogin()) $status = false;
+                else $status = true;
+                $guserList[] = [
+                    'uid' => $guser->getUID(),
+                    'displayname' => $guser->getDisplayName(),
+                    'lastlogin' => $guser->getLastLogin(),
+                    'firstlogin' => $guser->getFirstLogin(),
+                    'email' => $guser->getEMailAddress(),
+                    'cloudid' => $guser->getCloudId(),
+                    'quota' => $guser->getQuota(),
+                    'managerids' => $guser->getManagerUids(),
+                    'last' => $this->l->l('datetime', $guser->getLastLogin()),
+                    'first' => $this->l->l('datetime', $guser->getFirstLogin()),
+                    'used' => $this->myService->folderSize($guser->getHome()),
+                    'isadmin' => $this->groupManager->isAdmin($guser->getUID()),
+                    'status' => $status,
+                ];
+            }*/
+$groupid = $group->getGID();
+$groupdisplayname = $group->getDisplayName();
+                $groupList[] = [
+                    'gid' => $groupid,
+                    'id' => $groupid,
+                    'gdisplayname' => $groupdisplayname,
+                    'displayname' => $groupdisplayname,
+                    //'gusers' => $gusers,
+                    'guserscount' => count($gusers),
+                    //'guser' => $guserList,
+                ];
+            }
+            //$adminGroup = $this->groupManager->displayNamesInGroup('admin');
+
+            return new DataResponse([
+                //'userOptions' => $userOptions,
+                //'userCount' => count($userList),
+                'groupCount' => count($groupList),
+                //'users' => $userList,
+                'groups' => $groupList,
+                'alluserscount' => count($allusers),
+                //'adminCount' => count($adminGroup),
+                //'admins' => $adminGroup,
+                //'allusers' => $users,
+                //'grlist' => $grlist,
+                //'grdisplaynamelist' => $grdisplaynamelist,
+                //'usrdisplayandid' => $usrdisplayandid,
+                //'displayandid' => $grpdisplayandid,
+                //'usrlist' => $usrlist,
+
+            ]);
+
+        } catch (\Throwable $e) {
+            $this->logger->error(
+                'AdminCockpit: FATAL ERROR or EXCEPTION in GroupController->groupdata: ' . $e->getMessage() . "\n" . $e->getTraceAsString(),
+                ['app' => 'admincockpit']
+            );
+            return new DataResponse([
+                'userCount' => -1,
+                'groupCount' => -1,
+            ], 500);
+        }
+    }
   
   
 }

@@ -156,7 +156,19 @@
         "Group rename failed": "Le nom du groupe a échoué",
         "An error occurred while renaming the group": "Une erreur s'est produite lors du renommage du groupe",
         "Please enter a new group name": "Veuillez saisir un nouveau nom de groupe",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Seul un texte normal de 100 caractères peut être utilisé. Donc aucun code HTML ou autre formatage spécial"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Seul un texte normal de 100 caractères peut être utilisé. Donc aucun code HTML ou autre formatage spécial",
+        "User search (name, ID, email)...": "Recherche utilisateur (nom, ID, email)...",
+        "active": "actif",
+        "inactive": "inactif",
+        "page": "page",
+        "previous": "précédent",
+        "next": "suivant",
+        "deactivate user": "désactiver l'utilisateur",
+        "activate user": "active l' utilisateur",
+        "User activated": "Utilisateur activé",
+        "User deactivated": "Désactivé par l'utilisateur",
+        "Could not change user status": "Impossible de modifier le statut de l'utilisateur",
+        "Could not load user data": "Impossible de charger les données utilisateur"
     },
     "pluralForm": "nplurals=2; plural=(n != 1);"
 }

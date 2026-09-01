@@ -157,6 +157,18 @@ OC.L10N.register(
     "Group rename failed": "Gruprenomo malsukcesis",
     "An error occurred while renaming the group": "Eraro okazis renomante la grupon",
     "Please enter a new group name": "Bonvolu eniri novan nomon",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Nur normala simpla teksto kun ĝis 100 karakteroj povas esti uzita. Neniu HTML-kodo aŭ alia speciala formatado"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Nur normala simpla teksto kun ĝis 100 karakteroj povas esti uzita. Neniu HTML-kodo aŭ alia speciala formatado",
+    "User search (name, ID, email)...": "Uzanta serĉon (nomo, ID, retpoŝto).",
+    "active": "aktiva",
+    "inactive": "neaktiva",
+    "page": "paĝo",
+    "previous": "antaŭa",
+    "next": "plej proksime",
+    "deactivate user": "malaktivigi uzanton",
+    "activate user": "aktivigi uzanton",
+    "User activated": "Uzanta aktivigilon",
+    "User deactivated": "Uzanto malaktivigis",
+    "Could not change user status": "Ne povas ŝanĝi uzantstatuson",
+    "Could not load user data": "Ne povas ŝarĝi uzantdatenojn"
 },
 "nplurals=2; plural=n != 1;");

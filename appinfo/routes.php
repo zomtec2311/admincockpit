@@ -26,12 +26,14 @@
 
 return [
   'routes' => [
-    ['name' => 'page#index', 'url' => '/', 'verb' => 'GET'],
-    ['name' => 'page#apps', 'url' => '/apps', 'verb' => 'GET'],
-    ['name' => 'page#system', 'url' => '/system', 'verb' => 'GET'],
-    ['name' => 'page#user', 'url' => '/user', 'verb' => 'GET'],
-    ['name' => 'page#userlist', 'url' => '/userlist', 'verb' => 'POST'],
-    ['name' => 'page#userlistget', 'url' => '/userlist', 'verb' => 'GET'],
+    ['name' => 'Page#index', 'url' => '/', 'verb' => 'GET'],
+    ['name' => 'Page#apps', 'url' => '/apps', 'verb' => 'GET'],
+    ['name' => 'Page#system', 'url' => '/system', 'verb' => 'GET'],
+    ['name' => 'Page#user', 'url' => '/user', 'verb' => 'GET'],
+    ['name' => 'Page#userlist', 'url' => '/userlist', 'verb' => 'POST'],
+    ['name' => 'Page#userlistget', 'url' => '/userlist', 'verb' => 'GET'],
+    ['name' => 'Page#allusers', 'url' => '/allusers', 'verb' => 'POST'],
+    ['name' => 'Page#listuser', 'url' => '/listuser', 'verb' => 'GET'],
     ['name' => 'Apps#listCategories', 'url' => '/appsasc', 'verb' => 'GET'],
     ['name' => 'Apps#appsinfo', 'url' => '/appsinfo', 'verb' => 'GET'],
     ['name' => 'Apps#isnoti', 'url' => '/isnoti', 'verb' => 'GET'],
@@ -43,6 +45,7 @@ return [
     ['name' => 'Group#addgroup', 'url' => '/addgroup/{who}', 'verb' => 'GET'],
     ['name' => 'Group#renamegroup', 'url' => '/renamegroup', 'verb' => 'POST'],
     ['name' => 'Group#deletegroup', 'url' => '/deletegroup/{who}', 'verb' => 'GET'],
+    ['name' => 'Group#groupdata', 'url' => '/groupdata', 'verb' => 'GET'],
     ['name' => 'System#storage', 'url' => '/storage', 'verb' => 'GET'],
     ['name' => 'System#sqlinfo', 'url' => '/sqlinfo', 'verb' => 'GET'],
     ['name' => 'System#systeminfo', 'url' => '/systeminfo', 'verb' => 'GET'],
@@ -55,5 +58,9 @@ return [
     ['name' => 'User#notifyuser', 'url' => '/notifyuser', 'verb' => 'POST'],
     ['name' => 'User#notifygroup', 'url' => '/notifygroup', 'verb' => 'POST'],
     ['name' => 'User#usercount', 'url' => '/usercount', 'verb' => 'GET'],
+    ['name' => 'UserList#getUsers', 'url' => '/api/v1/groups/{groupId}/users', 'verb' => 'GET'],
+    ['name' => 'UserList#navnu', 'url' => '/api/v1/nav/nu', 'verb' => 'GET'],
+    ['name' => 'UserList#updateUser', 'url' => '/api/v1/users/{userId}', 'verb' => 'PUT'],
+    ['name' => 'User#setEnabled', 'url' => '/api/v1/users/{id}/status', 'verb' => 'PUT'],
   ]
 ];

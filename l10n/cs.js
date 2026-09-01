@@ -144,6 +144,18 @@ OC.L10N.register(
     "Group rename failed": "Přejmenování skupiny selhalo",
     "An error occurred while renaming the group": "Při přejmenování skupiny došlo k chybě",
     "Please enter a new group name": "Zadejte prosím nový název skupiny",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Lze použít pouze normální prostý text se 100 znaky. Takže žádný HTML kód nebo jiné speciální formátování"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Lze použít pouze normální prostý text se 100 znaky. Takže žádný HTML kód nebo jiné speciální formátování",
+    "User search (name, ID, email)...": "Uživatelské vyhledávání (jméno, ID, e-mail)...",
+    "active": "aktivní",
+    "inactive": "neaktivní",
+    "page": "strana",
+    "previous": "předchozí",
+    "next": "další",
+    "deactivate user": "deaktivovat uživatele",
+    "activate user": "aktivovat uživatele",
+    "User activated": "Uživatel aktivován",
+    "User deactivated": "Uživatel deaktivován",
+    "Could not change user status": "Nelze změnit stav uživatele",
+    "Could not load user data": "Nelze načíst uživatelská data"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);");

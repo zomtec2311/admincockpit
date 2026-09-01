@@ -157,6 +157,18 @@ OC.L10N.register(
     "Group rename failed": "Hernoemen van groep is mislukt",
     "An error occurred while renaming the group": "Er is een fout opgetreden bij het hernoemen van de groep",
     "Please enter a new group name": "Voer een nieuwe groepsnaam in",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Alleen normale platte tekst met maximaal 100 tekens mag worden gebruikt. Dus geen HTML-code of andere speciale opmaak"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Alleen normale platte tekst met maximaal 100 tekens mag worden gebruikt. Dus geen HTML-code of andere speciale opmaak",
+    "User search (name, ID, email)...": "Gebruikers zoeken (naam, ID, e-mail)...",
+    "active": "actief",
+    "inactive": "inactief",
+    "page": "blz",
+    "previous": "vorige",
+    "next": "volgende",
+    "deactivate user": "gebruiker uitschakelen",
+    "activate user": "gebruiker activeren",
+    "User activated": "Gebruiker geactiveerd",
+    "User deactivated": "Gebruiker uitgeschakeld",
+    "Could not change user status": "Kon gebruikersstatus niet wijzigen",
+    "Could not load user data": "Kon gebruikersgegevens niet laden"
 },
 "nplurals=2; plural=n != 1;");

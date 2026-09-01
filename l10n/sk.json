@@ -152,7 +152,19 @@
         "Group rename failed": "Premenovanie skupiny zlyhalo",
         "An error occurred while renaming the group": "Nastala chyba pri premenovaní skupiny",
         "Please enter a new group name": "Prosím zadajte nový názov skupiny",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Môže sa použiť len normálny jednoduchý text s najviac 100 znakmi. Takže žiadny HTML kód alebo iný špeciálny formátovanie"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Môže sa použiť len normálny jednoduchý text s najviac 100 znakmi. Takže žiadny HTML kód alebo iný špeciálny formátovanie",
+        "User search (name, ID, email)...": "Užívateľské vyhľadávanie (meno, ID, email)...",
+        "active": "aktívny",
+        "inactive": "neaktívny",
+        "page": "strana",
+        "previous": "predchádzajúca",
+        "next": "nasledujúci",
+        "deactivate user": "deaktivovať užívateľa",
+        "activate user": "aktivovať užívateľa",
+        "User activated": "Užívateľ aktivovaný",
+        "User deactivated": "Užívateľ deaktivovaný",
+        "Could not change user status": "Nepodarilo sa zmeniť stav užívateľa",
+        "Could not load user data": "Nepodarilo sa načítať dáta používateľa"
     },
     "pluralForm": "nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);"
 }

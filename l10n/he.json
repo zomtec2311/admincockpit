@@ -151,7 +151,19 @@
         "Group rename failed": "שם הקבוצה נכשל",
         "An error occurred while renaming the group": "טעות אירעה בעת שגרמה לקבוצה",
         "Please enter a new group name": "אנא הזן שם חדש",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "רק טקסט רגיל עם עד 100 תווים יכול לשמש. אין קוד HTML או פורמט מיוחד אחר"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "רק טקסט רגיל עם עד 100 תווים יכול לשמש. אין קוד HTML או פורמט מיוחד אחר",
+        "User search (name, ID, email)...": "חיפוש משתמש (שם, מזהה, דואר אלקטרוני).",
+        "active": "פעיל",
+        "inactive": "לא פעיל",
+        "page": "דף",
+        "previous": "הקודם",
+        "next": "הבא",
+        "deactivate user": "לנטרל משתמשים",
+        "activate user": "הפעלת המשתמש",
+        "User activated": "משתמש פעיל",
+        "User deactivated": "User Deactivated",
+        "Could not change user status": "לא יכול לשנות את מצב המשתמש",
+        "Could not load user data": "לא יכול לטעון נתוני משתמשים"
     },
     "pluralForm": "nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2);"
 }

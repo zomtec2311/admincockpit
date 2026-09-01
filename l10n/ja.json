@@ -152,7 +152,19 @@
         "Group rename failed": "グループの名前が失敗しました",
         "An error occurred while renaming the group": "グループの名前を変更しながらエラーが発生しました",
         "Please enter a new group name": "グループ名を入力してください",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "最大100文字の通常のプレーンテキストのみが使用できます。 HTMLコードや他の特殊なフォーマットはありません"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "最大100文字の通常のプレーンテキストのみが使用できます。 HTMLコードや他の特殊なフォーマットはありません",
+        "User search (name, ID, email)...": "ユーザ検索(名前、ID、電子メール)...",
+        "active": "アクティブ",
+        "inactive": "インアクティブ",
+        "page": "サイトマップ",
+        "previous": "前の投稿",
+        "next": "次へ",
+        "deactivate user": "ユーザの非アクティブ化",
+        "activate user": "アクティブユーザ",
+        "User activated": "活動化したユーザー",
+        "User deactivated": "ユーザーの非アクティブ化",
+        "Could not change user status": "ユーザの状態を変更できない",
+        "Could not load user data": "ユーザーデータをロードできません"
     },
     "pluralForm": "nplurals=1; plural=0;"
 }

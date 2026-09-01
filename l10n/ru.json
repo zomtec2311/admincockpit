@@ -152,7 +152,19 @@
         "Group rename failed": "Переименование группы провалилось",
         "An error occurred while renaming the group": "Произошла ошибка при переименовании группы",
         "Please enter a new group name": "Пожалуйста введите новое название группы",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Может использоваться только обычный текст с до 100 символов. Отсутствие HTML-кода или другого специального форматирования"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Может использоваться только обычный текст с до 100 символов. Отсутствие HTML-кода или другого специального форматирования",
+        "User search (name, ID, email)...": "Поиск пользователей (имя, идентификатор, электронная почта)...",
+        "active": "активный",
+        "inactive": "неактивный",
+        "page": "страница",
+        "previous": "предыдущий",
+        "next": "следующий",
+        "deactivate user": "деактивировать пользователя",
+        "activate user": "активировать пользователя",
+        "User activated": "Пользователь активирован",
+        "User deactivated": "Пользователь деактивирован",
+        "Could not change user status": "Невозможно изменить статус пользователя",
+        "Could not load user data": "Невозможно загрузить пользовательские данные"
     },
     "pluralForm": "nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);"
 }

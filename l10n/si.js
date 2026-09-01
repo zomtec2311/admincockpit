@@ -157,6 +157,18 @@ OC.L10N.register(
     "Group rename failed": "කණ්ඩායම් නැවත නම් කිරීම අසාර්ථක විය",
     "An error occurred while renaming the group": "කණ්ඩායම නැවත නම් කිරීමේදී දෝෂයක් ඇති විය",
     "Please enter a new group name": "කරුණාකර නව කණ්ඩායම් නමක් ඇතුළත් කරන්න",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "අක්ෂර 100ක් දක්වා සාමාන්‍ය සරල පෙළ පමණක් භාවිත කළ හැක. එබැවින් HTML කේතයක් හෝ වෙනත් විශේෂ හැඩතල ගැන්වීමක් නොමැත"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "අක්ෂර 100ක් දක්වා සාමාන්‍ය සරල පෙළ පමණක් භාවිත කළ හැක. එබැවින් HTML කේතයක් හෝ වෙනත් විශේෂ හැඩතල ගැන්වීමක් නොමැත",
+    "User search (name, ID, email)...": "පරිශීලක සෙවීම (නම, හැඳුනුම්පත, ඊමේල්)...",
+    "active": "ක්රියාකාරී",
+    "inactive": "inactive",
+    "page": "page",
+    "previous": "previous",
+    "next": "next",
+    "deactivate user": "deactivate user",
+    "activate user": "activate user",
+    "User activated": "User activated",
+    "User deactivated": "User deactivated",
+    "Could not change user status": "Could not change user status",
+    "Could not load user data": "පරිශීලක දත්ත පූරණය කළ නොහැකි විය"
 },
 "nplurals=2; plural=n > 1;");

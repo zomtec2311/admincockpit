@@ -32,20 +32,24 @@ use OCA\AdminCockpit\Db\MyRepository;
 use OC\Updater\VersionCheck;
 use OCP\IUserManager;
 use OCP\IConfig;
+use OCP\UserStatus\IManager as IStatusManager;
+use OCP\UserStatus\IUserStatus;
 use Psr\Log\LoggerInterface;
 
 class MyService {
+    public $statusManager;
     private $repository;
     private $db;
     private $userManager;
     private $logger;
     private $config;
 
-    public function __construct(private VersionCheck $updater, MyRepository $repository, IDBConnection $db, IUserManager $userManager, IConfig $config, LoggerInterface $logger) {
+    public function __construct(private VersionCheck $updater, MyRepository $repository, IDBConnection $db, IUserManager $userManager, IConfig $config, IStatusManager $statusManager, LoggerInterface $logger) {
         $this->repository = $repository;
         $this->db = $db;
         $this->userManager = $userManager;
         $this->config = $config;
+        $this->statusManager = $statusManager;
         $this->logger = $logger;
     }    
     
@@ -570,5 +574,9 @@ function admingroup(string $uid): array {
             'webUpdaterEnabled' => !$this->config->getSystemValue('upgrade.disable-web', false),
             'updaterEnabled' => $updaterEnabled,
         ];
+    }
+
+    public function queryStatusForUsers(array $userIds): array {
+        return $this->statusManager->getUserStatuses($userIds);
     }
 }

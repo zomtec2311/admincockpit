@@ -146,13 +146,25 @@
         "Update Checker": "Nuashonrú Checker",
         "rename group": "grúpa a athainmniú",
         "rename group now": "athainmnigh an grúpa anois",
-        "Group renamed successfully": "D'éirigh le hathainmniú an ghrúpa",
+        "Group renamed successfully": "Group renamed successfully",
         "Missing group name": "Ainm an ghrúpa ar iarraidh",
         "The group name is too long": "Tá ainm an ghrúpa rófhada",
         "Group rename failed": "Theip ar athainmniú an ghrúpa",
         "An error occurred while renaming the group": "Tharla earráid agus an grúpa á athainmniú",
         "Please enter a new group name": "Cuir isteach ainm grúpa nua",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Ní féidir ach gnáth-théacs le suas le 100 carachtar a úsáid. Mar sin níl cód HTML nó formáidiú speisialta eile ann"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Ní féidir ach gnáth-théacs le suas le 100 carachtar a úsáid. Mar sin níl cód HTML nó formáidiú speisialta eile ann",
+        "User search (name, ID, email)...": "Cuardach úsáideora (ainm, ID, ríomhphost)...",
+        "active": "active",
+        "inactive": "inactive",
+        "page": "page",
+        "previous": "previous",
+        "next": "next",
+        "deactivate user": "deactivate user",
+        "activate user": "activate user",
+        "User activated": "User activated",
+        "User deactivated": "User deactivated",
+        "Could not change user status": "Could not change user status",
+        "Could not load user data": "Could not load user data"
     },
     "pluralForm": "nplurals=5; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n >= 3 && n <= 6) ? 2 : ((n >= 7 && n <= 10) ? 3 : 4)));"
 }

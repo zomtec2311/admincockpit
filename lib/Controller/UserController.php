@@ -50,6 +50,11 @@ use OCP\IGroupManager;
 use Psr\Container\ContainerInterface;
 
 
+
+use OCP\AppFramework\ApiController;
+use OCP\AppFramework\Http\Http;
+
+
 class UserController extends Controller {
     private $myService;
     private $logger;
@@ -91,6 +96,8 @@ class UserController extends Controller {
             $userList = [];
             $usrlist = [];
             $usrdisplayandid = [];
+            $userOptions = [];
+           // $preloa = [];
             foreach ($users as $user) {
                 if($user->getLastLogin()) $status = false;
                 else $status = true;
@@ -116,8 +123,20 @@ class UserController extends Controller {
                     'isadmin' => $this->groupManager->isAdmin($user->getUID()),
                     'status' => $status,
                 ];
-            }
+                $userstatus = 'offline';
+                foreach ($this->myService->queryStatusForUsers([$user->getUID()]) as $key => $value) {
+                    $userstatus = $value->getStatus();
+                }
 
+                    $userOptions[] = [
+                        'id' => $user->getUID(),
+                        'displayName' => $user->getDisplayName(),
+                        'isNoUser' => false,
+                        'user' => $user->getUID(),
+                        'subname' => $user->getEMailAddress(),
+                        'preloadedUserStatus' => [ 'status' => $userstatus, 'message' => $userstatus],
+                    ];
+                }
             $groups = $this->groupManager->search('');
             $groupList = [];
             $grlist = [];
@@ -133,9 +152,6 @@ class UserController extends Controller {
                     'id'            => $group->getGID(),
                     'displayname'   => $group->getDisplayName(),
                 ];
-
-
-
 
             foreach ($gusers as $guser) {
                 if($guser->getLastLogin()) $status = false;
@@ -165,7 +181,9 @@ class UserController extends Controller {
                 ];
             }
             $adminGroup = $this->groupManager->displayNamesInGroup('admin');
+
             return new DataResponse([
+                'userOptions' => $userOptions,
                 'userCount' => count($userList),
                 'groupCount' => count($groupList),
                 'users' => $userList,
@@ -178,6 +196,7 @@ class UserController extends Controller {
                 'usrdisplayandid' => $usrdisplayandid,
                 'displayandid' => $grpdisplayandid,
                 'usrlist' => $usrlist,
+
             ]);
 
         } catch (\Throwable $e) {
@@ -462,6 +481,145 @@ if (json_last_error() === JSON_ERROR_NONE) {
     echo json_encode(['status' => 'error', 'message' => 'Invalid JSON']);
 }
 
+    }
+
+    public function getallusers(): DataResponse {
+        try {
+            $users = $this->userManager->search('');
+            $userList = [];
+            $usrlist = [];
+            $usrdisplayandid = [];
+            $userOptions = [];
+            foreach ($users as $user) {
+                if($user->getLastLogin()) $status = false;
+                else $status = true;
+                $mids = $user->getManagerUids();
+                if (!$mids) $mids []= null;
+                $usrlist[] = $user->getUID();
+                $usrdisplayandid[] = [
+                    'id'            => $user->getUID(),
+                    'usrdisplayname'   => $user->getDisplayName(),
+                ];
+                $userList[] = [
+                    'uid' => $user->getUID(),
+                    'displayname' => $user->getDisplayName(),
+                    'lastlogin' => $user->getLastLogin(),
+                    'firstlogin' => $user->getFirstLogin(),
+                    'email' => $user->getEMailAddress(),
+                    'cloudid' => $user->getCloudId(),
+                    'quota' => $user->getQuota(),
+                    'managerids' => $mids,
+                    'last' => $this->l->l('datetime', $user->getLastLogin()),
+                    'first' => $this->l->l('datetime', $user->getFirstLogin()),
+                    'used' => $this->myService->folderSize($user->getHome()),
+                    'isadmin' => $this->groupManager->isAdmin($user->getUID()),
+                    'status' => $status,
+                ];
+                foreach ($this->myService->queryStatusForUsers([$user->getUID()]) as $key => $value) {
+                    $userstatus = $value->getStatus();
+                }
+
+                    $userOptions[] = [
+                        'id' => $user->getUID(),
+                        'displayName' => $user->getDisplayName(),
+                        'isNoUser' => false,
+                        'user' => $user->getUID(),
+                        'subname' => $user->getEMailAddress(),
+                        'preloadedUserStatus' => [ 'status' => $userstatus, 'message' => $userstatus],
+                    ];
+                }
+            $groups = $this->groupManager->search('');
+            $groupList = [];
+            $grlist = [];
+            $grdisplaynamelist = [];
+            $grpdisplayandid = [];
+            foreach ($groups as $group) {
+                $gusers = $group->getUsers();
+                $guserList = [];
+                $grlist[] = $group->getGID();
+                $grdisplaynamelist[] = $group->getDisplayName();
+
+                $grpdisplayandid[] = [
+                    'id'            => $group->getGID(),
+                    'displayname'   => $group->getDisplayName(),
+                ];
+
+            foreach ($gusers as $guser) {
+                if($guser->getLastLogin()) $status = false;
+                else $status = true;
+                $guserList[] = [
+                    'uid' => $guser->getUID(),
+                    'displayname' => $guser->getDisplayName(),
+                    'lastlogin' => $guser->getLastLogin(),
+                    'firstlogin' => $guser->getFirstLogin(),
+                    'email' => $guser->getEMailAddress(),
+                    'cloudid' => $guser->getCloudId(),
+                    'quota' => $guser->getQuota(),
+                    'managerids' => $guser->getManagerUids(),
+                    'last' => $this->l->l('datetime', $guser->getLastLogin()),
+                    'first' => $this->l->l('datetime', $guser->getFirstLogin()),
+                    'used' => $this->myService->folderSize($guser->getHome()),
+                    'isadmin' => $this->groupManager->isAdmin($guser->getUID()),
+                    'status' => $status,
+                ];
+            }
+                $groupList[] = [
+                    'gid' => $group->getGID(),
+                    'gdisplayname' => $group->getDisplayName(),
+                    'gusers' => $gusers,
+                    'guserscount' => count($gusers),
+                    'guser' => $guserList,
+                ];
+            }
+            $adminGroup = $this->groupManager->displayNamesInGroup('admin');
+
+            return new DataResponse([
+                'users' => $userList,
+            ]);
+
+        } catch (\Throwable $e) {
+            $this->logger->error(
+                'AdminCockpit: FATAL ERROR or EXCEPTION in DataController->getallusers: ' . $e->getMessage() . "\n" . $e->getTraceAsString(),
+                ['app' => 'admincockpit']
+            );
+            return new DataResponse([
+                'userCount' => -1,
+                'groupCount' => -1,
+            ], 500);
+        }
+    }
+
+    public function setEnabled(string $id): DataResponse {
+        $user = $this->userManager->get($id);
+
+        if (!$user) {
+            return new DataResponse(['error' => 'User not found'], Http::STATUS_NOT_FOUND);
+        }
+
+        $rawInput = file_get_contents('php://input');
+        $data = json_decode($rawInput, true);
+
+        if (!isset($data['enabled'])) {
+            $enabledParam = $this->request->getParam('enabled');
+            if ($enabledParam !== null) {
+                $enabled = (bool)$enabledParam;
+            } else {
+                return new DataResponse(['error' => 'Parameter enabled is missing'], Http::STATUS_BAD_REQUEST);
+            }
+        } else {
+            $enabled = (bool)$data['enabled'];
+        }
+
+        try {
+            $user->setEnabled($enabled);
+        } catch (\Exception $e) {
+            return new DataResponse(['error' => $e->getMessage()], Http::STATUS_FORBIDDEN);
+        }
+
+        return new DataResponse([
+            'id' => $user->getUID(),
+            'enabled' => $user->isEnabled(),
+        ]);
     }
 
 }

@@ -157,6 +157,18 @@ OC.L10N.register(
     "Group rename failed": "Преименувањето на групата не успеа",
     "An error occurred while renaming the group": "Настана грешка при преименување на групата",
     "Please enter a new group name": "Ве молиме внесете ново име на групата",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Може да се користи само обичен обичен текст со најмногу 100 знаци. Значи нема HTML код или друго специјално форматирање"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Може да се користи само обичен обичен текст со најмногу 100 знаци. Значи нема HTML код или друго специјално форматирање",
+    "User search (name, ID, email)...": "Корисничко пребарување (име, лична карта, е-пошта)...",
+    "active": "активни",
+    "inactive": "неактивни",
+    "page": "страница",
+    "previous": "претходно",
+    "next": "следно",
+    "deactivate user": "деактивирајте го корисникот",
+    "activate user": "активирај корисник",
+    "User activated": "Корисникот е активиран",
+    "User deactivated": "Корисникот е деактивиран",
+    "Could not change user status": "Не може да се промени статусот на корисникот",
+    "Could not load user data": "Не може да се вчитаат корисничките податоци"
 },
 "nplurals=2; plural=n % 10 != 1 || n % 100 == 11;");

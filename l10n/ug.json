@@ -145,13 +145,25 @@
         "Update Checker": "تەكشۈرگۈچنى يېڭىلاش",
         "rename group": "گۇرۇپپىنىڭ نامىنى ئۆزگەرتىش",
         "rename group now": "گۇرۇپپىنىڭ نامىنى ھازىر ئۆزگەرتىڭ",
-        "Group renamed successfully": "گۇرۇپپا مۇۋەپپەقىيەتلىك ئۆزگەرتىلدى",
+        "Group renamed successfully": "Group renamed successfully",
         "Missing group name": "گۇرۇپپا ئىسمى يوقاپ كەتتى",
         "The group name is too long": "گۇرۇپپا ئىسمى بەك ئۇزۇن",
         "Group rename failed": "گۇرۇپپا نامىنى ئۆزگەرتىش مەغلۇب بولدى",
         "An error occurred while renaming the group": "گۇرۇپپىنىڭ نامىنى ئۆزگەرتىشتە خاتالىق كۆرۈلدى",
         "Please enter a new group name": "يېڭى گۇرۇپپا نامىنى كىرگۈزۈڭ",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "پەقەت 100 ھەرپكە يېتىدىغان نورمال تېكىستنى ئىشلىتىشكە بولىدۇ. شۇڭا HTML كودى ياكى باشقا ئالاھىدە فورماتلاش يوق"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "پەقەت 100 ھەرپكە يېتىدىغان نورمال تېكىستنى ئىشلىتىشكە بولىدۇ. شۇڭا HTML كودى ياكى باشقا ئالاھىدە فورماتلاش يوق",
+        "User search (name, ID, email)...": "User search (name, ID, email)...",
+        "active": "ئاكتىپ",
+        "inactive": "inactive",
+        "page": "page",
+        "previous": "ئالدىنقى",
+        "next": "كېيىنكى",
+        "deactivate user": "deactivate user",
+        "activate user": "ئىشلەتكۈچىنى ئاكتىپلاش",
+        "User activated": "User activated",
+        "User deactivated": "ئىشلەتكۈچى ئىناۋەتسىز قىلىندى",
+        "Could not change user status": "Could not change user status",
+        "Could not load user data": "Could not load user data"
     },
     "pluralForm": "nplurals=2; plural=n != 1;"
 }

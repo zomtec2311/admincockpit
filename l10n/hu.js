@@ -157,6 +157,18 @@ OC.L10N.register(
     "Group rename failed": "A csoport átnevezése sikertelen",
     "An error occurred while renaming the group": "Hiba történt a csoport átnevezésekor",
     "Please enter a new group name": "Adja meg az új csoport nevét",
-    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Csak 100 karakterig terjedő normál egyszerű szöveg használható. Tehát nincs HTML kód vagy más speciális formázás"
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Csak 100 karakterig terjedő normál egyszerű szöveg használható. Tehát nincs HTML kód vagy más speciális formázás",
+    "User search (name, ID, email)...": "Felhasználói keresés (név, azonosító, e-mail)...",
+    "active": "aktív",
+    "inactive": "inaktív",
+    "page": "oldal",
+    "previous": "korábbi",
+    "next": "következő",
+    "deactivate user": "felhasználó kikapcsolása",
+    "activate user": "aktiválja a felhasználót",
+    "User activated": "Felhasználó aktiválva",
+    "User deactivated": "Felhasználó kikapcsolva",
+    "Could not change user status": "Nem sikerült megváltoztatni a felhasználói állapotot",
+    "Could not load user data": "Nem sikerült betölteni a felhasználói adatokat"
 },
 "nplurals=2; plural=n != 1;");

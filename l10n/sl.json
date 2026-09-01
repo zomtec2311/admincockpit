@@ -152,7 +152,19 @@
         "Group rename failed": "Preimenovanje skupine ni uspelo",
         "An error occurred while renaming the group": "Prišlo je do napake pri preimenovanju skupine",
         "Please enter a new group name": "Vnesite novo ime skupine",
-        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Uporabi se lahko samo običajno navadno besedilo z do 100 znaki. Torej brez HTML kode ali drugega posebnega oblikovanja"
+        "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Uporabi se lahko samo običajno navadno besedilo z do 100 znaki. Torej brez HTML kode ali drugega posebnega oblikovanja",
+        "User search (name, ID, email)...": "Iskanje uporabnikov (ime, ID, email)...",
+        "active": "aktivno",
+        "inactive": "neaktivno",
+        "page": "stran",
+        "previous": "prejšnje",
+        "next": "naprej",
+        "deactivate user": "deaktiviraj uporabnika",
+        "activate user": "aktiviraj uporabnika",
+        "User activated": "Uporabnik aktiviran",
+        "User deactivated": "Uporabnik je izključen",
+        "Could not change user status": "Ni moč spremeniti stanja uporabnika",
+        "Could not load user data": "Ni moč naložiti uporabniških podatkov"
     },
     "pluralForm": "nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3));"
 }
