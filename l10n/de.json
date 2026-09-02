@@ -169,9 +169,9 @@
         "User deactivated": "Benutzer deaktiviert",
         "Could not change user status": "Der Benutzerstatus konnte nicht geändert werden",
         "Could not load user data": "Benutzerdaten konnten nicht geladen werden",
-        "Could not create new user. Username already exists. Try another one": "Es konnte kein neuer Benutzer erstellt werden. Der Benutzername existiert bereits. Versuchen Sie eine andere",
-        "Could not edit user. Username already exists. Try another one": "Benutzer nicht bearbeiten konnte. Der Benutzername existiert bereits. Versuchen Sie eine andere",
-        "Error saving user": "Fehlerspeicherung Benutzer",
+        "Could not create new user. Username already exists. Try another one": "Es konnte kein neuer Benutzer erstellt werden. Der Benutzername existiert bereits. Anderen versuchen",
+        "Could not edit user. Username already exists. Try another one": "Benutzer konnte nicht bearbeitet werden. Der Benutzername existiert bereits. Anderen versuchen",
+        "Error saving user": "Fehler beim Speichern des Benutzers",
         "User saved successfully": "Benutzer erfolgreich gespeichert"
     },
     "pluralForm": "nplurals=2; plural=(n != 1);"
