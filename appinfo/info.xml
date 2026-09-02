@@ -18,7 +18,7 @@
 - ✅ Intuitive Bedienung ohne seitenlanges Handbuch
 - ✅ Benachrichtigungen an Benutzer und Gruppen senden
 ]]></description>
-	<version>1.4.2</version>
+	<version>1.4.3</version>
 	<licence>agpl</licence>
 	<author mail="wtoedt@gmail.com" homepage="https://github.com/zomtec2311/admincockpit">Wolfgang Tödt</author>
 	<namespace>AdminCockpit</namespace>

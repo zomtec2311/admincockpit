@@ -289,7 +289,12 @@ class UserController extends Controller {
         $user =$this->userManager->get($uid);
         $oldgroups = $this->groupManager->getUserGroupIds($user);
         $oldadmingroups = $this->myService->admingroup($uid);
-
+        if($this->userManager->searchDisplayName($displayname)) {
+            return new JSONResponse([
+                    'success' => false,
+                    'msg' => $this->l->t('Could not edit user. Username already exists. Try another one'),
+            ]);
+        }
         if ($user->getDisplayName() <> $displayname) $user->setDisplayName($displayname);
         if ($password) {
             if($user->setPassword($password, null)) $this->logger->info('AdminCockpit: Success in DataController->setPassword: ');
@@ -334,6 +339,7 @@ class UserController extends Controller {
         'quota' => $quota,
         'managerids' => $managerids,
         'status' => true,
+        'success' => 'true',
 		   ]);
 
         try {
@@ -382,6 +388,13 @@ class UserController extends Controller {
                         ]);
                     }
                 }
+            }
+            if($this->userManager->searchDisplayName($displayname)) {
+                return new DataResponse([
+                        'user' => $userList,
+                        'success' => false,
+                        'msg' => $this->l->t('Could not create new user. Username already exists. Try another one'),
+                ]);
             }
 
         try {

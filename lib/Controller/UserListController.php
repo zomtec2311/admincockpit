@@ -47,7 +47,7 @@ class UserListController extends Controller {
     private $groupManager;
     private $myService;
     private $logger;
-    //private $appConfig;
+    private IAppConfig $appConfig;
     private $userManager;
     private $l;
     private $userSession;
@@ -63,14 +63,14 @@ class UserListController extends Controller {
             IUserSession $userSession,
             IL10N $l,
             IDBConnection $dbConnection,
-            //private IAppConfig $appConfig,
+            IAppConfig $appConfig,
             private ContainerInterface $container,
     ) {
         parent::__construct($appName, $request);
         $this->groupManager = $groupManager;
         $this->myService = $myService;
         $this->logger = $logger;
-        //$this->appConfig = $appConfig;
+        $this->appConfig = $appConfig;
         $this->userManager = $userManager;
         $this->userSession = $userSession;
         $this->l = $l;
@@ -85,7 +85,7 @@ class UserListController extends Controller {
         $search = $this->request->getParam('search', '');
         $statusParam = $this->request->getParam('status', 'all');
 
-        $limit = (int)$this->request->getParam('limit', 12);
+        $limit = $this->appConfig->getValueInt('admincockpit', 'admincockpit_user_per_page',12);
         $page = (int)$this->request->getParam('page', 1);
         if ($page < 1) {
             $page = 1;

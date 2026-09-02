@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.4.3
+
+### Changed
+- Icons for status display enabled/deactivated
+- View of pagination
+
+### Added
+- New user: Check whether the desired display name already exists
+- User editing: Check whether the desired display name already exists
+- Added first App parameter. This parameter allows you to set how many users should be displayed per side view.
+- l10n: language files supplemented with new phrases
+
 ## 1.4.2
 
 ### Changed
