@@ -168,7 +168,11 @@
         "User activated": "Attivazione dell'utente",
         "User deactivated": "Disattivato dall'utente",
         "Could not change user status": "Non è possibile modificare lo stato dell'utente",
-        "Could not load user data": "Non è possibile caricare i dati degli utenti"
+        "Could not load user data": "Non è possibile caricare i dati degli utenti",
+        "Could not create new user. Username already exists. Try another one": "Non poteva creare un nuovo utente. Il nome utente esiste già. Prova un altro",
+        "Could not edit user. Username already exists. Try another one": "Non è possibile modificare l'utente. Il nome utente esiste già. Prova un altro",
+        "Error saving user": "Utente di salvataggio errori",
+        "User saved successfully": "L'utente salvato con successo"
     },
     "pluralForm": "nplurals=2; plural=(n != 1);"
 }

@@ -165,6 +165,10 @@ OC.L10N.register(
     "User activated": "User activated",
     "User deactivated": "User deactivated",
     "Could not change user status": "Could not change user status",
-    "Could not load user data": "Could not load user data"
+    "Could not load user data": "Could not load user data",
+    "Could not create new user. Username already exists. Try another one": "Could not create new user. Username already exists. Try another one",
+    "Could not edit user. Username already exists. Try another one": "Could not edit user. Username already exists. Try another one",
+    "Error saving user": "Error saving user",
+    "User saved successfully": "User saved successfully"
 },
 "nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);");

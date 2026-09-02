@@ -169,6 +169,10 @@ OC.L10N.register(
     "User activated": "Felhasználó aktiválva",
     "User deactivated": "Felhasználó kikapcsolva",
     "Could not change user status": "Nem sikerült megváltoztatni a felhasználói állapotot",
-    "Could not load user data": "Nem sikerült betölteni a felhasználói adatokat"
+    "Could not load user data": "Nem sikerült betölteni a felhasználói adatokat",
+    "Could not create new user. Username already exists. Try another one": "Nem sikerült új felhasználót létrehozni. A felhasználói név már létezik. Kóstold meg még egyszer",
+    "Could not edit user. Username already exists. Try another one": "Nem sikerült szerkeszteni a felhasználót. A felhasználói név már létezik. Kóstold meg még egyszer",
+    "Error saving user": "Hiba történt a felhasználó mentése közben",
+    "User saved successfully": "A felhasználó sikeresen elmentve"
 },
 "nplurals=2; plural=n != 1;");

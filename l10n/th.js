@@ -165,6 +165,10 @@ OC.L10N.register(
     "User activated": "เปิดใช้งานผู้ใช้",
     "User deactivated": "ปิดการใช้งานผู้ใช้แล้ว",
     "Could not change user status": "ไม่สามารถเปลี่ยนสถานะผู้ใช้ได้",
-    "Could not load user data": "ไม่สามารถโหลดข้อมูลผู้ใช้ได้"
+    "Could not load user data": "ไม่สามารถโหลดข้อมูลผู้ใช้ได้",
+    "Could not create new user. Username already exists. Try another one": "ไม่สามารถสร้างผู้ใช้ใหม่ได้ มีชื่อผู้ใช้อยู่แล้ว ลองใหม่สิ",
+    "Could not edit user. Username already exists. Try another one": "ไม่สามารถแก้ไขผู้ใช้ได้ มีชื่อผู้ใช้อยู่แล้ว ลองใหม่สิ",
+    "Error saving user": "เกิดข้อผิดพลาดในการบันทึกผู้ใช้",
+    "User saved successfully": "บันทึกผู้ใช้สําเร็จแล้ว"
 },
 "nplurals=1; plural=0;");

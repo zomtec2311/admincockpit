@@ -168,7 +168,11 @@
         "User activated": "ಬಳಕೆದಾರರನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ",
         "User deactivated": "ಬಳಕೆದಾರರನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ",
         "Could not change user status": "ಬಳಕೆದಾರರ ಸ್ಥಿತಿಯನ್ನು ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ",
-        "Could not load user data": "ಬಳಕೆದಾರರ ಡೇಟಾವನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ"
+        "Could not load user data": "ಬಳಕೆದಾರರ ಡೇಟಾವನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ",
+        "Could not create new user. Username already exists. Try another one": "ಹೊಸ ಬಳಕೆದಾರರನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಬಳಕೆದಾರಹೆಸರು ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ. ಇನ್ನೊಂದನ್ನು ಪ್ರಯತ್ನಿಸಿ",
+        "Could not edit user. Username already exists. Try another one": "ಬಳಕೆದಾರರನ್ನು ಸಂಪಾದಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಬಳಕೆದಾರಹೆಸರು ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ. ಇನ್ನೊಂದನ್ನು ಪ್ರಯತ್ನಿಸಿ",
+        "Error saving user": "ಬಳಕೆದಾರರನ್ನು ಉಳಿಸುವಲ್ಲಿ ದೋಷ",
+        "User saved successfully": "ಬಳಕೆದಾರರನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ"
     },
     "pluralForm": "nplurals=2; plural=n > 1;"
 }

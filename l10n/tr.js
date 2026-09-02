@@ -169,6 +169,10 @@ OC.L10N.register(
     "User activated": "Kullanıcı aktif",
     "User deactivated": "Kullanıcı devre dışı bırakıldı",
     "Could not change user status": "Kullanıcı statüsünü değiştirmeyebilir",
-    "Could not load user data": "Kullanıcı verilerini yükleyemez"
+    "Could not load user data": "Kullanıcı verilerini yükleyemez",
+    "Could not create new user. Username already exists. Try another one": "Yeni kullanıcı oluşturamaz. Kullanıcı adı zaten var. Başka birini deneyin",
+    "Could not edit user. Username already exists. Try another one": "Kullanıcıyı düzenleyebilir. Kullanıcı adı zaten var. Başka birini deneyin",
+    "Error saving user": "Hata kurtarma kullanıcıyı kurtarma",
+    "User saved successfully": "Kullanıcı başarıyla kurtarıldı"
 },
 "nplurals=2; plural=n != 1;");

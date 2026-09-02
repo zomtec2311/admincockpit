@@ -163,7 +163,11 @@
         "User activated": "المستعمل المنشط",
         "User deactivated": "المستعمل المعطّل",
         "Could not change user status": "لا يمكن تغيير وضع المستخدم",
-        "Could not load user data": "لا يمكن تحميل بيانات المستخدمين"
+        "Could not load user data": "لا يمكن تحميل بيانات المستخدمين",
+        "Could not create new user. Username already exists. Try another one": "لا يمكن خلق مستعمل جديد. اسم المستخدم موجود بالفعل جرب واحدة أخرى",
+        "Could not edit user. Username already exists. Try another one": "لا يمكن تحرير المستخدم. اسم المستخدم موجود بالفعل جرب واحدة أخرى",
+        "Error saving user": "إنقاذ المستعمل",
+        "User saved successfully": "المستعمل أنقذ بنجاح"
     },
     "pluralForm": "nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));"
 }

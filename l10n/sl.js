@@ -165,6 +165,10 @@ OC.L10N.register(
     "User activated": "Uporabnik aktiviran",
     "User deactivated": "Uporabnik je izključen",
     "Could not change user status": "Ni moč spremeniti stanja uporabnika",
-    "Could not load user data": "Ni moč naložiti uporabniških podatkov"
+    "Could not load user data": "Ni moč naložiti uporabniških podatkov",
+    "Could not create new user. Username already exists. Try another one": "Ni moč ustvariti novega uporabnika. Uporabniško ime že obstaja. Poskusi še enkrat",
+    "Could not edit user. Username already exists. Try another one": "Ni moč urediti uporabnika. Uporabniško ime že obstaja. Poskusi še enkrat",
+    "Error saving user": "Napaka pri shranjevanju uporabnika",
+    "User saved successfully": "Uporabnik je uspešno shranjen"
 },
 "nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3));");

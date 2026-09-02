@@ -168,7 +168,11 @@
         "User activated": "მომხმარებელი გააქტიურებულია",
         "User deactivated": "მომხმარებელი გამორთულია",
         "Could not change user status": "მომხმარებლის სტატუსის შეცვლა ვერ მოხერხდა",
-        "Could not load user data": "მომხმარებლის მონაცემების ჩატვირთვა ვერ მოხერხდა"
+        "Could not load user data": "მომხმარებლის მონაცემების ჩატვირთვა ვერ მოხერხდა",
+        "Could not create new user. Username already exists. Try another one": "ახალი მომხმარებლის შექმნა ვერ მოხერხდა. მომხმარებლის სახელი უკვე არსებობს. სცადე სხვა",
+        "Could not edit user. Username already exists. Try another one": "მომხმარებლის რედაქტირება ვერ მოხერხდა. მომხმარებლის სახელი უკვე არსებობს. სცადე სხვა",
+        "Error saving user": "შეცდომა მომხმარებლის შენახვისას",
+        "User saved successfully": "მომხმარებელი წარმატებით შენახულია"
     },
     "pluralForm": "nplurals=2; plural=n != 1;"
 }

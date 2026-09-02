@@ -170,6 +170,10 @@ OC.L10N.register(
     "User activated": "Usuari activatComment",
     "User deactivated": "L' usuari desactivat",
     "Could not change user status": "No s' ha pogut canviar l' estat de l' usuari",
-    "Could not load user data": "No s' han pogut carregar les dades de l' usuari"
+    "Could not load user data": "No s' han pogut carregar les dades de l' usuari",
+    "Could not create new user. Username already exists. Try another one": "No s' ha pogut crear un usuari nou. El nom d' usuari ja existeix. Proveu- ne una altra",
+    "Could not edit user. Username already exists. Try another one": "No s' ha pogut editar l' usuari. El nom d' usuari ja existeix. Proveu- ne una altra",
+    "Error saving user": "Error en desar l' usuari",
+    "User saved successfully": "L' usuari s' ha desat correctament"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2);");

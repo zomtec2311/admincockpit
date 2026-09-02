@@ -169,6 +169,10 @@ OC.L10N.register(
     "User activated": "Gebruiker geactiveerd",
     "User deactivated": "Gebruiker uitgeschakeld",
     "Could not change user status": "Kon gebruikersstatus niet wijzigen",
-    "Could not load user data": "Kon gebruikersgegevens niet laden"
+    "Could not load user data": "Kon gebruikersgegevens niet laden",
+    "Could not create new user. Username already exists. Try another one": "Kon geen nieuwe gebruiker aanmaken. Gebruikersnaam bestaat al. Probeer een andere",
+    "Could not edit user. Username already exists. Try another one": "Kon gebruiker niet bewerken. Gebruikersnaam bestaat al. Probeer een andere",
+    "Error saving user": "Fout bij opslaan gebruiker",
+    "User saved successfully": "Gebruiker is succesvol opgeslagen"
 },
 "nplurals=2; plural=n != 1;");

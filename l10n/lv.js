@@ -165,6 +165,10 @@ OC.L10N.register(
     "User activated": "Lietotājs aktivizēts",
     "User deactivated": "Lietotāja atslēgts",
     "Could not change user status": "Neizdevās mainīt lietotāja statusu",
-    "Could not load user data": "Neizdevās ielādēt lietotāja datus"
+    "Could not load user data": "Neizdevās ielādēt lietotāja datus",
+    "Could not create new user. Username already exists. Try another one": "Neizdevās izveidot jaunu lietotāju. Lietotājvārds jau eksistē. Pamēģināt vēl vienu",
+    "Could not edit user. Username already exists. Try another one": "Neizdevās rediģēt lietotāju. Lietotājvārds jau eksistē. Pamēģināt vēl vienu",
+    "Error saving user": "Kļūda saglabājot lietotāju",
+    "User saved successfully": "Lietotāja veiksmīgi saglabāta"
 },
 "nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);");

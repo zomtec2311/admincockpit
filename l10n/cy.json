@@ -164,7 +164,11 @@
         "User activated": "Defnyddiwr wedi'i actifadu",
         "User deactivated": "Defnyddiwr wedi'i ddadactifadu",
         "Could not change user status": "Methu newid statws defnyddiwr",
-        "Could not load user data": "Methu llwytho data defnyddiwr"
+        "Could not load user data": "Methu llwytho data defnyddiwr",
+        "Could not create new user. Username already exists. Try another one": "Methu creu defnyddiwr newydd. Mae enw defnyddiwr eisoes yn bodoli. Rhowch gynnig ar un arall",
+        "Could not edit user. Username already exists. Try another one": "Methu golygu defnyddiwr. Mae enw defnyddiwr eisoes yn bodoli. Rhowch gynnig ar un arall",
+        "Error saving user": "Gwall wrth gadw'r defnyddiwr",
+        "User saved successfully": "Defnyddiwr wedi'i gadw'n llwyddiannus"
     },
     "pluralForm": "nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));"
 }

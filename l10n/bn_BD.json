@@ -168,7 +168,11 @@
         "User activated": "ব্যবহারকারী দ্বারা সক্রিয়",
         "User deactivated": "ব্যবহারকারী দ্বারা নিষ্ক্রিয়",
         "Could not change user status": "ব্যবহারকারীর অবস্থা পরিবর্তন করা যায়নি",
-        "Could not load user data": "ব্যবহারকারীর তথ্য লোড করা যায়নি"
+        "Could not load user data": "ব্যবহারকারীর তথ্য লোড করা যায়নি",
+        "Could not create new user. Username already exists. Try another one": "নতুন ব্যবহারকারী নির্মাণ করতে ব্যর্থ। ব্যবহারকারীর নাম বর্তমানে উপস্থিত রয়েছে। অন্য একটি চেষ্টা করো",
+        "Could not edit user. Username already exists. Try another one": "ব্যবহারকারীর নাম পরিবর্তন করা যায়নি। ব্যবহারকারীর নাম বর্তমানে উপস্থিত রয়েছে। অন্য একটি চেষ্টা করো",
+        "Error saving user": "ব্যবহারকারী সংরক্ষণ করতে সমস্যা",
+        "User saved successfully": "সাফল্যের সাথে ব্যবহারকারী দ্বারা সংরক্ষিত হয়েছে"
     },
     "pluralForm": "nplurals=2; plural=n > 1;"
 }

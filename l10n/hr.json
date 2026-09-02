@@ -164,7 +164,11 @@
         "User activated": "Korisnik aktiviran",
         "User deactivated": "Korisnik deaktiviran",
         "Could not change user status": "Nije moguće promijeniti status korisnika",
-        "Could not load user data": "Nije moguće učitati korisničke podatke"
+        "Could not load user data": "Nije moguće učitati korisničke podatke",
+        "Could not create new user. Username already exists. Try another one": "Nije moguće stvoriti novog korisnika. Korisničko ime već postoji. Pokušajte s drugim",
+        "Could not edit user. Username already exists. Try another one": "Nije moguće urediti korisnika. Korisničko ime već postoji. Pokušajte s drugim",
+        "Error saving user": "Pogreška pri spremanju korisnika",
+        "User saved successfully": "Korisnik je uspješno spremljen"
     },
     "pluralForm": "nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);"
 }

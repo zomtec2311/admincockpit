@@ -169,6 +169,10 @@ OC.L10N.register(
     "User activated": "Utilisateur activé",
     "User deactivated": "Désactivé par l'utilisateur",
     "Could not change user status": "Impossible de modifier le statut de l'utilisateur",
-    "Could not load user data": "Impossible de charger les données utilisateur"
+    "Could not load user data": "Impossible de charger les données utilisateur",
+    "Could not create new user. Username already exists. Try another one": "Impossible de créer un nouvel utilisateur. Nom d'utilisateur existe déjà. Essaie un autre",
+    "Could not edit user. Username already exists. Try another one": "Impossible de modifier l'utilisateur. Nom d'utilisateur existe déjà. Essaie un autre",
+    "Error saving user": "Erreur d'enregistrement de l'utilisateur",
+    "User saved successfully": "L'utilisateur a enregistré avec succès"
 },
 "nplurals=2; plural=(n != 1);");

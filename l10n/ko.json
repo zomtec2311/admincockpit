@@ -164,7 +164,11 @@
         "User activated": "사용자 활성화",
         "User deactivated": "사용자 비활성화",
         "Could not change user status": "사용자 상태를 변경할 수 없습니다",
-        "Could not load user data": "사용자 데이터를로드 할 수 없습니다"
+        "Could not load user data": "사용자 데이터를로드 할 수 없습니다",
+        "Could not create new user. Username already exists. Try another one": "새로운 사용자를 만들 수 없습니다. Username은 이미 존재합니다. 다른 것을 시도",
+        "Could not edit user. Username already exists. Try another one": "사용자를 편집할 수 없습니다. Username은 이미 존재합니다. 다른 것을 시도",
+        "Error saving user": "오류 저장 사용자",
+        "User saved successfully": "사용자가 성공적으로 저장된"
     },
     "pluralForm": "nplurals=1; plural=0;"
 }

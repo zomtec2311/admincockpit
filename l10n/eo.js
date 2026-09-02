@@ -169,6 +169,10 @@ OC.L10N.register(
     "User activated": "Uzanta aktivigilon",
     "User deactivated": "Uzanto malaktivigis",
     "Could not change user status": "Ne povas ŝanĝi uzantstatuson",
-    "Could not load user data": "Ne povas ŝarĝi uzantdatenojn"
+    "Could not load user data": "Ne povas ŝarĝi uzantdatenojn",
+    "Could not create new user. Username already exists. Try another one": "Ne povas krei novan uzanton. Uzantnomo jam ekzistas. Provu unu",
+    "Could not edit user. Username already exists. Try another one": "Ne povas redakti uzanton. Uzantnomo jam ekzistas. Provu unu",
+    "Error saving user": "Eraro ŝparanta uzanto",
+    "User saved successfully": "La permesilo sukcesis sukcese"
 },
 "nplurals=2; plural=n != 1;");

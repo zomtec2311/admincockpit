@@ -165,6 +165,10 @@ OC.L10N.register(
     "User activated": "Naudotojas aktyvuotas",
     "User deactivated": "Naudotojas išjungtas",
     "Could not change user status": "Nepavyko pakeisti naudotojo būsenos",
-    "Could not load user data": "Nepavyko įkelti naudotojo duomenų"
+    "Could not load user data": "Nepavyko įkelti naudotojo duomenų",
+    "Could not create new user. Username already exists. Try another one": "Nepavyko sukurti naujo naudotojo. Vartotojo vardas jau yra. Bandykite kitą",
+    "Could not edit user. Username already exists. Try another one": "Nepavyko redaguoti naudotojo. Vartotojo vardas jau yra. Bandykite kitą",
+    "Error saving user": "Klaida išsaugant naudotoją",
+    "User saved successfully": "Naudotojas išsaugotas sėkmingai"
 },
 "nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);");

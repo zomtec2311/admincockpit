@@ -169,6 +169,10 @@ OC.L10N.register(
     "User activated": "Корисникот е активиран",
     "User deactivated": "Корисникот е деактивиран",
     "Could not change user status": "Не може да се промени статусот на корисникот",
-    "Could not load user data": "Не може да се вчитаат корисничките податоци"
+    "Could not load user data": "Не може да се вчитаат корисничките податоци",
+    "Could not create new user. Username already exists. Try another one": "Не може да се создаде нов корисник. Корисничкото име веќе постои. Пробај уште еден",
+    "Could not edit user. Username already exists. Try another one": "Не можев да го уредам корисникот. Корисничкото име веќе постои. Пробај уште еден",
+    "Error saving user": "Грешка при зачувување на корисникот",
+    "User saved successfully": "Корисникот е успешно зачуван"
 },
 "nplurals=2; plural=n % 10 != 1 || n % 100 == 11;");

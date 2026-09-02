@@ -165,6 +165,10 @@ OC.L10N.register(
     "User activated": "Užívateľ aktivovaný",
     "User deactivated": "Užívateľ deaktivovaný",
     "Could not change user status": "Nepodarilo sa zmeniť stav užívateľa",
-    "Could not load user data": "Nepodarilo sa načítať dáta používateľa"
+    "Could not load user data": "Nepodarilo sa načítať dáta používateľa",
+    "Could not create new user. Username already exists. Try another one": "Nepodarilo sa vytvoriť nového užívateľa. Užívateľské meno existuje. Skús ďalšiu",
+    "Could not edit user. Username already exists. Try another one": "Nepodarilo sa upraviť užívateľa. Užívateľské meno existuje. Skús ďalšiu",
+    "Error saving user": "Chyba pri ukladaní užívateľa",
+    "User saved successfully": "Užívateľ úspešne uložený"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);");

@@ -163,7 +163,11 @@
         "User activated": "User activated",
         "User deactivated": "ئىشلەتكۈچى ئىناۋەتسىز قىلىندى",
         "Could not change user status": "Could not change user status",
-        "Could not load user data": "Could not load user data"
+        "Could not load user data": "Could not load user data",
+        "Could not create new user. Username already exists. Try another one": "يېڭى ئىشلەتكۈچى قۇرالمىدى. ئىشلەتكۈچى ئىسمى ئاللىبۇرۇن مەۋجۇت. باشقا بىرىنى سىناپ بېقىڭ",
+        "Could not edit user. Username already exists. Try another one": "ئىشلەتكۈچىنى تەھرىرلىيەلمىدى. ئىشلەتكۈچى ئىسمى ئاللىبۇرۇن مەۋجۇت. باشقا بىرىنى سىناپ بېقىڭ",
+        "Error saving user": "ئىشلەتكۈچىنى ساقلاشتا خاتالىق",
+        "User saved successfully": "ئىشلەتكۈچى مۇۋەپپەقىيەتلىك ساقلاندى"
     },
     "pluralForm": "nplurals=2; plural=n != 1;"
 }

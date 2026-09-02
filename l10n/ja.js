@@ -165,6 +165,10 @@ OC.L10N.register(
     "User activated": "活動化したユーザー",
     "User deactivated": "ユーザーの非アクティブ化",
     "Could not change user status": "ユーザの状態を変更できない",
-    "Could not load user data": "ユーザーデータをロードできません"
+    "Could not load user data": "ユーザーデータをロードできません",
+    "Could not create new user. Username already exists. Try another one": "新規ユーザーを作成できません。 既に存在するユーザー名。 別のものを試してみる",
+    "Could not edit user. Username already exists. Try another one": "ユーザを編集できません。 既に存在するユーザー名。 別のものを試してみる",
+    "Error saving user": "エラー保存ユーザ",
+    "User saved successfully": "ユーザーが正常に保存"
 },
 "nplurals=1; plural=0;");

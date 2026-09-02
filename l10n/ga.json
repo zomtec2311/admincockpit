@@ -164,7 +164,11 @@
         "User activated": "User activated",
         "User deactivated": "User deactivated",
         "Could not change user status": "Could not change user status",
-        "Could not load user data": "Could not load user data"
+        "Could not load user data": "Could not load user data",
+        "Could not create new user. Username already exists. Try another one": "Níorbh fhéidir úsáideoir nua a chruthú. Tá an t-ainm úsáideora ann cheana féin. Bain triail as ceann eile",
+        "Could not edit user. Username already exists. Try another one": "Níorbh fhéidir an t-úsáideoir a chur in eagar. Tá an t-ainm úsáideora ann cheana féin. Bain triail as ceann eile",
+        "Error saving user": "Earráid agus an t-úsáideoir á shábháil",
+        "User saved successfully": "D'éirigh leis an úsáideoir a shábháil"
     },
     "pluralForm": "nplurals=5; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n >= 3 && n <= 6) ? 2 : ((n >= 7 && n <= 10) ? 3 : 4)));"
 }

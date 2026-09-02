@@ -168,7 +168,11 @@
         "User activated": "Notandi virkjaður",
         "User deactivated": "Notandi óvirkjaður",
         "Could not change user status": "Gat ekki breytt notendastöðu",
-        "Could not load user data": "Gat ekki hlaðið notendagögnum"
+        "Could not load user data": "Gat ekki hlaðið notendagögnum",
+        "Could not create new user. Username already exists. Try another one": "Gat ekki búið til nýjan notanda. Notandanafn er þegar til. Prófaðu annan",
+        "Could not edit user. Username already exists. Try another one": "Gat ekki breytt notanda. Notandanafn er þegar til. Prófaðu annan",
+        "Error saving user": "Villa við að vista notanda",
+        "User saved successfully": "Notandi vistað"
     },
     "pluralForm": "nplurals=2; plural=n % 10 != 1 || n % 100 == 11;"
 }

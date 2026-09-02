@@ -169,6 +169,10 @@ OC.L10N.register(
     "User activated": "Օգտագործողը ակտիվացված է",
     "User deactivated": "User deactivated",
     "Could not change user status": "Չհաջողվեց փոխել օգտատիրոջ կարգավիճակը",
-    "Could not load user data": "Could not load user data"
+    "Could not load user data": "Could not load user data",
+    "Could not create new user. Username already exists. Try another one": "Չհաջողվեց ստեղծել նոր օգտվող: Օգտանուն արդեն գոյություն ունի: Փորձեք մեկ ուրիշը",
+    "Could not edit user. Username already exists. Try another one": "Չհաջողվեց խմբագրել օգտատիրոջը: Օգտանուն արդեն գոյություն ունի: Փորձեք մեկ ուրիշը",
+    "Error saving user": "Սխալ՝ օգտատիրոջ պահման ժամանակ",
+    "User saved successfully": "Օգտատերը հաջողությամբ պահպանվեց"
 },
 "nplurals=2; plural=n > 1;");

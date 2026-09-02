@@ -163,7 +163,11 @@
         "User activated": "משתמש פעיל",
         "User deactivated": "User Deactivated",
         "Could not change user status": "לא יכול לשנות את מצב המשתמש",
-        "Could not load user data": "לא יכול לטעון נתוני משתמשים"
+        "Could not load user data": "לא יכול לטעון נתוני משתמשים",
+        "Could not create new user. Username already exists. Try another one": "לא יכול ליצור משתמש חדש. שם המשתמש כבר קיים. נסה עוד אחד",
+        "Could not edit user. Username already exists. Try another one": "לא יכול לערוך משתמשים. שם המשתמש כבר קיים. נסה עוד אחד",
+        "Error saving user": "טעויות מצילות משתמשים",
+        "User saved successfully": "המשתמש הציל בהצלחה"
     },
     "pluralForm": "nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2);"
 }

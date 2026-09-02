@@ -168,7 +168,11 @@
         "User activated": "User activated",
         "User deactivated": "User deactivated",
         "Could not change user status": "Could not change user status",
-        "Could not load user data": "පරිශීලක දත්ත පූරණය කළ නොහැකි විය"
+        "Could not load user data": "පරිශීලක දත්ත පූරණය කළ නොහැකි විය",
+        "Could not create new user. Username already exists. Try another one": "නව පරිශීලකයෙකු තැනීමට නොහැකි විය. පරිශීලක නාමය දැනටමත් පවතී. තවත් එකක් උත්සාහ කරන්න",
+        "Could not edit user. Username already exists. Try another one": "පරිශීලක සංස්කරණය කළ නොහැකි විය. පරිශීලක නාමය දැනටමත් පවතී. තවත් එකක් උත්සාහ කරන්න",
+        "Error saving user": "පරිශීලක සුරැකීමේ දෝෂයකි",
+        "User saved successfully": "පරිශීලකයා සාර්ථකව සුරකින ලදී"
     },
     "pluralForm": "nplurals=2; plural=n > 1;"
 }

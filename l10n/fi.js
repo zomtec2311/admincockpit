@@ -169,6 +169,10 @@ OC.L10N.register(
     "User activated": "Käyttäjä aktivoitu",
     "User deactivated": "Käyttäjä pois käytöstä",
     "Could not change user status": "Käyttäjän tilaa ei voitu muuttaa",
-    "Could not load user data": "Käyttäjätietoja ei voitu ladata"
+    "Could not load user data": "Käyttäjätietoja ei voitu ladata",
+    "Could not create new user. Username already exists. Try another one": "Uutta käyttäjää ei voitu luoda. Käyttäjätunnus on jo olemassa. Kokeile toista",
+    "Could not edit user. Username already exists. Try another one": "Käyttäjää ei voitu muokata. Käyttäjätunnus on jo olemassa. Kokeile toista",
+    "Error saving user": "Virhe tallennettaessa käyttäjää",
+    "User saved successfully": "Käyttäjä tallennettu onnistuneesti"
 },
 "nplurals=2; plural=n != 1;");

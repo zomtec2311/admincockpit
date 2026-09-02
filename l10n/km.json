@@ -164,7 +164,11 @@
         "User activated": "អ្នកប្រើប្រាស់បានធ្វើឱ្យសកម្ម",
         "User deactivated": "អ្នកប្រើប្រាស់ត្រូវបានបិទ",
         "Could not change user status": "Could not change user status",
-        "Could not load user data": "Could not load user data"
+        "Could not load user data": "Could not load user data",
+        "Could not create new user. Username already exists. Try another one": "មិនអាចបង្កើតអ្នកប្រើប្រាស់ថ្មីបានទេ។ ឈ្មោះអ្នកប្រើប្រាស់មានរួចហើយ។ សាកល្បងមួយផ្សេងទៀត",
+        "Could not edit user. Username already exists. Try another one": "មិនអាចកែសម្រួលអ្នកប្រើប្រាស់បានទេ។ ឈ្មោះអ្នកប្រើប្រាស់មានរួចហើយ។ សាកល្បងមួយផ្សេងទៀត",
+        "Error saving user": "កំហុសក្នុងការរក្សាទុកអ្នកប្រើប្រាស់",
+        "User saved successfully": "អ្នកប្រើប្រាស់បានរក្សាទុកដោយជោគជ័យ"
     },
     "pluralForm": "nplurals=1; plural=0;"
 }

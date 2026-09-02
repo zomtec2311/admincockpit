@@ -168,7 +168,11 @@
         "User activated": "User activated",
         "User deactivated": "User deactivated",
         "Could not change user status": "Could not change user status",
-        "Could not load user data": "Could not load user data"
+        "Could not load user data": "Could not load user data",
+        "Could not create new user. Username already exists. Try another one": "Шинэ хэрэглэгч үүсгэж чадсангүй. Хэрэглэгчийн нэр аль хэдийн байна. Өөр нэгийг оролдоно уу",
+        "Could not edit user. Username already exists. Try another one": "Хэрэглэгчийг засаж чадсангүй. Хэрэглэгчийн нэр аль хэдийн байна. Өөр нэгийг оролдоно уу",
+        "Error saving user": "Хэрэглэгчийг хадгалахад алдаа гарлаа",
+        "User saved successfully": "Хэрэглэгч амжилттай хадгалагдсан"
     },
     "pluralForm": "nplurals=2; plural=n != 1;"
 }

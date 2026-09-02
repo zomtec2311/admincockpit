@@ -164,7 +164,11 @@
         "User activated": "Пользователь активирован",
         "User deactivated": "Пользователь деактивирован",
         "Could not change user status": "Невозможно изменить статус пользователя",
-        "Could not load user data": "Невозможно загрузить пользовательские данные"
+        "Could not load user data": "Невозможно загрузить пользовательские данные",
+        "Could not create new user. Username already exists. Try another one": "Не удалось создать нового пользователя. Имя пользователя уже существует. Попробуйте другой",
+        "Could not edit user. Username already exists. Try another one": "Не удалось отредактировать пользователя. Имя пользователя уже существует. Попробуйте другой",
+        "Error saving user": "Ошибка сохранения пользователя",
+        "User saved successfully": "Пользователь успешно спасен"
     },
     "pluralForm": "nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);"
 }

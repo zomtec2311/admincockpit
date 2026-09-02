@@ -143,6 +143,27 @@
 "Update": "Update",
 "Update now": "Update now",
 "_%n App_::_%n Apps_": ["%n App","%n Apps"],
-"Update Checker": "Update Checker"
+"Update Checker": "Update Checker",
+    "rename group": "rename group",
+    "rename group now": "rename group now",
+    "Group renamed successfully": "Group renamed successfully",
+    "Missing group name": "Missing group name",
+    "The group name is too long": "The group name is too long",
+    "Group rename failed": "Group rename failed",
+    "An error occurred while renaming the group": "An error occurred while renaming the group",
+    "Please enter a new group name": "Please enter a new group name",
+    "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting": "Only normal plain text with up to 100 characters may be used. So no HTML code or other special formatting",
+    "User search (name, ID, email)...": "User search (name, ID, email)...",
+    "active": "active",
+    "inactive": "inactive",
+    "page": "page",
+    "previous": "previous",
+    "next": "next",
+    "deactivate user": "deactivate user",
+    "activate user": "activate user",
+    "User activated": "User activated",
+    "User deactivated": "User deactivated",
+    "Could not change user status": "Could not change user status",
+    "Could not load user data": "Could not load user data"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

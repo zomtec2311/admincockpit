@@ -169,6 +169,10 @@ OC.L10N.register(
     "User activated": "Активиран от потребителя",
     "User deactivated": "Потребителят е деактивиран",
     "Could not change user status": "Грешка при промяна на статуса на потребителя",
-    "Could not load user data": "Грешка при зареждане на данните за потребителя"
+    "Could not load user data": "Грешка при зареждане на данните за потребителя",
+    "Could not create new user. Username already exists. Try another one": "Грешка при създаване на нов потребител. Потребителското име вече съществува. Опитай с друг",
+    "Could not edit user. Username already exists. Try another one": "Потребителят не може да бъде редактиран Потребителското име вече съществува. Опитай с друг",
+    "Error saving user": "Грешка при запис на потребител",
+    "User saved successfully": "Потребителят е записал успешно"
 },
 "nplurals=2; plural=n != 1;");

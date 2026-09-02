@@ -169,6 +169,10 @@ OC.L10N.register(
     "User activated": "Benotzer aktivéiert",
     "User deactivated": "Benotzer deaktivéiert",
     "Could not change user status": "Konnt de Benotzerstatus net änneren",
-    "Could not load user data": "Konnt d'Benotzerdaten net lueden"
+    "Could not load user data": "Konnt d'Benotzerdaten net lueden",
+    "Could not create new user. Username already exists. Try another one": "Konnt net neie Benotzer erstellen. Benotzernumm existéiert schonn. Probéiert eng aner",
+    "Could not edit user. Username already exists. Try another one": "Konnt de Benotzer net änneren. Benotzernumm existéiert schonn. Probéiert eng aner",
+    "Error saving user": "Feeler beim Späicheren vum Benotzer",
+    "User saved successfully": "Benotzer erfollegräich gespäichert"
 },
 "nplurals=2; plural=n != 1;");

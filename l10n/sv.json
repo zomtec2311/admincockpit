@@ -168,7 +168,11 @@
         "User activated": "Användaraktiverad",
         "User deactivated": "Användardeaktiverad",
         "Could not change user status": "Kunde inte ändra användarstatus",
-        "Could not load user data": "Kunde inte ladda användardata"
+        "Could not load user data": "Kunde inte ladda användardata",
+        "Could not create new user. Username already exists. Try another one": "Kunde inte skapa nya användare. Användarnamn finns redan. Prova en annan",
+        "Could not edit user. Username already exists. Try another one": "Kan inte redigera användaren. Användarnamn finns redan. Prova en annan",
+        "Error saving user": "Felbesparande användare",
+        "User saved successfully": "Användare sparade framgångsrikt"
     },
     "pluralForm": "nplurals=2; plural=n != 1;"
 }

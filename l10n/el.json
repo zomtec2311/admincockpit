@@ -168,7 +168,11 @@
         "User activated": "Ενεργοποιήθηκε ο χρήστης",
         "User deactivated": "Απενεργοποίηση χρήστη",
         "Could not change user status": "Αδυναμία αλλαγής κατάστασης χρήστη",
-        "Could not load user data": "Αδυναμία φόρτωσης δεδομένων χρήστη"
+        "Could not load user data": "Αδυναμία φόρτωσης δεδομένων χρήστη",
+        "Could not create new user. Username already exists. Try another one": "Αδυναμία δημιουργίας νέου χρήστη. Το όνομα χρήστη υπάρχει ήδη. Δοκίμασε άλλο",
+        "Could not edit user. Username already exists. Try another one": "Αδυναμία επεξεργασίας του χρήστη. Το όνομα χρήστη υπάρχει ήδη. Δοκίμασε άλλο",
+        "Error saving user": "Σφάλμα αποθήκευσης χρήστη",
+        "User saved successfully": "Ο χρήστης αποθηκεύτηκε με επιτυχία"
     },
     "pluralForm": "nplurals=2; plural=n != 1;"
 }

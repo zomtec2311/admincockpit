@@ -163,6 +163,10 @@ OC.L10N.register(
     "User activated": "کاربر فعال فعال",
     "User deactivated": "کاربران غیرفعال شده",
     "Could not change user status": "نمی تواند وضعیت کاربر را تغییر دهد",
-    "Could not load user data": "نمی تواند داده های کاربر را بارگیری کند"
+    "Could not load user data": "نمی تواند داده های کاربر را بارگیری کند",
+    "Could not create new user. Username already exists. Try another one": "نمی تواند کاربر جدیدی ایجاد کند. نام کاربری در حال حاضر وجود دارد. یکی دیگر را امتحان کنید",
+    "Could not edit user. Username already exists. Try another one": "نمی تواند کاربر را ویرایش کند. نام کاربری در حال حاضر وجود دارد. یکی دیگر را امتحان کنید",
+    "Error saving user": "خطای نجات کاربر",
+    "User saved successfully": "کاربر با موفقیت نجات یافت"
 },
 "nplurals=2; plural=n > 1;");

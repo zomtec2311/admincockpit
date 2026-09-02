@@ -165,6 +165,10 @@ OC.L10N.register(
     "User activated": "Utilizator activat",
     "User deactivated": "Utilizator dezactivat",
     "Could not change user status": "Nu s- a putut modifica starea utilizatorului",
-    "Could not load user data": "Nu am putut încărca datele utilizatorului"
+    "Could not load user data": "Nu am putut încărca datele utilizatorului",
+    "Could not create new user. Username already exists. Try another one": "Nu am putut crea utilizator nou. Numele de utilizator există deja. Încearcă altul",
+    "Could not edit user. Username already exists. Try another one": "Nu am putut edita utilizatorul. Numele de utilizator există deja. Încearcă altul",
+    "Error saving user": "Eroare la salvarea utilizatorului",
+    "User saved successfully": "Utilizator salvat cu succes"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2);");

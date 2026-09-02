@@ -169,6 +169,10 @@ OC.L10N.register(
     "User activated": "Bruger aktiveret",
     "User deactivated": "Brugerdeaktiveret",
     "Could not change user status": "Kunne ikke ændre brugerstatus",
-    "Could not load user data": "Kunne ikke indlæse brugerdata"
+    "Could not load user data": "Kunne ikke indlæse brugerdata",
+    "Could not create new user. Username already exists. Try another one": "Kunne ikke oprette ny bruger. Brugernavn findes allerede. Prøv en til",
+    "Could not edit user. Username already exists. Try another one": "Kunne ikke redigere brugeren. Brugernavn findes allerede. Prøv en til",
+    "Error saving user": "Fejl ved at gemme bruger",
+    "User saved successfully": "Bruger gemt med succes"
 },
 "nplurals=2; plural=n != 1;");

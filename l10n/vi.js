@@ -165,6 +165,10 @@ OC.L10N.register(
     "User activated": "Người dùng đã kích hoạt",
     "User deactivated": "Người dùng đã tắt",
     "Could not change user status": "Không thể thay đổi trạng thái người dùng",
-    "Could not load user data": "Không thể nạp dữ liệu người dùng"
+    "Could not load user data": "Không thể nạp dữ liệu người dùng",
+    "Could not create new user. Username already exists. Try another one": "Không thể tạo người dùng mới. Tên người dùng đã có. Thử cái khác đi",
+    "Could not edit user. Username already exists. Try another one": "Không thể sửa đổi người dùng. Tên người dùng đã có. Thử cái khác đi",
+    "Error saving user": "Gặp lỗi khi lưu người dùng",
+    "User saved successfully": "Người dùng đã lưu thành công"
 },
 "nplurals=1; plural=0;");

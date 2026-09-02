@@ -164,7 +164,11 @@
         "User activated": "ເປີດໃຊ້ຜູ້ໃຊ້ແລ້ວ",
         "User deactivated": "ປິດການນຳໃຊ້ຜູ້ໃຊ້ແລ້ວ",
         "Could not change user status": "ບໍ່ສາມາດປ່ຽນສະຖານະຜູ້ໃຊ້ໄດ້",
-        "Could not load user data": "ບໍ່ສາມາດໂຫຼດຂໍ້ມູນຜູ້ໃຊ້ໄດ້"
+        "Could not load user data": "ບໍ່ສາມາດໂຫຼດຂໍ້ມູນຜູ້ໃຊ້ໄດ້",
+        "Could not create new user. Username already exists. Try another one": "ບໍ່ສາມາດສ້າງຜູ້ໃຊ້ໃໝ່ໄດ້. ຊື່ຜູ້ໃຊ້ມີຢູ່ແລ້ວ. ລອງອັນອື່ນ",
+        "Could not edit user. Username already exists. Try another one": "ບໍ່ສາມາດແກ້ໄຂຜູ້ໃຊ້ໄດ້. ຊື່ຜູ້ໃຊ້ມີຢູ່ແລ້ວ. ລອງອັນອື່ນ",
+        "Error saving user": "ເກີດຄວາມຜິດພາດໃນການບັນທຶກຜູ້ໃຊ້",
+        "User saved successfully": "ບັນທຶກຜູ້ໃຊ້ສຳເລັດແລ້ວ"
     },
     "pluralForm": "nplurals=1; plural=0;"
 }

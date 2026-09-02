@@ -169,6 +169,10 @@ OC.L10N.register(
     "User activated": "Erabiltzailea aktibatuta",
     "User deactivated": "Erabiltzailea desaktibatuta",
     "Could not change user status": "Ezin izan da erabiltzailearen egoera aldatu",
-    "Could not load user data": "Ezin izan dira erabiltzailearen datuak kargatu"
+    "Could not load user data": "Ezin izan dira erabiltzailearen datuak kargatu",
+    "Could not create new user. Username already exists. Try another one": "Ezin izan da erabiltzaile berria sortu. Erabiltzaile-izena lehendik ere badago. Saiatu beste batekin",
+    "Could not edit user. Username already exists. Try another one": "Ezin izan da erabiltzailea editatu. Erabiltzaile-izena lehendik ere badago. Saiatu beste batekin",
+    "Error saving user": "Errorea erabiltzailea gordetzean",
+    "User saved successfully": "Erabiltzaileak ongi gorde du"
 },
 "nplurals=2; plural=n != 1;");

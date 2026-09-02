@@ -164,7 +164,11 @@
         "User activated": "Pengguna diaktifkan",
         "User deactivated": "Pengguna dinonaktifkan",
         "Could not change user status": "Tak bisa mengubah status pengguna",
-        "Could not load user data": "Tak bisa memuat data pengguna"
+        "Could not load user data": "Tak bisa memuat data pengguna",
+        "Could not create new user. Username already exists. Try another one": "Tak bisa membuat pengguna baru. Nama pengguna sudah ada. Coba satu lagi",
+        "Could not edit user. Username already exists. Try another one": "Tak bisa menyunting pengguna. Nama pengguna sudah ada. Coba satu lagi",
+        "Error saving user": "Galat saat menyimpan pengguna",
+        "User saved successfully": "Pengguna disimpan dengan sukses"
     },
     "pluralForm": "nplurals=1; plural=0;"
 }

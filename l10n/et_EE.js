@@ -169,6 +169,10 @@ OC.L10N.register(
     "User activated": "Kasutaja aktiveeritud",
     "User deactivated": "Kasutaja deaktiveeritud",
     "Could not change user status": "Kasutaja oleku muutmine nurjus",
-    "Could not load user data": "Kasutaja andmete laadimine nurjus"
+    "Could not load user data": "Kasutaja andmete laadimine nurjus",
+    "Could not create new user. Username already exists. Try another one": "Uue kasutaja loomine nurjus. Kasutajanimi on juba olemas. Proovi veel ühte",
+    "Could not edit user. Username already exists. Try another one": "Kasutaja muutmine nurjus. Kasutajanimi on juba olemas. Proovi veel ühte",
+    "Error saving user": "Viga kasutaja salvestamisel",
+    "User saved successfully": "Kasutaja salvestati edukalt"
 },
 "nplurals=2; plural=n != 1;");
