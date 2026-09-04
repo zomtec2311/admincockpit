@@ -173,6 +173,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "Konnt net neie Benotzer erstellen. Benotzernumm existéiert schonn. Probéiert eng aner",
     "Could not edit user. Username already exists. Try another one": "Konnt de Benotzer net änneren. Benotzernumm existéiert schonn. Probéiert eng aner",
     "Error saving user": "Feeler beim Späicheren vum Benotzer",
-    "User saved successfully": "Benotzer erfollegräich gespäichert"
+    "User saved successfully": "Benotzer erfollegräich gespäichert",
+    "AdminCockpit settings": "AdminCockpit Astellunge",
+    "hide Personal settings": "verstoppen Perséinlech Astellungen",
+    "show Personal settings": "weisen Perséinlech Astellungen",
+    "hide Administration settings": "verstoppen Administratioun Astellungen",
+    "show Administration settings": "weisen Administratioun Astellungen",
+    "User lists settings": "Benotzer Lëscht Astellunge",
+    "How many users should be displayed per page?": "Wéi vill Benotzer solle pro Säit ugewise ginn?",
+    "Group settings": "Grupp Astellunge",
+    "Show groups unfolded or folded up at app start?": "Gruppen ausgeklappt oder opgeklappt um Start vun der App weisen?",
+    "folded": "zesummegeklappt",
+    "unfolded": "ausgeklappt",
+    "Show additional information": "Weisen zousätzlech Informatiounen",
+    "Activate to display additional information": "Aktivéiert fir zousätzlech Informatioun ze weisen",
+    "Do you like AdminCockpit?": "Hutt Dir gär AdminCockpit?",
+    "Show personal settings unfolded or folded up at app start?": "Perséinlech Astellungen ausgeklappt oder opgeklappt beim Start vun der App weisen?",
+    "Show administration settings unfolded or folded up at app start?": "Administratiounsastellungen ausgeklappt oder opgeklappt beim Appstart weisen?"
 },
 "nplurals=2; plural=n != 1;");

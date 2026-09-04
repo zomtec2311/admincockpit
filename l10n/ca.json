@@ -173,7 +173,23 @@
         "Could not create new user. Username already exists. Try another one": "No s' ha pogut crear un usuari nou. El nom d' usuari ja existeix. Proveu- ne una altra",
         "Could not edit user. Username already exists. Try another one": "No s' ha pogut editar l' usuari. El nom d' usuari ja existeix. Proveu- ne una altra",
         "Error saving user": "Error en desar l' usuari",
-        "User saved successfully": "L' usuari s' ha desat correctament"
+        "User saved successfully": "L' usuari s' ha desat correctament",
+        "AdminCockpit settings": "Arranjament de l' administració",
+        "hide Personal settings": "oculta els paràmetres personals",
+        "show Personal settings": "mostra els arranjaments personals",
+        "hide Administration settings": "oculta els arranjaments de l' administració",
+        "show Administration settings": "mostra l' arranjament de l' administració",
+        "User lists settings": "Arranjament de llistes d' usuari",
+        "How many users should be displayed per page?": "Quants usuaris s' han de mostrar per pàgina?",
+        "Group settings": "Arranjaments del grup",
+        "Show groups unfolded or folded up at app start?": "Mostra els grups bloquejats o bloquejats en iniciar l' aplicació?",
+        "folded": "esbiaixat",
+        "unfolded": "explosió",
+        "Show additional information": "Mostra informació addicional",
+        "Activate to display additional information": "Activa per a mostrar informació addicional",
+        "Do you like AdminCockpit?": "T'agrada l' administració?",
+        "Show personal settings unfolded or folded up at app start?": "Mostra els paràmetres personals generats o tancats en iniciar l' aplicació?",
+        "Show administration settings unfolded or folded up at app start?": "Mostra els paràmetres de l' administració es va desplegar o plegat en iniciar l' aplicació?"
     },
     "pluralForm": "nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2);"
 }

@@ -168,7 +168,23 @@
         "Could not create new user. Username already exists. Try another one": "Níorbh fhéidir úsáideoir nua a chruthú. Tá an t-ainm úsáideora ann cheana féin. Bain triail as ceann eile",
         "Could not edit user. Username already exists. Try another one": "Níorbh fhéidir an t-úsáideoir a chur in eagar. Tá an t-ainm úsáideora ann cheana féin. Bain triail as ceann eile",
         "Error saving user": "Earráid agus an t-úsáideoir á shábháil",
-        "User saved successfully": "D'éirigh leis an úsáideoir a shábháil"
+        "User saved successfully": "D'éirigh leis an úsáideoir a shábháil",
+        "AdminCockpit settings": "AdminCockpit settings",
+        "hide Personal settings": "hide Personal settings",
+        "show Personal settings": "show Personal settings",
+        "hide Administration settings": "hide Administration settings",
+        "show Administration settings": "taispeáin socruithe Riaracháin",
+        "User lists settings": "Liostaíonn úsáideoirí socruithe",
+        "How many users should be displayed per page?": "Cé mhéad úsáideoir ba chóir a thaispeáint in aghaidh an leathanaigh?",
+        "Group settings": "Socruithe grúpa",
+        "Show groups unfolded or folded up at app start?": "Taispeáin grúpaí neamhfhillte nó fillte ag tús na haipe?",
+        "folded": "fillte",
+        "unfolded": "neamhfhillte",
+        "Show additional information": "Taispeáin eolas breise",
+        "Activate to display additional information": "Gníomhachtaigh chun faisnéis bhreise a thaispeáint",
+        "Do you like AdminCockpit?": "An maith leat AdminCockpit?",
+        "Show personal settings unfolded or folded up at app start?": "Taispeáin socruithe pearsanta neamhfhillte nó fillte suas ag tús na haipe?",
+        "Show administration settings unfolded or folded up at app start?": "Taispeáin socruithe riaracháin neamhfhillte nó fillte suas ag tús na haipe?"
     },
     "pluralForm": "nplurals=5; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n >= 3 && n <= 6) ? 2 : ((n >= 7 && n <= 10) ? 3 : 4)));"
 }

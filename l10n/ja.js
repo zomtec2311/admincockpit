@@ -169,6 +169,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "新規ユーザーを作成できません。 既に存在するユーザー名。 別のものを試してみる",
     "Could not edit user. Username already exists. Try another one": "ユーザを編集できません。 既に存在するユーザー名。 別のものを試してみる",
     "Error saving user": "エラー保存ユーザ",
-    "User saved successfully": "ユーザーが正常に保存"
+    "User saved successfully": "ユーザーが正常に保存",
+    "AdminCockpit settings": "管理者コックピット設定",
+    "hide Personal settings": "個人設定を隠す",
+    "show Personal settings": "個人設定を表示",
+    "hide Administration settings": "管理設定を隠す",
+    "show Administration settings": "管理設定を表示",
+    "User lists settings": "ユーザーリストの設定",
+    "How many users should be displayed per page?": "1 ページあたり何人のユーザーを表示する必要がありますか?",
+    "Group settings": "グループ設定",
+    "Show groups unfolded or folded up at app start?": "アプリの起動時にグループを展開または折りたたんで表示しますか?",
+    "folded": "折りたたまれた",
+    "unfolded": "unfolded",
+    "Show additional information": "追加情報を表示する",
+    "Activate to display additional information": "アクティブにすると追加情報が表示されます",
+    "Do you like AdminCockpit?": "Do you like AdminCockpit?",
+    "Show personal settings unfolded or folded up at app start?": "アプリの起動時に、個人的な設定が展開されていないか、または折りたたたまれますか?",
+    "Show administration settings unfolded or folded up at app start?": "アプリの起動時に、管理設定が展開されていないか、または折り畳まれているかを表示しますか?"
 },
 "nplurals=1; plural=0;");

@@ -172,7 +172,23 @@
         "Could not create new user. Username already exists. Try another one": "Ne povas krei novan uzanton. Uzantnomo jam ekzistas. Provu unu",
         "Could not edit user. Username already exists. Try another one": "Ne povas redakti uzanton. Uzantnomo jam ekzistas. Provu unu",
         "Error saving user": "Eraro ŝparanta uzanto",
-        "User saved successfully": "La permesilo sukcesis sukcese"
+        "User saved successfully": "La permesilo sukcesis sukcese",
+        "AdminCockpit settings": "AdminCockpit agordoj",
+        "hide Personal settings": "kaŝi personajn agordojn",
+        "show Personal settings": "montri personajn agordojn",
+        "hide Administration settings": "libera Administracio",
+        "show Administration settings": "ĉefa artikolo: Administracio",
+        "User lists settings": "Uzanto listigas agordojn",
+        "How many users should be displayed per page?": "Kiom da uzantoj devas esti elmontritaj per paĝo?",
+        "Group settings": "Grupvaloroj",
+        "Show groups unfolded or folded up at app start?": "Spektaklogrupoj disvolviĝis aŭ faldis ĉe app komenco?",
+        "folded": "faldita",
+        "unfolded": "disvolviĝis",
+        "Show additional information": "Montri pliajn informojn",
+        "Activate to display additional information": "Aktivaĵo por montri kromajn informojn",
+        "Do you like AdminCockpit?": "Ĉu vi ŝatas aldoni?",
+        "Show personal settings unfolded or folded up at app start?": "Montri personajn agordojn disvolviĝis aŭ faldita ĉe app komenco?",
+        "Show administration settings unfolded or folded up at app start?": "Montri administraciovaloroj disvolviĝis aŭ faldis ĉe app komenco?"
     },
     "pluralForm": "nplurals=2; plural=n != 1;"
 }

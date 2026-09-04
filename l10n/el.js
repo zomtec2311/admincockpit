@@ -173,6 +173,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "Αδυναμία δημιουργίας νέου χρήστη. Το όνομα χρήστη υπάρχει ήδη. Δοκίμασε άλλο",
     "Could not edit user. Username already exists. Try another one": "Αδυναμία επεξεργασίας του χρήστη. Το όνομα χρήστη υπάρχει ήδη. Δοκίμασε άλλο",
     "Error saving user": "Σφάλμα αποθήκευσης χρήστη",
-    "User saved successfully": "Ο χρήστης αποθηκεύτηκε με επιτυχία"
+    "User saved successfully": "Ο χρήστης αποθηκεύτηκε με επιτυχία",
+    "AdminCockpit settings": "Settings διαχειριστήCockpit",
+    "hide Personal settings": "απόκρυψη προσωπικών ρυθμίσεων",
+    "show Personal settings": "εμφάνιση προσωπικών ρυθμίσεων",
+    "hide Administration settings": "απόκρυψη ρυθμίσεων διαχείρισης",
+    "show Administration settings": "εμφάνιση ρυθμίσεων διαχείρισης",
+    "User lists settings": "Settings λίστας χρηστών",
+    "How many users should be displayed per page?": "Πόσοι χρήστες πρέπει να εμφανίζονται ανά σελίδα?",
+    "Group settings": "Settings ομάδας",
+    "Show groups unfolded or folded up at app start?": "Εμφάνιση ομάδων που ξεδιπλώνονται ή διπλώνονται κατά την έναρξη της εφαρμογής?",
+    "folded": "διπλωμένα",
+    "unfolded": "ξεδιπλωμένα",
+    "Show additional information": "Εμφάνιση πρόσθετων πληροφοριών",
+    "Activate to display additional information": "Ενεργοποίηση εμφάνισης πρόσθετων πληροφοριών",
+    "Do you like AdminCockpit?": "Σου αρέσει ο Διευθυντής?",
+    "Show personal settings unfolded or folded up at app start?": "Εμφάνιση προσωπικών ρυθμίσεων ξεδιπλωμένων ή διπλωμένων κατά την έναρξη της εφαρμογής?",
+    "Show administration settings unfolded or folded up at app start?": "Εμφάνιση ρυθμίσεων διαχείρισης που ξεδιπλώνονται ή διπλώνονται κατά την έναρξη της εφαρμογής?"
 },
 "nplurals=2; plural=n != 1;");

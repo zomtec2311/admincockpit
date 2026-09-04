@@ -173,6 +173,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "Impossible de créer un nouvel utilisateur. Nom d'utilisateur existe déjà. Essaie un autre",
     "Could not edit user. Username already exists. Try another one": "Impossible de modifier l'utilisateur. Nom d'utilisateur existe déjà. Essaie un autre",
     "Error saving user": "Erreur d'enregistrement de l'utilisateur",
-    "User saved successfully": "L'utilisateur a enregistré avec succès"
+    "User saved successfully": "L'utilisateur a enregistré avec succès",
+    "AdminCockpit settings": "Paramètres AdminCockpit",
+    "hide Personal settings": "masquer les paramètres personnels",
+    "show Personal settings": "afficher les paramètres personnels",
+    "hide Administration settings": "masquer les paramètres d'administration",
+    "show Administration settings": "afficher les paramètres d'administration",
+    "User lists settings": "Paramètres des listes d' utilisateurs",
+    "How many users should be displayed per page?": "Combien d'utilisateurs doivent être affichés par page?",
+    "Group settings": "Paramètres du groupe",
+    "Show groups unfolded or folded up at app start?": "Afficher les groupes dépliés ou repliés au début de l'application?",
+    "folded": "plié",
+    "unfolded": "déplié",
+    "Show additional information": "Afficher les informations supplémentaires",
+    "Activate to display additional information": "Activer pour afficher des informations supplémentaires",
+    "Do you like AdminCockpit?": "Vous aimez AdminCockpit ?",
+    "Show personal settings unfolded or folded up at app start?": "Afficher les paramètres personnels dépliés ou repliés au début de l'application?",
+    "Show administration settings unfolded or folded up at app start?": "Afficher les paramètres d'administration dépliés ou repliés au début de l'application?"
 },
 "nplurals=2; plural=(n != 1);");

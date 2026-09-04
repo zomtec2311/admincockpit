@@ -168,7 +168,23 @@
         "Could not create new user. Username already exists. Try another one": "Не вдалося створити новий користувач. Ім'я користувача вже існує. Спробуйте ще одну",
         "Could not edit user. Username already exists. Try another one": "Не можна редагувати користувача. Ім'я користувача вже існує. Спробуйте ще одну",
         "Error saving user": "Збереження помилок",
-        "User saved successfully": "Збережений користувач"
+        "User saved successfully": "Збережений користувач",
+        "AdminCockpit settings": "Налаштування AdminCockpit",
+        "hide Personal settings": "приховати особисті налаштування",
+        "show Personal settings": "показати особисті налаштування",
+        "hide Administration settings": "приховані налаштування адміністрування",
+        "show Administration settings": "показати налаштування Адміністрації",
+        "User lists settings": "Налаштування списку користувачів",
+        "How many users should be displayed per page?": "Як багато користувачів повинні відображатися на сторінці?",
+        "Group settings": "Налаштування груп",
+        "Show groups unfolded or folded up at app start?": "Показати групи розгортаються або розгортаються на старті програми?",
+        "folded": "згинається",
+        "unfolded": "вся в соку",
+        "Show additional information": "Додаткова інформація",
+        "Activate to display additional information": "Активувати для відображення додаткової інформації",
+        "Do you like AdminCockpit?": "Вам подобається AdminCockpit?",
+        "Show personal settings unfolded or folded up at app start?": "Показати особисті налаштування розгортаються або розгортаються на старті програми?",
+        "Show administration settings unfolded or folded up at app start?": "Показати налаштування адміністрування розгортається або складаний при запуску програми?"
     },
     "pluralForm": "nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);"
 }

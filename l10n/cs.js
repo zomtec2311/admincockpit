@@ -160,6 +160,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "Nelze vytvořit nový uživatel. Uživatelské jméno už existuje. Zkus další",
     "Could not edit user. Username already exists. Try another one": "Nelze upravit uživatele. Uživatelské jméno už existuje. Zkus další",
     "Error saving user": "Chyba při ukládání uživatele",
-    "User saved successfully": "Uživatel úspěšně uložen"
+    "User saved successfully": "Uživatel úspěšně uložen",
+    "AdminCockpit settings": "Aplikovat nastavení kockpit",
+    "hide Personal settings": "skrýt osobní nastavení",
+    "show Personal settings": "zobrazit Osobní nastavení",
+    "hide Administration settings": "skrýt nastavení administrace",
+    "show Administration settings": "zobrazit nastavení administrace",
+    "User lists settings": "Nastavení seznamu uživatelů",
+    "How many users should be displayed per page?": "Kolik uživatelů by mělo být zobrazeno na jedné stránce?",
+    "Group settings": "Nastavení skupiny",
+    "Show groups unfolded or folded up at app start?": "Zobrazovat skupiny rozložené nebo složené při spuštění aplikace?",
+    "folded": "složené",
+    "unfolded": "složené",
+    "Show additional information": "Zobrazit další informace",
+    "Activate to display additional information": "Aktivovat pro zobrazení dalších informací",
+    "Do you like AdminCockpit?": "Máš rád \"Admin Cockpit\"?",
+    "Show personal settings unfolded or folded up at app start?": "Ukázat osobní nastavení rozložené nebo složené při spuštění aplikace?",
+    "Show administration settings unfolded or folded up at app start?": "Zobrazovat nastavení administrativy při spuštění aplikace?"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);");

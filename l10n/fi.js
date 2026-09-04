@@ -173,6 +173,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "Uutta käyttäjää ei voitu luoda. Käyttäjätunnus on jo olemassa. Kokeile toista",
     "Could not edit user. Username already exists. Try another one": "Käyttäjää ei voitu muokata. Käyttäjätunnus on jo olemassa. Kokeile toista",
     "Error saving user": "Virhe tallennettaessa käyttäjää",
-    "User saved successfully": "Käyttäjä tallennettu onnistuneesti"
+    "User saved successfully": "Käyttäjä tallennettu onnistuneesti",
+    "AdminCockpit settings": "Ohjaamon asetukset",
+    "hide Personal settings": "piilota henkilökohtaiset asetukset",
+    "show Personal settings": "näytä henkilökohtaiset asetukset",
+    "hide Administration settings": "piilota hallinnon asetukset",
+    "show Administration settings": "näytä hallinnon asetukset",
+    "User lists settings": "Käyttäjäluetteloiden asetukset",
+    "How many users should be displayed per page?": "Kuinka monta käyttäjää pitäisi näyttää sivulla?",
+    "Group settings": "Ryhmän asetukset",
+    "Show groups unfolded or folded up at app start?": "Näytä ryhmät taitettu ylös sovelluksen alussa?",
+    "folded": "taitettu",
+    "unfolded": "tallennetut",
+    "Show additional information": "Näytä lisätiedot",
+    "Activate to display additional information": "Aktivoi lisätietojen näyttäminen",
+    "Do you like AdminCockpit?": "Pidätkö AdminCockpitista?",
+    "Show personal settings unfolded or folded up at app start?": "Näytä henkilökohtaiset asetukset käännettyinä tai taitettuina sovelluksen alkaessa?",
+    "Show administration settings unfolded or folded up at app start?": "Näytä hallinnon asetukset käännetty tai taitettu ylös sovelluksen alussa?"
 },
 "nplurals=2; plural=n != 1;");

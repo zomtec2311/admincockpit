@@ -169,6 +169,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "Nepavyko sukurti naujo naudotojo. Vartotojo vardas jau yra. Bandykite kitą",
     "Could not edit user. Username already exists. Try another one": "Nepavyko redaguoti naudotojo. Vartotojo vardas jau yra. Bandykite kitą",
     "Error saving user": "Klaida išsaugant naudotoją",
-    "User saved successfully": "Naudotojas išsaugotas sėkmingai"
+    "User saved successfully": "Naudotojas išsaugotas sėkmingai",
+    "AdminCockpit settings": "AdminCockpit nustatymai",
+    "hide Personal settings": "slėpti asmeninius nustatymus",
+    "show Personal settings": "rodyti asmeninius nustatymus",
+    "hide Administration settings": "paslėpti administravimo nustatymus",
+    "show Administration settings": "show Administration settings",
+    "User lists settings": "User lists settings",
+    "How many users should be displayed per page?": "How many users should be displayed per page?",
+    "Group settings": "Grupės nustatymai",
+    "Show groups unfolded or folded up at app start?": "Rodyti grupes išskleistas arba sulankstytas programos paleidimo metu?",
+    "folded": "sulankstytas",
+    "unfolded": "išsiskleidė",
+    "Show additional information": "Rodyti papildomą informaciją",
+    "Activate to display additional information": "Suaktyvinkite, kad būtų rodoma papildoma informacija",
+    "Do you like AdminCockpit?": "Ar jums patinka AdminCockpit?",
+    "Show personal settings unfolded or folded up at app start?": "@ info: whatsthis?",
+    "Show administration settings unfolded or folded up at app start?": "Rodyti administravimo nustatymus atlenktus arba sulankstytus programos pradžioje?"
 },
 "nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);");

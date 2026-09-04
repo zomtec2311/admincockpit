@@ -173,6 +173,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "Kunne ikke opprette ny bruker. Brukernavn eksisterer allerede. Prøv en annen",
     "Could not edit user. Username already exists. Try another one": "Kunne ikke redigere bruker. Brukernavn eksisterer allerede. Prøv en annen",
     "Error saving user": "Feil ved lagring av bruker",
-    "User saved successfully": "Bruker lagret"
+    "User saved successfully": "Bruker lagret",
+    "AdminCockpit settings": "AdminCockpit innstillinger",
+    "hide Personal settings": "skjul personlige innstillinger",
+    "show Personal settings": "vis personlige innstillinger",
+    "hide Administration settings": "skjul administrasjonsinnstillinger",
+    "show Administration settings": "vis administrasjonsinnstillinger",
+    "User lists settings": "Brukerlisteinnstillinger",
+    "How many users should be displayed per page?": "Hvor mange brukere skal vises per side?",
+    "Group settings": "Gruppeinnstillinger",
+    "Show groups unfolded or folded up at app start?": "Vis grupper utviklet eller foldet opp ved appstart?",
+    "folded": "foldet",
+    "unfolded": "utviklet",
+    "Show additional information": "Vis ytterligere informasjon",
+    "Activate to display additional information": "Aktiver for å vise ekstra informasjon",
+    "Do you like AdminCockpit?": "Liker du AdminCockpit?",
+    "Show personal settings unfolded or folded up at app start?": "Vis personlige innstillinger utfoldet eller foldet opp ved appstart?",
+    "Show administration settings unfolded or folded up at app start?": "Vis administrasjonsinnstillinger utfoldes eller foldes opp ved appstart?"
 },
 "nplurals=2; plural=n != 1;");

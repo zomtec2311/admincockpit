@@ -169,6 +169,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "ບໍ່ສາມາດສ້າງຜູ້ໃຊ້ໃໝ່ໄດ້. ຊື່ຜູ້ໃຊ້ມີຢູ່ແລ້ວ. ລອງອັນອື່ນ",
     "Could not edit user. Username already exists. Try another one": "ບໍ່ສາມາດແກ້ໄຂຜູ້ໃຊ້ໄດ້. ຊື່ຜູ້ໃຊ້ມີຢູ່ແລ້ວ. ລອງອັນອື່ນ",
     "Error saving user": "ເກີດຄວາມຜິດພາດໃນການບັນທຶກຜູ້ໃຊ້",
-    "User saved successfully": "ບັນທຶກຜູ້ໃຊ້ສຳເລັດແລ້ວ"
+    "User saved successfully": "ບັນທຶກຜູ້ໃຊ້ສຳເລັດແລ້ວ",
+    "AdminCockpit settings": "ການຕັ້ງຄ່າ AdminCockpit",
+    "hide Personal settings": "ເຊື່ອງການຕັ້ງຄ່າສ່ວນຕົວ",
+    "show Personal settings": "ສະແດງການຕັ້ງຄ່າສ່ວນຕົວ",
+    "hide Administration settings": "ເຊື່ອງການຕັ້ງຄ່າການບໍລິຫານ",
+    "show Administration settings": "ສະແດງການຕັ້ງຄ່າການບໍລິຫານ",
+    "User lists settings": "ການຕັ້ງຄ່າລາຍຊື່ຜູ້ໃຊ້",
+    "How many users should be displayed per page?": "ຜູ້ໃຊ້ຄວນສະແດງຈໍານວນເທົ່າໃດຕໍ່ຫນ້າ?",
+    "Group settings": "ການຕັ້ງຄ່າກຸ່ມ",
+    "Show groups unfolded or folded up at app start?": "ສະແດງກຸ່ມທີ່ເປີດເຜີຍ ຫຼືພັບຂຶ້ນໃນຕອນເລີ່ມຕົ້ນແອັບບໍ?",
+    "folded": "ພັບ",
+    "unfolded": "ເປີດເຜີຍ",
+    "Show additional information": "ສະແດງຂໍ້ມູນເພີ່ມເຕີມ",
+    "Activate to display additional information": "ເປີດໃຊ້ເພື່ອສະແດງຂໍ້ມູນເພີ່ມເຕີມ",
+    "Do you like AdminCockpit?": "ເຈົ້າມັກ AdminCockpit ບໍ?",
+    "Show personal settings unfolded or folded up at app start?": "ສະ​ແດງ​ໃຫ້​ເຫັນ​ການ​ຕັ້ງ​ຄ່າ​ສ່ວນ​ບຸກ​ຄົນ unfolded ຫຼື folded ຂຶ້ນ​ໃນ​ການ​ເລີ່ມ​ຕົ້ນ app ບໍ?",
+    "Show administration settings unfolded or folded up at app start?": "ສະ​ແດງ​ໃຫ້​ເຫັນ​ການ​ຕັ້ງ​ຄ່າ​ການ​ບໍ​ລິ​ຫານ unfolded ຫຼື​ພັບ​ຂຶ້ນ​ໃນ​ການ​ເລີ່ມ​ຕົ້ນ app ບໍ?"
 },
 "nplurals=1; plural=0;");

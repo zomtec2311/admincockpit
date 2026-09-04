@@ -169,6 +169,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "Neizdevās izveidot jaunu lietotāju. Lietotājvārds jau eksistē. Pamēģināt vēl vienu",
     "Could not edit user. Username already exists. Try another one": "Neizdevās rediģēt lietotāju. Lietotājvārds jau eksistē. Pamēģināt vēl vienu",
     "Error saving user": "Kļūda saglabājot lietotāju",
-    "User saved successfully": "Lietotāja veiksmīgi saglabāta"
+    "User saved successfully": "Lietotāja veiksmīgi saglabāta",
+    "AdminCockpit settings": "AdminCockpit iestatījumi",
+    "hide Personal settings": "paslēpt personiskos iestatījumus",
+    "show Personal settings": "parādīt personiskos iestatījumus",
+    "hide Administration settings": "paslēpt administrācijas iestatījumus",
+    "show Administration settings": "parādīt Administrēšanas iestatījumus",
+    "User lists settings": "Lietotājs uzskaita iestatījumus",
+    "How many users should be displayed per page?": "Cik lietotāju ir jāparāda vienā lapā?",
+    "Group settings": "Grupas iestatījumi",
+    "Show groups unfolded or folded up at app start?": "Vai lietotnes sākumā rādīt grupas nesalocītās vai salocītās?",
+    "folded": "salocīts",
+    "unfolded": "atlocīts",
+    "Show additional information": "Rādīt papildu informāciju",
+    "Activate to display additional information": "Aktivizējiet, lai parādītu papildu informāciju",
+    "Do you like AdminCockpit?": "Vai jums patīk AdminCockpit?",
+    "Show personal settings unfolded or folded up at app start?": "Rādīt personiskos iestatījumus, kas atritināti vai salocīti programmas sākumā?",
+    "Show administration settings unfolded or folded up at app start?": "Parādīt administrēšanas iestatījumus nesalocītus vai salocītus programmas sākumā?"
 },
 "nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);");

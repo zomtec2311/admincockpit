@@ -173,6 +173,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "Не може да се создаде нов корисник. Корисничкото име веќе постои. Пробај уште еден",
     "Could not edit user. Username already exists. Try another one": "Не можев да го уредам корисникот. Корисничкото име веќе постои. Пробај уште еден",
     "Error saving user": "Грешка при зачувување на корисникот",
-    "User saved successfully": "Корисникот е успешно зачуван"
+    "User saved successfully": "Корисникот е успешно зачуван",
+    "AdminCockpit settings": "Поставки за AdminCockpit",
+    "hide Personal settings": "скриј Лични поставки",
+    "show Personal settings": "покажете Лични поставки",
+    "hide Administration settings": "скриј ги поставките за администрација",
+    "show Administration settings": "покажете ги поставките за администрација",
+    "User lists settings": "Поставки за списоци на корисници",
+    "How many users should be displayed per page?": "Колку корисници треба да бидат прикажани по страница?",
+    "Group settings": "Групни поставки",
+    "Show groups unfolded or folded up at app start?": "Да се ​​прикажат групите расклопени или преклопени на почетокот на апликацијата?",
+    "folded": "превиткан",
+    "unfolded": "се расплетува",
+    "Show additional information": "Прикажи дополнителни информации",
+    "Activate to display additional information": "Активирајте за да се прикажат дополнителни информации",
+    "Do you like AdminCockpit?": "Дали ви се допаѓа AdminCockpit?",
+    "Show personal settings unfolded or folded up at app start?": "Да се ​​прикажат личните поставки расклопени или преклопени при стартување на апликацијата?",
+    "Show administration settings unfolded or folded up at app start?": "Да се ​​прикажат административните поставки расклопени или преклопени при стартување на апликацијата?"
 },
 "nplurals=2; plural=n % 10 != 1 || n % 100 == 11;");

@@ -168,7 +168,23 @@
         "Could not create new user. Username already exists. Try another one": "Nepodarilo sa vytvoriť nového užívateľa. Užívateľské meno existuje. Skús ďalšiu",
         "Could not edit user. Username already exists. Try another one": "Nepodarilo sa upraviť užívateľa. Užívateľské meno existuje. Skús ďalšiu",
         "Error saving user": "Chyba pri ukladaní užívateľa",
-        "User saved successfully": "Užívateľ úspešne uložený"
+        "User saved successfully": "Užívateľ úspešne uložený",
+        "AdminCockpit settings": "AdminCockpit nastavenia",
+        "hide Personal settings": "skryť Osobné nastavenia",
+        "show Personal settings": "zobraziť Osobné nastavenia",
+        "hide Administration settings": "skryť nastavenia správy",
+        "show Administration settings": "zobraziť nastavenia správy",
+        "User lists settings": "Nastavenie zoznamu užívateľov",
+        "How many users should be displayed per page?": "Koľko používateľov by malo byť zobrazených na stránke?",
+        "Group settings": "Nastavenie skupiny",
+        "Show groups unfolded or folded up at app start?": "Zobraziť skupiny rozložené alebo zložené na začiatku aplikácie?",
+        "folded": "zložené",
+        "unfolded": "nepotiahnuté",
+        "Show additional information": "Zobraziť ďalšie informácie",
+        "Activate to display additional information": "Aktivovať zobrazenie ďalších informácií",
+        "Do you like AdminCockpit?": "Máš rád AdminCockpit?",
+        "Show personal settings unfolded or folded up at app start?": "Zobraziť osobné nastavenia rozložené alebo zložené na začiatku aplikácie?",
+        "Show administration settings unfolded or folded up at app start?": "Zobraziť nastavenia administrácie rozložené alebo zložené na začiatku aplikácie?"
     },
     "pluralForm": "nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);"
 }

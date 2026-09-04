@@ -172,7 +172,23 @@
         "Could not create new user. Username already exists. Try another one": "Ezin izan da erabiltzaile berria sortu. Erabiltzaile-izena lehendik ere badago. Saiatu beste batekin",
         "Could not edit user. Username already exists. Try another one": "Ezin izan da erabiltzailea editatu. Erabiltzaile-izena lehendik ere badago. Saiatu beste batekin",
         "Error saving user": "Errorea erabiltzailea gordetzean",
-        "User saved successfully": "Erabiltzaileak ongi gorde du"
+        "User saved successfully": "Erabiltzaileak ongi gorde du",
+        "AdminCockpit settings": "Administratzailearen ezarpenak",
+        "hide Personal settings": "ezkutatu ezarpen pertsonalak",
+        "show Personal settings": "erakutsi ezarpen pertsonalak",
+        "hide Administration settings": "ezkutatu administrazioaren ezarpenak",
+        "show Administration settings": "erakutsi administrazioaren ezarpenak",
+        "User lists settings": "Erabiltzaile-zerrenden ezarpenak",
+        "How many users should be displayed per page?": "Zenbat erabiltzaile bistaratu behar dira orrialdeko?",
+        "Group settings": "Taldearen ezarpenak",
+        "Show groups unfolded or folded up at app start?": "Erakutsi taldeak zabalduak edo tolestuak aplikazioen hasieran?",
+        "folded": "tolestuta",
+        "unfolded": "zabaldua",
+        "Show additional information": "Erakutsi informazio gehigarria",
+        "Activate to display additional information": "Aktibatu informazio gehigarria bistaratzeko",
+        "Do you like AdminCockpit?": "Gogoko duzu AdminCockpit?",
+        "Show personal settings unfolded or folded up at app start?": "Erakutsi ezarpen pertsonalak zabalduak edo tolestuak aplikazioaren hasieran?",
+        "Show administration settings unfolded or folded up at app start?": "Erakutsi administrazio-ezarpenak zabalduak edo tolestuak aplikazio-hasieran?"
     },
     "pluralForm": "nplurals=2; plural=n != 1;"
 }

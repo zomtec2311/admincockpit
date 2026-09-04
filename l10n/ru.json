@@ -168,7 +168,23 @@
         "Could not create new user. Username already exists. Try another one": "Не удалось создать нового пользователя. Имя пользователя уже существует. Попробуйте другой",
         "Could not edit user. Username already exists. Try another one": "Не удалось отредактировать пользователя. Имя пользователя уже существует. Попробуйте другой",
         "Error saving user": "Ошибка сохранения пользователя",
-        "User saved successfully": "Пользователь успешно спасен"
+        "User saved successfully": "Пользователь успешно спасен",
+        "AdminCockpit settings": "Настройки AdminCockpit",
+        "hide Personal settings": "скрыть личные настройки",
+        "show Personal settings": "показать личные настройки",
+        "hide Administration settings": "скрыть Административные настройки",
+        "show Administration settings": "показать Административные настройки",
+        "User lists settings": "Настройки списков пользователей",
+        "How many users should be displayed per page?": "Сколько пользователей должно отображаться на странице?",
+        "Group settings": "Группы настроек",
+        "Show groups unfolded or folded up at app start?": "Показать группы развернуты или сложены в начале приложения?",
+        "folded": "сложенный",
+        "unfolded": "развернутый",
+        "Show additional information": "Показать дополнительную информацию",
+        "Activate to display additional information": "Активировать для отображения дополнительной информации",
+        "Do you like AdminCockpit?": "Вам нравится AdminCockpit?",
+        "Show personal settings unfolded or folded up at app start?": "Показать личные настройки, развернутые или сложенные в начале приложения?",
+        "Show administration settings unfolded or folded up at app start?": "Показать настройки администрирования развернутые или сложенные в начале приложения?"
     },
     "pluralForm": "nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);"
 }

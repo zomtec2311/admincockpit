@@ -168,7 +168,23 @@
         "Could not create new user. Username already exists. Try another one": "Tak bisa membuat pengguna baru. Nama pengguna sudah ada. Coba satu lagi",
         "Could not edit user. Username already exists. Try another one": "Tak bisa menyunting pengguna. Nama pengguna sudah ada. Coba satu lagi",
         "Error saving user": "Galat saat menyimpan pengguna",
-        "User saved successfully": "Pengguna disimpan dengan sukses"
+        "User saved successfully": "Pengguna disimpan dengan sukses",
+        "AdminCockpit settings": "Pengaturan AdminCockpit",
+        "hide Personal settings": "hide Personal settings",
+        "show Personal settings": "show Personal settings",
+        "hide Administration settings": "sembunyikan pengaturan Administrasi",
+        "show Administration settings": "tampilkan pengaturan Administrasi",
+        "User lists settings": "Pengaturan daftar pengguna",
+        "How many users should be displayed per page?": "How many users should be displayed per page?",
+        "Group settings": "Group settings",
+        "Show groups unfolded or folded up at app start?": "Show groups unfolded or folded up at app start?",
+        "folded": "folded",
+        "unfolded": "unfolded",
+        "Show additional information": "Show additional information",
+        "Activate to display additional information": "Aktifkan untuk menampilkan informasi tambahan",
+        "Do you like AdminCockpit?": "Apakah Anda suka AdminCockpit?",
+        "Show personal settings unfolded or folded up at app start?": "Tampilkan pengaturan pribadi membuka atau melipat di awal aplikasi?",
+        "Show administration settings unfolded or folded up at app start?": "Tampilkan pengaturan administrasi membuka atau melipat saat aplikasi dimulai?"
     },
     "pluralForm": "nplurals=1; plural=0;"
 }

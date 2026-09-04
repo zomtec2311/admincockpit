@@ -173,6 +173,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "Yeni istifadəçi yaratmaq. Username artıq mövcuddur. digər bir",
     "Could not edit user. Username already exists. Try another one": "İstifadəçiyi redaktor edə bilər. Username artıq mövcuddur. digər bir",
     "Error saving user": "Yadda saxla",
-    "User saved successfully": "İstifadəçi uğurla"
+    "User saved successfully": "İstifadəçi uğurla",
+    "AdminCockpit settings": "AdminCockpit ayarları",
+    "hide Personal settings": "daxil ol",
+    "show Personal settings": "qeydiyyat",
+    "hide Administration settings": "i̇darəetmə avadanlığı",
+    "show Administration settings": "show  Administration",
+    "User lists settings": "Daxil ol",
+    "How many users should be displayed per page?": "Bakıda bir çox istifadəçi göstərilir?",
+    "Group settings": "Qalereya",
+    "Show groups unfolded or folded up at app start?": "Proqram başlayır?",
+    "folded": "kateqoriya",
+    "unfolded": "inkişaf",
+    "Show additional information": "Əlavə məlumat",
+    "Activate to display additional information": "Əlavə məlumatı göstərmək üçün aktivləşdirin",
+    "Do you like AdminCockpit?": "AdminCockpit xoşunuza gəlirmi?",
+    "Show personal settings unfolded or folded up at app start?": "Proqram başlayır?",
+    "Show administration settings unfolded or folded up at app start?": "Proqramın başlanğıcında istifadə olunmuş və ya qalınlaşdırılmışdır?"
 },
 "nplurals=2; plural=n != 1;");

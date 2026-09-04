@@ -167,7 +167,23 @@
         "Could not create new user. Username already exists. Try another one": "يېڭى ئىشلەتكۈچى قۇرالمىدى. ئىشلەتكۈچى ئىسمى ئاللىبۇرۇن مەۋجۇت. باشقا بىرىنى سىناپ بېقىڭ",
         "Could not edit user. Username already exists. Try another one": "ئىشلەتكۈچىنى تەھرىرلىيەلمىدى. ئىشلەتكۈچى ئىسمى ئاللىبۇرۇن مەۋجۇت. باشقا بىرىنى سىناپ بېقىڭ",
         "Error saving user": "ئىشلەتكۈچىنى ساقلاشتا خاتالىق",
-        "User saved successfully": "ئىشلەتكۈچى مۇۋەپپەقىيەتلىك ساقلاندى"
+        "User saved successfully": "ئىشلەتكۈچى مۇۋەپپەقىيەتلىك ساقلاندى",
+        "AdminCockpit settings": "AdminCockpit تەڭشىكى",
+        "hide Personal settings": "شەخسىي تەڭشەكلەرنى يوشۇرۇش",
+        "show Personal settings": "شەخسىي تەڭشەكلەرنى كۆرسەت",
+        "hide Administration settings": "باشقۇرۇش تەڭشەكلىرىنى يوشۇرۇش",
+        "show Administration settings": "show Administration settings",
+        "User lists settings": "User lists settings",
+        "How many users should be displayed per page?": "How many users should be displayed per page?",
+        "Group settings": "Group settings",
+        "Show groups unfolded or folded up at app start?": "Show groups unfolded or folded up at app start?",
+        "folded": "folded",
+        "unfolded": "ئېچىلدى",
+        "Show additional information": "Show additional information",
+        "Activate to display additional information": "Activate to display additional information",
+        "Do you like AdminCockpit?": "Do you like AdminCockpit?",
+        "Show personal settings unfolded or folded up at app start?": "ئەپ باشلانغاندا ئېچىلغان ياكى قاتلانغان شەخسىي تەڭشەكلەرنى كۆرسىتەمسىز؟",
+        "Show administration settings unfolded or folded up at app start?": "پروگرامما باشلىغاندا ئېچىلغان ياكى قاتلانغان باشقۇرۇش تەڭشەكلىرىنى كۆرسىتىڭ؟"
     },
     "pluralForm": "nplurals=2; plural=n != 1;"
 }

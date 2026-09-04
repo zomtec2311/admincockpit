@@ -167,7 +167,23 @@
         "Could not create new user. Username already exists. Try another one": "لا يمكن خلق مستعمل جديد. اسم المستخدم موجود بالفعل جرب واحدة أخرى",
         "Could not edit user. Username already exists. Try another one": "لا يمكن تحرير المستخدم. اسم المستخدم موجود بالفعل جرب واحدة أخرى",
         "Error saving user": "إنقاذ المستعمل",
-        "User saved successfully": "المستعمل أنقذ بنجاح"
+        "User saved successfully": "المستعمل أنقذ بنجاح",
+        "AdminCockpit settings": "الأماكن المخصصة",
+        "hide Personal settings": "إخفاء الأماكن الشخصية",
+        "show Personal settings": "البيئات الشخصية",
+        "hide Administration settings": "إخفاء أماكن الإدارة",
+        "show Administration settings": "البيئات الإدارية",
+        "User lists settings": "قوائم المستخدمين",
+        "How many users should be displayed per page?": "كم عدد المستخدمين الذين ينبغي عرضهم في كل صفحة؟?",
+        "Group settings": "مجموعات",
+        "Show groups unfolded or folded up at app start?": "تظهر مجموعات مطوية أو مطوية في بداية التطبيق؟?",
+        "folded": "مطوية",
+        "unfolded": "مطوية",
+        "Show additional information": "معلومات إضافية",
+        "Activate to display additional information": "تفعيل تقديم معلومات إضافية",
+        "Do you like AdminCockpit?": "هل تحب (أدمين كوبيت)؟?",
+        "Show personal settings unfolded or folded up at app start?": "تظهر الظروف الشخصية أو مطوية في بداية التطبيق؟?",
+        "Show administration settings unfolded or folded up at app start?": "إدارة العرض تتكشف أو تطوّر في بداية التطبيق؟?"
     },
     "pluralForm": "nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));"
 }

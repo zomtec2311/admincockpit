@@ -172,7 +172,23 @@
         "Could not create new user. Username already exists. Try another one": "নতুন ব্যবহারকারী নির্মাণ করতে ব্যর্থ। ব্যবহারকারীর নাম বর্তমানে উপস্থিত রয়েছে। অন্য একটি চেষ্টা করো",
         "Could not edit user. Username already exists. Try another one": "ব্যবহারকারীর নাম পরিবর্তন করা যায়নি। ব্যবহারকারীর নাম বর্তমানে উপস্থিত রয়েছে। অন্য একটি চেষ্টা করো",
         "Error saving user": "ব্যবহারকারী সংরক্ষণ করতে সমস্যা",
-        "User saved successfully": "সাফল্যের সাথে ব্যবহারকারী দ্বারা সংরক্ষিত হয়েছে"
+        "User saved successfully": "সাফল্যের সাথে ব্যবহারকারী দ্বারা সংরক্ষিত হয়েছে",
+        "AdminCockpit settings": "অ্যাডমিন ককপিট সেটিংস",
+        "hide Personal settings": "ব্যক্তিগত সেটিংস লুকান",
+        "show Personal settings": "ব্যক্তিগত সেটিংস দেখান",
+        "hide Administration settings": "প্রশাসন সেটিংস লুকান",
+        "show Administration settings": "অ্যাডমিনিস্ট্রেশন সেটিংস দেখান",
+        "User lists settings": "ব্যবহারকারীর তালিকা সেটিংস",
+        "How many users should be displayed per page?": "প্রতি পৃষ্ঠায় কতজন ব্যবহারকারীকে প্রদর্শন করা উচিত?",
+        "Group settings": "গ্রুপ সেটিংস",
+        "Show groups unfolded or folded up at app start?": "অ্যাপের শুরুতে খোলা বা ভাঁজ করা গোষ্ঠীগুলি দেখান?",
+        "folded": "ভাঁজ",
+        "unfolded": "উদ্ভাসিত",
+        "Show additional information": "অতিরিক্ত তথ্য দেখান",
+        "Activate to display additional information": "অতিরিক্ত তথ্য প্রদর্শন করতে সক্রিয় করুন",
+        "Do you like AdminCockpit?": "Do you like AdminCockpit?",
+        "Show personal settings unfolded or folded up at app start?": "অ্যাপ্লিকেশন আরম্ভকালে কি ব্যাক- এন্ড করা হবে না?",
+        "Show administration settings unfolded or folded up at app start?": "নতুন বৈশিষ্ট্য আরম্ভ করার সময় প্রশাসনিক বৈশিষ্ট্য পুনরায় স্থাপিত হবে কি?"
     },
     "pluralForm": "nplurals=2; plural=n > 1;"
 }

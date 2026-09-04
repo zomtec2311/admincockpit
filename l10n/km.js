@@ -169,6 +169,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "មិនអាចបង្កើតអ្នកប្រើប្រាស់ថ្មីបានទេ។ ឈ្មោះអ្នកប្រើប្រាស់មានរួចហើយ។ សាកល្បងមួយផ្សេងទៀត",
     "Could not edit user. Username already exists. Try another one": "មិនអាចកែសម្រួលអ្នកប្រើប្រាស់បានទេ។ ឈ្មោះអ្នកប្រើប្រាស់មានរួចហើយ។ សាកល្បងមួយផ្សេងទៀត",
     "Error saving user": "កំហុសក្នុងការរក្សាទុកអ្នកប្រើប្រាស់",
-    "User saved successfully": "អ្នកប្រើប្រាស់បានរក្សាទុកដោយជោគជ័យ"
+    "User saved successfully": "អ្នកប្រើប្រាស់បានរក្សាទុកដោយជោគជ័យ",
+    "AdminCockpit settings": "AdminCockpit settings",
+    "hide Personal settings": "hide Personal settings",
+    "show Personal settings": "បង្ហាញការកំណត់ផ្ទាល់ខ្លួន",
+    "hide Administration settings": "លាក់ការកំណត់រដ្ឋបាល",
+    "show Administration settings": "show Administration settings",
+    "User lists settings": "ការកំណត់បញ្ជីអ្នកប្រើប្រាស់",
+    "How many users should be displayed per page?": "How many users should be displayed per page?",
+    "Group settings": "ការកំណត់ក្រុម",
+    "Show groups unfolded or folded up at app start?": "បង្ហាញក្រុមដែលលាតត្រដាង ឬបត់ឡើងនៅពេលចាប់ផ្តើមកម្មវិធី?",
+    "folded": "បត់",
+    "unfolded": "លាតត្រដាង",
+    "Show additional information": "បង្ហាញព័ត៌មានបន្ថែម",
+    "Activate to display additional information": "បើកដំណើរការដើម្បីបង្ហាញព័ត៌មានបន្ថែម",
+    "Do you like AdminCockpit?": "តើអ្នកចូលចិត្ត AdminCockpit ទេ?",
+    "Show personal settings unfolded or folded up at app start?": "បង្ហាញការកំណត់ផ្ទាល់ខ្លួនដែលលាតត្រដាង ឬបត់ឡើងនៅពេលចាប់ផ្តើមកម្មវិធី?",
+    "Show administration settings unfolded or folded up at app start?": "បង្ហាញការកំណត់ការគ្រប់គ្រងដែលលាតត្រដាង ឬបត់ឡើងនៅពេលចាប់ផ្តើមកម្មវិធី?"
 },
 "nplurals=1; plural=0;");

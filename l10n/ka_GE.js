@@ -173,6 +173,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "ახალი მომხმარებლის შექმნა ვერ მოხერხდა. მომხმარებლის სახელი უკვე არსებობს. სცადე სხვა",
     "Could not edit user. Username already exists. Try another one": "მომხმარებლის რედაქტირება ვერ მოხერხდა. მომხმარებლის სახელი უკვე არსებობს. სცადე სხვა",
     "Error saving user": "შეცდომა მომხმარებლის შენახვისას",
-    "User saved successfully": "მომხმარებელი წარმატებით შენახულია"
+    "User saved successfully": "მომხმარებელი წარმატებით შენახულია",
+    "AdminCockpit settings": "AdminCockpit settings",
+    "hide Personal settings": "hide Personal settings",
+    "show Personal settings": "show Personal settings",
+    "hide Administration settings": "hide Administration settings",
+    "show Administration settings": "show Administration settings",
+    "User lists settings": "User lists settings",
+    "How many users should be displayed per page?": "How many users should be displayed per page?",
+    "Group settings": "Group settings",
+    "Show groups unfolded or folded up at app start?": "Show groups unfolded or folded up at app start?",
+    "folded": "დაკეცილი",
+    "unfolded": "unfolded",
+    "Show additional information": "დამატებითი ინფორმაციის ჩვენება",
+    "Activate to display additional information": "გააქტიურეთ დამატებითი ინფორმაციის ჩვენება",
+    "Do you like AdminCockpit?": "Do you like AdminCockpit?",
+    "Show personal settings unfolded or folded up at app start?": "აჩვენოთ გაშლილი ან დაკეცილი პირადი პარამეტრები აპის დაწყებისას?",
+    "Show administration settings unfolded or folded up at app start?": "აჩვენოთ ადმინისტრაციის პარამეტრები გაშლილი ან დაკეცილი აპის დაწყებისას?"
 },
 "nplurals=2; plural=n != 1;");

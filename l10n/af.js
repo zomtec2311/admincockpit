@@ -173,6 +173,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "Kon nie nuwe gebruiker skep nie. Gebruikersnaam bestaan ​​reeds. Probeer 'n ander een",
     "Could not edit user. Username already exists. Try another one": "Kon nie gebruiker wysig nie. Gebruikersnaam bestaan ​​reeds. Probeer 'n ander een",
     "Error saving user": "Kon nie gebruiker stoor nie",
-    "User saved successfully": "Gebruiker is suksesvol gestoor"
+    "User saved successfully": "Gebruiker is suksesvol gestoor",
+    "AdminCockpit settings": "AdminCockpit instellings",
+    "hide Personal settings": "versteek persoonlike instellings",
+    "show Personal settings": "wys persoonlike instellings",
+    "hide Administration settings": "versteek administrasie-instellings",
+    "show Administration settings": "wys Administrasie-instellings",
+    "User lists settings": "Gebruiker lys instellings",
+    "How many users should be displayed per page?": "Hoeveel gebruikers moet per bladsy vertoon word?",
+    "Group settings": "Groepinstellings",
+    "Show groups unfolded or folded up at app start?": "Wys groepe ontvou of opgevou by die begin van die program?",
+    "folded": "gevou",
+    "unfolded": "ontvou",
+    "Show additional information": "Wys bykomende inligting",
+    "Activate to display additional information": "Aktiveer om bykomende inligting te vertoon",
+    "Do you like AdminCockpit?": "Hou jy van AdminCockpit?",
+    "Show personal settings unfolded or folded up at app start?": "Wys persoonlike instellings oopgevou of opgevou wanneer die program begin?",
+    "Show administration settings unfolded or folded up at app start?": "Wys administrasie-instellings ontvou of opgevou by die begin van die toepassing?"
 },
 "nplurals=2; plural=n != 1;");

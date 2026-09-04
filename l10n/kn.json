@@ -172,7 +172,23 @@
         "Could not create new user. Username already exists. Try another one": "ಹೊಸ ಬಳಕೆದಾರರನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಬಳಕೆದಾರಹೆಸರು ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ. ಇನ್ನೊಂದನ್ನು ಪ್ರಯತ್ನಿಸಿ",
         "Could not edit user. Username already exists. Try another one": "ಬಳಕೆದಾರರನ್ನು ಸಂಪಾದಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಬಳಕೆದಾರಹೆಸರು ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ. ಇನ್ನೊಂದನ್ನು ಪ್ರಯತ್ನಿಸಿ",
         "Error saving user": "ಬಳಕೆದಾರರನ್ನು ಉಳಿಸುವಲ್ಲಿ ದೋಷ",
-        "User saved successfully": "ಬಳಕೆದಾರರನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ"
+        "User saved successfully": "ಬಳಕೆದಾರರನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ",
+        "AdminCockpit settings": "ನಿರ್ವಾಹಕ ಕಾಕ್‌ಪಿಟ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+        "hide Personal settings": "ವೈಯಕ್ತಿಕ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಮರೆಮಾಡಿ",
+        "show Personal settings": "ವೈಯಕ್ತಿಕ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೋರಿಸಿ",
+        "hide Administration settings": "ಆಡಳಿತ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಮರೆಮಾಡಿ",
+        "show Administration settings": "show Administration settings",
+        "User lists settings": "ಬಳಕೆದಾರರ ಪಟ್ಟಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+        "How many users should be displayed per page?": "ಪ್ರತಿ ಪುಟಕ್ಕೆ ಎಷ್ಟು ಬಳಕೆದಾರರನ್ನು ಪ್ರದರ್ಶಿಸಬೇಕು?",
+        "Group settings": "Group settings",
+        "Show groups unfolded or folded up at app start?": "Show groups unfolded or folded up at app start?",
+        "folded": "folded",
+        "unfolded": "ಬಿಚ್ಚಿಟ್ಟರು",
+        "Show additional information": "Show additional information",
+        "Activate to display additional information": "Activate to display additional information",
+        "Do you like AdminCockpit?": "Do you like AdminCockpit?",
+        "Show personal settings unfolded or folded up at app start?": "ಅಪ್ಲಿಕೇಶನ್ ಪ್ರಾರಂಭದಲ್ಲಿ ವೈಯಕ್ತಿಕ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆದುಕೊಳ್ಳಲಾಗಿದೆ ಅಥವಾ ಮಡಚಿರುವುದನ್ನು ತೋರಿಸುವುದೇ?",
+        "Show administration settings unfolded or folded up at app start?": "ಅಪ್ಲಿಕೇಶನ್ ಪ್ರಾರಂಭದಲ್ಲಿ ಅಡ್ಮಿನಿಸ್ಟ್ರೇಷನ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ತೆರೆದಿವೆ ಅಥವಾ ಮುಚ್ಚಿಹೋಗಿವೆ ಎಂಬುದನ್ನು ತೋರಿಸುವುದೇ?"
     },
     "pluralForm": "nplurals=2; plural=n > 1;"
 }

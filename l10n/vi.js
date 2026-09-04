@@ -169,6 +169,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "Không thể tạo người dùng mới. Tên người dùng đã có. Thử cái khác đi",
     "Could not edit user. Username already exists. Try another one": "Không thể sửa đổi người dùng. Tên người dùng đã có. Thử cái khác đi",
     "Error saving user": "Gặp lỗi khi lưu người dùng",
-    "User saved successfully": "Người dùng đã lưu thành công"
+    "User saved successfully": "Người dùng đã lưu thành công",
+    "AdminCockpit settings": "Cài đặt buồng lái quản trị",
+    "hide Personal settings": "hide Personal settings",
+    "show Personal settings": "hiển thị Cài đặt cá nhân",
+    "hide Administration settings": "ẩn cài đặt Quản trị",
+    "show Administration settings": "hiển thị cài đặt Quản trị",
+    "User lists settings": "Cài đặt danh sách người dùng",
+    "How many users should be displayed per page?": "Có bao nhiêu người dùng sẽ được hiển thị trên mỗi trang?",
+    "Group settings": "Cài đặt nhóm",
+    "Show groups unfolded or folded up at app start?": "Hiển thị các nhóm được mở ra hoặc gấp lại khi bắt đầu ứng dụng?",
+    "folded": "gấp lại",
+    "unfolded": "unfolded",
+    "Show additional information": "Show additional information",
+    "Activate to display additional information": "Kích hoạt để hiển thị thông tin bổ sung",
+    "Do you like AdminCockpit?": "Bạn có thích AdminCockpit không?",
+    "Show personal settings unfolded or folded up at app start?": "Hiển thị các thiết lập cá nhân mở ra hay gấp lại khi chạy ứng dụng?",
+    "Show administration settings unfolded or folded up at app start?": "Hiển thị các thiết lập quản lý mở ra hay gấp lại khi khởi động ứng dụng?"
 },
 "nplurals=1; plural=0;");

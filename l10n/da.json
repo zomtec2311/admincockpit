@@ -172,7 +172,23 @@
         "Could not create new user. Username already exists. Try another one": "Kunne ikke oprette ny bruger. Brugernavn findes allerede. Prøv en til",
         "Could not edit user. Username already exists. Try another one": "Kunne ikke redigere brugeren. Brugernavn findes allerede. Prøv en til",
         "Error saving user": "Fejl ved at gemme bruger",
-        "User saved successfully": "Bruger gemt med succes"
+        "User saved successfully": "Bruger gemt med succes",
+        "AdminCockpit settings": "Indtag Cockpit indstillinger",
+        "hide Personal settings": "skjul personlige indstillinger",
+        "show Personal settings": "vis personlige indstillinger",
+        "hide Administration settings": "skjul administrationsindstillinger",
+        "show Administration settings": "vis administrationsindstillinger",
+        "User lists settings": "Brugerlisteindstillinger",
+        "How many users should be displayed per page?": "Hvor mange brugere skal vises pr. side?",
+        "Group settings": "Gruppeindstillinger",
+        "Show groups unfolded or folded up at app start?": "Vis grupper udfoldet eller foldet op ved app start?",
+        "folded": "foldet",
+        "unfolded": "ufoldet",
+        "Show additional information": "Vis yderligere oplysninger",
+        "Activate to display additional information": "Aktivér for at vise yderligere oplysninger",
+        "Do you like AdminCockpit?": "Kan du lide AdminCockpit?",
+        "Show personal settings unfolded or folded up at app start?": "Vis personlige indstillinger udfoldet eller foldet op ved app start?",
+        "Show administration settings unfolded or folded up at app start?": "Vis administrationsindstillingerne udfoldet eller foldet op ved app start?"
     },
     "pluralForm": "nplurals=2; plural=n != 1;"
 }

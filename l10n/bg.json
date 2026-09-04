@@ -172,7 +172,23 @@
         "Could not create new user. Username already exists. Try another one": "Грешка при създаване на нов потребител. Потребителското име вече съществува. Опитай с друг",
         "Could not edit user. Username already exists. Try another one": "Потребителят не може да бъде редактиран Потребителското име вече съществува. Опитай с друг",
         "Error saving user": "Грешка при запис на потребител",
-        "User saved successfully": "Потребителят е записал успешно"
+        "User saved successfully": "Потребителят е записал успешно",
+        "AdminCockpit settings": "Настройки на AdminCockpit",
+        "hide Personal settings": "скриване на лични настройки",
+        "show Personal settings": "показване на лични настройки",
+        "hide Administration settings": "скриване на настройките на администрацията",
+        "show Administration settings": "показва настройките на администрацията",
+        "User lists settings": "Настройки на потребителските списъци",
+        "How many users should be displayed per page?": "Колко потребители трябва да бъдат показани на страница?",
+        "Group settings": "Настройки на групата",
+        "Show groups unfolded or folded up at app start?": "Показване на групи разгънати или сгънати в началото на приложението?",
+        "folded": "сгънати",
+        "unfolded": "разгънати",
+        "Show additional information": "Показване на допълнителна информация",
+        "Activate to display additional information": "Активиране за показване на допълнителна информация",
+        "Do you like AdminCockpit?": "Харесваш ли AdminCockpit?",
+        "Show personal settings unfolded or folded up at app start?": "Показване на лични настройки разгънати или сгънати в началото на приложението?",
+        "Show administration settings unfolded or folded up at app start?": "Показване на настройките на администрацията разгънати или сгънати при стартиране на приложението?"
     },
     "pluralForm": "nplurals=2; plural=n != 1;"
 }

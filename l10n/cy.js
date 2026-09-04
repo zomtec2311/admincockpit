@@ -169,6 +169,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "Methu creu defnyddiwr newydd. Mae enw defnyddiwr eisoes yn bodoli. Rhowch gynnig ar un arall",
     "Could not edit user. Username already exists. Try another one": "Methu golygu defnyddiwr. Mae enw defnyddiwr eisoes yn bodoli. Rhowch gynnig ar un arall",
     "Error saving user": "Gwall wrth gadw'r defnyddiwr",
-    "User saved successfully": "Defnyddiwr wedi'i gadw'n llwyddiannus"
+    "User saved successfully": "Defnyddiwr wedi'i gadw'n llwyddiannus",
+    "AdminCockpit settings": "Gosodiadau AdminCockpit",
+    "hide Personal settings": "cuddio Gosodiadau personol",
+    "show Personal settings": "dangos gosodiadau personol",
+    "hide Administration settings": "cuddio gosodiadau Gweinyddu",
+    "show Administration settings": "dangos gosodiadau Gweinyddu",
+    "User lists settings": "Defnyddiwr yn rhestru gosodiadau",
+    "How many users should be displayed per page?": "How many users should be displayed per page?",
+    "Group settings": "Group settings",
+    "Show groups unfolded or folded up at app start?": "Show groups unfolded or folded up at app start?",
+    "folded": "folded",
+    "unfolded": "unfolded",
+    "Show additional information": "Dangos gwybodaeth ychwanegol",
+    "Activate to display additional information": "Activate to display additional information",
+    "Do you like AdminCockpit?": "Do you like AdminCockpit?",
+    "Show personal settings unfolded or folded up at app start?": "Dangos gosodiadau personol heb eu plygu neu eu plygu ar ddechrau'r ap?",
+    "Show administration settings unfolded or folded up at app start?": "Dangos gosodiadau gweinyddol heb eu plygu neu eu plygu ar ddechrau'r ap?"
 },
 "nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));");

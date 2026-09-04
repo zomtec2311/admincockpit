@@ -173,6 +173,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "Uue kasutaja loomine nurjus. Kasutajanimi on juba olemas. Proovi veel ühte",
     "Could not edit user. Username already exists. Try another one": "Kasutaja muutmine nurjus. Kasutajanimi on juba olemas. Proovi veel ühte",
     "Error saving user": "Viga kasutaja salvestamisel",
-    "User saved successfully": "Kasutaja salvestati edukalt"
+    "User saved successfully": "Kasutaja salvestati edukalt",
+    "AdminCockpit settings": "AdminCockpit settings",
+    "hide Personal settings": "peida isiklikud sätted",
+    "show Personal settings": "kuva isiklikud seaded",
+    "hide Administration settings": "peida haldusseaded",
+    "show Administration settings": "kuva Haldusseaded",
+    "User lists settings": "Kasutaja loetleb seaded",
+    "How many users should be displayed per page?": "Mitu kasutajat peaks ühel lehel kuvama?",
+    "Group settings": "Grupi seaded",
+    "Show groups unfolded or folded up at app start?": "Kas kuvada rühmad rakenduse käivitamisel lahti või kokkuvoldituna?",
+    "folded": "volditud",
+    "unfolded": "lahtivolditud",
+    "Show additional information": "Näita lisateavet",
+    "Activate to display additional information": "Lisateabe kuvamiseks aktiveerige",
+    "Do you like AdminCockpit?": "Kas teile meeldib AdminCockpit?",
+    "Show personal settings unfolded or folded up at app start?": "Kas näidata rakenduse käivitamisel isiklikke seadeid lahti või kokku voldituna?",
+    "Show administration settings unfolded or folded up at app start?": "Kas näidata rakenduse käivitamisel lahti volditud või kokku volditud administreerimise seadistusi?"
 },
 "nplurals=2; plural=n != 1;");

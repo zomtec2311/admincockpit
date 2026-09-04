@@ -172,7 +172,23 @@
         "Could not create new user. Username already exists. Try another one": "Шинэ хэрэглэгч үүсгэж чадсангүй. Хэрэглэгчийн нэр аль хэдийн байна. Өөр нэгийг оролдоно уу",
         "Could not edit user. Username already exists. Try another one": "Хэрэглэгчийг засаж чадсангүй. Хэрэглэгчийн нэр аль хэдийн байна. Өөр нэгийг оролдоно уу",
         "Error saving user": "Хэрэглэгчийг хадгалахад алдаа гарлаа",
-        "User saved successfully": "Хэрэглэгч амжилттай хадгалагдсан"
+        "User saved successfully": "Хэрэглэгч амжилттай хадгалагдсан",
+        "AdminCockpit settings": "AdminCockpit тохиргоо",
+        "hide Personal settings": "Хувийн тохиргоог нуух",
+        "show Personal settings": "Хувийн тохиргоог харуулах",
+        "hide Administration settings": "Удирдлагын тохиргоог нуух",
+        "show Administration settings": "Удирдлагын тохиргоог харуулах",
+        "User lists settings": "Хэрэглэгч тохиргооны жагсаалтыг гаргадаг",
+        "How many users should be displayed per page?": "Нэг хуудсанд хэдэн хэрэглэгч харуулах ёстой вэ?",
+        "Group settings": "Бүлгийн тохиргоо",
+        "Show groups unfolded or folded up at app start?": "Апп эхлэхэд бүлгүүдийг задалсан эсвэл эвхсэн байдлаар харуулах уу?",
+        "folded": "атираат",
+        "unfolded": "дэлгэгдсэн",
+        "Show additional information": "Нэмэлт мэдээллийг харуулах",
+        "Activate to display additional information": "Нэмэлт мэдээллийг харуулахын тулд идэвхжүүлнэ үү",
+        "Do you like AdminCockpit?": "Та AdminCockpit-д дуртай юу?",
+        "Show personal settings unfolded or folded up at app start?": "Апп эхлэхэд хувийн тохиргоог задалсан эсвэл эвхсэн байдлаар харуулах уу?",
+        "Show administration settings unfolded or folded up at app start?": "Апп эхлүүлэх үед удирдлагын тохиргоог задалсан эсвэл эвхсэн байдлаар харуулах уу?"
     },
     "pluralForm": "nplurals=2; plural=n != 1;"
 }

@@ -147,7 +147,23 @@
         "Could not create new user. Username already exists. Try another one": "Não foi possível criar um novo usuário. O utilizador já existe. Tenta outro",
         "Could not edit user. Username already exists. Try another one": "Não foi possível editar o usuário. O utilizador já existe. Tenta outro",
         "Error saving user": "Erro ao salvar o usuário",
-        "User saved successfully": "O usuário foi salvo com sucesso"
+        "User saved successfully": "O usuário foi salvo com sucesso",
+        "AdminCockpit settings": "Configuração do AdminCockpit",
+        "hide Personal settings": "ocultar configurações pessoais",
+        "show Personal settings": "mostrar configurações pessoais",
+        "hide Administration settings": "ocultar configurações de administração",
+        "show Administration settings": "mostrar configurações de administração",
+        "User lists settings": "Configuração da lista de utilizadores",
+        "How many users should be displayed per page?": "Quantos usuários devem ser exibidos por página?",
+        "Group settings": "Configuração do grupo",
+        "Show groups unfolded or folded up at app start?": "Mostrar grupos desdobrados ou dobrados no início da aplicação?",
+        "folded": "dobrado",
+        "unfolded": "desdobrado",
+        "Show additional information": "Mostrar informações adicionais",
+        "Activate to display additional information": "Ativar para exibir informações adicionais",
+        "Do you like AdminCockpit?": "Gostas do AdminCockpit?",
+        "Show personal settings unfolded or folded up at app start?": "Mostrar configurações pessoais desdobradas ou dobradas no início do aplicativo?",
+        "Show administration settings unfolded or folded up at app start?": "Mostrar as configurações de administração desdobradas ou dobradas no início da aplicação?"
     },
     "pluralForm": "nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2);"
 }

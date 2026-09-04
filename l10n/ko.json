@@ -168,7 +168,23 @@
         "Could not create new user. Username already exists. Try another one": "새로운 사용자를 만들 수 없습니다. Username은 이미 존재합니다. 다른 것을 시도",
         "Could not edit user. Username already exists. Try another one": "사용자를 편집할 수 없습니다. Username은 이미 존재합니다. 다른 것을 시도",
         "Error saving user": "오류 저장 사용자",
-        "User saved successfully": "사용자가 성공적으로 저장된"
+        "User saved successfully": "사용자가 성공적으로 저장된",
+        "AdminCockpit settings": "AdminCockpit settings",
+        "hide Personal settings": "개인 설정 숨기기",
+        "show Personal settings": "개인 설정 표시",
+        "hide Administration settings": "관리 설정 숨기기",
+        "show Administration settings": "관리 설정 표시",
+        "User lists settings": "사용자 목록 설정",
+        "How many users should be displayed per page?": "페이지당 몇 명의 사용자를 표시해야 합니까?",
+        "Group settings": "그룹 설정",
+        "Show groups unfolded or folded up at app start?": "앱 시작 시 그룹을 펼쳤거나 접은 상태로 표시하시겠습니까?",
+        "folded": "접힌",
+        "unfolded": "펼쳐진",
+        "Show additional information": "추가 정보 표시",
+        "Activate to display additional information": "추가 정보를 표시하려면 활성화하세요.",
+        "Do you like AdminCockpit?": "AdminCockpit 앱이 마음에 드시나요?",
+        "Show personal settings unfolded or folded up at app start?": "앱 시작에서 개인 설정 해제 또는 접힌 표시?",
+        "Show administration settings unfolded or folded up at app start?": "앱 시작에서 관리 설정이 펼쳐지거나 접힌 표시?"
     },
     "pluralForm": "nplurals=1; plural=0;"
 }

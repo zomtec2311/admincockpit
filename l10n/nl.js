@@ -173,6 +173,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "Kon geen nieuwe gebruiker aanmaken. Gebruikersnaam bestaat al. Probeer een andere",
     "Could not edit user. Username already exists. Try another one": "Kon gebruiker niet bewerken. Gebruikersnaam bestaat al. Probeer een andere",
     "Error saving user": "Fout bij opslaan gebruiker",
-    "User saved successfully": "Gebruiker is succesvol opgeslagen"
+    "User saved successfully": "Gebruiker is succesvol opgeslagen",
+    "AdminCockpit settings": "Instellingen AdminCockpit",
+    "hide Personal settings": "persoonlijke instellingen verbergen",
+    "show Personal settings": "persoonlijke instellingen tonen",
+    "hide Administration settings": "beheerinstellingen verbergen",
+    "show Administration settings": "administratie-instellingen tonen",
+    "User lists settings": "Instellingen gebruikerslijsten",
+    "How many users should be displayed per page?": "Hoeveel gebruikers moeten per pagina worden weergegeven?",
+    "Group settings": "Groepsinstellingen",
+    "Show groups unfolded or folded up at app start?": "Groepen opgevouwen of opgevouwen tonen bij het starten van de app?",
+    "folded": "gevouwen",
+    "unfolded": "ontvouwd",
+    "Show additional information": "Extra informatie tonen",
+    "Activate to display additional information": "Activeer om aanvullende informatie weer te geven",
+    "Do you like AdminCockpit?": "Hou je van AdminCockpit?",
+    "Show personal settings unfolded or folded up at app start?": "Persoonlijke instellingen tonen bij het starten van de app?",
+    "Show administration settings unfolded or folded up at app start?": "De instellingen van de administratie tonen ontvouwd of opgevouwen bij het starten van de app?"
 },
 "nplurals=2; plural=n != 1;");

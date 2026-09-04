@@ -172,7 +172,23 @@
         "Could not create new user. Username already exists. Try another one": "Gat ekki búið til nýjan notanda. Notandanafn er þegar til. Prófaðu annan",
         "Could not edit user. Username already exists. Try another one": "Gat ekki breytt notanda. Notandanafn er þegar til. Prófaðu annan",
         "Error saving user": "Villa við að vista notanda",
-        "User saved successfully": "Notandi vistað"
+        "User saved successfully": "Notandi vistað",
+        "AdminCockpit settings": "AdminCockpit stillingar",
+        "hide Personal settings": "fela persónulegar stillingar",
+        "show Personal settings": "sýna persónulegar stillingar",
+        "hide Administration settings": "fela stjórnunarstillingar",
+        "show Administration settings": "sýna stjórnunarstillingar",
+        "User lists settings": "Notendalistar stillingar",
+        "How many users should be displayed per page?": "Hversu margir notendur ættu að birtast á hverri síðu?",
+        "Group settings": "Hópstillingar",
+        "Show groups unfolded or folded up at app start?": "Sýna hópa óbrotna eða uppbrotna við ræsingu apps?",
+        "folded": "brotin saman",
+        "unfolded": "útbrotið",
+        "Show additional information": "Sýna frekari upplýsingar",
+        "Activate to display additional information": "Virkjaðu til að birta viðbótarupplýsingar",
+        "Do you like AdminCockpit?": "Líkar þér við AdminCockpit?",
+        "Show personal settings unfolded or folded up at app start?": "Sýna persónulegar stillingar óbrotnar eða uppbrotnar við ræsingu apps?",
+        "Show administration settings unfolded or folded up at app start?": "Sýna stjórnunarstillingar óbrotnar eða uppbrotnar við ræsingu apps?"
     },
     "pluralForm": "nplurals=2; plural=n % 10 != 1 || n % 100 == 11;"
 }

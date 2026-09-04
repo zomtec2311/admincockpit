@@ -172,7 +172,23 @@
         "Could not create new user. Username already exists. Try another one": "Non se pode crear un novo usuario. O nome de usuario xa existe. Proba outra",
         "Could not edit user. Username already exists. Try another one": "Non se pode editar o usuario. O nome de usuario xa existe. Proba outra",
         "Error saving user": "Erro ao salvar usuarios",
-        "User saved successfully": "Usuario con éxito"
+        "User saved successfully": "Usuario con éxito",
+        "AdminCockpit settings": "Configuración adminCockpit",
+        "hide Personal settings": "ocultar configuracións persoais",
+        "show Personal settings": "mostrar configuración persoal",
+        "hide Administration settings": "ocultar configuracións administrativas",
+        "show Administration settings": "mostrar configuración administrativa",
+        "User lists settings": "Configuración de listas de usuarios",
+        "How many users should be displayed per page?": "Cantos usuarios deben aparecer por páxina?",
+        "Group settings": "Configuración do grupo",
+        "Show groups unfolded or folded up at app start?": "Mostrar grupos despregados ou pregados no inicio da aplicación?",
+        "folded": "dobrado",
+        "unfolded": "despregados",
+        "Show additional information": "Mostrar información adicional",
+        "Activate to display additional information": "Activar para mostrar información adicional",
+        "Do you like AdminCockpit?": "¿Gustaríache o admin?",
+        "Show personal settings unfolded or folded up at app start?": "Mostrar configuracións persoais despregadas ou pregadas no inicio da aplicación?",
+        "Show administration settings unfolded or folded up at app start?": "Mostrar configuracións de administración despregadas ou pregadas no inicio da aplicación?"
     },
     "pluralForm": "nplurals=2; plural=n != 1;"
 }

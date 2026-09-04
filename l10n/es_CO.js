@@ -174,6 +174,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "No podía crear un nuevo usuario. El nombre de usuario ya existe. Prueba otro",
     "Could not edit user. Username already exists. Try another one": "No podía editar usuario. El nombre de usuario ya existe. Prueba otro",
     "Error saving user": "Usuario de ahorro de errores",
-    "User saved successfully": "Usuario guardado con éxito"
+    "User saved successfully": "Usuario guardado con éxito",
+    "AdminCockpit settings": "Ajustes de AdminCockpit",
+    "hide Personal settings": "ocultar Configuración personal",
+    "show Personal settings": "mostrar Configuración personal",
+    "hide Administration settings": "ocultar Configuración de administración",
+    "show Administration settings": "mostrar configuración de administración",
+    "User lists settings": "Configuración de listas de usuarios",
+    "How many users should be displayed per page?": "¿Cuántos usuarios deben mostrarse por página?",
+    "Group settings": "Ajustes del grupo",
+    "Show groups unfolded or folded up at app start?": "Mostrar grupos desplegados o plegados al inicio de la aplicación?",
+    "folded": "plegado",
+    "unfolded": "desarrollado",
+    "Show additional information": "Mostrar información adicional",
+    "Activate to display additional information": "Activar para mostrar información adicional",
+    "Do you like AdminCockpit?": "¿Te gusta AdminCockpit?",
+    "Show personal settings unfolded or folded up at app start?": "Mostrar ajustes personales desplegados o plegados al inicio de la aplicación?",
+    "Show administration settings unfolded or folded up at app start?": "Mostrar configuración de administración desplegada o doblada al inicio de la aplicación?"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2);");

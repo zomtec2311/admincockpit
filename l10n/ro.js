@@ -169,6 +169,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "Nu am putut crea utilizator nou. Numele de utilizator există deja. Încearcă altul",
     "Could not edit user. Username already exists. Try another one": "Nu am putut edita utilizatorul. Numele de utilizator există deja. Încearcă altul",
     "Error saving user": "Eroare la salvarea utilizatorului",
-    "User saved successfully": "Utilizator salvat cu succes"
+    "User saved successfully": "Utilizator salvat cu succes",
+    "AdminCockpit settings": "Configurări AdminCockpit",
+    "hide Personal settings": "ascunde setările personale",
+    "show Personal settings": "arată setările personale",
+    "hide Administration settings": "setări administrare ascunde",
+    "show Administration settings": "arată setările de administrare",
+    "User lists settings": "Setări liste utilizator",
+    "How many users should be displayed per page?": "Câţi utilizatori trebuie afişaţi pe pagină?",
+    "Group settings": "Configurări grup",
+    "Show groups unfolded or folded up at app start?": "Afișează grupurile defilate sau pliate la pornirea aplicației?",
+    "folded": "pliat",
+    "unfolded": "desfăşurate",
+    "Show additional information": "Arată informații suplimentare",
+    "Activate to display additional information": "Activează pentru a afișa informații suplimentare",
+    "Do you like AdminCockpit?": "Îţi place AdminCockpit?",
+    "Show personal settings unfolded or folded up at app start?": "Afișează setările personale deschise sau pliate la pornirea aplicației?",
+    "Show administration settings unfolded or folded up at app start?": "Afișează setările de administrare deschise sau pliate la pornirea aplicației?"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2);");

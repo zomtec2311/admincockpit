@@ -168,7 +168,23 @@
         "Could not create new user. Username already exists. Try another one": "Ni moč ustvariti novega uporabnika. Uporabniško ime že obstaja. Poskusi še enkrat",
         "Could not edit user. Username already exists. Try another one": "Ni moč urediti uporabnika. Uporabniško ime že obstaja. Poskusi še enkrat",
         "Error saving user": "Napaka pri shranjevanju uporabnika",
-        "User saved successfully": "Uporabnik je uspešno shranjen"
+        "User saved successfully": "Uporabnik je uspešno shranjen",
+        "AdminCockpit settings": "Nastavitve AdminCockpit",
+        "hide Personal settings": "hide Personal settings",
+        "show Personal settings": "show Personal settings",
+        "hide Administration settings": "skrij skrbniške nastavitve",
+        "show Administration settings": "pokaži skrbniške nastavitve",
+        "User lists settings": "Nastavitve uporabniških seznamov",
+        "How many users should be displayed per page?": "Koliko uporabnikov naj bo prikazanih na stran?",
+        "Group settings": "Nastavitve skupine",
+        "Show groups unfolded or folded up at app start?": "Pokaži skupine razgrnjene ali zložene ob zagonu aplikacije?",
+        "folded": "zložen",
+        "unfolded": "razgrniti",
+        "Show additional information": "Prikaži dodatne informacije",
+        "Activate to display additional information": "Aktivirajte za prikaz dodatnih informacij",
+        "Do you like AdminCockpit?": "Vam je všeč AdminCockpit?",
+        "Show personal settings unfolded or folded up at app start?": "Prikaži ali zloži osebne nastavitve ob zagonu aplikacije?",
+        "Show administration settings unfolded or folded up at app start?": "Prikaži nastavitve aplikacij ob zagonu?"
     },
     "pluralForm": "nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3));"
 }

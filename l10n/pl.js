@@ -169,6 +169,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "Nie można utworzyć nowego użytkownika. Nazwa użytkownika już istnieje. Spróbuj jeszcze raz",
     "Could not edit user. Username already exists. Try another one": "Nie można edytować użytkownika. Nazwa użytkownika już istnieje. Spróbuj jeszcze raz",
     "Error saving user": "Błąd podczas zapisywania użytkownika",
-    "User saved successfully": "Użytkownik zapisany pomyślnie"
+    "User saved successfully": "Użytkownik zapisany pomyślnie",
+    "AdminCockpit settings": "Ustawienia programu AdminCockpit",
+    "hide Personal settings": "ukryj ustawienia osobiste",
+    "show Personal settings": "pokaż ustawienia osobiste",
+    "hide Administration settings": "ukryj ustawienia administracji",
+    "show Administration settings": "pokaż ustawienia administracji",
+    "User lists settings": "Ustawienia list użytkowników",
+    "How many users should be displayed per page?": "Ile użytkowników powinno być wyświetlanych na stronie?",
+    "Group settings": "Ustawienia grupy",
+    "Show groups unfolded or folded up at app start?": "Pokaż grupy rozłożone lub złożone na starcie aplikacji?",
+    "folded": "złożone",
+    "unfolded": "niezłożony",
+    "Show additional information": "Pokaż dodatkowe informacje",
+    "Activate to display additional information": "Aktywuj wyświetlanie dodatkowych informacji",
+    "Do you like AdminCockpit?": "Lubisz AdminCockpit?",
+    "Show personal settings unfolded or folded up at app start?": "Pokaż ustawienia osobiste rozłożone lub złożone na starcie aplikacji?",
+    "Show administration settings unfolded or folded up at app start?": "Pokaż ustawienia administracyjne rozłożone lub złożone na starcie aplikacji?"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);");

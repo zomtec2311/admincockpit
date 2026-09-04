@@ -173,6 +173,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "Չհաջողվեց ստեղծել նոր օգտվող: Օգտանուն արդեն գոյություն ունի: Փորձեք մեկ ուրիշը",
     "Could not edit user. Username already exists. Try another one": "Չհաջողվեց խմբագրել օգտատիրոջը: Օգտանուն արդեն գոյություն ունի: Փորձեք մեկ ուրիշը",
     "Error saving user": "Սխալ՝ օգտատիրոջ պահման ժամանակ",
-    "User saved successfully": "Օգտատերը հաջողությամբ պահպանվեց"
+    "User saved successfully": "Օգտատերը հաջողությամբ պահպանվեց",
+    "AdminCockpit settings": "AdminCockpit կարգավորումներ",
+    "hide Personal settings": "թաքցնել Անձնական կարգավորումները",
+    "show Personal settings": "ցույց տալ Անձնական կարգավորումները",
+    "hide Administration settings": "թաքցնել Ադմինիստրացիայի կարգավորումները",
+    "show Administration settings": "show Administration settings",
+    "User lists settings": "Օգտատերերի ցուցակների կարգավորումները",
+    "How many users should be displayed per page?": "How many users should be displayed per page?",
+    "Group settings": "Խմբի կարգավորումներ",
+    "Show groups unfolded or folded up at app start?": "Show groups unfolded or folded up at app start?",
+    "folded": "ծալված",
+    "unfolded": "բացված",
+    "Show additional information": "Show additional information",
+    "Activate to display additional information": "Activate to display additional information",
+    "Do you like AdminCockpit?": "Do you like AdminCockpit?",
+    "Show personal settings unfolded or folded up at app start?": "Ցուցադրե՞լ անձնական կարգավորումները, որոնք բացված կամ ծալված են հավելվածի սկզբում:",
+    "Show administration settings unfolded or folded up at app start?": "Ցույց տալ ադմինիստրացիայի կարգավորումները բացված կամ ծալված հավելվածի սկզբում:"
 },
 "nplurals=2; plural=n > 1;");

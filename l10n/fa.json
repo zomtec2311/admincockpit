@@ -166,7 +166,23 @@
         "Could not create new user. Username already exists. Try another one": "نمی تواند کاربر جدیدی ایجاد کند. نام کاربری در حال حاضر وجود دارد. یکی دیگر را امتحان کنید",
         "Could not edit user. Username already exists. Try another one": "نمی تواند کاربر را ویرایش کند. نام کاربری در حال حاضر وجود دارد. یکی دیگر را امتحان کنید",
         "Error saving user": "خطای نجات کاربر",
-        "User saved successfully": "کاربر با موفقیت نجات یافت"
+        "User saved successfully": "کاربر با موفقیت نجات یافت",
+        "AdminCockpit settings": "تنظیمات AdminCockpit",
+        "hide Personal settings": "تنظیمات شخصی را مخفی کنید",
+        "show Personal settings": "نمایش تنظیمات شخصی",
+        "hide Administration settings": "تنظیمات مدیریت را مخفی کنید",
+        "show Administration settings": "نمایش تنظیمات مدیریت",
+        "User lists settings": "تنظیمات لیست کاربران",
+        "How many users should be displayed per page?": "در هر صفحه چند کاربر باید نمایش داده شود؟",
+        "Group settings": "تنظیمات گروه",
+        "Show groups unfolded or folded up at app start?": "گروه‌هایی که در شروع برنامه باز یا جمع شده‌اند نشان داده شود؟",
+        "folded": "تا شده",
+        "unfolded": "آشکار شد",
+        "Show additional information": "نمایش اطلاعات اضافی",
+        "Activate to display additional information": "برای نمایش اطلاعات اضافی فعال کنید",
+        "Do you like AdminCockpit?": "Do you like AdminCockpit?",
+        "Show personal settings unfolded or folded up at app start?": "نشان دادن تنظیمات شخصی در شروع برنامه یا بسته شدن؟?",
+        "Show administration settings unfolded or folded up at app start?": "تنظیمات مدیریت نمایش در شروع برنامه آشکار شده و یا پیچ خورده شده است؟?"
     },
     "pluralForm": "nplurals=2; plural=n > 1;"
 }

@@ -173,6 +173,22 @@ OC.L10N.register(
     "Could not create new user. Username already exists. Try another one": "නව පරිශීලකයෙකු තැනීමට නොහැකි විය. පරිශීලක නාමය දැනටමත් පවතී. තවත් එකක් උත්සාහ කරන්න",
     "Could not edit user. Username already exists. Try another one": "පරිශීලක සංස්කරණය කළ නොහැකි විය. පරිශීලක නාමය දැනටමත් පවතී. තවත් එකක් උත්සාහ කරන්න",
     "Error saving user": "පරිශීලක සුරැකීමේ දෝෂයකි",
-    "User saved successfully": "පරිශීලකයා සාර්ථකව සුරකින ලදී"
+    "User saved successfully": "පරිශීලකයා සාර්ථකව සුරකින ලදී",
+    "AdminCockpit settings": "AdminCockpit settings",
+    "hide Personal settings": "hide Personal settings",
+    "show Personal settings": "show Personal settings",
+    "hide Administration settings": "hide Administration settings",
+    "show Administration settings": "show Administration settings",
+    "User lists settings": "User lists settings",
+    "How many users should be displayed per page?": "How many users should be displayed per page?",
+    "Group settings": "කණ්ඩායම් සැකසුම්",
+    "Show groups unfolded or folded up at app start?": "Show groups unfolded or folded up at app start?",
+    "folded": "folded",
+    "unfolded": "unfolded",
+    "Show additional information": "Show additional information",
+    "Activate to display additional information": "Activate to display additional information",
+    "Do you like AdminCockpit?": "ඔබ AdminCockpit කැමතිද?",
+    "Show personal settings unfolded or folded up at app start?": "යෙදුම් ආරම්භයේදී පුද්ගලික සැකසීම් දිග හැර හෝ නැමුණු බව පෙන්වන්නද?",
+    "Show administration settings unfolded or folded up at app start?": "යෙදුම් ආරම්භයේදී පරිපාලන සැකසුම් දිග හැර හෝ නැමුණු බව පෙන්වන්නද?"
 },
 "nplurals=2; plural=n > 1;");

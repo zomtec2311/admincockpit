@@ -172,7 +172,23 @@
         "Could not create new user. Username already exists. Try another one": "Kunde inte skapa nya användare. Användarnamn finns redan. Prova en annan",
         "Could not edit user. Username already exists. Try another one": "Kan inte redigera användaren. Användarnamn finns redan. Prova en annan",
         "Error saving user": "Felbesparande användare",
-        "User saved successfully": "Användare sparade framgångsrikt"
+        "User saved successfully": "Användare sparade framgångsrikt",
+        "AdminCockpit settings": "AdminCockpit inställningar",
+        "hide Personal settings": "gömma personliga inställningar",
+        "show Personal settings": "visa personliga inställningar",
+        "hide Administration settings": "gömma administrationsinställningar",
+        "show Administration settings": "visa administrationsinställningar",
+        "User lists settings": "Användarlistor inställningar",
+        "How many users should be displayed per page?": "Hur många användare ska visas per sida?",
+        "Group settings": "Gruppinställningar",
+        "Show groups unfolded or folded up at app start?": "Visa grupper utvecklas eller viks upp på appstart?",
+        "folded": "vikbar",
+        "unfolded": "utvecklad",
+        "Show additional information": "Visa ytterligare information",
+        "Activate to display additional information": "Aktivera för att visa ytterligare information",
+        "Do you like AdminCockpit?": "Gillar du AdminCockpit?",
+        "Show personal settings unfolded or folded up at app start?": "Visa personliga inställningar utvecklade eller viks upp på appstart?",
+        "Show administration settings unfolded or folded up at app start?": "Visa administreringsinställningar utvecklade eller viks upp vid appstart?"
     },
     "pluralForm": "nplurals=2; plural=n != 1;"
 }
