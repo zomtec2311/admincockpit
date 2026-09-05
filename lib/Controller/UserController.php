@@ -289,13 +289,22 @@ class UserController extends Controller {
         $user =$this->userManager->get($uid);
         $oldgroups = $this->groupManager->getUserGroupIds($user);
         $oldadmingroups = $this->myService->admingroup($uid);
-        if($this->userManager->searchDisplayName($displayname)) {
+        /*if($this->userManager->searchDisplayName($displayname)) {
             return new JSONResponse([
                     'success' => false,
                     'msg' => $this->l->t('Could not edit user. Username already exists. Try another one'),
             ]);
+        }*/
+        if ($user->getDisplayName() <> $displayname) {
+            $euser = $this->userManager->searchDisplayName($displayname);
+            if (!$euser) $user->setDisplayName($displayname);
+            else {
+                return new JSONResponse([
+                    'success' => false,
+                    'msg' => $this->l->t('Could not edit user. Username already exists. Try another one'),
+                ]);
+            }
         }
-        if ($user->getDisplayName() <> $displayname) $user->setDisplayName($displayname);
         if ($password) {
             if($user->setPassword($password, null)) $this->logger->info('AdminCockpit: Success in DataController->setPassword: ');
             else $this->logger->error('AdminCockpit: Fail in DataController->setPassword: ');
