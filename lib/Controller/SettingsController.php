@@ -61,6 +61,9 @@ class SettingsController extends Controller {
 
 		return new DataResponse([
 			'admincockpit_user_per_page' => $this->appConfig->getValueInt('admincockpit', 'admincockpit_user_per_page',12),
+			'admincockpit_groups_at_start' => $this->appConfig->getValueInt('admincockpit', 'admincockpit_groups_at_start',1),
+			'admincockpit_personal_settings_at_start' => $this->appConfig->getValueInt('admincockpit', 'admincockpit_personal_settings_at_start',1),
+			'admincockpit_administration_settings_at_start' => $this->appConfig->getValueInt('admincockpit', 'admincockpit_administration_settings_at_start',1),
 		]);
 	}
 
