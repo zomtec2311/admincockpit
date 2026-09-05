@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.4.4
+
+### Fixed
+- Edit User: check if displayname already exists
+
+### Changed
+- AdminCockpit settings pushed from the bottom to the top for better overview
+- AdminCockpit settings changed from NcAppNavigationSettings to modal
+- Personal and administration settings from navigation foldable and unfoldable
+- Group navigation items: displayname, number of users and actions were rearranged for clarity
+
+### Added
+- new settings
+- l10n: language files supplemented with new phrases
+
 ## 1.4.3
 
 ### Changed
