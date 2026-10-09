@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.4.6
+
+### Fixed
+- **l10n:** Language files for nl updated ([#32](https://github.com/zomtec2311/admincockpit/pull/32)) @sulzlep
+
 ## 1.4.5
 
 ### Fixed

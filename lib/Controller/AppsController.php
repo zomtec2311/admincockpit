@@ -204,28 +204,36 @@ class AppsController extends Controller {
 		  return $wtarr;
     }
     
-    public function disableapp($who) {
+    public function disableapp($who): DataResponse {
         try {
             if ($this->appManager->isInstalled($who)) { 
                 $this->appManager->disableApp($who, false);
-                return 'true';                
+                return new DataResponse([
+                    'success' => 'true',
+                ]);
             }
             else { 
-                return 'false';
+                return new DataResponse([
+                    'success' => 'false',
+                ]);
             }
         } catch (\Throwable $e) {
             $this->logger->error(
                 'AdminCockpit235: FATAL ERROR or EXCEPTION in DataController->disableapp: ' . $e->getMessage() . "\n" . $e->getTraceAsString(),
                 ['app' => 'admincockpit']
             );
-            return 'false';
+            return new DataResponse([
+                    'success' => 'false',
+                ]);
         }
     }
     
-    public function enableapp($who) {
+    public function enableapp($who): DataResponse {
         
             $this->appManager->enableApp($who, false);
-                return 'true';                
+                return new DataResponse([
+                    'success' => 'true',
+                ]);
             
     }
     
